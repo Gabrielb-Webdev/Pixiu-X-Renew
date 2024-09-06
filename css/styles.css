@@ -1,0 +1,254 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Inicio de Sección de Contacto */
+
+.contact-section {
+    padding-left: 30px;
+    /* Aumenta la separación lateral */
+    padding-right: 30px;
+    /* Aumenta la separación lateral */
+}
+
+.text-warning {
+    color: #dd6d2c !important;
+}
+
+a:hover {
+    color: #fee4d9 !important;
+}
+
+
+/* Fin de Sección de Contacto */
+
+
+/* Inicio de Estilos de Navbar */
+
+.navbar-spacing {
+    padding-left: 30px;
+    /* Aumenta la separación lateral */
+    padding-right: 30px;
+    /* Aumenta la separación lateral */
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #dd6d2c;
+    font-weight: 600;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #fee4d9;
+}
+
+.navbar-light .navbar-nav .active {
+    color: #dd6d2c;
+}
+
+.navbar-brand img {
+    max-height: 40px;
+}
+
+
+/* Ajuste de la imagen del logo */
+
+.logo-img {
+    max-width: 200px;
+    /* Aumenta el tamaño del ancho del logo */
+    height: auto;
+    /* Mantiene la proporción de la imagen */
+}
+
+
+/* Fin de Estilos de Navbar */
+
+
+/* Inicio de Sección de Bienvenida */
+
+.welcome-section {
+    background-color: #fff;
+    padding: 80px 0;
+    position: relative;
+    overflow: hidden;
+}
+
+.welcome-text h1 {
+    font-size: 2.5rem;
+    color: #333;
+}
+
+.welcome-text .text-orange {
+    color: #dd6d2c;
+}
+
+.welcome-text p {
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+.btn-orange {
+    background-color: #dd6d2c;
+    color: #fff;
+    padding: 10px 20px;
+}
+
+.btn-outline-orange {
+    border: 2px solid #fee4d9;
+    color: #dd6d2c;
+    padding: 10px 20px;
+}
+
+
+/* Placeholder for the image */
+
+.image-placeholder {
+    background-color: #e0e0e0;
+    width: 100%;
+    height: 300px;
+    border-radius: 20px;
+    background-image: url('../images/tu-imagen.jpg');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+
+/* Sección Responsiva */
+
+@media (max-width: 768px) {
+    .welcome-section {
+        padding: 40px 0;
+    }
+    .welcome-text h1 {
+        font-size: 2rem;
+    }
+    .image-placeholder {
+        height: 200px;
+    }
+}
+
+
+/* Inicio de Sección de Servicios */
+
+.services-section {
+    background-color: #fff;
+}
+
+.services-image img {
+    max-width: 100%;
+    height: auto;
+}
+
+.services-section h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.text-orange {
+    color: #dd6d2c;
+}
+
+.service-card {
+    border: 1px solid #f5f5f5;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease-in-out;
+}
+
+.service-card:hover {
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.service-card h5 {
+    color: #333;
+    font-size: 1.2rem;
+}
+
+.service-card p {
+    font-size: 0.9rem;
+    color: #666;
+}
+
+
+/* Sección Responsiva */
+
+@media (max-width: 768px) {
+    .services-section h2 {
+        font-size: 1.5rem;
+    }
+    .service-card h5 {
+        font-size: 1rem;
+    }
+    .service-card p {
+        font-size: 0.85rem;
+    }
+}
+
+
+/* Inicio de Sección de Paquetes/Proyectos */
+
+.package-section {
+    background-color: #fff;
+}
+
+.package-card {
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease-in-out;
+}
+
+.package-card:hover {
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.package-card img {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    width: 100%;
+}
+
+.package-card h5 {
+    color: #333;
+    font-size: 1.2rem;
+}
+
+.package-card p {
+    font-size: 0.9rem;
+    color: #666;
+}
+
+.carousel-inner {
+    display: flex;
+}
+
+.carousel-item {
+    flex: 0 0 100%;
+}
+
+@media (min-width: 768px) {
+    .carousel-item .col-md-2 {
+        flex: 0 0 20%;
+        /* Mostrar 5 tarjetas por slide */
+    }
+}
+
+
+/* Sección Responsiva */
+
+@media (max-width: 768px) {
+    .package-section h2 {
+        font-size: 1.5rem;
+    }
+    .package-card h5 {
+        font-size: 1rem;
+    }
+    .package-card p {
+        font-size: 0.85rem;
+    }
+    .carousel-inner {
+        display: block;
+    }
+}
