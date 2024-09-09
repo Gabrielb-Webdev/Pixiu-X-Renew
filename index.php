@@ -55,25 +55,28 @@
             <div class="row align-items-center">
                 <div class="col-md-6 welcome-text">
                     <h6 class="text-uppercase text-orange">HubSpot Consulting Services</h6>
+                    <div class="underline-orange"></div> <!-- Esta es la línea naranja debajo del encabezado -->
                     <h1 class="fw-bold">
-                        Unlock <span class="text-orange">HubSpot's Full Potential</span> With Pixiu
+                        Unlock <span class="text-orange">HubSpot's Full Potential With Pixiu</span>
                     </h1>
-                    <p class="text-muted">At Pixiu, we specialize in seamless HubSpot onboarding and training tailored to your team's needs. Integrate HubSpot effortlessly into your company's ecosystem for smooth and effective implementation.</p>
+                    <p class="text-muted">
+                        At Pixiu, we specialize in seamless HubSpot onboarding and training tailored to your team's needs. Integrate HubSpot effortlessly into your company's ecosystem for smooth and effective implementation.
+                    </p>
                     <div class="buttons mt-4">
                         <a href="#" class="btn btn-orange me-2">Discover More</a>
-                        <a href="#" class="btn btn-outline-orange">Check Our FAQs</a>
+                        <span>or</span>
+                        <a href="#" class="btn btn-orange me-2">Check Our FAQs</a>
                     </div>
                 </div>
-                <!-- Placeholder for image -->
+                <!-- Placeholder para la imagen flotante a la derecha -->
                 <div class="col-md-6">
-                    <div class="image-placeholder">
-                        <!-- Image will go here -->
-                    </div>
+                    <div class="image-placeholder"></div>
                 </div>
             </div>
         </div>
     </section>
     <!-- Fin de Sección de Bienvenida -->
+
 
     <!-- Inicio de Sección de Servicios -->
     <section class="services-section py-5">
@@ -82,7 +85,7 @@
                 <!-- Imagen a la izquierda -->
                 <div class="col-md-6">
                     <div class="services-image">
-                        <img src="images/rocket-illustration.png" alt="Rocket Illustration" class="img-fluid">
+                        <img src="images/service.png" alt="Rocket Illustration" class="img-fluid">
                     </div>
                 </div>
 
