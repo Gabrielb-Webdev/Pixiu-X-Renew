@@ -55,6 +55,9 @@
         <div class="custom-carousel-item">
           <img src="https://via.placeholder.com/320?text=6" alt="">
         </div>
+        <div class="custom-carousel-item">
+          <img src="https://via.placeholder.com/320?text=6" alt="">
+        </div>
       </div>
     </div>
   </div>
