@@ -7,7 +7,7 @@ body {
 
 /* Inicio de Sección de Contacto */
 
-.contact-section {
+.info-section {
     padding-left: 30px;
     /* Aumenta la separación lateral */
     padding-right: 30px;
@@ -85,23 +85,30 @@ a:hover {
     background-repeat: no-repeat;
     background-size: contain;
     background-color: #fff;
-    padding: 7.5rem 0; /* Aumentar el padding para darle más altura */
+    padding: 7.5rem 0;
+    /* Aumentar el padding para darle más altura */
     position: relative;
     z-index: 1;
     overflow: hidden;
-    min-height: 600px; /* Agregar una altura mínima */
+    min-height: 600px;
+    /* Agregar una altura mínima */
 }
+
 
 /* Estilos del texto en la sección de bienvenida */
 
+
 /* Ajustes para mover la columna .welcome-text más hacia la derecha */
+
 .welcome-text {
-    padding-left: 15rem; /* Ajusta la cantidad de padding para desplazar el contenido */
+    padding-left: 15rem;
+    /* Ajusta la cantidad de padding para desplazar el contenido */
 }
 
 @media (max-width: 768px) {
     .welcome-text {
-        padding-left: 20px; /* Reducir padding en pantallas pequeñas para que no quede desbalanceado */
+        padding-left: 20px;
+        /* Reducir padding en pantallas pequeñas para que no quede desbalanceado */
     }
 }
 
@@ -234,42 +241,53 @@ h6.text-orange {
 
 /* Estilo de la sección de servicios */
 
+
 /* Sección de Servicios con imagen de fondo volteada a la derecha */
+
 .services-section {
     position: relative;
-    min-height: 600px; /* Asegúrate de que la sección sea lo suficientemente alta */
+    min-height: 600px;
+    /* Asegúrate de que la sección sea lo suficientemente alta */
 }
 
+
 /* Utilizamos ::before para añadir y voltear la imagen de fondo */
+
 .services-section::before {
     content: "";
     position: absolute;
     top: 25rem;
     right: 0;
-    width: 600px; /* Ajusta el ancho de la imagen */
+    width: 600px;
+    /* Ajusta el ancho de la imagen */
     height: 100%;
     background-image: url('../images/banner-right.png');
     background-size: contain;
     background-repeat: no-repeat;
-    transform: scaleX(-1); /* Voltea la imagen horizontalmente */
-    z-index: -1; /* Asegura que la imagen esté detrás del contenido */
+    transform: scaleX(-1);
+    /* Voltea la imagen horizontalmente */
+    z-index: -1;
+    /* Asegura que la imagen esté detrás del contenido */
 }
 
-
 .services-image img {
-    width: 95%; /* Hacer la imagen más grande */
-    max-width: 500px; /* Aumentar el tamaño máximo de la imagen */
+    width: 95%;
+    /* Hacer la imagen más grande */
+    max-width: 500px;
+    /* Aumentar el tamaño máximo de la imagen */
 }
 
 @media (max-width: 768px) {
     .services-section::before {
-        width: 100%; /* Ajusta el ancho en pantallas pequeñas */
-        height: 300px; /* Ajusta la altura en pantallas pequeñas */
+        width: 100%;
+        /* Ajusta el ancho en pantallas pequeñas */
+        height: 300px;
+        /* Ajusta la altura en pantallas pequeñas */
         background-position: right top;
-        background-size: cover; /* Asegura que la imagen de fondo cubra bien */
+        background-size: cover;
+        /* Asegura que la imagen de fondo cubra bien */
     }
 }
-
 
 .services-image img {
     max-width: 100%;
@@ -290,21 +308,28 @@ h6.text-orange {
 .service-card {
     background-color: #fff;
     border: 2px solid #f0f0f0;
-    border-radius: 15px; /* Bordes más redondeados */
+    border-radius: 15px;
+    /* Bordes más redondeados */
     padding: 20px;
     text-align: center;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Sombra suave */
-    transition: box-shadow 0.3s ease, transform 0.3s ease; /* Efecto suave en hover */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    /* Sombra suave */
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+    /* Efecto suave en hover */
 }
 
 .service-card:hover {
-    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.15); /* Sombra más pronunciada en hover */
-    transform: translateY(-10px); /* Elevación al hacer hover */
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.15);
+    /* Sombra más pronunciada en hover */
+    transform: translateY(-10px);
+    /* Elevación al hacer hover */
 }
 
 .service-icon {
-    font-size: 3rem; /* Tamaño de los íconos */
-    color: #dd6d2c; /* Color naranja para los íconos */
+    font-size: 3rem;
+    /* Tamaño de los íconos */
+    color: #dd6d2c;
+    /* Color naranja para los íconos */
 }
 
 .service-card h5 {
@@ -317,10 +342,14 @@ h6.text-orange {
     margin-top: 10px;
 }
 
+
 /* Ajuste del color del borde en hover */
+
 .service-card:hover {
-    border-color: #dd6d2c; /* Borde naranja en hover */
+    border-color: #dd6d2c;
+    /* Borde naranja en hover */
 }
+
 
 /* Sección Responsiva */
 
@@ -584,7 +613,8 @@ h2 {
 /* Sub-card de la imagen */
 
 .image-card {
-    height: 100%; /* O puedes cambiarlo a un valor específico si prefieres */
+    height: 100%;
+    /* O puedes cambiarlo a un valor específico si prefieres */
     border-radius: 15px;
     background-color: #fff;
     box-shadow: none;
@@ -732,147 +762,195 @@ h2 {
     box-shadow: 0 0 0 0.05rem #dd6d2c;
 }
 
+
 /* RESPONSIVE STYLES */
 
-/* Estilos para pantallas pequeñas (tablets y móviles) */
-@media (max-width: 768px) {
 
+/* Estilos para pantallas pequeñas (tablets y móviles) */
+
+@media (max-width: 768px) {
     /* Ajustes generales */
     body {
-        font-size: 14px; /* Ajustar el tamaño de fuente general */
+        font-size: 14px;
+        /* Ajustar el tamaño de fuente general */
     }
-
     /* Contact Section: flex direction a column para que los elementos se apilen */
     .contact-section .container {
         flex-direction: column;
-        padding: 20px 10px; /* Reducir el padding */
+        padding: 20px 10px;
+        /* Reducir el padding */
     }
-
     /* Bienvenida */
     .welcome-section {
-        padding: 60px 20px; /* Reducir padding */
-        min-height: auto; /* Ajuste de altura mínima para pantallas pequeñas */
+        padding: 60px 20px;
+        /* Reducir padding */
+        min-height: auto;
+        /* Ajuste de altura mínima para pantallas pequeñas */
     }
-
     .welcome-text h1 {
-        font-size: 2rem; /* Reducir el tamaño del título */
+        font-size: 2rem;
+        /* Reducir el tamaño del título */
     }
-
     .buttons {
-        flex-direction: column; /* Botones en columnas */
+        flex-direction: column;
+        /* Botones en columnas */
         align-items: stretch;
     }
-
     .buttons a {
-        margin-bottom: 10px; /* Espacio entre botones */
+        margin-bottom: 10px;
+        /* Espacio entre botones */
     }
-
     /* Cards de servicios */
     .service-card {
-        margin-bottom: 20px; /* Separación entre las cards */
+        margin-bottom: 20px;
+        /* Separación entre las cards */
     }
-
     .service-card h5 {
-        font-size: 1.2rem; /* Ajustar tamaño de texto */
+        font-size: 1.2rem;
+        /* Ajustar tamaño de texto */
     }
-
     .service-card p {
-        font-size: 0.9rem; /* Ajustar tamaño de texto */
+        font-size: 0.9rem;
+        /* Ajustar tamaño de texto */
     }
-
     /* Imagenes de servicios e información */
     .services-image img {
-        width: 100%; /* Ajustar la imagen al 100% en móviles */
-        margin-left: 0; /* Eliminar el margen negativo */
+        width: 100%;
+        /* Ajustar la imagen al 100% en móviles */
+        margin-left: 0;
+        /* Eliminar el margen negativo */
     }
-
     /* Carousel */
     .custom-carousel-container {
-        overflow-x: scroll; /* Permitir scroll horizontal */
+        overflow-x: scroll;
+        /* Permitir scroll horizontal */
     }
-
     .carousel-item {
-        flex: 0 0 80%; /* Mostrar un ítem a la vez en pantallas pequeñas */
+        flex: 0 0 80%;
+        /* Mostrar un ítem a la vez en pantallas pequeñas */
     }
-
     /* Sección de contacto */
     .contact-section .main-card {
-        flex-direction: column; /* Colocar el contenido en columna */
+        flex-direction: column;
+        /* Colocar el contenido en columna */
         padding: 20px;
     }
-
     .contact-section .image-card,
     .contact-section .form-card {
-        width: 100%; /* Ocupa todo el ancho en móviles */
+        width: 100%;
+        /* Ocupa todo el ancho en móviles */
     }
-
     .contact-img {
-        height: 250px; /* Ajustar altura de la imagen en móviles */
+        height: 250px;
+        /* Ajustar altura de la imagen en móviles */
     }
-
     /* Ajuste de formulario de contacto */
     .contact-form input,
     .contact-form textarea {
-        font-size: 1rem; /* Reducir el tamaño del texto */
-        padding: 10px 15px; /* Ajustar el padding */
+        font-size: 1rem;
+        /* Reducir el tamaño del texto */
+        padding: 10px 15px;
+        /* Ajustar el padding */
     }
 }
 
-/* Estilos para pantallas medianas (768px - 1200px) */
-@media (min-width: 768px) and (max-width: 1200px) {
 
+/* Estilos para pantallas medianas (768px - 1200px) */
+
+@media (min-width: 768px) and (max-width: 1200px) {
     /* General adjustments */
     .navbar-spacing {
         padding-left: 20px;
         padding-right: 20px;
     }
-
     /* Ajustes en la sección de bienvenida */
     .welcome-section {
-        padding: 100px 40px; /* Ajuste moderado en el padding */
+        padding: 100px 40px;
+        /* Ajuste moderado en el padding */
     }
-
     .welcome-text h1 {
         font-size: 2.5rem;
     }
-
     .services-image img {
-        width: 85%; /* Ajustar el ancho de la imagen */
+        width: 85%;
+        /* Ajustar el ancho de la imagen */
     }
-
     .service-card h5 {
-        font-size: 1.3rem; /* Ajuste del tamaño del texto */
+        font-size: 1.3rem;
+        /* Ajuste del tamaño del texto */
     }
-
     .service-card p {
         font-size: 1rem;
     }
-
     .contact-section .main-card {
-        padding: 40px; /* Ajustar padding en secciones de contacto */
+        padding: 40px;
+        /* Ajustar padding en secciones de contacto */
     }
 }
 
+
 /* Estilos para pantallas grandes (más de 1200px) */
+
 @media (min-width: 1200px) {
     .navbar-spacing {
         padding-left: 40px;
         padding-right: 40px;
     }
-
     .services-section {
         padding: 80px 20px;
     }
-
     .service-card h5 {
         font-size: 1.5rem;
     }
-
     .service-card p {
         font-size: 1.1rem;
     }
-
     .contact-section .main-card {
-        padding: 60px; /* Mayor padding en pantallas grandes */
+        padding: 60px;
+        /* Mayor padding en pantallas grandes */
     }
+}
+
+
+/* Sección de contacto con imágenes decorativas */
+
+.contact-section {
+    position: relative;
+    padding: 50px 0;
+    background-color: #fff;
+}
+
+
+/* Imagen en la esquina superior izquierda */
+
+.contact-section::before {
+    content: "";
+    position: absolute;
+    top: 0rem;
+    left: 0rem;
+    width: 25rem;
+    height: 35rem;
+    background-image: url(../images/banner-right.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    z-index: 1;
+    opacity: 1;
+}
+
+
+/* Imagen en la esquina inferior derecha volteada */
+
+.contact-section::after {
+    content: "";
+    position: absolute;
+    bottom: 0rem;
+    right: 0rem;
+    width: 25rem;
+    height: 35rem;
+    background-image: url(../images/banner-right.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    z-index: 1;
+    opacity: 1;
+    transform: scaleX(-1);
 }

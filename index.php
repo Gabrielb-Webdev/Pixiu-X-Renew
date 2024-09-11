@@ -13,18 +13,18 @@
 </head>
 
 <body>
-    <!-- Inicio de Sección de Contacto -->
-    <div class="container py-3 d-none d-md-flex flex-column flex-md-row justify-content-between align-items-center contact-section">
+    <!-- Start of Contact Info Section -->
+    <div class="container py-3 d-none d-md-flex flex-column flex-md-row justify-content-between align-items-center info-section">
         <!-- Contact Info -->
         <div class="d-flex flex-column flex-md-row align-items-center mb-3 mb-md-0">
             <div class="me-md-4 mb-2 mb-md-0">
                 <i class="fas fa-phone-alt text-warning"></i> +000 1234 5678
             </div>
             <div class="me-md-4 mb-2 mb-md-0">
-                <i class="fas fa-envelope text-warning"></i> infocompany@email.com
+                <i class="fas fa-envelope text-warning"></i> info@pixiux.com
             </div>
             <div>
-                <i class="fas fa-map-marker-alt text-warning"></i> St. London 54th Bull
+                <i class="fas fa-map-marker-alt text-warning"></i> 54th Street, London, UK
             </div>
         </div>
         <!-- Social Media Icons -->
@@ -43,81 +43,88 @@
             </a>
         </div>
     </div>
-    <!-- Fin de Sección de Contacto -->
+    <!-- End of Contact Info Section -->
 
-    <!-- Inicio de Navbar -->
+    <!-- Start of Navbar -->
     <?php include 'components/navbar.php'; ?>
-    <!-- Fin de Navbar -->
+    <!-- End of Navbar -->
 
-    <!-- Inicio de Sección de Bienvenida -->
-    <section class="welcome-section position-relative">
+    <!-- Start of Welcome Section -->
+    <section id="home" class="welcome-section position-relative">
         <div class="container-fluid">
             <div class="row align-items-center">
                 <div class="col-md-6 welcome-text">
-                    <h6 class="text-uppercase text-orange">HubSpot Consulting Services</h6>
-                    <div class="underline-orange"></div> <!-- Esta es la línea naranja debajo del encabezado -->
+                    <h6 class="text-uppercase text-orange">Marketing and HubSpot Consulting Services</h6>
+                    <div class="underline-orange"></div> <!-- Orange line below the header -->
                     <h1 class="fw-bold">
-                        Unlock <span class="text-orange">HubSpot's Full Potential With Pixiu</span>
+                        Accelerate Your Business with <span class="text-orange">Pixiu</span>'s HubSpot Solutions, Web Development & Data Services
                     </h1>
                     <p class="text-muted">
-                        At Pixiu, we specialize in seamless HubSpot onboarding and training tailored to your team's needs. Integrate HubSpot effortlessly into your company's ecosystem for smooth and effective implementation.
+                        At Pixiu, we empower businesses with expert HubSpot consulting, seamless web development, data extraction, and custom software solutions. Let us help you grow through tailored marketing strategies and cutting-edge technology.
                     </p>
                     <div class="buttons mt-4">
-                        <a href="#" class="btn btn-orange me-2">Discover More</a>
+                        <a href="#services" class="btn btn-orange me-2">Learn More</a>
                         <span>or</span>
-                        <a href="#" class="btn btn-orange me-2">Check Our FAQs</a>
+                        <a href="#services" class="btn btn-orange ms-2">Explore Our Services</a>
                     </div>
                 </div>
-                <!-- Placeholder para la imagen flotante a la derecha -->
+                <!-- Placeholder for the floating image on the right -->
                 <div class="col-md-6">
-                    <div class="image-placeholder"></div>
+                    <div class="image-placeholder">
+                    </div>
                 </div>
             </div>
         </div>
     </section>
-    <!-- Fin de Sección de Bienvenida -->
+    <!-- End of Welcome Section -->
 
-
-    <!-- Inicio de Sección de Servicios -->
-    <section class="services-section py-5" style="min-height: 700px;">
+    <!-- Start of Services Section -->
+    <section id="services" class="services-section py-5" style="min-height: 700px;">
         <div class="container-fluid">
             <div class="row align-items-center">
-                <!-- Imagen a la izquierda -->
+                <!-- Image on the left -->
                 <div class="col-md-6">
-                    <div class="services-image" style="margin-left: 2.5rem;"> <!-- Mover un poco más a la derecha -->
-                        <img src="images/service.png" alt="Rocket Illustration" class="img-fluid" style="width: 95%; max-width: 500px;"> <!-- Imagen más grande -->
+                    <div class="services-image" style="margin-left: 7.5rem;">
+                        <img src="images/Telecommuting-rafiki.png" alt="Services Illustration" class="img-fluid" style="width: 95%; max-width: 500px;">
                     </div>
                 </div>
 
-                <!-- Servicios a la derecha -->
+                <!-- Services on the right -->
                 <div class="col-md-6">
                     <h2 class="fw-bold">
-                        HubSpot <span class="text-orange">Consulting</span> & <span class="text-orange">Services</span> We Offer
+                        Comprehensive <span class="text-orange">Marketing</span> & <span class="text-orange">Tech Services</span> We Offer
                     </h2>
                     <div class="underline-orange"></div>
-                    <p class="text-muted mb-4">Maximize your HubSpot investment with our specialized services.</p>
+                    <p class="text-muted mb-4">Maximize your business potential with our comprehensive services.</p>
 
-                    <!-- Cards de Servicios -->
+                    <!-- Service Cards -->
                     <div class="row">
                         <div class="col-lg-6 mb-3">
                             <div class="service-card p-4 text-center">
-                                <i class="fas fa-desktop text-orange mb-3 service-icon"></i>
-                                <h5 class="fw-bold">HubSpot Implementation and Training</h5>
-                                <p class="text-muted">Customized onboarding and training to maximize your HubSpot investment.</p>
+                                <i class="fas fa-hands-helping text-orange mb-3 service-icon"></i>
+                                <h5 class="fw-bold">HubSpot Implementation and Optimization</h5>
+                                <p class="text-muted">Expert onboarding, customization, and training to leverage HubSpot to its fullest potential.</p>
                             </div>
                         </div>
                         <div class="col-lg-6 mb-3">
                             <div class="service-card p-4 text-center">
-                                <i class="fas fa-chart-line text-orange mb-3 service-icon"></i>
-                                <h5 class="fw-bold">HubSpot Optimization</h5>
-                                <p class="text-muted">Optimize and streamline your HubSpot processes for enhanced efficiency.</p>
+                                <i class="fas fa-code text-orange mb-3 service-icon"></i>
+                                <h5 class="fw-bold">Web Development Services</h5>
+                                <p class="text-muted">Professional web development, responsive design, and e-commerce solutions to enhance your online presence.</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 mb-3">
+                            <div class="service-card p-4 text-center">
+                                <i class="fas fa-database text-orange mb-3 service-icon"></i>
+                                <h5 class="fw-bold">Data Extraction & Automation</h5>
+                                <p class="text-muted">Automated data scraping and custom integration solutions to streamline your business processes.</p>
                             </div>
                         </div>
                         <div class="col-lg-6 mb-3">
                             <div class="service-card p-4 text-center">
                                 <i class="fas fa-cogs text-orange mb-3 service-icon"></i>
-                                <h5 class="fw-bold">Personalized HubSpot Consulting</h5>
-                                <p class="text-muted">Consulting services tailored to your specific business needs and goals.</p>
+                                <h5 class="fw-bold">Custom Software Development</h5>
+                                <p class="text-muted">Tailored software solutions designed to fit your business needs and goals.</p>
                             </div>
                         </div>
                     </div>
@@ -125,45 +132,45 @@
             </div>
         </div>
     </section>
-    <!-- Fin de Sección de Servicios -->
+    <!-- End of Services Section -->
 
-    <!-- Inicio de Sección de Paquetes/Proyectos (Carrusel) -->
-    <section class="package-section py-5">
+    <!-- Start of Projects/Packages Section (Carousel) -->
+    <section id="projects" class="package-section py-5">
         <div class="container-fluid">
-            <h2 class="fw-bold text-center mb-4">HubSpot <span class="text-orange">Service Packages</span> & <span class="text-orange">Details</span></h2>
-            <p class="text-center text-muted mb-5">Explore our service packages designed to meet your unique needs.</p>
+            <h2 class="fw-bold text-center mb-4">Explore Our <span class="text-orange">Marketing</span> and <span class="text-orange">Tech Solutions</span></h2>
+            <p class="text-center text-muted mb-5">Discover how our projects have transformed businesses across industries.</p>
 
             <?php include 'components/carousel.php'; ?>
 
         </div>
     </section>
-    <!-- Fin de Sección de Paquetes/Proyectos (Carrusel) -->
+    <!-- End of Projects/Packages Section (Carousel) -->
 
-    <!-- Inicio de Sección de Detalles de Servicios -->
-    <section class="service-details-section">
-        <!-- Imagen de fondo que ocupa todo el ancho -->
+    <!-- Start of Service Details Section -->
+    <section id="info" class="service-details-section">
+        <!-- Full-width background image -->
         <div class="background-image"></div>
 
-        <!-- Contenedor de la card -->
+        <!-- Card container -->
         <div class="container-fluid position-relative d-flex justify-content-center align-items-center card-container">
-            <!-- Card con imagen y detalles del servicio -->
+            <!-- Card with image and service details -->
             <div class="card shadow-lg p-0 overflow-hidden">
                 <div class="row g-0 align-items-center">
-                    <!-- Imagen dentro de la card pegada a los bordes -->
+                    <!-- Image inside the card -->
                     <div class="col-md-6">
-                        <img src="images/left-infos_2.jpg" alt="Rocket Illustration" class="img-fluid rocket-img">
+                        <img src="images/left-infos_2.jpg" alt="Service Illustration" class="img-fluid service-img">
                     </div>
 
-                    <!-- Detalles del Servicio dentro de la card -->
+                    <!-- Service Details inside the card -->
                     <div class="col-md-6 service-details p-4">
-                        <h2>HubSpot <span class="text-orange">Service Details</span> & Consultation</h2>
-                        <p>Unleash HubSpot’s potential with Pixiu’s onboarding and training. Our tailored approach ensures maximum integration and minimal disruption.</p>
-                        <p>We offer in-depth knowledge, comprehensive training sessions, and detailed playbooks to equip your team with essential skills.</p>
+                        <h2>Comprehensive <span class="text-orange">Marketing</span> & <span class="text-orange">Tech Services</span></h2>
+                        <p>Enhance your marketing and operational processes with Pixiu’s full-service offerings. We provide HubSpot consulting, web development, data extraction, and custom software tailored to your specific needs.</p>
+                        <p>Our team delivers in-depth knowledge, comprehensive training sessions, and detailed strategies to equip your business with the essential tools for success.</p>
 
-                        <!-- Progreso de Servicios -->
+                        <!-- Service Progress -->
                         <div class="service-progress mb-4">
                             <div class="progress-item">
-                                <span>Marketing</span>
+                                <span>HubSpot Consulting</span>
                                 <div class="progress">
                                     <div class="progress-bar bg-orange" data-value="90"></div>
                                     <span class="percentage">90%</span>
@@ -171,7 +178,15 @@
                             </div>
 
                             <div class="progress-item">
-                                <span>Digital Media</span>
+                                <span>Web Development</span>
+                                <div class="progress">
+                                    <div class="progress-bar bg-orange" data-value="85"></div>
+                                    <span class="percentage">85%</span>
+                                </div>
+                            </div>
+
+                            <div class="progress-item">
+                                <span>Data Extraction</span>
                                 <div class="progress">
                                     <div class="progress-bar bg-orange" data-value="80"></div>
                                     <span class="percentage">80%</span>
@@ -179,42 +194,42 @@
                             </div>
 
                             <div class="progress-item">
-                                <span>Social Media Managing</span>
+                                <span>Software Development</span>
                                 <div class="progress">
-                                    <div class="progress-bar bg-orange" data-value="95"></div>
-                                    <span class="percentage">95%</span>
+                                    <div class="progress-bar bg-orange" data-value="75"></div>
+                                    <span class="percentage">75%</span>
                                 </div>
                             </div>
                         </div>
 
-                        <p>Pixiu’s HubSpot optimization services enhance your business’s potential and productivity by resolving daily challenges.</p>
+                        <p>Pixiu’s services are designed to enhance your business’s potential and productivity by addressing daily challenges with innovative solutions.</p>
                         <p>We provide ongoing support and optimization to meet your evolving needs.</p>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    <!-- Fin de Sección de Detalles de Servicios -->
+    <!-- End of Service Details Section -->
 
-    <!-- Inicio de Sección de Contacto -->
-    <section class="contact-section">
+    <!-- Start of Contact Section -->
+    <section id="contact" class="contact-section">
         <div class="container-fluid position-relative d-flex justify-content-center align-items-center contact-card">
-            <!-- Card Principal -->
+            <!-- Main Card -->
             <div class="main-card shadow-lg p-5 bg-white rounded">
                 <div class="row g-4 align-items-center">
-                    <!-- Sub-Card para la imagen -->
-                    <div class="col-md-3"> <!-- Cambiado de col-md-5 a col-md-4 -->
+                    <!-- Sub-Card for the image -->
+                    <div class="col-md-3">
                         <div class="image-card overflow-hidden">
                             <img src="images/banner_contact.jpg" alt="Contact Illustration" class="img-fluid contact-img">
                         </div>
                     </div>
 
-                    <!-- Sub-Card para el formulario -->
+                    <!-- Sub-Card for the form -->
                     <div class="col-md-8">
                         <div class="form-card p-4" style="border: 2px solid #dd6d2c; border-radius: 15px;">
                             <h2 class="text-center">Contact Us & <span class="text-orange">Get In Touch</span></h2>
 
-                            <!-- Formulario -->
+                            <!-- Form -->
                             <form action="" method="post" class="contact-form">
                                 <div class="row">
                                     <div class="col-md-6 mb-3">
@@ -238,25 +253,25 @@
                                 <button type="submit" class="btn btn-orange w-100">Send Message Now</button>
                             </form>
 
-                            <!-- Información de contacto adicional -->
+                            <!-- Additional Contact Information -->
                             <div class="contact-info text-center mt-4">
-                                <div class="row"> <!-- Utilizamos la fila para garantizar la distribución -->
-                                    <div class="col-4 d-flex flex-column align-items-center"> <!-- Cada ícono ocupa el 33.3% -->
+                                <div class="row">
+                                    <div class="col-4 d-flex flex-column align-items-center">
                                         <div class="contact-item text-center">
                                             <i class="fas fa-phone-alt"></i>
-                                            <p>010-020-0340</p>
+                                            <p>+000 1234 5678</p>
                                         </div>
                                     </div>
-                                    <div class="col-4 d-flex flex-column align-items-center"> <!-- Cada ícono ocupa el 33.3% -->
+                                    <div class="col-4 d-flex flex-column align-items-center">
                                         <div class="contact-item text-center">
                                             <i class="fas fa-envelope"></i>
-                                            <p>info@company.com</p>
+                                            <p>info@pixiux.com</p>
                                         </div>
                                     </div>
-                                    <div class="col-4 d-flex flex-column align-items-center"> <!-- Cada ícono ocupa el 33.3% -->
+                                    <div class="col-4 d-flex flex-column align-items-center">
                                         <div class="contact-item text-center">
                                             <i class="fas fa-map-marker-alt"></i>
-                                            <p>Sunny Isles Beach, FL 33160, United States</p>
+                                            <p>54th Street, London, UK</p>
                                         </div>
                                     </div>
                                 </div>
@@ -270,6 +285,7 @@
             <p>Copyright © 2024 Pixiu. All rights reserved.</p>
         </div>
     </section>
+    <!-- End of Contact Section -->
 
     <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
