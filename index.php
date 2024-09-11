@@ -51,7 +51,7 @@
 
     <!-- Inicio de Sección de Bienvenida -->
     <section class="welcome-section position-relative">
-        <div class="container">
+        <div class="container-fluid">
             <div class="row align-items-center">
                 <div class="col-md-6 welcome-text">
                     <h6 class="text-uppercase text-orange">HubSpot Consulting Services</h6>
@@ -79,13 +79,13 @@
 
 
     <!-- Inicio de Sección de Servicios -->
-    <section class="services-section py-5">
-        <div class="container">
+    <section class="services-section py-5" style="min-height: 700px;">
+        <div class="container-fluid">
             <div class="row align-items-center">
                 <!-- Imagen a la izquierda -->
                 <div class="col-md-6">
-                    <div class="services-image">
-                        <img src="images/service.png" alt="Rocket Illustration" class="img-fluid">
+                    <div class="services-image" style="margin-left: 2.5rem;"> <!-- Mover un poco más a la derecha -->
+                        <img src="images/service.png" alt="Rocket Illustration" class="img-fluid" style="width: 95%; max-width: 500px;"> <!-- Imagen más grande -->
                     </div>
                 </div>
 
@@ -94,24 +94,28 @@
                     <h2 class="fw-bold">
                         HubSpot <span class="text-orange">Consulting</span> & <span class="text-orange">Services</span> We Offer
                     </h2>
+                    <div class="underline-orange"></div>
                     <p class="text-muted mb-4">Maximize your HubSpot investment with our specialized services.</p>
 
                     <!-- Cards de Servicios -->
                     <div class="row">
                         <div class="col-lg-6 mb-3">
-                            <div class="service-card p-3">
+                            <div class="service-card p-4 text-center">
+                                <i class="fas fa-desktop text-orange mb-3 service-icon"></i>
                                 <h5 class="fw-bold">HubSpot Implementation and Training</h5>
                                 <p class="text-muted">Customized onboarding and training to maximize your HubSpot investment.</p>
                             </div>
                         </div>
                         <div class="col-lg-6 mb-3">
-                            <div class="service-card p-3">
+                            <div class="service-card p-4 text-center">
+                                <i class="fas fa-chart-line text-orange mb-3 service-icon"></i>
                                 <h5 class="fw-bold">HubSpot Optimization</h5>
                                 <p class="text-muted">Optimize and streamline your HubSpot processes for enhanced efficiency.</p>
                             </div>
                         </div>
                         <div class="col-lg-6 mb-3">
-                            <div class="service-card p-3">
+                            <div class="service-card p-4 text-center">
+                                <i class="fas fa-cogs text-orange mb-3 service-icon"></i>
                                 <h5 class="fw-bold">Personalized HubSpot Consulting</h5>
                                 <p class="text-muted">Consulting services tailored to your specific business needs and goals.</p>
                             </div>
@@ -141,7 +145,7 @@
         <div class="background-image"></div>
 
         <!-- Contenedor de la card -->
-        <div class="container position-relative d-flex justify-content-center align-items-center card-container">
+        <div class="container-fluid position-relative d-flex justify-content-center align-items-center card-container">
             <!-- Card con imagen y detalles del servicio -->
             <div class="card shadow-lg p-0 overflow-hidden">
                 <div class="row g-0 align-items-center">
@@ -194,20 +198,20 @@
 
     <!-- Inicio de Sección de Contacto -->
     <section class="contact-section">
-        <div class="container position-relative d-flex justify-content-center align-items-center contact-card">
+        <div class="container-fluid position-relative d-flex justify-content-center align-items-center contact-card">
             <!-- Card Principal -->
             <div class="main-card shadow-lg p-5 bg-white rounded">
                 <div class="row g-4 align-items-center">
                     <!-- Sub-Card para la imagen -->
-                    <div class="col-md-5">
+                    <div class="col-md-3"> <!-- Cambiado de col-md-5 a col-md-4 -->
                         <div class="image-card overflow-hidden">
                             <img src="images/banner_contact.jpg" alt="Contact Illustration" class="img-fluid contact-img">
                         </div>
                     </div>
 
                     <!-- Sub-Card para el formulario -->
-                    <div class="col-md-7">
-                        <div class="form-card p-4">
+                    <div class="col-md-8">
+                        <div class="form-card p-4" style="border: 2px solid #dd6d2c; border-radius: 15px;">
                             <h2 class="text-center">Contact Us & <span class="text-orange">Get In Touch</span></h2>
 
                             <!-- Formulario -->
@@ -236,18 +240,24 @@
 
                             <!-- Información de contacto adicional -->
                             <div class="contact-info text-center mt-4">
-                                <div class="d-flex justify-content-between">
-                                    <div class="contact-item text-center">
-                                        <i class="fas fa-phone-alt"></i>
-                                        <p>010-020-0340</p>
+                                <div class="row"> <!-- Utilizamos la fila para garantizar la distribución -->
+                                    <div class="col-4 d-flex flex-column align-items-center"> <!-- Cada ícono ocupa el 33.3% -->
+                                        <div class="contact-item text-center">
+                                            <i class="fas fa-phone-alt"></i>
+                                            <p>010-020-0340</p>
+                                        </div>
                                     </div>
-                                    <div class="contact-item text-center">
-                                        <i class="fas fa-envelope"></i>
-                                        <p>info@company.com</p>
+                                    <div class="col-4 d-flex flex-column align-items-center"> <!-- Cada ícono ocupa el 33.3% -->
+                                        <div class="contact-item text-center">
+                                            <i class="fas fa-envelope"></i>
+                                            <p>info@company.com</p>
+                                        </div>
                                     </div>
-                                    <div class="contact-item text-center">
-                                        <i class="fas fa-map-marker-alt"></i>
-                                        <p>Sunny Isles Beach, FL 33160, United States</p>
+                                    <div class="col-4 d-flex flex-column align-items-center"> <!-- Cada ícono ocupa el 33.3% -->
+                                        <div class="contact-item text-center">
+                                            <i class="fas fa-map-marker-alt"></i>
+                                            <p>Sunny Isles Beach, FL 33160, United States</p>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
