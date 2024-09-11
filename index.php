@@ -134,17 +134,65 @@
     </section>
     <!-- End of Services Section -->
 
-    <!-- Start of Projects/Packages Section (Carousel) -->
+    <!-- Start of Projects/Packages Section (Stylized Cards) -->
     <section id="projects" class="package-section py-5">
         <div class="container-fluid">
             <h2 class="fw-bold text-center mb-4">Explore Our <span class="text-orange">Marketing</span> and <span class="text-orange">Tech Solutions</span></h2>
             <p class="text-center text-muted mb-5">Discover how our projects have transformed businesses across industries.</p>
 
-            <?php include 'components/carousel.php'; ?>
+            <div class="row">
+                <!-- Card 1: HubSpot Consulting -->
+                <div class="col-lg-4 mb-4">
+                    <div class="card service-card h-100 shadow-lg border-0 rounded-lg hover-zoom">
+                        <div class="card-img-container position-relative overflow-hidden">
+                            <img src="images/Operating system-pana.png" class="card-img-top" alt="HubSpot Consulting">
+                            <div class="card-overlay text-center d-flex justify-content-center align-items-center">
+                                <a href="hubspot-consulting.html" class="btn btn-orange">Learn More</a>
+                            </div>
+                        </div>
+                        <div class="card-body text-center">
+                            <h5 class="card-title fw-bold">HubSpot Consulting</h5>
+                            <p class="card-text">Maximize your marketing efforts with expert HubSpot implementation and optimization services.</p>
+                        </div>
+                    </div>
+                </div>
 
+                <!-- Combined Card: Web Development & Custom Software Development -->
+                <div class="col-lg-4 mb-4">
+                    <div class="card service-card h-100 shadow-lg border-0 rounded-lg hover-zoom">
+                        <div class="card-img-container position-relative overflow-hidden">
+                            <img src="images/Developer activity-amico.png" class="card-img-top" alt="Web Development & Software Development">
+                            <div class="card-overlay text-center d-flex justify-content-center align-items-center">
+                                <a href="web-development.html" class="btn btn-orange me-2">Web Development</a>
+                                <a href="custom-software.html" class="btn btn-orange ms-2">Software Development</a>
+                            </div>
+                        </div>
+                        <div class="card-body text-center">
+                            <h5 class="card-title fw-bold">Web Development & Custom Software Development</h5>
+                            <p class="card-text">Professional web development and tailored software solutions to meet your business needs.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 3: Data Extraction -->
+                <div class="col-lg-4 mb-4">
+                    <div class="card service-card h-100 shadow-lg border-0 rounded-lg hover-zoom">
+                        <div class="card-img-container position-relative overflow-hidden">
+                            <img src="images/Website Creator-cuate.png" class="card-img-top" alt="Data Extraction">
+                            <div class="card-overlay text-center d-flex justify-content-center align-items-center">
+                                <a href="data-extraction.html" class="btn btn-orange">Learn More</a>
+                            </div>
+                        </div>
+                        <div class="card-body text-center">
+                            <h5 class="card-title fw-bold">Data Extraction</h5>
+                            <p class="card-text">Unlock valuable insights from your data with automated data scraping and analysis solutions.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
-    <!-- End of Projects/Packages Section (Carousel) -->
+    <!-- End of Projects/Packages Section (Stylized Cards) -->
 
     <!-- Start of Service Details Section -->
     <section id="info" class="service-details-section">

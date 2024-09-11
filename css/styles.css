@@ -954,3 +954,124 @@ h2 {
     opacity: 1;
     transform: scaleX(-1);
 }
+
+
+/* Estilos mejorados para las cards */
+
+.service-card {
+    border-radius: 20px;
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+    background: #fff;
+}
+
+.service-card:hover {
+    transform: translateY(-15px);
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.1);
+}
+
+
+/* Imagen en la card */
+
+.card-img-container {
+    position: relative;
+    overflow: hidden;
+    border-radius: 20px 20px 0 0;
+}
+
+.card-img-container img {
+    border-radius: 20px 20px 0 0;
+    transition: transform 0.4s ease;
+}
+
+.card-img-container:hover img {
+    transform: scale(1.08);
+}
+
+
+/* Overlay effect */
+
+.card-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.65);
+    opacity: 0;
+    transition: opacity 0.4s ease;
+}
+
+.service-card:hover .card-overlay {
+    opacity: 1;
+}
+
+.card-overlay .btn {
+    border-radius: 50px;
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 10px 30px;
+    transition: background-color 0.4s ease;
+}
+
+.card-overlay .btn:hover {
+    background-color: #c2591c;
+}
+
+
+/* Button styling */
+
+.btn-orange {
+    background-color: #dd6d2c;
+    color: #fff;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 50px;
+    font-size: 1rem;
+    transition: background-color 0.4s ease;
+}
+
+.btn-orange:hover {
+    background-color: #c2591c;
+}
+
+
+/* Card body text */
+
+.card-body {
+    padding: 1.5rem;
+    text-align: center;
+}
+
+.card-title {
+    font-size: 1.3rem;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.card-text {
+    font-size: 1rem;
+    color: #666;
+}
+
+
+/* Sombra y movimiento */
+
+.card:hover {
+    transform: translateY(-15px);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
+}
+
+
+/* Responsivo */
+
+@media (max-width: 768px) {
+    .card-body {
+        padding: 1rem;
+    }
+    .card-title {
+        font-size: 1.2rem;
+    }
+    .card-text {
+        font-size: 0.95rem;
+    }
+}
