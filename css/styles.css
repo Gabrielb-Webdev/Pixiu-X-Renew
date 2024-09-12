@@ -1061,6 +1061,11 @@ h2 {
     box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
 }
 
+/* Desactivar el efecto hover en la sección de detalles de servicios */
+#info .card:hover {
+    transform: none;
+    box-shadow: none;
+}
 
 /* Responsivo */
 
