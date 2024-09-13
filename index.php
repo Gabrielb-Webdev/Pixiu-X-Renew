@@ -71,17 +71,16 @@
                         <a href="#services" class="btn btn-orange ms-2">Explore Our Services</a>
                     </div>
                 </div>
-                <div class="col-md-6">
-                    <div class="image-placeholder">
-                        <img src="images/Parallax/1.webp" alt="Image 1" class="grid-item" id="image-1">
-                        <img src="images/Parallax/2.webp" alt="Image 2" class="grid-item" id="image-2">
-                        <img src="images/Parallax/3.webp" alt="Image 3" class="grid-item" id="image-3">
-                        <img src="images/Parallax/4.webp" alt="Image 4" class="grid-item" id="image-4">
-                        <img src="images/Parallax/5.webp" alt="Image 5" class="grid-item" id="image-5">
-                        <img src="images/Parallax/6.webp" alt="Image 6" class="grid-item" id="image-6">
-                        <img src="images/Parallax/7.webp" alt="Image 7" class="grid-item" id="image-7">
-                        <img src="images/Parallax/construction.webp" alt="Construction Image" class="grid-item" id="image-8">
-                    </div>
+                <!-- Contenedor de imágenes apiladas -->
+                <div class="image-container">
+                    <img src="images/Parallax/1.webp" alt="Image 1" id="image-1">
+                    <img src="images/Parallax/2.webp" alt="Image 2" id="image-2">
+                    <img src="images/Parallax/3.webp" alt="Image 3" id="image-3">
+                    <img src="images/Parallax/4.webp" alt="Image 4" id="image-4">
+                    <img src="images/Parallax/5.webp" alt="Image 5" id="image-5">
+                    <img src="images/Parallax/6.webp" alt="Image 6" id="image-6">
+                    <img src="images/Parallax/7.webp" alt="Image 7" id="image-7">
+                    <img src="images/Parallax/construction.webp" alt="Construction Image" id="image-8">
                 </div>
             </div>
         </div>
