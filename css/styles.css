@@ -173,37 +173,6 @@ a:hover {
     font-weight: normal;
 }
 
-
-/* Placeholder para la nueva imagen flotante */
-
-.image-placeholder {
-    background-color: transparent;
-    height: 500px;
-    /* Tamaño grande de la imagen */
-    position: relative;
-    z-index: 1;
-}
-
-
-/* Imagen flotante a la derecha con recorte */
-
-.image-placeholder::after {
-    content: '';
-    display: block;
-    position: absolute;
-    top: 0;
-    right: 0;
-    width: 100%;
-    height: 100%;
-    background-image: url('../images/banner.webp');
-    /* Cambia por la nueva imagen */
-    background-size: cover;
-    background-position: center;
-    clip-path: polygon(15% 0%, 85% 0%, 100% 50%, 85% 100%, 15% 100%, 0% 50%);
-    /* Recorte para ambos lados, izquierda y derecha */
-    z-index: -1;
-}
-
 @media (max-width: 768px) {
     .welcome-section {
         background-size: cover;
@@ -431,6 +400,30 @@ h6.text-orange {
     }
 }
 
+/* Estilos por defecto para que los botones estén alineados horizontalmente */
+.card-overlay a {
+    display: inline-block;
+    margin: 5px;
+    text-align: center;
+}
+
+/* Para pantallas con un ancho menor a 1600px */
+@media (max-width: 1600px) {
+    .card-overlay {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    /* Los botones se colocan uno encima del otro */
+    .card-overlay a {
+        margin: 10px 0; /* Margen vertical entre los botones */
+        width: 80%; /* Ajusta el ancho de los botones si es necesario */
+    }
+}
+
+
 
 /* Sección de Detalles del Servicio */
 
@@ -450,12 +443,12 @@ h6.text-orange {
     left: 0;
     width: 100%;
     height: 100%;
-    background-image: url('../images/infos-bg_2.jpg');
+    background-image: linear-gradient(rgba(221, 109, 44, 0.5), rgba(221, 109, 44, 0.5)), url('../images/Banner_info.jpg');
     background-size: cover;
     background-position: center;
     z-index: 1;
-    opacity: 0.8;
-    /* Ajuste de opacidad para que la card destaque */
+    opacity: 0.8; /* Ajuste de opacidad */
+    background-blend-mode: overlay; /* Mezcla de colores */
 }
 
 
@@ -933,7 +926,6 @@ h2 {
     background-image: url(../images/banner-right.png);
     background-size: contain;
     background-repeat: no-repeat;
-    z-index: 1;
     opacity: 1;
 }
 
@@ -950,7 +942,6 @@ h2 {
     background-image: url(../images/banner-right.png);
     background-size: contain;
     background-repeat: no-repeat;
-    z-index: 1;
     opacity: 1;
     transform: scaleX(-1);
 }

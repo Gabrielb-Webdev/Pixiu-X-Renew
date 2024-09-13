@@ -2,7 +2,7 @@
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <div class="container py-3 navbar-spacing">
         <!-- Logo -->
-        <a class="navbar-brand" href="#home">
+        <a class="navbar-brand" href="index.php">
             <img src="images/logo.png" alt="Logo" class="logo-img">
         </a>
         <!-- Toggler for mobile view -->
@@ -30,8 +30,8 @@
                         Pages
                     </a>
                     <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <li><a class="dropdown-item" href="#about-us">About Us</a></li>
-                        <li><a class="dropdown-item" href="#faqs">FAQs</a></li>
+                        <li><a class="dropdown-item" href="about.php">About Us</a></li>
+                        <li><a class="dropdown-item" href="faqs.php">FAQs</a></li>
                     </ul>
                 </li>
                 <!-- Info Link -->

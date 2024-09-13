@@ -7,6 +7,9 @@
     <title>Pixiu X</title>
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- GSAP (ScrollTrigger) -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.1/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.1/ScrollTrigger.min.js"></script>
     <!-- FontAwesome Icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <link rel="stylesheet" href="css/styles.css">
@@ -55,7 +58,7 @@
             <div class="row align-items-center">
                 <div class="col-md-6 welcome-text">
                     <h6 class="text-uppercase text-orange">Marketing and HubSpot Consulting Services</h6>
-                    <div class="underline-orange"></div> <!-- Orange line below the header -->
+                    <div class="underline-orange"></div>
                     <h1 class="fw-bold">
                         Accelerate Your Business with <span class="text-orange">Pixiu</span>'s HubSpot Solutions, Web Development & Data Services
                     </h1>
@@ -68,9 +71,16 @@
                         <a href="#services" class="btn btn-orange ms-2">Explore Our Services</a>
                     </div>
                 </div>
-                <!-- Placeholder for the floating image on the right -->
                 <div class="col-md-6">
                     <div class="image-placeholder">
+                        <img src="images/Parallax/1.webp" alt="Image 1" class="grid-item" id="image-1">
+                        <img src="images/Parallax/2.webp" alt="Image 2" class="grid-item" id="image-2">
+                        <img src="images/Parallax/3.webp" alt="Image 3" class="grid-item" id="image-3">
+                        <img src="images/Parallax/4.webp" alt="Image 4" class="grid-item" id="image-4">
+                        <img src="images/Parallax/5.webp" alt="Image 5" class="grid-item" id="image-5">
+                        <img src="images/Parallax/6.webp" alt="Image 6" class="grid-item" id="image-6">
+                        <img src="images/Parallax/7.webp" alt="Image 7" class="grid-item" id="image-7">
+                        <img src="images/Parallax/construction.webp" alt="Construction Image" class="grid-item" id="image-8">
                     </div>
                 </div>
             </div>
@@ -141,8 +151,28 @@
             <p class="text-center text-muted mb-5">Discover how our services have transformed businesses across industries.</p>
 
             <div class="row">
-                <!-- Card 1: HubSpot Consulting -->
-                <div class="col-lg-4 mb-4">
+                <!-- Card 1: Marketing -->
+                <div class="col-lg-3 mb-4">
+                    <div class="card service-card h-100 shadow-lg border-0 rounded-lg hover-zoom">
+                        <div class="card-img-container position-relative overflow-hidden">
+                            <img src="images/Marketing.jpg" class="card-img-top marketing-card-img" alt="Marketing">
+                            <div class="card-overlay text-center d-flex justify-content-center align-items-center">
+                                <a href="marketing.html" class="btn btn-orange">
+                                    Marketing
+                                    <i class="fas fa-arrow-right ms-2"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="card-body text-center">
+                            <h5 class="card-title fw-bold">Marketing</h5>
+                            <p class="card-text">Enhance your brand with tailored marketing strategies that drive growth and success.</p>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- Card 2: HubSpot Consulting -->
+                <div class="col-lg-3 mb-4">
                     <div class="card service-card h-100 shadow-lg border-0 rounded-lg hover-zoom">
                         <div class="card-img-container position-relative overflow-hidden">
                             <img src="images/Operating system-pana.png" class="card-img-top" alt="HubSpot Consulting">
@@ -161,7 +191,7 @@
                 </div>
 
                 <!-- Combined Card: Website Creation & Custom Software Development -->
-                <div class="col-lg-4 mb-4">
+                <div class="col-lg-3 mb-4">
                     <div class="card service-card h-100 shadow-lg border-0 rounded-lg hover-zoom">
                         <div class="card-img-container position-relative overflow-hidden">
                             <img src="images/Developer activity-amico.png" class="card-img-top" alt="Website Creation & Software Development">
@@ -183,8 +213,8 @@
                     </div>
                 </div>
 
-                <!-- Card 3: Data Extraction -->
-                <div class="col-lg-4 mb-4">
+                <!-- Card 4: Data Extraction -->
+                <div class="col-lg-3 mb-4">
                     <div class="card service-card h-100 shadow-lg border-0 rounded-lg hover-zoom">
                         <div class="card-img-container position-relative overflow-hidden">
                             <img src="images/Website Creator-cuate.png" class="card-img-top" alt="Data Extraction">
@@ -218,7 +248,7 @@
                 <div class="row g-0 align-items-center">
                     <!-- Image inside the card -->
                     <div class="col-md-6">
-                        <img src="images/left-infos_2.jpg" alt="Service Illustration" class="img-fluid service-img">
+                        <img src="images/Checklist-pana.png" alt="Service Illustration" class="img-fluid service-img">
                     </div>
 
                     <!-- Service Details inside the card -->
@@ -278,14 +308,14 @@
             <div class="main-card shadow-lg p-5 bg-white rounded">
                 <div class="row g-4 align-items-center">
                     <!-- Sub-Card for the image -->
-                    <div class="col-md-3">
+                    <div class="col-md-4"> <!-- Ajuste de col-md-3 a col-md-4 -->
                         <div class="image-card overflow-hidden">
-                            <img src="images/banner_contact.jpg" alt="Contact Illustration" class="img-fluid contact-img">
+                            <img src="images/Messages-pana.png" alt="Contact Illustration" class="img-fluid contact-img">
                         </div>
                     </div>
 
                     <!-- Sub-Card for the form -->
-                    <div class="col-md-8">
+                    <div class="col-md-7"> <!-- Ajuste de col-md-8 a col-md-7 -->
                         <div class="form-card p-4" style="border: 2px solid #dd6d2c; border-radius: 15px;">
                             <h2 class="text-center">Contact Us & <span class="text-orange">Get In Touch</span></h2>
 
@@ -350,6 +380,7 @@
     <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
     <script src="js/scripts.js"></script>
+    <script src="js/animations.js"></script>
 </body>
 
 </html>
