@@ -73,13 +73,13 @@
                 </div>
                 <!-- Contenedor de imágenes apiladas -->
                 <div class="image-container">
-                    <img src="images/Parallax/1.webp" alt="Image 1" id="image-1">
-                    <img src="images/Parallax/2.webp" alt="Image 2" id="image-2">
-                    <img src="images/Parallax/3.webp" alt="Image 3" id="image-3">
-                    <img src="images/Parallax/4.webp" alt="Image 4" id="image-4">
-                    <img src="images/Parallax/5.webp" alt="Image 5" id="image-5">
-                    <img src="images/Parallax/6.webp" alt="Image 6" id="image-6">
-                    <img src="images/Parallax/7.webp" alt="Image 7" id="image-7">
+                    <img src="images/Parallax/1.webp" alt="Image 1" id="image-1" loading="lazy">
+                    <img src="images/Parallax/2.webp" alt="Image 2" id="image-2" loading="lazy">
+                    <img src="images/Parallax/3.webp" alt="Image 3" id="image-3" loading="lazy">
+                    <img src="images/Parallax/4.webp" alt="Image 4" id="image-4" loading="lazy">
+                    <img src="images/Parallax/5.webp" alt="Image 5" id="image-5" loading="lazy">
+                    <img src="images/Parallax/6.webp" alt="Image 6" id="image-6" loading="lazy">
+                    <img src="images/Parallax/7.webp" alt="Image 7" id="image-7" loading="lazy">
                     <img src="images/Parallax/construction.webp" alt="Construction Image" id="image-8">
                 </div>
             </div>

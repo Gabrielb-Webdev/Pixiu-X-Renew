@@ -96,8 +96,17 @@ a:hover {
     left: 0;
     width: 100%;
     height: 100%;
-    object-fit: cover; /* Asegura que las imágenes ocupen todo el espacio disponible sin perder proporción */
-    animation: float 5s ease-in-out infinite; /* Animación de flotación */
+    object-fit: cover;
+    opacity: 0; /* Mantén las imágenes ocultas inicialmente */
+    transform: scale(1);
+    will-change: opacity, transform; /* Mantén estas propiedades para mejorar el rendimiento */
+    transition: opacity 0.8s ease-out, transform 0.8s ease-out; /* Un poco más larga para suavizar */
+}
+
+@media (max-width: 768px) {
+    .image-container img {
+        animation: none; /* Desactivar animaciones en móviles */
+    }
 }
 
 /* Animación base de flotación */
@@ -178,7 +187,9 @@ a:hover {
 
 .welcome-text {
     padding-left: 15rem;
-    /* Ajusta la cantidad de padding para desplazar el contenido */
+    will-change: opacity, transform;
+    opacity: 0; /* Mantén oculto el texto inicialmente */
+    transition: opacity 1s ease-out, transform 1s ease-out; /* Ajusta el tiempo para mayor fluidez */
 }
 
 @media (max-width: 768px) {
