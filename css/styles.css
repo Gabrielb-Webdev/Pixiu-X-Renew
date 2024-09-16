@@ -576,7 +576,7 @@ h6.text-orange {
     left: 0;
     width: 100%;
     height: 100%;
-    background-image: linear-gradient(rgba(221, 109, 44, 0.5), rgba(221, 109, 44, 0.5)), url('../images/Banner_info.webp');
+    background-image: url('../images/Banner_info.webp');
     background-size: cover;
     background-position: center;
     z-index: 1;
