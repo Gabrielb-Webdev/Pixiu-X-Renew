@@ -1209,3 +1209,201 @@ h2 {
         font-size: 0.95rem;
     }
 }
+
+
+/* custom-software */
+
+
+/* Nueva Sección de Pasos */
+
+.steps-section {
+    padding: 60px 0;
+    background-color: #fff;
+    text-align: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    /* Centrar la sección y limitar su ancho */
+}
+
+.steps-section h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #333;
+    /* Color del texto para que coincida con tu estilo */
+    margin-bottom: 30px;
+}
+
+.steps-section .nav-tabs {
+    justify-content: center;
+    border-bottom: none;
+    /* Quita la línea predeterminada */
+    margin-bottom: 30px;
+}
+
+.steps-section .nav-tabs .nav-link {
+    color: #333;
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    padding: 15px 30px;
+    border-radius: 50px;
+    border: 2px solid transparent;
+    /* Sin borde por defecto */
+    transition: all 0.3s ease;
+}
+
+.steps-section .nav-tabs .nav-link.active {
+    color: white;
+    border-color: #dd6d2c;
+    background-color: #dd6d2c;
+}
+
+.steps-section .nav-tabs .nav-link.active:hover {
+    color: white !important;
+}
+
+.steps-section .nav-tabs .nav-link:hover {
+    color: #dd6d2c !important;
+    /* Solo cambia el texto al pasar el cursor */
+}
+
+.steps-section .tab-content {
+    padding: 30px;
+    /* background-color: #f9f9f9; */
+    border-radius: 10px;
+    margin-top: 20px;
+    /* box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); */
+}
+
+.steps-section img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 30px;
+}
+
+.steps-section .tags .btn {
+    background-color: #dd6d2c;
+    /* Fondo naranja */
+    color: #fff;
+    /* Texto en blanco */
+    border: none;
+    /* Sin borde */
+    border-radius: 50px;
+    /* Bordes redondeados */
+    padding: 10px 20px;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    transition: none;
+    /* Sin efecto de transición */
+}
+
+.steps-section .tags .btn:hover {
+    color: #fff !important;
+    background-color: #dd6d2c;
+    /* Fondo naranja al hacer hover */
+    border-color: #dd6d2c;
+}
+
+.steps-section .tags {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+/* Ajustes Responsivos */
+
+@media (max-width: 768px) {
+    .steps-section h2 {
+        font-size: 2rem;
+    }
+    .steps-section .nav-tabs .nav-link {
+        padding: 10px 20px;
+        font-size: 1rem;
+    }
+    .steps-section .tab-content {
+        padding: 20px;
+    }
+}
+
+.tag-label {
+    background-color: #dd6d2c;
+    color: #fff;
+    padding: 10px 15px;
+    border-radius: 30px;
+    display: inline-block;
+    margin-right: 10px;
+    font-size: 1rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: background-color 0.3s ease;
+    cursor: default;
+    margin-bottom: 1rem;
+}
+
+.tag-label:hover {
+    background-color: #c2591c;
+    /* Un color más oscuro al pasar el cursor */
+}
+
+
+/* Call-to-Action Section */
+
+.cta-section {
+    background: rgba(221, 109, 44, 0.75);
+    backdrop-filter: blur(10px);
+    position: relative;
+    padding: 60px 0;
+    z-index: 1;
+}
+
+.cta-section::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('../images/subtle-texture.webp');
+    /* Añadimos una textura ligera */
+    background-size: cover;
+    opacity: 0.3;
+    z-index: -1;
+    /* Textura ligera con baja opacidad */
+}
+
+.cta-section h2,
+.cta-section p {
+    color: #fff;
+    /* Texto en blanco */
+    margin-bottom: 20px;
+}
+
+.cta-section .btn-orange {
+    background-color: #dd6d2c;
+    color: #fff;
+    padding: 15px 30px;
+    border-radius: 50px;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    transition: background-color 0.3s ease;
+    z-index: 2;
+}
+
+.cta-section .btn-orange:hover {
+    background-color: #c2591c;
+}
+
+
+/* Footer Section */
+
+.footer-section {
+    background-color: #f9f9f9;
+    color: #666;
+}
+
+.footer-section p {
+    margin: 0;
+    font-size: 0.9rem;
+    color: #666;
+}

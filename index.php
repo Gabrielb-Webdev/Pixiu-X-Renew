@@ -176,7 +176,7 @@
                         <div class="card-img-container position-relative overflow-hidden">
                             <img src="images/Operating system-pana.webp" class="card-img-top" alt="HubSpot Consulting">
                             <div class="card-overlay text-center d-flex justify-content-center align-items-center">
-                                <a href="hubspot-consulting.html" class="btn btn-orange">
+                                <a href="hubspot.php" class="btn btn-orange">
                                     HubSpot Consulting
                                     <i class="fas fa-arrow-right ms-2"></i>
                                 </a>
@@ -195,7 +195,7 @@
                         <div class="card-img-container position-relative overflow-hidden">
                             <img src="images/Developer activity-amico.webp" class="card-img-top" alt="Website Creation & Software Development">
                             <div class="card-overlay text-center d-flex justify-content-center align-items-center">
-                                <a href="web-development.html" class="btn btn-orange me-2">
+                                <a href="web-development.php" class="btn btn-orange me-2">
                                     Website Creation
                                     <i class="fas fa-arrow-right ms-2"></i>
                                 </a>
