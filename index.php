@@ -73,14 +73,14 @@
                 </div>
                 <!-- Contenedor de imágenes apiladas -->
                 <div class="image-container">
-                    <img src="images/Parallax/1.webp" alt="Image 1" id="image-1" loading="lazy">
-                    <img src="images/Parallax/2.webp" alt="Image 2" id="image-2" loading="lazy">
-                    <img src="images/Parallax/3.webp" alt="Image 3" id="image-3" loading="lazy">
-                    <img src="images/Parallax/4.webp" alt="Image 4" id="image-4" loading="lazy">
-                    <img src="images/Parallax/5.webp" alt="Image 5" id="image-5" loading="lazy">
-                    <img src="images/Parallax/6.webp" alt="Image 6" id="image-6" loading="lazy">
-                    <img src="images/Parallax/7.webp" alt="Image 7" id="image-7" loading="lazy">
-                    <img src="images/Parallax/construction.webp" alt="Construction Image" id="image-8">
+                    <img src="images/home/1.webp" alt="Image 1" id="image-1">
+                    <img src="images/home/2.webp" alt="Image 2" id="image-2">
+                    <img src="images/home/3.webp" alt="Image 3" id="image-3">
+                    <img src="images/home/4.webp" alt="Image 4" id="image-4">
+                    <img src="images/home/5.webp" alt="Image 5" id="image-5">
+                    <img src="images/home/6.webp" alt="Image 6" id="image-6">
+                    <img src="images/home/7.webp" alt="Image 7" id="image-7">
+                    <img src="images/home/construction.webp" alt="Construction Image" id="image-8">
                 </div>
             </div>
         </div>
@@ -94,7 +94,7 @@
                 <!-- Image on the left -->
                 <div class="col-md-6">
                     <div class="services-image" style="margin-left: 7.5rem;">
-                        <img src="images/Telecommuting-rafiki.png" alt="Services Illustration" class="img-fluid" style="width: 95%; max-width: 500px;">
+                        <img src="images/Telecommuting-rafiki.webp" alt="Services Illustration" class="img-fluid" style="width: 95%; max-width: 500px;">
                     </div>
                 </div>
 
@@ -154,7 +154,7 @@
                 <div class="col-lg-3 mb-4">
                     <div class="card service-card h-100 shadow-lg border-0 rounded-lg hover-zoom">
                         <div class="card-img-container position-relative overflow-hidden">
-                            <img src="images/Marketing.jpg" class="card-img-top marketing-card-img" alt="Marketing">
+                            <img src="images/Marketing.webp" class="card-img-top marketing-card-img" alt="Marketing">
                             <div class="card-overlay text-center d-flex justify-content-center align-items-center">
                                 <a href="marketing.html" class="btn btn-orange">
                                     Marketing
@@ -174,7 +174,7 @@
                 <div class="col-lg-3 mb-4">
                     <div class="card service-card h-100 shadow-lg border-0 rounded-lg hover-zoom">
                         <div class="card-img-container position-relative overflow-hidden">
-                            <img src="images/Operating system-pana.png" class="card-img-top" alt="HubSpot Consulting">
+                            <img src="images/Operating system-pana.webp" class="card-img-top" alt="HubSpot Consulting">
                             <div class="card-overlay text-center d-flex justify-content-center align-items-center">
                                 <a href="hubspot-consulting.html" class="btn btn-orange">
                                     HubSpot Consulting
@@ -193,13 +193,13 @@
                 <div class="col-lg-3 mb-4">
                     <div class="card service-card h-100 shadow-lg border-0 rounded-lg hover-zoom">
                         <div class="card-img-container position-relative overflow-hidden">
-                            <img src="images/Developer activity-amico.png" class="card-img-top" alt="Website Creation & Software Development">
+                            <img src="images/Developer activity-amico.webp" class="card-img-top" alt="Website Creation & Software Development">
                             <div class="card-overlay text-center d-flex justify-content-center align-items-center">
                                 <a href="web-development.html" class="btn btn-orange me-2">
                                     Website Creation
                                     <i class="fas fa-arrow-right ms-2"></i>
                                 </a>
-                                <a href="custom-software.html" class="btn btn-orange ms-2">
+                                <a href="custom-software.php" class="btn btn-orange ms-2">
                                     Software Development
                                     <i class="fas fa-arrow-right ms-2"></i>
                                 </a>
@@ -216,7 +216,7 @@
                 <div class="col-lg-3 mb-4">
                     <div class="card service-card h-100 shadow-lg border-0 rounded-lg hover-zoom">
                         <div class="card-img-container position-relative overflow-hidden">
-                            <img src="images/Website Creator-cuate.png" class="card-img-top" alt="Data Extraction">
+                            <img src="images/Website Creator-cuate.webp" class="card-img-top" alt="Data Extraction">
                             <div class="card-overlay text-center d-flex justify-content-center align-items-center">
                                 <a href="data-extraction.html" class="btn btn-orange">
                                     Data Extraction
@@ -247,7 +247,7 @@
                 <div class="row g-0 align-items-center">
                     <!-- Image inside the card -->
                     <div class="col-md-6">
-                        <img src="images/Checklist-pana.png" alt="Service Illustration" class="img-fluid service-img">
+                        <img src="images/Checklist-pana.webp" alt="Service Illustration" class="img-fluid service-img">
                     </div>
 
                     <!-- Service Details inside the card -->
@@ -309,7 +309,7 @@
                     <!-- Sub-Card for the image -->
                     <div class="col-md-4"> <!-- Ajuste de col-md-3 a col-md-4 -->
                         <div class="image-card overflow-hidden">
-                            <img src="images/Messages-pana.png" alt="Contact Illustration" class="img-fluid contact-img">
+                            <img src="images/Messages-pana.webp" alt="Contact Illustration" class="img-fluid contact-img">
                         </div>
                     </div>
 
