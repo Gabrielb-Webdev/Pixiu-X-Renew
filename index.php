@@ -206,7 +206,7 @@
                             </div>
                         </div>
                         <div class="card-body text-center">
-                            <h5 class="card-title fw-bold">Website Creation & Custom Software Development</h5>
+                            <h5 class="card-title fw-bold">Website Creation</h5>
                             <p class="card-text">Professional website creation and tailored software solutions to meet your business needs.</p>
                         </div>
                     </div>
