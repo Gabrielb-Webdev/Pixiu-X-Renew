@@ -156,8 +156,19 @@
                         <div class="card-img-container position-relative overflow-hidden">
                             <img src="images/Marketing.webp" class="card-img-top marketing-card-img" alt="Marketing">
                             <div class="card-overlay text-center d-flex justify-content-center align-items-center">
-                                <a href="marketing.php" class="btn btn-orange">
+                                <!-- Botón para la página general de Marketing -->
+                                <a href="marketing.php" class="btn btn-orange me-2">
                                     Marketing
+                                    <i class="fas fa-arrow-right ms-2"></i>
+                                </a>
+                                <!-- Botón para el primer servicio de Marketing -->
+                                <a href="digital-marketing.php" class="btn btn-orange ms-2">
+                                    Digital Marketing
+                                    <i class="fas fa-arrow-right ms-2"></i>
+                                </a>
+                                <!-- Botón para el segundo servicio de Marketing -->
+                                <a href="email-marketing.php" class="btn btn-orange ms-2">
+                                    Email Marketing
                                     <i class="fas fa-arrow-right ms-2"></i>
                                 </a>
                             </div>
@@ -169,15 +180,25 @@
                     </div>
                 </div>
 
-
                 <!-- Card 2: HubSpot Consulting -->
                 <div class="col-lg-3 mb-4">
                     <div class="card service-card h-100 shadow-lg border-0 rounded-lg hover-zoom">
                         <div class="card-img-container position-relative overflow-hidden">
                             <img src="images/Operating system-pana.webp" class="card-img-top" alt="HubSpot Consulting">
                             <div class="card-overlay text-center d-flex justify-content-center align-items-center">
-                                <a href="hubspot.php" class="btn btn-orange">
+                                <!-- Botón para la página general de HubSpot Consulting -->
+                                <a href="hubspot.php" class="btn btn-orange me-2">
                                     HubSpot Consulting
+                                    <i class="fas fa-arrow-right ms-2"></i>
+                                </a>
+                                <!-- Botón para HubSpot Implementation -->
+                                <a href="hubspot-implementation.php" class="btn btn-orange ms-2">
+                                    HubSpot Implementation
+                                    <i class="fas fa-arrow-right ms-2"></i>
+                                </a>
+                                <!-- Botón para HubSpot Optimization -->
+                                <a href="hubspot-optimization.php" class="btn btn-orange ms-2">
+                                    HubSpot Optimization
                                     <i class="fas fa-arrow-right ms-2"></i>
                                 </a>
                             </div>
@@ -203,6 +224,10 @@
                                     Software Development
                                     <i class="fas fa-arrow-right ms-2"></i>
                                 </a>
+                                <a href="data-extraction.php" class="btn btn-orange">
+                                    Data Extraction
+                                    <i class="fas fa-arrow-right ms-2"></i>
+                                </a>
                             </div>
                         </div>
                         <div class="card-body text-center">
@@ -212,21 +237,32 @@
                     </div>
                 </div>
 
-                <!-- Card 4: Data Extraction -->
+                <!-- Card 4: Multimedia Design -->
                 <div class="col-lg-3 mb-4">
                     <div class="card service-card h-100 shadow-lg border-0 rounded-lg hover-zoom">
                         <div class="card-img-container position-relative overflow-hidden">
-                            <img src="images/Website Creator-cuate.webp" class="card-img-top" alt="Data Extraction">
+                            <img src="images/Design.webp" class="card-img-top" alt="Multimedia Design">
                             <div class="card-overlay text-center d-flex justify-content-center align-items-center">
-                                <a href="data-extraction.php" class="btn btn-orange">
-                                    Data Extraction
+                                <!-- Button for Web Design -->
+                                <a href="web-design.php" class="btn btn-orange me-2">
+                                    Web Design
+                                    <i class="fas fa-arrow-right ms-2"></i>
+                                </a>
+                                <!-- Button for Brand Design -->
+                                <a href="brand-design.php" class="btn btn-orange ms-2">
+                                    Brand Design
+                                    <i class="fas fa-arrow-right ms-2"></i>
+                                </a>
+                                <!-- Button for Logo Design -->
+                                <a href="logo-design.php" class="btn btn-orange ms-2">
+                                    Logo Design
                                     <i class="fas fa-arrow-right ms-2"></i>
                                 </a>
                             </div>
                         </div>
                         <div class="card-body text-center">
-                            <h5 class="card-title fw-bold">Data Extraction</h5>
-                            <p class="card-text">Unlock valuable insights from your data with automated data scraping and analysis solutions.</p>
+                            <h5 class="card-title fw-bold">Multimedia Design</h5>
+                            <p class="card-text">Take advantage of our multimedia design services with specialized options for Web Design, Brand Design, and Logo Design.</p>
                         </div>
                     </div>
                 </div>
