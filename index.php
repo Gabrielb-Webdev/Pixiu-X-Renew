@@ -218,7 +218,7 @@
                         <div class="card-img-container position-relative overflow-hidden">
                             <img src="images/Website Creator-cuate.webp" class="card-img-top" alt="Data Extraction">
                             <div class="card-overlay text-center d-flex justify-content-center align-items-center">
-                                <a href="data-extraction.html" class="btn btn-orange">
+                                <a href="data-extraction.php" class="btn btn-orange">
                                     Data Extraction
                                     <i class="fas fa-arrow-right ms-2"></i>
                                 </a>
