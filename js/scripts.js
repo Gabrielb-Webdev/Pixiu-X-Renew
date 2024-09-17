@@ -12,7 +12,7 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
         e.preventDefault();
 
         const targetElement = document.querySelector(this.getAttribute('href'));
-        const offset = 100; // Ajusta este valor para modificar la distancia superior
+        const offset = 1000; // Ajusta este valor para modificar la distancia superior
 
         // Desplazamiento con ajuste para dejar espacio arriba
         const elementPosition = targetElement.getBoundingClientRect().top + window.pageYOffset;
@@ -24,4 +24,3 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
         });
     });
 });
-

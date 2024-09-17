@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pixiu X | Custom Software Development</title>
+    <title>Pixiu X | Digital Marketing Services</title>
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
     <!-- GSAP (ScrollTrigger) -->
@@ -42,7 +42,7 @@
                 <i class="fab fa-linkedin-in"></i>
             </a>
             <a href="#" class="text-warning">
-                <i class="fab fa-google"></i>
+                <i class="fab fa-instagram"></i>
             </a>
         </div>
     </div>
@@ -57,13 +57,13 @@
         <div class="container-fluid">
             <div class="row align-items-center">
                 <div class="col-md-6 welcome-text">
-                    <h6 class="text-uppercase text-orange">HubSpot Implementation & Consulting</h6>
+                    <h6 class="text-uppercase text-orange">Digital Marketing Services</h6>
                     <div class="underline-orange"></div>
                     <h1 class="fw-bold">
-                        Unlock HubSpot's Full Potential for Your Business
+                        Amplify Your Brand's Online Presence with Our Expert Strategies
                     </h1>
                     <p class="text-muted">
-                        At Pixiu, we specialize in seamless HubSpot onboarding and training, tailored to your team's needs. Let us help you integrate HubSpot effortlessly into your company's ecosystem for smooth and effective implementation.
+                        At Pixiu, we provide full-service digital marketing solutions tailored to elevate your brand's visibility and engagement. From social media campaigns to SEO strategies, we have everything you need to grow your business online.
                     </p>
                     <div class="buttons mt-4">
                         <a href="https://meetings.hubspot.com/pixiu" class="btn btn-orange me-2" target="_blank">Book A Call</a>
@@ -71,13 +71,13 @@
                 </div>
                 <!-- Contenedor de imágenes apiladas -->
                 <div class="image-container">
-                    <img src="images/hubspot/1.webp" alt="HubSpot Implementation Image 1" id="image-1" loading="lazy">
-                    <img src="images/hubspot/2.webp" alt="HubSpot Implementation Image 2" id="image-2" loading="lazy">
-                    <img src="images/hubspot/3.webp" alt="HubSpot Implementation Image 3" id="image-3" loading="lazy">
-                    <img src="images/hubspot/4.webp" alt="HubSpot Implementation Image 4" id="image-4" loading="lazy">
-                    <img src="images/hubspot/5.webp" alt="HubSpot Implementation Image 5" id="image-5" loading="lazy">
-                    <img src="images/hubspot/6.webp" alt="HubSpot Implementation Image 6" id="image-6" loading="lazy">
-                    <img src="images/hubspot/Operating system-amico.webp" alt="HubSpot Integration Illustration" id="image-8">
+                    <img src="images/marketing/1.webp" alt="HubSpot Implementation Image 1" id="image-1" loading="lazy">
+                    <img src="images/marketing/2.webp" alt="HubSpot Implementation Image 2" id="image-2" loading="lazy">
+                    <img src="images/marketing/3.webp" alt="HubSpot Implementation Image 3" id="image-3" loading="lazy">
+                    <img src="images/marketing/4.webp" alt="HubSpot Implementation Image 4" id="image-4" loading="lazy">
+                    <img src="images/marketing/5.webp" alt="HubSpot Implementation Image 5" id="image-5" loading="lazy">
+                    <img src="images/marketing/6.webp" alt="HubSpot Implementation Image 6" id="image-6" loading="lazy">
+                    <img src="images/marketing/Marketing_3.webp" alt="HubSpot Integration Illustration" id="image-8">
                 </div>
             </div>
         </div>
@@ -96,19 +96,24 @@
                 <div class="row g-0 align-items-center">
                     <!-- Image inside the card -->
                     <div class="col-md-6">
-                        <img src="images/Operating system-rafiki.webp" alt="HubSpot Service Illustration" class="img-fluid service-img">
+                        <img src="images/Marketing_4.webp" alt="Marketing Service Illustration" class="img-fluid service-img">
                     </div>
 
                     <!-- Service Details inside the card -->
                     <div class="col-md-6 service-details p-4">
-                        <h2><span class="text-orange">HubSpot Implementation</span> & <span class="text-orange">Consulting Services</span></h2>
-                        <p>At Pixiu, we offer a range of tailored HubSpot services to meet your specific business needs. Our solutions include HubSpot Implementation and Training, HubSpot Optimization, and Personalized HubSpot Consulting, all designed to ensure your team maximizes HubSpot's potential.</p>
-                        <p>We provide expert guidance, step-by-step onboarding, and hands-on training to guarantee smooth integration and efficient use of HubSpot's powerful tools.</p>
+                        <h2><span class="text-orange">Comprehensive</span> Digital Marketing Solutions</h2>
+                        <p>At Pixiu, we offer a range of marketing services designed to boost your online presence, increase brand awareness, and drive conversions. Our services include:</p>
+                        <ul>
+                            <li><strong>Search Engine Optimization (SEO)</strong> - Improve your website's ranking and attract organic traffic.</li>
+                            <li><strong>Social Media Marketing</strong> - Develop tailored campaigns to engage your audience on platforms like Instagram, Facebook, and LinkedIn.</li>
+                            <li><strong>Pay-Per-Click (PPC)</strong> - Maximize your ad spend with optimized Google Ads and paid social campaigns.</li>
+                            <li><strong>Content Marketing</strong> - Craft high-quality content that resonates with your audience.</li>
+                        </ul>
 
                         <!-- Service Progress -->
                         <div class="service-progress mb-4">
                             <div class="progress-item">
-                                <span>Implementation & Training</span>
+                                <span>SEO & Optimization</span>
                                 <div class="progress">
                                     <div class="progress-bar bg-orange" data-value="95"></div>
                                     <span class="percentage">95%</span>
@@ -116,7 +121,7 @@
                             </div>
 
                             <div class="progress-item">
-                                <span>Optimization</span>
+                                <span>Social Media Marketing</span>
                                 <div class="progress">
                                     <div class="progress-bar bg-orange" data-value="90"></div>
                                     <span class="percentage">90%</span>
@@ -124,7 +129,7 @@
                             </div>
 
                             <div class="progress-item">
-                                <span>Consulting</span>
+                                <span>Pay-Per-Click (PPC)</span>
                                 <div class="progress">
                                     <div class="progress-bar bg-orange" data-value="85"></div>
                                     <span class="percentage">85%</span>
@@ -132,8 +137,7 @@
                             </div>
                         </div>
 
-                        <p>Pixiu’s HubSpot services ensure that your business leverages the full power of the platform. Whether you're integrating HubSpot for the first time or looking to optimize your existing setup, our experts are here to guide you through the process.</p>
-                        <p>We also offer ongoing consulting and support to keep your HubSpot platform evolving with your business needs.</p>
+                        <p>Our experts ensure that every campaign is aligned with your business goals, providing continuous optimization and ongoing support to maximize results.</p>
                     </div>
                 </div>
             </div>
@@ -145,8 +149,8 @@
     <section id="steps-success" class="steps-section">
         <div class="container-fluid text-center py-5">
             <!-- Section Title -->
-            <h2 class="fw-bold">Our 4 Steps <span class="text-orange">To HubSpot Success</span></h2>
-            <p class="text-muted">How we deliver top-notch HubSpot solutions to help your business thrive.</p>
+            <h2 class="fw-bold">Our 4 Steps <span class="text-orange">To Marketing Success</span></h2>
+            <p class="text-muted">How we develop and execute winning marketing strategies for your brand.</p>
 
             <!-- Tabs Navigation -->
             <ul class="nav nav-tabs justify-content-center mt-4 mb-5" id="stepsTabs" role="tablist">
@@ -154,13 +158,13 @@
                     <a class="nav-link active" id="consultation-tab" data-bs-toggle="tab" href="#consultation" role="tab" aria-controls="consultation" aria-selected="true">Initial Consultation</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" id="analysis-tab" data-bs-toggle="tab" href="#analysis" role="tab" aria-controls="analysis" aria-selected="false">Requirement Analysis</a>
+                    <a class="nav-link" id="analysis-tab" data-bs-toggle="tab" href="#analysis" role="tab" aria-controls="analysis" aria-selected="false">Market Research</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" id="estimation-tab" data-bs-toggle="tab" href="#estimation" role="tab" aria-controls="estimation" aria-selected="false">Final Project Estimation</a>
+                    <a class="nav-link" id="strategy-tab" data-bs-toggle="tab" href="#strategy" role="tab" aria-controls="strategy" aria-selected="false">Strategy Development</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" id="kickoff-tab" data-bs-toggle="tab" href="#kickoff" role="tab" aria-controls="kickoff" aria-selected="false">Project Kickoff</a>
+                    <a class="nav-link" id="execution-tab" data-bs-toggle="tab" href="#execution" role="tab" aria-controls="execution" aria-selected="false">Execution & Optimization</a>
                 </li>
             </ul>
 
@@ -171,73 +175,73 @@
                     <div class="row align-items-center">
                         <div class="col-md-6">
                             <h3 class="fw-bold">Initial Consultation</h3>
-                            <p class="text-muted">Our first interaction begins with understanding your HubSpot requirements, industry, tech stacks, architecture, deadlines, and budget. This helps us shape the best approach to meet your needs.</p>
+                            <p class="text-muted">We begin by understanding your business objectives, industry, and marketing needs. This helps us shape the best approach for your brand.</p>
                             <!-- Tags -->
                             <div class="tags mt-3">
-                                <span class="tag-label">Business Needs</span>
-                                <span class="tag-label">Tech Stack</span>
-                                <span class="tag-label">Budget & Timelines</span>
+                                <span class="tag-label">Business Objectives</span>
+                                <span class="tag-label">Target Audience</span>
+                                <span class="tag-label">Marketing Goals</span>
                             </div>
                         </div>
                         <div class="col-md-6">
-                            <img src="images/Operating system-pana.webp" alt="Consultation Step" class="img-fluid">
+                            <img src="images/marketing_6.webp" alt="Consultation Step" class="img-fluid">
                         </div>
                     </div>
                 </div>
 
-                <!-- Requirement Analysis Step -->
+                <!-- Market Research Step -->
                 <div class="tab-pane fade" id="analysis" role="tabpanel" aria-labelledby="analysis-tab">
                     <div class="row align-items-center">
                         <div class="col-md-6">
-                            <h3 class="fw-bold">Requirement Analysis</h3>
-                            <p class="text-muted">Next, our tech team will work with you to define technical possibilities and optimizations tailored to your business. We simplify the project’s scope and prepare actionable plans.</p>
+                            <h3 class="fw-bold">Market Research</h3>
+                            <p class="text-muted">We conduct thorough market research to understand the competitive landscape, your target audience, and opportunities for growth.</p>
                             <!-- Tags -->
                             <div class="tags mt-3">
-                                <span class="tag-label">Technical Analysis</span>
-                                <span class="tag-label">Optimization Planning</span>
-                                <span class="tag-label">Tailored Solutions</span>
+                                <span class="tag-label">Competitor Analysis</span>
+                                <span class="tag-label">Audience Insights</span>
+                                <span class="tag-label">Market Trends</span>
                             </div>
                         </div>
                         <div class="col-md-6">
-                            <img src="images/Operating system-pana.webp" alt="Analysis Step" class="img-fluid">
+                            <img src="images/marketing_6.webp" alt="Research Step" class="img-fluid">
                         </div>
                     </div>
                 </div>
 
-                <!-- Final Project Estimation Step -->
-                <div class="tab-pane fade" id="estimation" role="tabpanel" aria-labelledby="estimation-tab">
+                <!-- Strategy Development Step -->
+                <div class="tab-pane fade" id="strategy" role="tabpanel" aria-labelledby="strategy-tab">
                     <div class="row align-items-center">
                         <div class="col-md-6">
-                            <h3 class="fw-bold">Final Project Estimation</h3>
-                            <p class="text-muted">We’ll prepare a detailed project estimation with scope, objectives, and cost breakdown. This will be shared with you for review, ensuring full transparency before proceeding.</p>
+                            <h3 class="fw-bold">Strategy Development</h3>
+                            <p class="text-muted">We craft a custom marketing strategy, including SEO, social media, content, and paid campaigns, all designed to boost your online presence.</p>
                             <!-- Tags -->
                             <div class="tags mt-3">
-                                <span class="tag-label">Project Scope</span>
-                                <span class="tag-label">Cost Estimation</span>
-                                <span class="tag-label">Objectives & Deliverables</span>
+                                <span class="tag-label">SEO</span>
+                                <span class="tag-label">Content Strategy</span>
+                                <span class="tag-label">PPC & Paid Ads</span>
                             </div>
                         </div>
                         <div class="col-md-6">
-                            <img src="images/Operating system-pana.webp" alt="Estimation Step" class="img-fluid">
+                            <img src="images/marketing_6.webp" alt="Strategy Step" class="img-fluid">
                         </div>
                     </div>
                 </div>
 
-                <!-- Project Kickoff Step -->
-                <div class="tab-pane fade" id="kickoff" role="tabpanel" aria-labelledby="kickoff-tab">
+                <!-- Execution & Optimization Step -->
+                <div class="tab-pane fade" id="execution" role="tabpanel" aria-labelledby="execution-tab">
                     <div class="row align-items-center">
                         <div class="col-md-6">
-                            <h3 class="fw-bold">Project Kickoff</h3>
-                            <p class="text-muted">Once the estimation is approved, we will immediately begin the project. Our dedicated team will collaborate closely with you, ensuring smooth progress and timely updates throughout.</p>
+                            <h3 class="fw-bold">Execution & Optimization</h3>
+                            <p class="text-muted">We execute the strategy across all channels, continuously optimizing campaigns to maximize ROI and drive results.</p>
                             <!-- Tags -->
                             <div class="tags mt-3">
-                                <span class="tag-label">Team Collaboration</span>
-                                <span class="tag-label">Project Management</span>
-                                <span class="tag-label">Ongoing Communication</span>
+                                <span class="tag-label">Campaign Execution</span>
+                                <span class="tag-label">A/B Testing</span>
+                                <span class="tag-label">Ongoing Optimization</span>
                             </div>
                         </div>
                         <div class="col-md-6">
-                            <img src="images/Operating system-pana.webp" alt="Kickoff Step" class="img-fluid">
+                            <img src="images/marketing_6.webp" alt="Execution Step" class="img-fluid">
                         </div>
                     </div>
                 </div>
@@ -249,8 +253,8 @@
     <!-- Start of Call-to-Action Section -->
     <section id="call-to-action" class="cta-section py-5">
         <div class="container text-center">
-            <h2 class="fw-bold text-white">Are You Ready To Work & Develop With Us?</h2>
-            <p class="text-white">Don't Hesitate & Contact Us!</p>
+            <h2 class="fw-bold text-white">Ready to Elevate Your Marketing Strategy?</h2>
+            <p class="text-white">Contact us today and start achieving your marketing goals!</p>
             <a href="contact.php" class="btn btn-orange">Contact Us Now!</a>
         </div>
     </section>
@@ -270,30 +274,25 @@
 
     <script>
         document.addEventListener("DOMContentLoaded", function() {
-            // Seleccionamos todos los elementos que tienen la clase nav-link dentro de #stepsTabs
             const tabs = document.querySelectorAll('#stepsTabs .nav-link');
 
             tabs.forEach(tab => {
                 tab.addEventListener('click', function(e) {
-                    e.preventDefault(); // Evitamos el comportamiento por defecto
-                    const target = this.getAttribute('href'); // Obtenemos el destino del tab
-                    const section = document.querySelector(target); // Seleccionamos la sección del tab
-                    const offset = 400; // Ajusta el desplazamiento según sea necesario (en píxeles)
+                    e.preventDefault();
+                    const target = this.getAttribute('href');
+                    const section = document.querySelector(target);
+                    const offset = 400;
 
-                    // Calculamos la posición de desplazamiento restando el offset
                     const scrollPosition = section.offsetTop - offset;
 
-                    // Deslizamos suavemente a la posición calculada
                     window.scrollTo({
                         top: scrollPosition,
                         behavior: 'smooth'
                     });
 
-                    // Cambiamos el contenido del tab
                     tabs.forEach(t => t.classList.remove('active'));
                     this.classList.add('active');
 
-                    // Mostramos el contenido del tab
                     document.querySelectorAll('.tab-pane').forEach(pane => pane.classList.remove('show', 'active'));
                     document.querySelector(target).classList.add('show', 'active');
                 });

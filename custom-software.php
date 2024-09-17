@@ -97,14 +97,15 @@
                 <div class="row g-0 align-items-center">
                     <!-- Image inside the card -->
                     <div class="col-md-6">
-                        <img src="images/Website Creator-bro.webp" alt="Service Illustration" class="img-fluid service-img">
+                        <img src="images/Programming-rafiki.webp" alt="Service Illustration" class="img-fluid service-img">
                     </div>
 
                     <!-- Service Details inside the card -->
                     <div class="col-md-6 service-details p-4">
-                        <h2>Tailored <span class="text-orange">Software Solutions</span> & Comprehensive <span class="text-orange">Tech Services</span></h2>
-                        <p>We specialize in crafting bespoke software solutions that align with your business needs. Pixiu offers high-quality, scalable solutions, including Web Design, Custom Web Development, E-commerce Development, and Mobile Applications tailored to your specific requirements.</p>
-                        <p>Our team provides precision-driven solutions to optimize your operations and drive business growth.</p>
+                        <h2><span class="text-orange">Pixiu X</span> Software & Tech Services</h2>
+                        <p>Pixiu offers a wide range of tailored software and tech solutions, designed to align with your business goals and needs. Our services include Web Design, Custom Web Development, E-commerce Solutions, and Mobile Application Development, all created to ensure scalability and efficiency for your business.</p>
+
+                        <p>Our mission is to deliver high-quality solutions that empower your business, making your digital presence more impactful and future-proof.</p>
 
                         <!-- Service Progress -->
                         <div class="service-progress mb-4">
@@ -141,8 +142,9 @@
                             </div>
                         </div>
 
-                        <p>Pixiu’s services are designed to provide you with tailored solutions that enhance productivity and accelerate growth. Whether you're looking for a new website, an online store, or a mobile app, our experts are here to help.</p>
-                        <p>We offer ongoing support and optimization to ensure your software evolves alongside your business needs.</p>
+                        <p>Whether you need a unique web design, a custom development project, or a robust e-commerce platform, Pixiu provides end-to-end services to meet your expectations. Our solutions are backed by ongoing support to help your business evolve.</p>
+
+                        <p>Explore our services today and let's build something amazing together!</p>
                     </div>
                 </div>
             </div>
@@ -154,8 +156,8 @@
     <section id="steps-success" class="steps-section">
         <div class="container-fluid text-center py-5">
             <!-- Section Title -->
-            <h2 class="fw-bold">Our 5 Steps <span class="text-orange">To Success</span></h2>
-            <p class="text-muted">How we deliver top-notch custom software solutions to help your business thrive.</p>
+            <h2 class="fw-bold">Our 5 Steps <span class="text-orange">to Success</span></h2>
+            <p class="text-muted">Discover how Pixiu delivers high-quality custom software solutions designed to help your business thrive.</p>
 
             <!-- Tabs Navigation -->
             <ul class="nav nav-tabs justify-content-center mt-4 mb-5" id="stepsTabs" role="tablist">
@@ -183,7 +185,7 @@
                     <div class="row align-items-center">
                         <div class="col-md-6">
                             <h3 class="fw-bold">Discovery</h3>
-                            <p class="text-muted">We kick off by understanding your business needs, gathering software requirements, and aligning on the project scope. This ensures we're building the right solution for you.</p>
+                            <p class="text-muted">We start by analyzing your business needs, gathering requirements, and aligning our approach to ensure the project is focused on the right solutions for your company.</p>
                             <!-- Tags -->
                             <div class="tags mt-3">
                                 <span class="tag-label">Business Analysis</span>
@@ -192,7 +194,7 @@
                             </div>
                         </div>
                         <div class="col-md-6">
-                            <img src="images/Website Creator-rafiki.webp" alt="Discovery Step" class="img-fluid">
+                            <img src="images/Website Creator-pana.webp" alt="Discovery Step" class="img-fluid">
                         </div>
                     </div>
                 </div>
@@ -202,7 +204,7 @@
                     <div class="row align-items-center">
                         <div class="col-md-6">
                             <h3 class="fw-bold">Design</h3>
-                            <p class="text-muted">Our design team collaborates with you to create wireframes and mockups, defining how the software will look and feel. We also solidify the architecture and technology stack at this stage.</p>
+                            <p class="text-muted">Our team collaborates closely with you to create a design blueprint, including wireframes and mockups. We finalize the tech stack and architecture that will drive your project forward.</p>
                             <!-- Tags -->
                             <div class="tags mt-3">
                                 <span class="tag-label">Wireframes</span>
@@ -211,7 +213,7 @@
                             </div>
                         </div>
                         <div class="col-md-6">
-                            <img src="images/Website Creator-rafiki.webp" alt="Design Step" class="img-fluid">
+                            <img src="images/Website Creator-pana.webp" alt="Design Step" class="img-fluid">
                         </div>
                     </div>
                 </div>
@@ -221,7 +223,7 @@
                     <div class="row align-items-center">
                         <div class="col-md-6">
                             <h3 class="fw-bold">Development</h3>
-                            <p class="text-muted">This is where the magic happens! Our developers write the code and build the features that will turn your vision into reality, focusing on quality and scalability.</p>
+                            <p class="text-muted">Our developers bring the designs to life by coding and building the software with a focus on quality, functionality, and scalability to meet your business needs.</p>
                             <!-- Tags -->
                             <div class="tags mt-3">
                                 <span class="tag-label">Coding</span>
@@ -230,7 +232,7 @@
                             </div>
                         </div>
                         <div class="col-md-6">
-                            <img src="images/Website Creator-rafiki.webp" alt="Development Step" class="img-fluid">
+                            <img src="images/Website Creator-pana.webp" alt="Development Step" class="img-fluid">
                         </div>
                     </div>
                 </div>
@@ -240,16 +242,16 @@
                     <div class="row align-items-center">
                         <div class="col-md-6">
                             <h3 class="fw-bold">Review</h3>
-                            <p class="text-muted">Before launching, we thoroughly test the software, review functionality, and ensure everything works as expected. We collaborate with you to gather feedback and make improvements if necessary.</p>
+                            <p class="text-muted">We conduct thorough testing, review functionality, and gather your feedback. If needed, we make final adjustments to ensure the software meets your expectations before launch.</p>
                             <!-- Tags -->
                             <div class="tags mt-3">
                                 <span class="tag-label">Testing</span>
                                 <span class="tag-label">Feedback</span>
-                                <span class="tag-label">Bug Fixing</span>
+                                <span class="tag-label">Final Adjustments</span>
                             </div>
                         </div>
                         <div class="col-md-6">
-                            <img src="images/Website Creator-rafiki.webp" alt="Review Step" class="img-fluid">
+                            <img src="images/Website Creator-pana.webp" alt="Review Step" class="img-fluid">
                         </div>
                     </div>
                 </div>
@@ -259,7 +261,7 @@
                     <div class="row align-items-center">
                         <div class="col-md-6">
                             <h3 class="fw-bold">Maintenance</h3>
-                            <p class="text-muted">Once the software is live, our team continues to monitor its performance, providing updates, security patches, and feature enhancements to keep it aligned with your evolving business needs.</p>
+                            <p class="text-muted">Post-launch, we provide ongoing support, updates, and optimizations to ensure the software adapts to your growing needs and remains secure over time.</p>
                             <!-- Tags -->
                             <div class="tags mt-3">
                                 <span class="tag-label">Security</span>
@@ -268,7 +270,7 @@
                             </div>
                         </div>
                         <div class="col-md-6">
-                            <img src="images/Website Creator-rafiki.webp" alt="Maintenance Step" class="img-fluid">
+                            <img src="images/Website Creator-pana.webp" alt="Maintenance Step" class="img-fluid">
                         </div>
                     </div>
                 </div>
@@ -300,37 +302,37 @@
     <script src="js/animations.js"></script>
 
     <script>
-    document.addEventListener("DOMContentLoaded", function() {
-        // Seleccionamos todos los elementos que tienen la clase nav-link dentro de #stepsTabs
-        const tabs = document.querySelectorAll('#stepsTabs .nav-link');
+        document.addEventListener("DOMContentLoaded", function() {
+            // Seleccionamos todos los elementos que tienen la clase nav-link dentro de #stepsTabs
+            const tabs = document.querySelectorAll('#stepsTabs .nav-link');
 
-        tabs.forEach(tab => {
-            tab.addEventListener('click', function(e) {
-                e.preventDefault(); // Evitamos el comportamiento por defecto
-                const target = this.getAttribute('href'); // Obtenemos el destino del tab
-                const section = document.querySelector(target); // Seleccionamos la sección del tab
-                const offset = 400; // Ajusta el desplazamiento según sea necesario (en píxeles)
+            tabs.forEach(tab => {
+                tab.addEventListener('click', function(e) {
+                    e.preventDefault(); // Evitamos el comportamiento por defecto
+                    const target = this.getAttribute('href'); // Obtenemos el destino del tab
+                    const section = document.querySelector(target); // Seleccionamos la sección del tab
+                    const offset = 400; // Ajusta el desplazamiento según sea necesario (en píxeles)
 
-                // Calculamos la posición de desplazamiento restando el offset
-                const scrollPosition = section.offsetTop - offset;
+                    // Calculamos la posición de desplazamiento restando el offset
+                    const scrollPosition = section.offsetTop - offset;
 
-                // Deslizamos suavemente a la posición calculada
-                window.scrollTo({
-                    top: scrollPosition,
-                    behavior: 'smooth'
+                    // Deslizamos suavemente a la posición calculada
+                    window.scrollTo({
+                        top: scrollPosition,
+                        behavior: 'smooth'
+                    });
+
+                    // Cambiamos el contenido del tab
+                    tabs.forEach(t => t.classList.remove('active'));
+                    this.classList.add('active');
+
+                    // Mostramos el contenido del tab
+                    document.querySelectorAll('.tab-pane').forEach(pane => pane.classList.remove('show', 'active'));
+                    document.querySelector(target).classList.add('show', 'active');
                 });
-
-                // Cambiamos el contenido del tab
-                tabs.forEach(t => t.classList.remove('active'));
-                this.classList.add('active');
-
-                // Mostramos el contenido del tab
-                document.querySelectorAll('.tab-pane').forEach(pane => pane.classList.remove('show', 'active'));
-                document.querySelector(target).classList.add('show', 'active');
             });
         });
-    });
-</script>
+    </script>
 
 </body>
 

@@ -202,7 +202,7 @@ a:hover {
     position: relative;
     z-index: 1;
     overflow: hidden;
-    min-height: 600px;
+    min-height: 50rem;
     /* Agregar una altura mínima */
 }
 

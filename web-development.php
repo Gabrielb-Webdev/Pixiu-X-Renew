@@ -57,13 +57,13 @@
         <div class="container-fluid">
             <div class="row align-items-center">
                 <div class="col-md-6 welcome-text">
-                    <h6 class="text-uppercase text-orange">Custom Software Development </h6>
+                    <h6 class="text-uppercase text-orange">Custom Software Development</h6>
                     <div class="underline-orange"></div>
                     <h1 class="fw-bold">
-                        Crafting Bespoke Software Solutions That Align with Your Business
+                        Boost Your Business with a Custom Website
                     </h1>
                     <p class="text-muted">
-                        Pixiu specializes in delivering high-quality, efficient, and scalable software that optimizes your operations and fuels business growth. Let us help you with tailored solutions for your unique business needs.
+                        Open a new channel for sales and communication, enhance your brand's professional image, and expand your reach by selling digital products. Let us create a website that is as unique as your business, with customized features and scalable solutions.
                     </p>
                     <div class="buttons mt-4">
                         <a href="https://meetings.hubspot.com/pixiu" class="btn btn-orange me-2" target="_blank">Book A Call</a>
@@ -101,47 +101,88 @@
 
                     <!-- Service Details inside the card -->
                     <div class="col-md-6 service-details p-4">
-                        <h2>Tailored <span class="text-orange">Software Solutions</span> & Comprehensive <span class="text-orange">Tech Services</span></h2>
-                        <p>We specialize in crafting bespoke software solutions that align with your business needs. Pixiu offers high-quality, scalable solutions, including Web Design, Custom Web Development, E-commerce Development, and Mobile Applications tailored to your specific requirements.</p>
-                        <p>Our team provides precision-driven solutions to optimize your operations and drive business growth.</p>
+                        <h2 class="text-center mb-4">Our <span class="text-orange">Quick Website Solutions</span></h2>
 
-                        <!-- Service Progress -->
-                        <div class="service-progress mb-4">
-                            <div class="progress-item">
-                                <span>Web Design</span>
+                        <!-- Express Offer -->
+                        <div class="mb-3 d-flex align-items-center">
+                            <i class="fas fa-bolt text-orange me-2" style="font-size: 24px;"></i>
+                            <h4 class="text-orange mb-0">Express Offer</h4>
+                        </div>
+                        <p class="text-muted">Get your website up in 3 days! <br><strong>$199</strong> (was $499)</p>
+                        <p><em>Includes 1 page, delivered in 5 days once we receive all the details.</em></p>
+                        <p class="text-muted mb-4">Optional add-ons:
+                        <ul class="text-muted">
+                            <li>Logo Design: +$50</li>
+                            <li>Additional Designs: +$25</li>
+                            <li>Branding (Colors): +$50</li>
+                            <li>Additional Pages: +$50</li>
+                        </ul>
+                        </p>
+
+                        <!-- Online Store Offer -->
+                        <div class="mb-3 d-flex align-items-center">
+                            <i class="fas fa-store text-orange me-2" style="font-size: 24px;"></i>
+                            <h4 class="text-orange mb-0">Online Store</h4>
+                        </div>
+                        <p class="text-muted">Ecommerce solution in just 7 days! <br><strong>$499</strong> (was $999)</p>
+                        <p><em>Delivered in 7 days after receiving all information.</em></p>
+                        <p class="text-muted mb-4">Optional add-ons:
+                        <ul class="text-muted">
+                            <li>Logo Design: +$50</li>
+                            <li>Additional Designs: +$25</li>
+                            <li>Branding (Colors): +$50</li>
+                            <li>Additional Pages: +$50</li>
+                        </ul>
+                        </p>
+
+                        <!-- Customized Web Offer -->
+                        <div class="mb-3 d-flex align-items-center">
+                            <i class="fas fa-pencil-ruler text-orange me-2" style="font-size: 24px;"></i>
+                            <h4 class="text-orange mb-0">Customized Web</h4>
+                        </div>
+                        <p class="text-muted">Personalized websites tailored to your specific needs. Includes complete brand design, custom web pages, and a unique visual strategy.</p>
+
+                        <!-- Recycled Service Progress (UX/UI Simplified) -->
+                        <div class="service-progress mt-4">
+                            <h5 class="text-orange text-center mb-3">Our Expertise</h5>
+                            <div class="progress-item mb-2">
+                                <span>Express Offer</span>
                                 <div class="progress">
-                                    <div class="progress-bar bg-orange" data-value="90"></div>
+                                    <div class="progress-bar bg-orange" data-value="90" style="width: 90%;"></div>
                                     <span class="percentage">90%</span>
                                 </div>
                             </div>
 
-                            <div class="progress-item">
-                                <span>Custom Web Development</span>
+                            <div class="progress-item mb-2">
+                                <span>Online Store</span>
                                 <div class="progress">
-                                    <div class="progress-bar bg-orange" data-value="85"></div>
+                                    <div class="progress-bar bg-orange" data-value="85" style="width: 85%;"></div>
                                     <span class="percentage">85%</span>
                                 </div>
                             </div>
 
-                            <div class="progress-item">
-                                <span>E-commerce Development</span>
+                            <div class="progress-item mb-2">
+                                <span>Customized Web</span>
                                 <div class="progress">
-                                    <div class="progress-bar bg-orange" data-value="80"></div>
+                                    <div class="progress-bar bg-orange" data-value="80" style="width: 80%;"></div>
                                     <span class="percentage">80%</span>
                                 </div>
                             </div>
 
                             <div class="progress-item">
-                                <span>Mobile Applications</span>
+                                <span>Ongoing Support</span>
                                 <div class="progress">
-                                    <div class="progress-bar bg-orange" data-value="75"></div>
+                                    <div class="progress-bar bg-orange" data-value="75" style="width: 75%;"></div>
                                     <span class="percentage">75%</span>
                                 </div>
                             </div>
                         </div>
 
-                        <p>Pixiu’s services are designed to provide you with tailored solutions that enhance productivity and accelerate growth. Whether you're looking for a new website, an online store, or a mobile app, our experts are here to help.</p>
-                        <p>We offer ongoing support and optimization to ensure your software evolves alongside your business needs.</p>
+                        <!-- Call to Action -->
+                        <div class="text-center mt-4">
+                            <h5 class="text-muted">Have questions?</h5>
+                            <a href="https://meetings.hubspot.com/pixiu" class="btn btn-orange">Book a Call</a>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -153,8 +194,8 @@
     <section id="steps-success" class="steps-section">
         <div class="container-fluid text-center py-5">
             <!-- Section Title -->
-            <h2 class="fw-bold">Our 5 Steps <span class="text-orange">To Success</span></h2>
-            <p class="text-muted">How we deliver top-notch custom software solutions to help your business thrive.</p>
+            <h2 class="fw-bold">Our Simple <span class="text-orange">5-Step Process</span></h2>
+            <p class="text-muted">From idea to launch, we guide you every step of the way to ensure your success.</p>
 
             <!-- Tabs Navigation -->
             <ul class="nav nav-tabs justify-content-center mt-4 mb-5" id="stepsTabs" role="tablist">
@@ -162,10 +203,10 @@
                     <a class="nav-link active" id="discovery-tab" data-bs-toggle="tab" href="#discovery" role="tab" aria-controls="discovery" aria-selected="true">Discovery</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" id="design-tab" data-bs-toggle="tab" href="#design" role="tab" aria-controls="design" aria-selected="false">Design</a>
+                    <a class="nav-link" id="design-tab" data-bs-toggle="tab" href="#design" role="tab" aria-controls="design" aria-selected="false"> Design</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" id="development-tab" data-bs-toggle="tab" href="#development" role="tab" aria-controls="development" aria-selected="false">Development</a>
+                    <a class="nav-link" id="development-tab" data-bs-toggle="tab" href="#development" role="tab" aria-controls="development" aria-selected="false"> Development</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" id="review-tab" data-bs-toggle="tab" href="#review" role="tab" aria-controls="review" aria-selected="false">Review</a>
@@ -181,17 +222,17 @@
                 <div class="tab-pane fade show active" id="discovery" role="tabpanel" aria-labelledby="discovery-tab">
                     <div class="row align-items-center">
                         <div class="col-md-6">
-                            <h3 class="fw-bold">Discovery</h3>
-                            <p class="text-muted">We kick off by understanding your business needs, gathering software requirements, and aligning on the project scope. This ensures we're building the right solution for you.</p>
+                            <h3 class="fw-bold">Step 1: Discovery</h3>
+                            <p class="text-muted">We start by understanding your business goals, gathering requirements, and defining the project scope. This sets the foundation for building a tailored solution that meets your needs.</p>
                             <!-- Tags -->
                             <div class="tags mt-3">
                                 <span class="tag-label">Business Analysis</span>
-                                <span class="tag-label">Project Scope</span>
-                                <span class="tag-label">Requirement Gathering</span>
+                                <span class="tag-label">Requirements</span>
+                                <span class="tag-label">Scope Definition</span>
                             </div>
                         </div>
                         <div class="col-md-6">
-                            <img src="images/Website Creator-rafiki.webp" alt="Discovery Step" class="img-fluid">
+                            <img src="images/Website Creator-cuate.webp" alt="Discovery Step" class="img-fluid">
                         </div>
                     </div>
                 </div>
@@ -200,17 +241,17 @@
                 <div class="tab-pane fade" id="design" role="tabpanel" aria-labelledby="design-tab">
                     <div class="row align-items-center">
                         <div class="col-md-6">
-                            <h3 class="fw-bold">Design</h3>
-                            <p class="text-muted">Our design team collaborates with you to create wireframes and mockups, defining how the software will look and feel. We also solidify the architecture and technology stack at this stage.</p>
+                            <h3 class="fw-bold">Step 2: Design</h3>
+                            <p class="text-muted">Next, we create wireframes and mockups to bring your vision to life. This phase also includes finalizing the technical architecture and tools we’ll use to build your solution.</p>
                             <!-- Tags -->
                             <div class="tags mt-3">
                                 <span class="tag-label">Wireframes</span>
                                 <span class="tag-label">Mockups</span>
-                                <span class="tag-label">Tech Stack</span>
+                                <span class="tag-label">Technology Stack</span>
                             </div>
                         </div>
                         <div class="col-md-6">
-                            <img src="images/Website Creator-rafiki.webp" alt="Design Step" class="img-fluid">
+                            <img src="images/Website Creator-cuate.webp" alt="Design Step" class="img-fluid">
                         </div>
                     </div>
                 </div>
@@ -219,17 +260,17 @@
                 <div class="tab-pane fade" id="development" role="tabpanel" aria-labelledby="development-tab">
                     <div class="row align-items-center">
                         <div class="col-md-6">
-                            <h3 class="fw-bold">Development</h3>
-                            <p class="text-muted">This is where the magic happens! Our developers write the code and build the features that will turn your vision into reality, focusing on quality and scalability.</p>
+                            <h3 class="fw-bold">Step 3: Development</h3>
+                            <p class="text-muted">With the design in place, our development team starts coding. We build, test, and refine the product to ensure it's functional, scalable, and aligned with your business goals.</p>
                             <!-- Tags -->
                             <div class="tags mt-3">
                                 <span class="tag-label">Coding</span>
-                                <span class="tag-label">Feature Development</span>
-                                <span class="tag-label">Scalability</span>
+                                <span class="tag-label">Testing</span>
+                                <span class="tag-label">Quality Assurance</span>
                             </div>
                         </div>
                         <div class="col-md-6">
-                            <img src="images/Website Creator-rafiki.webp" alt="Development Step" class="img-fluid">
+                            <img src="images/Website Creator-cuate.webp" alt="Development Step" class="img-fluid">
                         </div>
                     </div>
                 </div>
@@ -238,17 +279,17 @@
                 <div class="tab-pane fade" id="review" role="tabpanel" aria-labelledby="review-tab">
                     <div class="row align-items-center">
                         <div class="col-md-6">
-                            <h3 class="fw-bold">Review</h3>
-                            <p class="text-muted">Before launching, we thoroughly test the software, review functionality, and ensure everything works as expected. We collaborate with you to gather feedback and make improvements if necessary.</p>
+                            <h3 class="fw-bold">Step 4: Review</h3>
+                            <p class="text-muted">Before launching, we review every aspect of the product, ensuring everything functions perfectly. We work closely with you to gather feedback and make adjustments if needed.</p>
                             <!-- Tags -->
                             <div class="tags mt-3">
                                 <span class="tag-label">Testing</span>
-                                <span class="tag-label">Feedback</span>
-                                <span class="tag-label">Bug Fixing</span>
+                                <span class="tag-label">Client Feedback</span>
+                                <span class="tag-label">Final Adjustments</span>
                             </div>
                         </div>
                         <div class="col-md-6">
-                            <img src="images/Website Creator-rafiki.webp" alt="Review Step" class="img-fluid">
+                            <img src="images/Website Creator-cuate.webp" alt="Review Step" class="img-fluid">
                         </div>
                     </div>
                 </div>
@@ -257,17 +298,17 @@
                 <div class="tab-pane fade" id="maintenance" role="tabpanel" aria-labelledby="maintenance-tab">
                     <div class="row align-items-center">
                         <div class="col-md-6">
-                            <h3 class="fw-bold">Maintenance</h3>
-                            <p class="text-muted">Once the software is live, our team continues to monitor its performance, providing updates, security patches, and feature enhancements to keep it aligned with your evolving business needs.</p>
+                            <h3 class="fw-bold">Step 5: Maintenance</h3>
+                            <p class="text-muted">After launch, we continue to provide support, updates, and performance monitoring to keep your software running smoothly and adapting to your evolving business needs.</p>
                             <!-- Tags -->
                             <div class="tags mt-3">
-                                <span class="tag-label">Security</span>
-                                <span class="tag-label">Feature Updates</span>
                                 <span class="tag-label">Ongoing Support</span>
+                                <span class="tag-label">Updates</span>
+                                <span class="tag-label">Performance Monitoring</span>
                             </div>
                         </div>
                         <div class="col-md-6">
-                            <img src="images/Website Creator-rafiki.webp" alt="Maintenance Step" class="img-fluid">
+                            <img src="images/Website Creator-cuate.webp" alt="Maintenance Step" class="img-fluid">
                         </div>
                     </div>
                 </div>
@@ -299,37 +340,37 @@
     <script src="js/animations.js"></script>
 
     <script>
-    document.addEventListener("DOMContentLoaded", function() {
-        // Seleccionamos todos los elementos que tienen la clase nav-link dentro de #stepsTabs
-        const tabs = document.querySelectorAll('#stepsTabs .nav-link');
+        document.addEventListener("DOMContentLoaded", function() {
+            // Seleccionamos todos los elementos que tienen la clase nav-link dentro de #stepsTabs
+            const tabs = document.querySelectorAll('#stepsTabs .nav-link');
 
-        tabs.forEach(tab => {
-            tab.addEventListener('click', function(e) {
-                e.preventDefault(); // Evitamos el comportamiento por defecto
-                const target = this.getAttribute('href'); // Obtenemos el destino del tab
-                const section = document.querySelector(target); // Seleccionamos la sección del tab
-                const offset = 400; // Ajusta el desplazamiento según sea necesario (en píxeles)
+            tabs.forEach(tab => {
+                tab.addEventListener('click', function(e) {
+                    e.preventDefault(); // Evitamos el comportamiento por defecto
+                    const target = this.getAttribute('href'); // Obtenemos el destino del tab
+                    const section = document.querySelector(target); // Seleccionamos la sección del tab
+                    const offset = 400; // Ajusta el desplazamiento según sea necesario (en píxeles)
 
-                // Calculamos la posición de desplazamiento restando el offset
-                const scrollPosition = section.offsetTop - offset;
+                    // Calculamos la posición de desplazamiento restando el offset
+                    const scrollPosition = section.offsetTop - offset;
 
-                // Deslizamos suavemente a la posición calculada
-                window.scrollTo({
-                    top: scrollPosition,
-                    behavior: 'smooth'
+                    // Deslizamos suavemente a la posición calculada
+                    window.scrollTo({
+                        top: scrollPosition,
+                        behavior: 'smooth'
+                    });
+
+                    // Cambiamos el contenido del tab
+                    tabs.forEach(t => t.classList.remove('active'));
+                    this.classList.add('active');
+
+                    // Mostramos el contenido del tab
+                    document.querySelectorAll('.tab-pane').forEach(pane => pane.classList.remove('show', 'active'));
+                    document.querySelector(target).classList.add('show', 'active');
                 });
-
-                // Cambiamos el contenido del tab
-                tabs.forEach(t => t.classList.remove('active'));
-                this.classList.add('active');
-
-                // Mostramos el contenido del tab
-                document.querySelectorAll('.tab-pane').forEach(pane => pane.classList.remove('show', 'active'));
-                document.querySelector(target).classList.add('show', 'active');
             });
         });
-    });
-</script>
+    </script>
 
 </body>
 

@@ -156,7 +156,7 @@
                         <div class="card-img-container position-relative overflow-hidden">
                             <img src="images/Marketing.webp" class="card-img-top marketing-card-img" alt="Marketing">
                             <div class="card-overlay text-center d-flex justify-content-center align-items-center">
-                                <a href="marketing.html" class="btn btn-orange">
+                                <a href="marketing.php" class="btn btn-orange">
                                     Marketing
                                     <i class="fas fa-arrow-right ms-2"></i>
                                 </a>
