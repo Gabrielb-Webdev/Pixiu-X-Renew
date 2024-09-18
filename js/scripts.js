@@ -1,18 +1,26 @@
-document.querySelectorAll('a[href^="index.php#"]').forEach(anchor => {
+document.addEventListener("DOMContentLoaded", function() {
+    const progressBars = document.querySelectorAll(".progress-bar");
+
+    progressBars.forEach((bar) => {
+        const value = bar.getAttribute("data-value"); // Obtener el valor del atributo data-value
+        bar.style.width = value + "%"; // Aplicar el porcentaje de ancho
+    });
+});
+
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     anchor.addEventListener('click', function(e) {
-        e.preventDefault(); // Previene la recarga de la página
-        const targetID = this.getAttribute('href').split('#')[1]; // Obtiene la sección destino (por ejemplo: "home")
-        const targetElement = document.getElementById(targetID); // Busca el elemento con ese ID
+        e.preventDefault();
 
-        if (targetElement) {
-            const offset = 80; // Ajusta este valor para cambiar el margen superior
-            const elementPosition = targetElement.getBoundingClientRect().top + window.pageYOffset;
-            const offsetPosition = elementPosition - offset;
+        const targetElement = document.querySelector(this.getAttribute('href'));
+        const offset = 1000; // Ajusta este valor para modificar la distancia superior
 
-            window.scrollTo({
-                top: offsetPosition,
-                behavior: 'smooth'
-            });
-        }
+        // Desplazamiento con ajuste para dejar espacio arriba
+        const elementPosition = targetElement.getBoundingClientRect().top + window.pageYOffset;
+        const offsetPosition = elementPosition - offset;
+
+        window.scrollTo({
+            top: offsetPosition,
+            behavior: 'smooth'
+        });
     });
 });
