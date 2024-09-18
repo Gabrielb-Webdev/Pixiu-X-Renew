@@ -4,7 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pixiu X</title>
+    <title>Pixiu X - HubSpot Solutions, Web Development & Data Services</title>
+    <meta name="description" content="Discover expert HubSpot consulting, web development, data extraction, and custom software solutions with Pixiu X to enhance your business growth.">
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
     <!-- GSAP (ScrollTrigger) -->
@@ -16,37 +17,6 @@
 </head>
 
 <body>
-    <!-- Start of Contact Info Section -->
-    <div class="container py-3 d-none d-md-flex flex-column flex-md-row justify-content-between align-items-center info-section">
-        <!-- Contact Info -->
-        <div class="d-flex flex-column flex-md-row align-items-center mb-3 mb-md-0">
-            <div class="me-md-4 mb-2 mb-md-0">
-                <i class="fas fa-phone-alt text-warning"></i> +000 1234 5678
-            </div>
-            <div class="me-md-4 mb-2 mb-md-0">
-                <i class="fas fa-envelope text-warning"></i> info@pixiux.com
-            </div>
-            <div>
-                <i class="fas fa-map-marker-alt text-warning"></i> 54th Street, London, UK
-            </div>
-        </div>
-        <!-- Social Media Icons -->
-        <div class="d-flex">
-            <a href="#" class="text-warning me-3">
-                <i class="fab fa-facebook-f"></i>
-            </a>
-            <a href="#" class="text-warning me-3">
-                <i class="fab fa-twitter"></i>
-            </a>
-            <a href="#" class="text-warning me-3">
-                <i class="fab fa-linkedin-in"></i>
-            </a>
-            <a href="#" class="text-warning">
-                <i class="fab fa-google"></i>
-            </a>
-        </div>
-    </div>
-    <!-- End of Contact Info Section -->
 
     <!-- Start of Navbar -->
     <?php include 'components/navbar.php'; ?>
@@ -161,16 +131,6 @@
                                     Marketing
                                     <i class="fas fa-arrow-right ms-2"></i>
                                 </a>
-                                <!-- Botón para el primer servicio de Marketing -->
-                                <a href="digital-marketing.php" class="btn btn-orange ms-2">
-                                    Digital Marketing
-                                    <i class="fas fa-arrow-right ms-2"></i>
-                                </a>
-                                <!-- Botón para el segundo servicio de Marketing -->
-                                <a href="email-marketing.php" class="btn btn-orange ms-2">
-                                    Email Marketing
-                                    <i class="fas fa-arrow-right ms-2"></i>
-                                </a>
                             </div>
                         </div>
                         <div class="card-body text-center">
@@ -191,16 +151,6 @@
                                     HubSpot Consulting
                                     <i class="fas fa-arrow-right ms-2"></i>
                                 </a>
-                                <!-- Botón para HubSpot Implementation -->
-                                <a href="hubspot-implementation.php" class="btn btn-orange ms-2">
-                                    HubSpot Implementation
-                                    <i class="fas fa-arrow-right ms-2"></i>
-                                </a>
-                                <!-- Botón para HubSpot Optimization -->
-                                <a href="hubspot-optimization.php" class="btn btn-orange ms-2">
-                                    HubSpot Optimization
-                                    <i class="fas fa-arrow-right ms-2"></i>
-                                </a>
                             </div>
                         </div>
                         <div class="card-body text-center">
@@ -210,18 +160,14 @@
                     </div>
                 </div>
 
-                <!-- Combined Card: Website Creation & Custom Software Development -->
+                <!-- Combined Card: Website Creation & Data Extraction -->
                 <div class="col-lg-3 mb-4">
                     <div class="card service-card h-100 shadow-lg border-0 rounded-lg hover-zoom">
                         <div class="card-img-container position-relative overflow-hidden">
-                            <img src="images/Developer activity-amico.webp" class="card-img-top" alt="Website Creation & Software Development">
+                            <img src="images/Developer activity-amico.webp" class="card-img-top" alt="Website Creation & Data Extraction">
                             <div class="card-overlay text-center d-flex justify-content-center align-items-center">
                                 <a href="web-development.php" class="btn btn-orange me-2">
                                     Website Creation
-                                    <i class="fas fa-arrow-right ms-2"></i>
-                                </a>
-                                <a href="custom-software.php" class="btn btn-orange ms-2">
-                                    Software Development
                                     <i class="fas fa-arrow-right ms-2"></i>
                                 </a>
                                 <a href="data-extraction.php" class="btn btn-orange">
@@ -231,8 +177,8 @@
                             </div>
                         </div>
                         <div class="card-body text-center">
-                            <h5 class="card-title fw-bold">Website Creation</h5>
-                            <p class="card-text">Professional website creation and tailored software solutions to meet your business needs.</p>
+                            <h5 class="card-title fw-bold">Website Creation & Data Extraction</h5>
+                            <p class="card-text">Professional website creation and data extraction solutions to meet your business needs.</p>
                         </div>
                     </div>
                 </div>
@@ -243,26 +189,16 @@
                         <div class="card-img-container position-relative overflow-hidden">
                             <img src="images/Design.webp" class="card-img-top" alt="Multimedia Design">
                             <div class="card-overlay text-center d-flex justify-content-center align-items-center">
-                                <!-- Button for Web Design -->
-                                <a href="web-design.php" class="btn btn-orange me-2">
-                                    Web Design
-                                    <i class="fas fa-arrow-right ms-2"></i>
-                                </a>
-                                <!-- Button for Brand Design -->
-                                <a href="brand-design.php" class="btn btn-orange ms-2">
-                                    Brand Design
-                                    <i class="fas fa-arrow-right ms-2"></i>
-                                </a>
-                                <!-- Button for Logo Design -->
-                                <a href="logo-design.php" class="btn btn-orange ms-2">
-                                    Logo Design
+                                <!-- Botón para la página general de Multimedia Design -->
+                                <a href="multimedia-design.php" class="btn btn-orange me-2">
+                                    Multimedia Design
                                     <i class="fas fa-arrow-right ms-2"></i>
                                 </a>
                             </div>
                         </div>
                         <div class="card-body text-center">
                             <h5 class="card-title fw-bold">Multimedia Design</h5>
-                            <p class="card-text">Take advantage of our multimedia design services with specialized options for Web Design, Brand Design, and Logo Design.</p>
+                            <p class="card-text">Take advantage of our multimedia design services for Web, Brand, and Logo Design.</p>
                         </div>
                     </div>
                 </div>
@@ -311,7 +247,7 @@
                             </div>
 
                             <div class="progress-item">
-                                <span>Data Extraction</span>
+                                <span>Marketing</span>
                                 <div class="progress">
                                     <div class="progress-bar bg-orange" data-value="80"></div>
                                     <span class="percentage">80%</span>
@@ -319,7 +255,7 @@
                             </div>
 
                             <div class="progress-item">
-                                <span>Software Development</span>
+                                <span>Multimedia Design</span>
                                 <div class="progress">
                                     <div class="progress-bar bg-orange" data-value="75"></div>
                                     <span class="percentage">75%</span>
@@ -411,6 +347,38 @@
         </div>
     </section>
     <!-- End of Contact Section -->
+     
+    <!-- Start of Contact Info Section -->
+    <div class="container py-3 d-none d-md-flex flex-column flex-md-row justify-content-between align-items-center info-section">
+        <!-- Contact Info -->
+        <div class="d-flex flex-column flex-md-row align-items-center mb-3 mb-md-0">
+            <div class="me-md-4 mb-2 mb-md-0">
+                <i class="fas fa-phone-alt text-warning"></i> +000 1234 5678
+            </div>
+            <div class="me-md-4 mb-2 mb-md-0">
+                <i class="fas fa-envelope text-warning"></i> info@pixiux.com
+            </div>
+            <div>
+                <i class="fas fa-map-marker-alt text-warning"></i> 54th Street, London, UK
+            </div>
+        </div>
+        <!-- Social Media Icons -->
+        <div class="d-flex">
+            <a href="#" class="text-warning me-3">
+                <i class="fab fa-facebook-f"></i>
+            </a>
+            <a href="#" class="text-warning me-3">
+                <i class="fab fa-twitter"></i>
+            </a>
+            <a href="#" class="text-warning me-3">
+                <i class="fab fa-linkedin-in"></i>
+            </a>
+            <a href="#" class="text-warning">
+                <i class="fab fa-google"></i>
+            </a>
+        </div>
+    </div>
+    <!-- End of Contact Info Section -->
 
     <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
