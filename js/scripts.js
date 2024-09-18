@@ -7,20 +7,30 @@ document.addEventListener("DOMContentLoaded", function() {
     });
 });
 
-document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+document.querySelectorAll('a[href^="index.php#"]').forEach(anchor => {
     anchor.addEventListener('click', function(e) {
-        e.preventDefault();
+        const currentPage = window.location.pathname.split('/').pop(); // Obtiene el nombre de la página actual
+        const targetID = this.getAttribute('href').split('#')[1]; // Obtiene el ID de la sección del enlace
 
-        const targetElement = document.querySelector(this.getAttribute('href'));
-        const offset = 1000; // Ajusta este valor para modificar la distancia superior
+        // Si estamos en el index.php, prevenimos la recarga y hacemos scroll suave
+        if (currentPage === 'index.php' || currentPage === '') {
+            e.preventDefault(); // Previene la recarga de la página
+            const targetElement = document.getElementById(targetID); // Busca el elemento con ese ID
 
-        // Desplazamiento con ajuste para dejar espacio arriba
-        const elementPosition = targetElement.getBoundingClientRect().top + window.pageYOffset;
-        const offsetPosition = elementPosition - offset;
+            if (targetElement) {
+                const offset = 80; // Ajusta este valor para cambiar el margen superior
+                const elementPosition = targetElement.getBoundingClientRect().top + window.pageYOffset;
+                const offsetPosition = elementPosition - offset;
 
-        window.scrollTo({
-            top: offsetPosition,
-            behavior: 'smooth'
-        });
+                window.scrollTo({
+                    top: offsetPosition,
+                    behavior: 'smooth'
+                });
+            }
+        } else {
+            // Si no estamos en el index.php, dejamos que el enlace funcione normalmente y redirija
+            window.location.href = `index.php#${targetID}`;
+        }
     });
 });
+
