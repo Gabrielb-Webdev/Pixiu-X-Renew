@@ -1,9 +1,9 @@
 <!-- Inicio de Navbar -->
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <div class="container py-3 navbar-spacing">
+    <div class="container py-2 navbar-spacing"> <!-- Reducido el padding -->
         <!-- Logo -->
         <a class="navbar-brand" href="index.php">
-            <img src="images/logo.webp" alt="Logo" class="logo-img">
+            <img src="images/logo.webp" alt="Logo" class="logo-img" style="max-height: 30px;"> <!-- Reducido el tamaño del logo -->
         </a>
         <!-- Toggler for mobile view -->
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -16,28 +16,33 @@
                 <li class="nav-item">
                     <a class="nav-link active" aria-current="page" href="index.php#home">Home</a>
                 </li>
-                <!-- Services Link -->
-                <li class="nav-item">
-                    <a class="nav-link" href="index.php#services">Services</a>
-                </li>
-                <!-- Projects Link -->
-                <li class="nav-item">
-                    <a class="nav-link" href="index.php#projects">What We Do</a>
-                </li>
-                <!-- Dropdown for Extra Pages (About Us, FAQs) -->
+                
+                <!-- Services Dropdown -->
                 <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="index.php#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        Pages
+                    <a class="nav-link dropdown-toggle" href="#" id="servicesDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Services
                     </a>
-                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <li><a class="dropdown-item" href="about.php">About Us</a></li>
-                        <li><a class="dropdown-item" href="faqs.php">FAQs</a></li>
+                    <ul class="dropdown-menu" aria-labelledby="servicesDropdown">
+                        <li><a class="dropdown-item" href="marketing.php">Marketing</a></li>
+                        <li><a class="dropdown-item" href="hubspot.php">HubSpot Consulting</a></li>
+                        <li><a class="dropdown-item" href="web-development.php">Web Development</a></li>
+                        <li><a class="dropdown-item" href="custom-software.php">Custom Software</a></li>
+                        <li><a class="dropdown-item" href="data-extraction.php">Data Extraction</a></li>
                     </ul>
                 </li>
-                <!-- Info Link -->
-                <li class="nav-item">
-                    <a class="nav-link" href="index.php#info">Info</a>
+
+                <!-- Pages Dropdown -->
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="pagesDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Pages
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="pagesDropdown">
+                        <li><a class="dropdown-item" href="about.php">About Us</a></li>
+                        <li><a class="dropdown-item" href="faqs.php">FAQs</a></li>
+                        <li><a class="dropdown-item" href="whyus.php">Why Us</a></li>
+                    </ul>
                 </li>
+
                 <!-- Contact Link -->
                 <li class="nav-item">
                     <a class="nav-link" href="index.php#contact">Contact</a>

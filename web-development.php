@@ -57,7 +57,7 @@
         <div class="container-fluid">
             <div class="row align-items-center">
                 <div class="col-md-6 welcome-text">
-                    <h6 class="text-uppercase text-orange">Custom Software Development</h6>
+                    <h6 class="text-uppercase text-orange">Website Creation</h6>
                     <div class="underline-orange"></div>
                     <h1 class="fw-bold">
                         Boost Your Business with a Custom Website
@@ -84,111 +84,176 @@
     </section>
     <!-- End of Welcome Section -->
 
-    <!-- Start of Service Details Section -->
-    <section id="info" class="service-details-section">
-        <!-- Full-width background image -->
-        <div class="background-image"></div>
+<!-- Start of Service Details Section -->
+<section id="info" class="service-details-section">
+    <!-- Full-width background image -->
+    <div class="background-image"></div>
 
-        <!-- Card container -->
-        <div class="container-fluid position-relative d-flex justify-content-center align-items-center card-container">
-            <!-- Card with image and service details -->
-            <div class="card shadow-lg p-0 overflow-hidden">
-                <div class="row g-0 align-items-center">
-                    <!-- Image inside the card -->
-                    <div class="col-md-6">
-                        <img src="images/Website Creator-bro.webp" alt="Service Illustration" class="img-fluid service-img">
+    <!-- Card container -->
+    <div class="container-fluid position-relative d-flex justify-content-center align-items-center card-container">
+        <!-- Card with image and service details -->
+        <div class="card shadow-lg p-0 overflow-hidden">
+            <div class="row g-0 align-items-center">
+                <!-- Image inside the card -->
+                <div class="col-md-6">
+                    <img src="images/Website Creator-bro.webp" alt="Service Illustration" class="img-fluid service-img">
+                </div>
+
+                <!-- Service Details inside the card -->
+                <div class="col-md-6 service-details p-4">
+                    <h2 class="text-center mb-4">Our <span class="text-orange">Service Expertise</span></h2>
+
+                    <!-- Express Offer -->
+                    <div class="mb-3 d-flex align-items-center">
+                        <i class="fas fa-bolt text-orange me-2" style="font-size: 24px;"></i>
+                        <h4 class="text-orange mb-0">Express Website Creation</h4>
                     </div>
-
-                    <!-- Service Details inside the card -->
-                    <div class="col-md-6 service-details p-4">
-                        <h2 class="text-center mb-4">Our <span class="text-orange">Quick Website Solutions</span></h2>
-
-                        <!-- Express Offer -->
-                        <div class="mb-3 d-flex align-items-center">
-                            <i class="fas fa-bolt text-orange me-2" style="font-size: 24px;"></i>
-                            <h4 class="text-orange mb-0">Express Offer</h4>
+                    <div class="progress-item mb-2">
+                        <span>Efficiency</span>
+                        <div class="progress">
+                            <div class="progress-bar bg-orange" style="width: 90%;"></div>
+                            <span class="percentage">90%</span>
                         </div>
-                        <p class="text-muted">Get your website up in 3 days! <br><strong>$199</strong> (was $499)</p>
-                        <p><em>Includes 1 page, delivered in 5 days once we receive all the details.</em></p>
-                        <p class="text-muted mb-4">Optional add-ons:
-                        <ul class="text-muted">
-                            <li>Logo Design: +$50</li>
-                            <li>Additional Designs: +$25</li>
-                            <li>Branding (Colors): +$50</li>
-                            <li>Additional Pages: +$50</li>
-                        </ul>
-                        </p>
+                    </div>
+                    <p class="text-muted">Fast and reliable solutions for businesses needing a quick web presence.</p>
 
-                        <!-- Online Store Offer -->
-                        <div class="mb-3 d-flex align-items-center">
-                            <i class="fas fa-store text-orange me-2" style="font-size: 24px;"></i>
-                            <h4 class="text-orange mb-0">Online Store</h4>
+                    <!-- Online Store Offer -->
+                    <div class="mb-3 d-flex align-items-center">
+                        <i class="fas fa-store text-orange me-2" style="font-size: 24px;"></i>
+                        <h4 class="text-orange mb-0">Ecommerce Website</h4>
+                    </div>
+                    <div class="progress-item mb-2">
+                        <span>SEO Optimization</span>
+                        <div class="progress">
+                            <div class="progress-bar bg-orange" style="width: 85%;"></div>
+                            <span class="percentage">85%</span>
                         </div>
-                        <p class="text-muted">Ecommerce solution in just 7 days! <br><strong>$499</strong> (was $999)</p>
-                        <p><em>Delivered in 7 days after receiving all information.</em></p>
-                        <p class="text-muted mb-4">Optional add-ons:
-                        <ul class="text-muted">
-                            <li>Logo Design: +$50</li>
-                            <li>Additional Designs: +$25</li>
-                            <li>Branding (Colors): +$50</li>
-                            <li>Additional Pages: +$50</li>
-                        </ul>
-                        </p>
+                    </div>
+                    <p class="text-muted">Fully equipped online stores optimized for search engines and smooth performance.</p>
 
-                        <!-- Customized Web Offer -->
-                        <div class="mb-3 d-flex align-items-center">
-                            <i class="fas fa-pencil-ruler text-orange me-2" style="font-size: 24px;"></i>
-                            <h4 class="text-orange mb-0">Customized Web</h4>
+                    <!-- Customized Web Offer -->
+                    <div class="mb-3 d-flex align-items-center">
+                        <i class="fas fa-pencil-ruler text-orange me-2" style="font-size: 24px;"></i>
+                        <h4 class="text-orange mb-0">Tailored Web Solutions</h4>
+                    </div>
+                    <div class="progress-item mb-2">
+                        <span>Customization</span>
+                        <div class="progress">
+                            <div class="progress-bar bg-orange" style="width: 80%;"></div>
+                            <span class="percentage">80%</span>
                         </div>
-                        <p class="text-muted">Personalized websites tailored to your specific needs. Includes complete brand design, custom web pages, and a unique visual strategy.</p>
+                    </div>
+                    <p class="text-muted">Custom solutions built from scratch to reflect your unique business needs.</p>
 
-                        <!-- Recycled Service Progress (UX/UI Simplified) -->
-                        <div class="service-progress mt-4">
-                            <h5 class="text-orange text-center mb-3">Our Expertise</h5>
-                            <div class="progress-item mb-2">
-                                <span>Express Offer</span>
-                                <div class="progress">
-                                    <div class="progress-bar bg-orange" data-value="90" style="width: 90%;"></div>
-                                    <span class="percentage">90%</span>
-                                </div>
-                            </div>
+                    <!-- Ongoing Support -->
+                    <div class="progress-item mb-2">
+                        <span>Support & Maintenance</span>
+                        <div class="progress">
+                            <div class="progress-bar bg-orange" style="width: 75%;"></div>
+                            <span class="percentage">75%</span>
+                        </div>
+                    </div>
+                    <p class="text-muted">Continuous support to ensure your website evolves and remains up-to-date.</p>
 
-                            <div class="progress-item mb-2">
-                                <span>Online Store</span>
-                                <div class="progress">
-                                    <div class="progress-bar bg-orange" data-value="85" style="width: 85%;"></div>
-                                    <span class="percentage">85%</span>
-                                </div>
-                            </div>
+                    <!-- Call to Action -->
+                    <div class="text-center mt-4">
+                        <h5 class="text-muted">Have questions?</h5>
+                        <a href="https://meetings.hubspot.com/pixiu" class="btn btn-orange">Book a Call</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- End of Service Details Section -->
 
-                            <div class="progress-item mb-2">
-                                <span>Customized Web</span>
-                                <div class="progress">
-                                    <div class="progress-bar bg-orange" data-value="80" style="width: 80%;"></div>
-                                    <span class="percentage">80%</span>
-                                </div>
-                            </div>
-
-                            <div class="progress-item">
-                                <span>Ongoing Support</span>
-                                <div class="progress">
-                                    <div class="progress-bar bg-orange" data-value="75" style="width: 75%;"></div>
-                                    <span class="percentage">75%</span>
-                                </div>
+    <!-- Start of Interactive Plans Section -->
+    <section id="plans" class="plans-section py-5">
+        <div class="container">
+            <h2 class="fw-bold text-center mb-4">Special <span class="text-orange">Website Creation Offers</span></h2>
+            <div class="row justify-content-center">
+                <!-- Card 1: Express Offer -->
+                <div class="col-md-4 mb-3">
+                    <div class="plan-card">
+                        <div class="plan-front">
+                            <h4 class="plan-title">Express Offer</h4>
+                            <p class="plan-price">
+                                <span class="old-price">$499</span> <span class="new-price">$199</span>
+                            </p>
+                            <p class="plan-preview">Launch your website fast!</p>
+                            <div class="hover-indicator">
+                                <i class="fas fa-hand-pointer"></i> More Info
                             </div>
                         </div>
+                        <div class="plan-back">
+                            <h4 class="plan-title">Express Offer</h4>
+                            <ul class="plan-features">
+                                <li><i class="fas fa-check-circle"></i> 1 Page Website</li>
+                                <li><i class="fas fa-mobile-alt"></i> Mobile Responsive</li>
+                                <li><i class="fas fa-search"></i> Basic SEO Setup</li>
+                                <li><i class="fas fa-paint-brush"></i> Basic Design Customization</li>
+                                <li><i class="fas fa-clock"></i> Delivery: 5 Days</li>
+                            </ul>
+                            <a href="express-offer.php" class="btn btn-orange mt-3">Contact Us</a>
+                        </div>
+                    </div>
+                </div>
 
-                        <!-- Call to Action -->
-                        <div class="text-center mt-4">
-                            <h5 class="text-muted">Have questions?</h5>
-                            <a href="https://meetings.hubspot.com/pixiu" class="btn btn-orange">Book a Call</a>
+                <!-- Card 2: Online Store -->
+                <div class="col-md-4 mb-3">
+                    <div class="plan-card">
+                        <div class="plan-front">
+                            <h4 class="plan-title">Online Store</h4>
+                            <p class="plan-price">
+                                <span class="old-price">$999</span> <span class="new-price">$499</span>
+                            </p>
+                            <p class="plan-preview">Ecommerce in just 7 days.</p>
+                            <div class="hover-indicator">
+                                <i class="fas fa-hand-pointer"></i> More Info
+                            </div>
+                        </div>
+                        <div class="plan-back">
+                            <h4 class="plan-title">Online Store</h4>
+                            <ul class="plan-features">
+                                <li><i class="fas fa-layer-group"></i> 5 Page Website</li>
+                                <li><i class="fas fa-store"></i> Ecommerce Setup</li>
+                                <li><i class="fas fa-chart-line"></i> SEO Optimization</li>
+                                <li><i class="fas fa-chart-pie"></i> Google Analytics Setup</li>
+                                <li><i class="fas fa-calendar-alt"></i> Delivery: 7 Days</li>
+                            </ul>
+                            <a href="online-store.php" class="btn btn-orange mt-3">Contact Us</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 3: Customized Web -->
+                <div class="col-md-4 mb-3">
+                    <div class="plan-card">
+                        <div class="plan-front">
+                            <h4 class="plan-title">Customized Web</h4>
+                            <p class="plan-price">Tailored to your needs</p>
+                            <p class="plan-preview">Let's create something unique!</p>
+                            <div class="hover-indicator">
+                                <i class="fas fa-hand-pointer"></i> More Info
+                            </div>
+                        </div>
+                        <div class="plan-back">
+                            <h4 class="plan-title">Customized Web</h4>
+                            <ul class="plan-features">
+                                <li><i class="fas fa-pencil-ruler"></i> Fully Custom Design</li>
+                                <li><i class="fas fa-infinity"></i> Unlimited Pages</li>
+                                <li><i class="fas fa-search-plus"></i> Full SEO Integration</li>
+                                <li><i class="fas fa-headset"></i> Ongoing Support</li>
+                                <li><i class="fas fa-rocket"></i> Launch Strategy</li>
+                            </ul>
+                            <a href="contact-us.php" class="btn btn-orange mt-3">Contact Us</a>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    <!-- End of Service Details Section -->
+    <!-- End of Interactive Plans Section -->
 
     <!-- Start of Steps to Success Section -->
     <section id="steps-success" class="steps-section">
