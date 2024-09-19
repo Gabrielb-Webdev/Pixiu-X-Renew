@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pixiu X | Custom Software Development</title>
+    <title>Pixiu X | HubSpot Consulting</title>
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
     <!-- GSAP (ScrollTrigger) -->
@@ -13,41 +13,10 @@
     <!-- FontAwesome Icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/services.css">
 </head>
 
 <body>
-    <!-- Start of Contact Info Section -->
-    <div class="container py-3 d-none d-md-flex flex-column flex-md-row justify-content-between align-items-center info-section">
-        <!-- Contact Info -->
-        <div class="d-flex flex-column flex-md-row align-items-center mb-3 mb-md-0">
-            <div class="me-md-4 mb-2 mb-md-0">
-                <i class="fas fa-phone-alt text-warning"></i> +000 1234 5678
-            </div>
-            <div class="me-md-4 mb-2 mb-md-0">
-                <i class="fas fa-envelope text-warning"></i> info@pixiux.com
-            </div>
-            <div>
-                <i class="fas fa-map-marker-alt text-warning"></i> 54th Street, London, UK
-            </div>
-        </div>
-        <!-- Social Media Icons -->
-        <div class="d-flex">
-            <a href="#" class="text-warning me-3">
-                <i class="fab fa-facebook-f"></i>
-            </a>
-            <a href="#" class="text-warning me-3">
-                <i class="fab fa-twitter"></i>
-            </a>
-            <a href="#" class="text-warning me-3">
-                <i class="fab fa-linkedin-in"></i>
-            </a>
-            <a href="#" class="text-warning">
-                <i class="fab fa-google"></i>
-            </a>
-        </div>
-    </div>
-    <!-- End of Contact Info Section -->
-
     <!-- Start of Navbar -->
     <?php include 'components/navbar.php'; ?>
     <!-- End of Navbar -->
@@ -101,45 +70,161 @@
 
                     <!-- Service Details inside the card -->
                     <div class="col-md-6 service-details p-4">
-                        <h2><span class="text-orange">HubSpot Implementation</span> & <span class="text-orange">Consulting Services</span></h2>
-                        <p>At Pixiu, we offer a range of tailored HubSpot services to meet your specific business needs. Our solutions include HubSpot Implementation and Training, HubSpot Optimization, and Personalized HubSpot Consulting, all designed to ensure your team maximizes HubSpot's potential.</p>
-                        <p>We provide expert guidance, step-by-step onboarding, and hands-on training to guarantee smooth integration and efficient use of HubSpot's powerful tools.</p>
+                        <h2 class="text-center mb-4"><span class="text-orange">Our HubSpot Expertise</span></h2>
 
-                        <!-- Service Progress -->
-                        <div class="service-progress mb-4">
-                            <div class="progress-item">
-                                <span>Implementation & Training</span>
-                                <div class="progress">
-                                    <div class="progress-bar bg-orange" data-value="95"></div>
-                                    <span class="percentage">95%</span>
-                                </div>
-                            </div>
-
-                            <div class="progress-item">
-                                <span>Optimization</span>
-                                <div class="progress">
-                                    <div class="progress-bar bg-orange" data-value="90"></div>
-                                    <span class="percentage">90%</span>
-                                </div>
-                            </div>
-
-                            <div class="progress-item">
-                                <span>Consulting</span>
-                                <div class="progress">
-                                    <div class="progress-bar bg-orange" data-value="85"></div>
-                                    <span class="percentage">85%</span>
-                                </div>
+                        <!-- HubSpot Implementation -->
+                        <div class="mb-3 d-flex align-items-center">
+                            <i class="fas fa-cogs text-orange me-2" style="font-size: 24px;"></i>
+                            <h4 class="text-orange mb-0">Implementation & Training</h4>
+                        </div>
+                        <div class="progress-item mb-2">
+                            <span>Integration Efficiency</span>
+                            <div class="progress">
+                                <div class="progress-bar bg-orange" style="width: 95%;"></div>
+                                <span class="percentage">95%</span>
                             </div>
                         </div>
+                        <p class="text-muted">Seamless integration and comprehensive training to empower your team.</p>
 
-                        <p>Pixiu’s HubSpot services ensure that your business leverages the full power of the platform. Whether you're integrating HubSpot for the first time or looking to optimize your existing setup, our experts are here to guide you through the process.</p>
-                        <p>We also offer ongoing consulting and support to keep your HubSpot platform evolving with your business needs.</p>
+                        <!-- HubSpot Optimization -->
+                        <div class="mb-3 d-flex align-items-center">
+                            <i class="fas fa-chart-line text-orange me-2" style="font-size: 24px;"></i>
+                            <h4 class="text-orange mb-0">Optimization</h4>
+                        </div>
+                        <div class="progress-item mb-2">
+                            <span>Performance Enhancement</span>
+                            <div class="progress">
+                                <div class="progress-bar bg-orange" style="width: 90%;"></div>
+                                <span class="percentage">90%</span>
+                            </div>
+                        </div>
+                        <p class="text-muted">Optimize your HubSpot setup for maximum efficiency and results.</p>
+
+                        <!-- HubSpot Consulting -->
+                        <div class="mb-3 d-flex align-items-center">
+                            <i class="fas fa-lightbulb text-orange me-2" style="font-size: 24px;"></i>
+                            <h4 class="text-orange mb-0">Consulting</h4>
+                        </div>
+                        <div class="progress-item mb-2">
+                            <span>Expert Guidance</span>
+                            <div class="progress">
+                                <div class="progress-bar bg-orange" style="width: 88%;"></div>
+                                <span class="percentage">88%</span>
+                            </div>
+                        </div>
+                        <p class="text-muted">Personalized consulting to help you navigate HubSpot's full potential.</p>
+
+                        <!-- Ongoing Support -->
+                        <div class="progress-item mb-2">
+                            <span>Support & Maintenance</span>
+                            <div class="progress">
+                                <div class="progress-bar bg-orange" style="width: 92%;"></div>
+                                <span class="percentage">92%</span>
+                            </div>
+                        </div>
+                        <p class="text-muted">Continuous support to ensure your HubSpot system evolves with your business.</p>
+
+                        <!-- Call to Action -->
+                        <div class="text-center mt-4">
+                            <h5 class="text-muted">Have questions?</h5>
+                            <a href="https://meetings.hubspot.com/pixiu" class="btn btn-orange">Book a Call</a>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
     <!-- End of Service Details Section -->
+
+    <!-- Start of HubSpot Service Plans Section -->
+    <section id="hubspot-plans" class="plans-section py-5">
+        <div class="container">
+            <h2 class="fw-bold text-center mb-4">Choose Your <span class="text-orange">HubSpot Plan</span></h2>
+            <div class="row justify-content-center">
+                <!-- Card 1: HubSpot Basic Plan -->
+                <div class="col-md-4 mb-3">
+                    <div class="plan-card">
+                        <div class="plan-front">
+                            <h4 class="plan-title">HubSpot Basic Plan</h4>
+                            <p class="plan-price">
+                                <span class="old-price">$1,299</span> <span class="new-price">$799</span>
+                            </p>
+                            <p class="plan-preview">Perfect for small businesses starting with HubSpot.</p>
+                            <div class="hover-indicator">
+                                <i class="fas fa-hand-pointer"></i> More Info
+                            </div>
+                        </div>
+                        <div class="plan-back">
+                            <h4 class="plan-title">HubSpot Basic Plan</h4>
+                            <ul class="plan-features">
+                                <li><i class="fas fa-check-circle"></i> Initial HubSpot Setup</li>
+                                <li><i class="fas fa-user-friends"></i> Team Training</li>
+                                <li><i class="fas fa-database"></i> Contact Import & Data</li>
+                                <li><i class="fas fa-robot"></i> Basic Email Automation</li>
+                                <li><i class="fas fa-clock"></i> Support: 30 Days</li>
+                            </ul>
+                            <a href="hubspot-basic.php" class="btn btn-orange mt-3">Contact Us</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 2: HubSpot Growth Plan -->
+                <div class="col-md-4 mb-3">
+                    <div class="plan-card">
+                        <div class="plan-front">
+                            <h4 class="plan-title">HubSpot Growth Plan</h4>
+                            <p class="plan-price">
+                                <span class="old-price">$2,499</span> <span class="new-price">$1,499</span>
+                            </p>
+                            <p class="plan-preview">For growing businesses leveraging HubSpot's power.</p>
+                            <div class="hover-indicator">
+                                <i class="fas fa-hand-pointer"></i> More Info
+                            </div>
+                        </div>
+                        <div class="plan-back">
+                            <h4 class="plan-title">HubSpot Growth Plan</h4>
+                            <ul class="plan-features">
+                                <li><i class="fas fa-cogs"></i> Advanced Setup & Customization</li>
+                                <li><i class="fas fa-users-cog"></i> Sales & Marketing Automation</li>
+                                <li><i class="fas fa-chart-line"></i> CRM & Third-Party Integrations</li>
+                                <li><i class="fas fa-bullseye"></i> SEO Strategy & Lead Generation</li>
+                                <li><i class="fas fa-calendar-alt"></i> Support: 60 Days</li>
+                            </ul>
+                            <a href="hubspot-growth.php" class="btn btn-orange mt-3">Contact Us</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 3: HubSpot Premium Plan -->
+                <div class="col-md-4 mb-3">
+                    <div class="plan-card">
+                        <div class="plan-front">
+                            <h4 class="plan-title">HubSpot Premium Plan</h4>
+                            <p class="plan-price">
+                                <span class="old-price">$4,999</span> <span class="new-price">$2,999</span>
+                            </p>
+                            <p class="plan-preview">Complete HubSpot solution for established businesses.</p>
+                            <div class="hover-indicator">
+                                <i class="fas fa-hand-pointer"></i> More Info
+                            </div>
+                        </div>
+                        <div class="plan-back">
+                            <h4 class="plan-title">HubSpot Premium Plan</h4>
+                            <ul class="plan-features">
+                                <li><i class="fas fa-server"></i> Full Setup & CRM Audit</li>
+                                <li><i class="fas fa-lightbulb"></i> Advanced Marketing Strategy</li>
+                                <li><i class="fas fa-sync-alt"></i> Workflow Optimization</li>
+                                <li><i class="fas fa-chart-pie"></i> Custom Dashboards & Reports</li>
+                                <li><i class="fas fa-headset"></i> Support: 90 Days</li>
+                            </ul>
+                            <a href="hubspot-premium.php" class="btn btn-orange mt-3">Contact Us</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End of HubSpot Service Plans Section -->
 
     <!-- Start of Steps to Success Section -->
     <section id="steps-success" class="steps-section">
@@ -262,6 +347,38 @@
         <p>Design: Your Name</p>
     </footer>
     <!-- End of Footer Section -->
+
+    <!-- Start of Contact Info Section -->
+    <div class="container py-3 d-none d-md-flex flex-column flex-md-row justify-content-between align-items-center info-section">
+        <!-- Contact Info -->
+        <div class="d-flex flex-column flex-md-row align-items-center mb-3 mb-md-0">
+            <div class="me-md-4 mb-2 mb-md-0">
+                <i class="fas fa-phone-alt text-warning"></i> +000 1234 5678
+            </div>
+            <div class="me-md-4 mb-2 mb-md-0">
+                <i class="fas fa-envelope text-warning"></i> info@pixiux.com
+            </div>
+            <div>
+                <i class="fas fa-map-marker-alt text-warning"></i> 54th Street, London, UK
+            </div>
+        </div>
+        <!-- Social Media Icons -->
+        <div class="d-flex">
+            <a href="#" class="text-warning me-3">
+                <i class="fab fa-facebook-f"></i>
+            </a>
+            <a href="#" class="text-warning me-3">
+                <i class="fab fa-twitter"></i>
+            </a>
+            <a href="#" class="text-warning me-3">
+                <i class="fab fa-linkedin-in"></i>
+            </a>
+            <a href="#" class="text-warning">
+                <i class="fab fa-google"></i>
+            </a>
+        </div>
+    </div>
+    <!-- End of Contact Info Section -->
 
     <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>

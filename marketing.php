@@ -13,41 +13,10 @@
     <!-- FontAwesome Icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/services.css">
 </head>
 
 <body>
-    <!-- Start of Contact Info Section -->
-    <div class="container py-3 d-none d-md-flex flex-column flex-md-row justify-content-between align-items-center info-section">
-        <!-- Contact Info -->
-        <div class="d-flex flex-column flex-md-row align-items-center mb-3 mb-md-0">
-            <div class="me-md-4 mb-2 mb-md-0">
-                <i class="fas fa-phone-alt text-warning"></i> +000 1234 5678
-            </div>
-            <div class="me-md-4 mb-2 mb-md-0">
-                <i class="fas fa-envelope text-warning"></i> info@pixiux.com
-            </div>
-            <div>
-                <i class="fas fa-map-marker-alt text-warning"></i> 54th Street, London, UK
-            </div>
-        </div>
-        <!-- Social Media Icons -->
-        <div class="d-flex">
-            <a href="#" class="text-warning me-3">
-                <i class="fab fa-facebook-f"></i>
-            </a>
-            <a href="#" class="text-warning me-3">
-                <i class="fab fa-twitter"></i>
-            </a>
-            <a href="#" class="text-warning me-3">
-                <i class="fab fa-linkedin-in"></i>
-            </a>
-            <a href="#" class="text-warning">
-                <i class="fab fa-instagram"></i>
-            </a>
-        </div>
-    </div>
-    <!-- End of Contact Info Section -->
-
     <!-- Start of Navbar -->
     <?php include 'components/navbar.php'; ?>
     <!-- End of Navbar -->
@@ -86,10 +55,6 @@
 
     <!-- Start of Service Details Section -->
     <section id="info" class="service-details-section">
-        <!-- Full-width background image -->
-        <div class="background-image"></div>
-
-        <!-- Card container -->
         <div class="container-fluid position-relative d-flex justify-content-center align-items-center card-container">
             <!-- Card with image and service details -->
             <div class="card shadow-lg p-0 overflow-hidden">
@@ -101,49 +66,159 @@
 
                     <!-- Service Details inside the card -->
                     <div class="col-md-6 service-details p-4">
-                        <h2><span class="text-orange">Comprehensive</span> Digital Marketing Solutions</h2>
-                        <p>At Pixiu, we offer a range of marketing services designed to boost your online presence, increase brand awareness, and drive conversions. Our services include:</p>
-                        <ul>
-                            <li><strong>Search Engine Optimization (SEO)</strong> - Improve your website's ranking and attract organic traffic.</li>
-                            <li><strong>Social Media Marketing</strong> - Develop tailored campaigns to engage your audience on platforms like Instagram, Facebook, and LinkedIn.</li>
-                            <li><strong>Pay-Per-Click (PPC)</strong> - Maximize your ad spend with optimized Google Ads and paid social campaigns.</li>
-                            <li><strong>Content Marketing</strong> - Craft high-quality content that resonates with your audience.</li>
-                        </ul>
+                        <h2 class="text-center mb-4">Our <span class="text-orange">Marketing Expertise</span></h2>
 
-                        <!-- Service Progress -->
-                        <div class="service-progress mb-4">
-                            <div class="progress-item">
-                                <span>SEO & Optimization</span>
-                                <div class="progress">
-                                    <div class="progress-bar bg-orange" data-value="95"></div>
-                                    <span class="percentage">95%</span>
-                                </div>
-                            </div>
-
-                            <div class="progress-item">
-                                <span>Social Media Marketing</span>
-                                <div class="progress">
-                                    <div class="progress-bar bg-orange" data-value="90"></div>
-                                    <span class="percentage">90%</span>
-                                </div>
-                            </div>
-
-                            <div class="progress-item">
-                                <span>Pay-Per-Click (PPC)</span>
-                                <div class="progress">
-                                    <div class="progress-bar bg-orange" data-value="85"></div>
-                                    <span class="percentage">85%</span>
-                                </div>
+                        <!-- SEO & Optimization -->
+                        <div class="mb-3 d-flex align-items-center">
+                            <i class="fas fa-search text-orange me-2" style="font-size: 24px;"></i>
+                            <h4 class="text-orange mb-0">SEO & Optimization</h4>
+                        </div>
+                        <div class="progress-item mb-2">
+                            <span>Search Visibility</span>
+                            <div class="progress">
+                                <div class="progress-bar bg-orange" style="width: 96%;"></div>
+                                <span class="percentage">96%</span>
                             </div>
                         </div>
+                        <p class="text-muted">Boost your website's organic traffic with tailored SEO strategies that enhance search engine visibility.</p>
 
-                        <p>Our experts ensure that every campaign is aligned with your business goals, providing continuous optimization and ongoing support to maximize results.</p>
+                        <!-- Social Media Marketing -->
+                        <div class="mb-3 d-flex align-items-center">
+                            <i class="fas fa-share-alt text-orange me-2" style="font-size: 24px;"></i>
+                            <h4 class="text-orange mb-0">Social Media Marketing</h4>
+                        </div>
+                        <div class="progress-item mb-2">
+                            <span>Engagement & Reach</span>
+                            <div class="progress">
+                                <div class="progress-bar bg-orange" style="width: 94%;"></div>
+                                <span class="percentage">94%</span>
+                            </div>
+                        </div>
+                        <p class="text-muted">Engage your audience with strategic social media campaigns across platforms like Instagram, Facebook, and LinkedIn.</p>
+
+                        <!-- Pay-Per-Click (PPC) -->
+                        <div class="mb-3 d-flex align-items-center">
+                            <i class="fas fa-bullseye text-orange me-2" style="font-size: 24px;"></i>
+                            <h4 class="text-orange mb-0">Pay-Per-Click (PPC)</h4>
+                        </div>
+                        <div class="progress-item mb-2">
+                            <span>Ad Efficiency</span>
+                            <div class="progress">
+                                <div class="progress-bar bg-orange" style="width: 92%;"></div>
+                                <span class="percentage">92%</span>
+                            </div>
+                        </div>
+                        <p class="text-muted">Maximize ROI with targeted PPC campaigns that reach your ideal customers with precision.</p>
+
+                        <!-- Content Marketing -->
+                        <div class="progress-item mb-2">
+                            <span>Content Quality</span>
+                            <div class="progress">
+                                <div class="progress-bar bg-orange" style="width: 95%;"></div>
+                                <span class="percentage">95%</span>
+                            </div>
+                        </div>
+                        <p class="text-muted">Create compelling content that not only attracts but also converts your target audience into loyal customers.</p>
+
+                        <!-- Call to Action -->
+                        <div class="text-center mt-4">
+                            <h5 class="text-muted">Have questions?</h5>
+                            <a href="https://meetings.hubspot.com/pixiu" class="btn btn-orange">Book a Call</a>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
     <!-- End of Service Details Section -->
+
+    <!-- Start of Marketing Plans Section -->
+<section id="marketing-plans" class="plans-section py-5">
+    <div class="container">
+        <h2 class="fw-bold text-center mb-4">Our <span class="text-orange">Marketing Packages</span></h2>
+        <div class="row justify-content-center">
+            <!-- Card 1: Basic Package -->
+            <div class="col-md-4 mb-3">
+                <div class="plan-card">
+                    <div class="plan-front">
+                        <h4 class="plan-title">Basic Marketing Package</h4>
+                        <p class="plan-price">
+                            <span class="old-price">$1,200</span> <span class="new-price">$799</span>
+                        </p>
+                        <p class="plan-preview">Perfect for small businesses looking to enhance their online presence.</p>
+                        <div class="hover-indicator">
+                            <i class="fas fa-hand-pointer"></i> More Info
+                        </div>
+                    </div>
+                    <div class="plan-back">
+                        <h4 class="plan-title">Basic Marketing Package</h4>
+                        <ul class="plan-features">
+                            <li><i class="fas fa-check-circle"></i> SEO Audit & Optimization</li>
+                            <li><i class="fas fa-share-alt"></i> Social Media Management (3 platforms)</li>
+                            <li><i class="fas fa-pen-nib"></i> Monthly Content Creation (4 posts)</li>
+                            <li><i class="fas fa-chart-line"></i> Basic Analytics Reporting</li>
+                        </ul>
+                        <a href="basic-package.php" class="btn btn-orange mt-3">Contact Us</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 2: Professional Package -->
+            <div class="col-md-4 mb-3">
+                <div class="plan-card">
+                    <div class="plan-front">
+                        <h4 class="plan-title">Professional Marketing Package</h4>
+                        <p class="plan-price">
+                            <span class="old-price">$2,500</span> <span class="new-price">$1,499</span>
+                        </p>
+                        <p class="plan-preview">Ideal for growing businesses seeking advanced marketing strategies.</p>
+                        <div class="hover-indicator">
+                            <i class="fas fa-hand-pointer"></i> More Info
+                        </div>
+                    </div>
+                    <div class="plan-back">
+                        <h4 class="plan-title">Professional Marketing Package</h4>
+                        <ul class="plan-features">
+                            <li><i class="fas fa-search-plus"></i> Advanced SEO & Keyword Optimization</li>
+                            <li><i class="fas fa-share-square"></i> Social Media Ads Management (3 platforms)</li>
+                            <li><i class="fas fa-newspaper"></i> Weekly Content Creation (8 posts)</li>
+                            <li><i class="fas fa-chart-bar"></i> Detailed Analytics & Strategy Adjustment</li>
+                        </ul>
+                        <a href="professional-package.php" class="btn btn-orange mt-3">Contact Us</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 3: Premium Package -->
+            <div class="col-md-4 mb-3">
+                <div class="plan-card">
+                    <div class="plan-front">
+                        <h4 class="plan-title">Premium Marketing Package</h4>
+                        <p class="plan-price">
+                            <span class="old-price">$4,000</span> <span class="new-price">$2,499</span>
+                        </p>
+                        <p class="plan-preview">Comprehensive package for businesses aiming for maximum growth.</p>
+                        <div class="hover-indicator">
+                            <i class="fas fa-hand-pointer"></i> More Info
+                        </div>
+                    </div>
+                    <div class="plan-back">
+                        <h4 class="plan-title">Premium Marketing Package</h4>
+                        <ul class="plan-features">
+                            <li><i class="fas fa-bullseye"></i> Complete SEO Overhaul & Link Building</li>
+                            <li><i class="fas fa-ad"></i> Full Social Media & PPC Campaigns</li>
+                            <li><i class="fas fa-pencil-alt"></i> Daily Content & Blog Creation</li>
+                            <li><i class="fas fa-chart-pie"></i> In-depth Analytics & ROI Tracking</li>
+                            <li><i class="fas fa-headset"></i> Dedicated Marketing Consultant</li>
+                        </ul>
+                        <a href="premium-package.php" class="btn btn-orange mt-3">Contact Us</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- End of Marketing Plans Section -->
 
     <!-- Start of Steps to Success Section -->
     <section id="steps-success" class="steps-section">
@@ -266,6 +341,38 @@
         <p>Design: Your Name</p>
     </footer>
     <!-- End of Footer Section -->
+
+    <!-- Start of Contact Info Section -->
+    <div class="container py-3 d-none d-md-flex flex-column flex-md-row justify-content-between align-items-center info-section">
+        <!-- Contact Info -->
+        <div class="d-flex flex-column flex-md-row align-items-center mb-3 mb-md-0">
+            <div class="me-md-4 mb-2 mb-md-0">
+                <i class="fas fa-phone-alt text-warning"></i> +000 1234 5678
+            </div>
+            <div class="me-md-4 mb-2 mb-md-0">
+                <i class="fas fa-envelope text-warning"></i> info@pixiux.com
+            </div>
+            <div>
+                <i class="fas fa-map-marker-alt text-warning"></i> 54th Street, London, UK
+            </div>
+        </div>
+        <!-- Social Media Icons -->
+        <div class="d-flex">
+            <a href="#" class="text-warning me-3">
+                <i class="fab fa-facebook-f"></i>
+            </a>
+            <a href="#" class="text-warning me-3">
+                <i class="fab fa-twitter"></i>
+            </a>
+            <a href="#" class="text-warning me-3">
+                <i class="fab fa-linkedin-in"></i>
+            </a>
+            <a href="#" class="text-warning">
+                <i class="fab fa-google"></i>
+            </a>
+        </div>
+    </div>
+    <!-- End of Contact Info Section -->
 
     <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>

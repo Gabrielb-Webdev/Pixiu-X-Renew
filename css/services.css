@@ -1,0 +1,161 @@
+/* Plan Card Design */
+
+.plan-card {
+    position: relative;
+    perspective: 1000px;
+    width: 100%;
+    height: 400px;
+    margin: 20px auto;
+    background-color: transparent;
+    transition: transform 0.6s;
+}
+
+.plan-card:hover .plan-front {
+    transform: rotateY(-180deg);
+}
+
+.plan-card:hover .plan-back {
+    transform: rotateY(0deg);
+}
+
+
+/* Front and Back of Card */
+
+.plan-front,
+.plan-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: transform 0.6s;
+}
+
+
+/* Plan front style */
+
+.plan-front {
+    background-color: #ffffff;
+    color: #333;
+    font-size: 1.2rem;
+    padding: 25px;
+}
+
+.plan-title {
+    font-size: 2.2rem;
+    font-weight: bold;
+    color: #dd6d2c;
+}
+
+.plan-price {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #666;
+}
+
+.old-price {
+    text-decoration: line-through;
+    color: #999;
+    margin-right: 10px;
+}
+
+.new-price {
+    color: #dd6d2c;
+}
+
+.plan-preview {
+    font-size: 1.1rem;
+    color: #666;
+}
+
+
+/* Hover indicator */
+
+.hover-indicator {
+    margin-top: 15px;
+    font-size: 1.2rem;
+    color: #dd6d2c;
+    transition: color 0.3s ease;
+}
+
+.plan-card:hover .hover-indicator {
+    color: #c2591c;
+}
+
+
+/* Back of the card */
+
+.plan-back {
+    background-color: #dd6d2c;
+    color: #fff;
+    transform: rotateY(180deg);
+    font-size: 1.2rem;
+    padding: 30px;
+}
+
+.plan-features {
+    list-style: none;
+    padding: 0;
+    margin: 15px 0 20px;
+}
+
+.plan-features li {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.plan-features i {
+    color: #fff;
+    margin-right: 10px;
+}
+
+
+/* Buttons */
+
+.btn-orange {
+    background-color: #fff;
+    color: #dd6d2c;
+    padding: 12px 30px;
+    border: none;
+    border-radius: 50px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: background-color 0.3s ease;
+}
+
+.btn-orange:hover {
+    background-color: #c2591c;
+    color: #fff;
+}
+
+
+/* Responsiveness */
+
+@media (max-width: 768px) {
+    .plan-card {
+        height: 300px;
+    }
+    .plan-title {
+        font-size: 1.6rem;
+    }
+    .plan-price {
+        font-size: 1.6rem;
+    }
+    .plan-preview {
+        font-size: 1rem;
+    }
+    .plan-features li {
+        font-size: 1rem;
+    }
+}

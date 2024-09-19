@@ -13,41 +13,10 @@
     <!-- FontAwesome Icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/services.css">
 </head>
 
 <body>
-    <!-- Start of Contact Info Section -->
-    <div class="container py-3 d-none d-md-flex flex-column flex-md-row justify-content-between align-items-center info-section">
-        <!-- Contact Info -->
-        <div class="d-flex flex-column flex-md-row align-items-center mb-3 mb-md-0">
-            <div class="me-md-4 mb-2 mb-md-0">
-                <i class="fas fa-phone-alt text-warning"></i> +000 1234 5678
-            </div>
-            <div class="me-md-4 mb-2 mb-md-0">
-                <i class="fas fa-envelope text-warning"></i> info@pixiux.com
-            </div>
-            <div>
-                <i class="fas fa-map-marker-alt text-warning"></i> 54th Street, London, UK
-            </div>
-        </div>
-        <!-- Social Media Icons -->
-        <div class="d-flex">
-            <a href="#" class="text-warning me-3">
-                <i class="fab fa-facebook-f"></i>
-            </a>
-            <a href="#" class="text-warning me-3">
-                <i class="fab fa-twitter"></i>
-            </a>
-            <a href="#" class="text-warning me-3">
-                <i class="fab fa-linkedin-in"></i>
-            </a>
-            <a href="#" class="text-warning">
-                <i class="fab fa-google"></i>
-            </a>
-        </div>
-    </div>
-    <!-- End of Contact Info Section -->
-
     <!-- Start of Navbar -->
     <?php include 'components/navbar.php'; ?>
     <!-- End of Navbar -->
@@ -84,88 +53,88 @@
     </section>
     <!-- End of Welcome Section -->
 
-<!-- Start of Service Details Section -->
-<section id="info" class="service-details-section">
-    <!-- Full-width background image -->
-    <div class="background-image"></div>
+    <!-- Start of Service Details Section -->
+    <section id="info" class="service-details-section">
+        <!-- Full-width background image -->
+        <div class="background-image"></div>
 
-    <!-- Card container -->
-    <div class="container-fluid position-relative d-flex justify-content-center align-items-center card-container">
-        <!-- Card with image and service details -->
-        <div class="card shadow-lg p-0 overflow-hidden">
-            <div class="row g-0 align-items-center">
-                <!-- Image inside the card -->
-                <div class="col-md-6">
-                    <img src="images/Website Creator-bro.webp" alt="Service Illustration" class="img-fluid service-img">
-                </div>
-
-                <!-- Service Details inside the card -->
-                <div class="col-md-6 service-details p-4">
-                    <h2 class="text-center mb-4">Our <span class="text-orange">Service Expertise</span></h2>
-
-                    <!-- Express Offer -->
-                    <div class="mb-3 d-flex align-items-center">
-                        <i class="fas fa-bolt text-orange me-2" style="font-size: 24px;"></i>
-                        <h4 class="text-orange mb-0">Express Website Creation</h4>
+        <!-- Card container -->
+        <div class="container-fluid position-relative d-flex justify-content-center align-items-center card-container">
+            <!-- Card with image and service details -->
+            <div class="card shadow-lg p-0 overflow-hidden">
+                <div class="row g-0 align-items-center">
+                    <!-- Image inside the card -->
+                    <div class="col-md-6">
+                        <img src="images/Website Creator-bro.webp" alt="Service Illustration" class="img-fluid service-img">
                     </div>
-                    <div class="progress-item mb-2">
-                        <span>Efficiency</span>
-                        <div class="progress">
-                            <div class="progress-bar bg-orange" style="width: 90%;"></div>
-                            <span class="percentage">90%</span>
+
+                    <!-- Service Details inside the card -->
+                    <div class="col-md-6 service-details p-4">
+                        <h2 class="text-center mb-4">Our <span class="text-orange">Service Expertise</span></h2>
+
+                        <!-- Express Offer -->
+                        <div class="mb-3 d-flex align-items-center">
+                            <i class="fas fa-bolt text-orange me-2" style="font-size: 24px;"></i>
+                            <h4 class="text-orange mb-0">Express Website Creation</h4>
                         </div>
-                    </div>
-                    <p class="text-muted">Fast and reliable solutions for businesses needing a quick web presence.</p>
-
-                    <!-- Online Store Offer -->
-                    <div class="mb-3 d-flex align-items-center">
-                        <i class="fas fa-store text-orange me-2" style="font-size: 24px;"></i>
-                        <h4 class="text-orange mb-0">Ecommerce Website</h4>
-                    </div>
-                    <div class="progress-item mb-2">
-                        <span>SEO Optimization</span>
-                        <div class="progress">
-                            <div class="progress-bar bg-orange" style="width: 85%;"></div>
-                            <span class="percentage">85%</span>
+                        <div class="progress-item mb-2">
+                            <span>Efficiency</span>
+                            <div class="progress">
+                                <div class="progress-bar bg-orange" style="width: 95%;"></div>
+                                <span class="percentage">95%</span>
+                            </div>
                         </div>
-                    </div>
-                    <p class="text-muted">Fully equipped online stores optimized for search engines and smooth performance.</p>
+                        <p class="text-muted">Fast and reliable solutions for businesses needing a quick web presence.</p>
 
-                    <!-- Customized Web Offer -->
-                    <div class="mb-3 d-flex align-items-center">
-                        <i class="fas fa-pencil-ruler text-orange me-2" style="font-size: 24px;"></i>
-                        <h4 class="text-orange mb-0">Tailored Web Solutions</h4>
-                    </div>
-                    <div class="progress-item mb-2">
-                        <span>Customization</span>
-                        <div class="progress">
-                            <div class="progress-bar bg-orange" style="width: 80%;"></div>
-                            <span class="percentage">80%</span>
+                        <!-- Online Store Offer -->
+                        <div class="mb-3 d-flex align-items-center">
+                            <i class="fas fa-store text-orange me-2" style="font-size: 24px;"></i>
+                            <h4 class="text-orange mb-0">Ecommerce Website</h4>
                         </div>
-                    </div>
-                    <p class="text-muted">Custom solutions built from scratch to reflect your unique business needs.</p>
-
-                    <!-- Ongoing Support -->
-                    <div class="progress-item mb-2">
-                        <span>Support & Maintenance</span>
-                        <div class="progress">
-                            <div class="progress-bar bg-orange" style="width: 75%;"></div>
-                            <span class="percentage">75%</span>
+                        <div class="progress-item mb-2">
+                            <span>SEO Optimization</span>
+                            <div class="progress">
+                                <div class="progress-bar bg-orange" style="width: 92%;"></div>
+                                <span class="percentage">92%</span>
+                            </div>
                         </div>
-                    </div>
-                    <p class="text-muted">Continuous support to ensure your website evolves and remains up-to-date.</p>
+                        <p class="text-muted">Fully equipped online stores optimized for search engines and smooth performance.</p>
 
-                    <!-- Call to Action -->
-                    <div class="text-center mt-4">
-                        <h5 class="text-muted">Have questions?</h5>
-                        <a href="https://meetings.hubspot.com/pixiu" class="btn btn-orange">Book a Call</a>
+                        <!-- Customized Web Offer -->
+                        <div class="mb-3 d-flex align-items-center">
+                            <i class="fas fa-pencil-ruler text-orange me-2" style="font-size: 24px;"></i>
+                            <h4 class="text-orange mb-0">Tailored Web Solutions</h4>
+                        </div>
+                        <div class="progress-item mb-2">
+                            <span>Customization</span>
+                            <div class="progress">
+                                <div class="progress-bar bg-orange" style="width: 93%;"></div>
+                                <span class="percentage">93%</span>
+                            </div>
+                        </div>
+                        <p class="text-muted">Custom solutions built from scratch to reflect your unique business needs.</p>
+
+                        <!-- Ongoing Support -->
+                        <div class="progress-item mb-2">
+                            <span>Support & Maintenance</span>
+                            <div class="progress">
+                                <div class="progress-bar bg-orange" style="width: 90%;"></div>
+                                <span class="percentage">90%</span>
+                            </div>
+                        </div>
+                        <p class="text-muted">Continuous support to ensure your website evolves and remains up-to-date.</p>
+
+                        <!-- Call to Action -->
+                        <div class="text-center mt-4">
+                            <h5 class="text-muted">Have questions?</h5>
+                            <a href="https://meetings.hubspot.com/pixiu" class="btn btn-orange">Book a Call</a>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-</section>
-<!-- End of Service Details Section -->
+    </section>
+    <!-- End of Service Details Section -->
 
     <!-- Start of Interactive Plans Section -->
     <section id="plans" class="plans-section py-5">
@@ -398,6 +367,38 @@
         <p>Design: Your Name</p>
     </footer>
     <!-- End of Footer Section -->
+
+    <!-- Start of Contact Info Section -->
+    <div class="container py-3 d-none d-md-flex flex-column flex-md-row justify-content-between align-items-center info-section">
+        <!-- Contact Info -->
+        <div class="d-flex flex-column flex-md-row align-items-center mb-3 mb-md-0">
+            <div class="me-md-4 mb-2 mb-md-0">
+                <i class="fas fa-phone-alt text-warning"></i> +000 1234 5678
+            </div>
+            <div class="me-md-4 mb-2 mb-md-0">
+                <i class="fas fa-envelope text-warning"></i> info@pixiux.com
+            </div>
+            <div>
+                <i class="fas fa-map-marker-alt text-warning"></i> 54th Street, London, UK
+            </div>
+        </div>
+        <!-- Social Media Icons -->
+        <div class="d-flex">
+            <a href="#" class="text-warning me-3">
+                <i class="fab fa-facebook-f"></i>
+            </a>
+            <a href="#" class="text-warning me-3">
+                <i class="fab fa-twitter"></i>
+            </a>
+            <a href="#" class="text-warning me-3">
+                <i class="fab fa-linkedin-in"></i>
+            </a>
+            <a href="#" class="text-warning">
+                <i class="fab fa-google"></i>
+            </a>
+        </div>
+    </div>
+    <!-- End of Contact Info Section -->
 
     <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>

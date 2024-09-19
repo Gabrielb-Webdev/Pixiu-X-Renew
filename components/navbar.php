@@ -26,8 +26,8 @@
                         <li><a class="dropdown-item" href="marketing.php">Marketing</a></li>
                         <li><a class="dropdown-item" href="hubspot.php">HubSpot Consulting</a></li>
                         <li><a class="dropdown-item" href="web-development.php">Web Development</a></li>
-                        <li><a class="dropdown-item" href="custom-software.php">Custom Software</a></li>
                         <li><a class="dropdown-item" href="data-extraction.php">Data Extraction</a></li>
+                        <li><a class="dropdown-item" href="design.php">Multimedia Design</a></li>
                     </ul>
                 </li>
 
