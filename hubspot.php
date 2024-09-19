@@ -163,7 +163,7 @@
                                 <li><i class="fas fa-robot"></i> Basic Email Automation</li>
                                 <li><i class="fas fa-clock"></i> Support: 30 Days</li>
                             </ul>
-                            <a href="hubspot-basic.php" class="btn btn-orange mt-3">Contact Us</a>
+                            <a href="hubspot-basic.php" class="btn btn-orange-plans mt-3">Contact Us</a>
                         </div>
                     </div>
                 </div>
@@ -190,7 +190,7 @@
                                 <li><i class="fas fa-bullseye"></i> SEO Strategy & Lead Generation</li>
                                 <li><i class="fas fa-calendar-alt"></i> Support: 60 Days</li>
                             </ul>
-                            <a href="hubspot-growth.php" class="btn btn-orange mt-3">Contact Us</a>
+                            <a href="hubspot-growth.php" class="btn btn-orange-plans mt-3">Contact Us</a>
                         </div>
                     </div>
                 </div>
@@ -217,7 +217,7 @@
                                 <li><i class="fas fa-chart-pie"></i> Custom Dashboards & Reports</li>
                                 <li><i class="fas fa-headset"></i> Support: 90 Days</li>
                             </ul>
-                            <a href="hubspot-premium.php" class="btn btn-orange mt-3">Contact Us</a>
+                            <a href="hubspot-premium.php" class="btn btn-orange-plans mt-3">Contact Us</a>
                         </div>
                     </div>
                 </div>

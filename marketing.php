@@ -158,7 +158,7 @@
                             <li><i class="fas fa-pen-nib"></i> Monthly Content Creation (4 posts)</li>
                             <li><i class="fas fa-chart-line"></i> Basic Analytics Reporting</li>
                         </ul>
-                        <a href="basic-package.php" class="btn btn-orange mt-3">Contact Us</a>
+                        <a href="basic-package.php" class="btn btn-orange-plans mt-3">Contact Us</a>
                     </div>
                 </div>
             </div>
@@ -184,7 +184,7 @@
                             <li><i class="fas fa-newspaper"></i> Weekly Content Creation (8 posts)</li>
                             <li><i class="fas fa-chart-bar"></i> Detailed Analytics & Strategy Adjustment</li>
                         </ul>
-                        <a href="professional-package.php" class="btn btn-orange mt-3">Contact Us</a>
+                        <a href="professional-package.php" class="btn btn-orange-plans mt-3">Contact Us</a>
                     </div>
                 </div>
             </div>
@@ -211,7 +211,7 @@
                             <li><i class="fas fa-chart-pie"></i> In-depth Analytics & ROI Tracking</li>
                             <li><i class="fas fa-headset"></i> Dedicated Marketing Consultant</li>
                         </ul>
-                        <a href="premium-package.php" class="btn btn-orange mt-3">Contact Us</a>
+                        <a href="premium-package.php" class="btn btn-orange-plans mt-3">Contact Us</a>
                     </div>
                 </div>
             </div>

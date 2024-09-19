@@ -163,7 +163,7 @@
                                 <li><i class="fas fa-paint-brush"></i> Basic Design Customization</li>
                                 <li><i class="fas fa-clock"></i> Delivery: 5 Days</li>
                             </ul>
-                            <a href="express-offer.php" class="btn btn-orange mt-3">Contact Us</a>
+                            <a href="express-offer.php" class="btn btn-orange-plans mt-3">Contact Us</a>
                         </div>
                     </div>
                 </div>
@@ -190,7 +190,7 @@
                                 <li><i class="fas fa-chart-pie"></i> Google Analytics Setup</li>
                                 <li><i class="fas fa-calendar-alt"></i> Delivery: 7 Days</li>
                             </ul>
-                            <a href="online-store.php" class="btn btn-orange mt-3">Contact Us</a>
+                            <a href="online-store.php" class="btn btn-orange-plans mt-3">Contact Us</a>
                         </div>
                     </div>
                 </div>
@@ -215,7 +215,7 @@
                                 <li><i class="fas fa-headset"></i> Ongoing Support</li>
                                 <li><i class="fas fa-rocket"></i> Launch Strategy</li>
                             </ul>
-                            <a href="contact-us.php" class="btn btn-orange mt-3">Contact Us</a>
+                            <a href="contact-us.php" class="btn btn-orange-plans mt-3">Contact Us</a>
                         </div>
                     </div>
                 </div>

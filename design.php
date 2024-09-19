@@ -40,12 +40,14 @@
                 </div>
                 <!-- Contenedor de imágenes apiladas -->
                 <div class="image-container">
-                    <img src="images/web-design/1.webp" alt="Design Image 1" id="image-1" loading="lazy">
-                    <img src="images/web-design/2.webp" alt="Design Image 2" id="image-2" loading="lazy">
-                    <img src="images/web-design/3.webp" alt="Design Image 3" id="image-3" loading="lazy">
-                    <img src="images/web-design/4.webp" alt="Design Image 4" id="image-4" loading="lazy">
-                    <img src="images/web-design/5.webp" alt="Design Image 5" id="image-5" loading="lazy">
-                    <img src="images/web-design/Design Inspiration-pana.webp" alt="Design Illustration" id="image-8">
+                    <img src="images/design/1.webp" alt="Design Image 1" id="image-1" loading="lazy">
+                    <img src="images/design/2.webp" alt="Design Image 2" id="image-2" loading="lazy">
+                    <img src="images/design/3.webp" alt="Design Image 3" id="image-3" loading="lazy">
+                    <img src="images/design/4.webp" alt="Design Image 4" id="image-4" loading="lazy">
+                    <img src="images/design/5.webp" alt="Design Image 5" id="image-5" loading="lazy">
+                    <img src="images/design/6.webp" alt="Design Image 5" id="image-6" loading="lazy">
+                    <img src="images/design/7.webp" alt="Design Image 5" id="image-7" loading="lazy">
+                    <img src="images/design/Design.webp" alt="Design Illustration" id="image-8">
                 </div>
             </div>
         </div>
@@ -60,54 +62,74 @@
                 <div class="row g-0 align-items-center">
                     <!-- Image inside the card -->
                     <div class="col-md-6">
-                        <img src="images/Creative Design-amico.webp" alt="Design Service Illustration" class="img-fluid service-img">
+                        <img src="images/design_5.webp" alt="Design Service Illustration" class="img-fluid service-img">
                     </div>
 
                     <!-- Service Details inside the card -->
                     <div class="col-md-6 service-details p-4">
-                        <h2><span class="text-orange">Pixiu X</span> Creative Web Design</h2>
-                        <p>Pixiu offers creative and professional web design services tailored to bring your brand to life online. Our design approach combines aesthetics with functionality, ensuring that your website not only looks great but also performs effectively.</p>
+                        <h2 class="text-center mb-4">Our <span class="text-orange">Design Expertise</span></h2>
 
-                        <p>Our services include Custom Website Design, UX/UI Design, Responsive Design, and Redesign Services, all crafted to provide a seamless user experience and drive your business goals forward.</p>
-
-                        <!-- Service Progress -->
-                        <div class="service-progress mb-4">
-                            <div class="progress-item">
-                                <span>Custom Website Design</span>
-                                <div class="progress">
-                                    <div class="progress-bar bg-orange" data-value="98"></div>
-                                    <span class="percentage">98%</span>
-                                </div>
-                            </div>
-
-                            <div class="progress-item">
-                                <span>UX/UI Design</span>
-                                <div class="progress">
-                                    <div class="progress-bar bg-orange" data-value="95"></div>
-                                    <span class="percentage">95%</span>
-                                </div>
-                            </div>
-
-                            <div class="progress-item">
-                                <span>Responsive Design</span>
-                                <div class="progress">
-                                    <div class="progress-bar bg-orange" data-value="92"></div>
-                                    <span class="percentage">92%</span>
-                                </div>
-                            </div>
-
-                            <div class="progress-item">
-                                <span>Website Redesign</span>
-                                <div class="progress">
-                                    <div class="progress-bar bg-orange" data-value="90"></div>
-                                    <span class="percentage">90%</span>
-                                </div>
+                        <!-- Custom Website Design -->
+                        <div class="mb-3 d-flex align-items-center">
+                            <i class="fas fa-pencil-ruler text-orange me-2" style="font-size: 24px;"></i>
+                            <h4 class="text-orange mb-0">Custom Website Design</h4>
+                        </div>
+                        <div class="progress-item mb-2">
+                            <span>Creativity & Uniqueness</span>
+                            <div class="progress">
+                                <div class="progress-bar bg-orange" style="width: 98%;"></div>
+                                <span class="percentage">98%</span>
                             </div>
                         </div>
+                        <p class="text-muted">Creating visually stunning and functional designs that reflect your brand identity.</p>
 
-                        <p>Whether you're starting from scratch or looking to refresh your current website, Pixiu is here to help. We focus on understanding your brand and audience to create designs that resonate and convert.</p>
+                        <!-- UX/UI Design -->
+                        <div class="mb-3 d-flex align-items-center">
+                            <i class="fas fa-palette text-orange me-2" style="font-size: 24px;"></i>
+                            <h4 class="text-orange mb-0">UX/UI Design</h4>
+                        </div>
+                        <div class="progress-item mb-2">
+                            <span>User Experience</span>
+                            <div class="progress">
+                                <div class="progress-bar bg-orange" style="width: 95%;"></div>
+                                <span class="percentage">95%</span>
+                            </div>
+                        </div>
+                        <p class="text-muted">Designing intuitive interfaces that enhance user interaction and satisfaction.</p>
 
-                        <p>Let’s create a digital experience that sets your business apart. Explore our web design services today!</p>
+                        <!-- Responsive Design -->
+                        <div class="mb-3 d-flex align-items-center">
+                            <i class="fas fa-mobile-alt text-orange me-2" style="font-size: 24px;"></i>
+                            <h4 class="text-orange mb-0">Responsive Design</h4>
+                        </div>
+                        <div class="progress-item mb-2">
+                            <span>Adaptability</span>
+                            <div class="progress">
+                                <div class="progress-bar bg-orange" style="width: 92%;"></div>
+                                <span class="percentage">92%</span>
+                            </div>
+                        </div>
+                        <p class="text-muted">Ensuring your website looks great on any device, from mobile to desktop.</p>
+
+                        <!-- Website Redesign -->
+                        <div class="mb-3 d-flex align-items-center">
+                            <i class="fas fa-redo text-orange me-2" style="font-size: 24px;"></i>
+                            <h4 class="text-orange mb-0">Website Redesign</h4>
+                        </div>
+                        <div class="progress-item mb-2">
+                            <span>Modernization</span>
+                            <div class="progress">
+                                <div class="progress-bar bg-orange" style="width: 90%;"></div>
+                                <span class="percentage">90%</span>
+                            </div>
+                        </div>
+                        <p class="text-muted">Updating your existing website with modern design elements and enhanced functionality.</p>
+
+                        <!-- Call to Action -->
+                        <div class="text-center mt-4">
+                            <h5 class="text-muted">Ready to transform your website?</h5>
+                            <a href="https://meetings.hubspot.com/pixiu" class="btn btn-orange">Book a Call</a>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -141,7 +163,7 @@
                                 <li><i class="fas fa-palette"></i> Custom Color Palette</li>
                                 <li><i class="fas fa-file-export"></i> Final Files in All Formats</li>
                             </ul>
-                            <a href="logo-creation.php" class="btn btn-orange mt-3">Contact Us</a>
+                            <a href="logo-creation.php" class="btn btn-orange-plans mt-3">Contact Us</a>
                         </div>
                     </div>
                 </div>
@@ -167,7 +189,7 @@
                                 <li><i class="fas fa-font"></i> Typography & Color Schemes</li>
                                 <li><i class="fas fa-images"></i> Social Media Graphics</li>
                             </ul>
-                            <a href="brand-creation.php" class="btn btn-orange mt-3">Contact Us</a>
+                            <a href="brand-creation.php" class="btn btn-orange-plans mt-3">Contact Us</a>
                         </div>
                     </div>
                 </div>
@@ -193,7 +215,7 @@
                                 <li><i class="fas fa-mobile-alt"></i> Mobile-Responsive Mockups</li>
                                 <li><i class="fas fa-comments"></i> 2 Rounds of Revisions</li>
                             </ul>
-                            <a href="website-design.php" class="btn btn-orange mt-3">Contact Us</a>
+                            <a href="website-design.php" class="btn btn-orange-plans mt-3">Contact Us</a>
                         </div>
                     </div>
                 </div>
@@ -244,7 +266,7 @@
                             </div>
                         </div>
                         <div class="col-md-6">
-                            <img src="images/Design Discovery-pana.webp" alt="Discovery Step" class="img-fluid">
+                            <img src="images/design_2.webp" alt="Discovery Step" class="img-fluid">
                         </div>
                     </div>
                 </div>
@@ -263,7 +285,7 @@
                             </div>
                         </div>
                         <div class="col-md-6">
-                            <img src="images/Design Creation-pana.webp" alt="Design Step" class="img-fluid">
+                            <img src="images/design_2.webp" alt="Design Step" class="img-fluid">
                         </div>
                     </div>
                 </div>
@@ -282,7 +304,7 @@
                             </div>
                         </div>
                         <div class="col-md-6">
-                            <img src="images/Design Development-pana.webp" alt="Development Step" class="img-fluid">
+                            <img src="images/design_2.webp" alt="Development Step" class="img-fluid">
                         </div>
                     </div>
                 </div>
@@ -301,7 +323,7 @@
                             </div>
                         </div>
                         <div class="col-md-6">
-                            <img src="images/Design Review-pana.webp" alt="Review Step" class="img-fluid">
+                            <img src="images/design_2.webp" alt="Review Step" class="img-fluid">
                         </div>
                     </div>
                 </div>
@@ -320,7 +342,7 @@
                             </div>
                         </div>
                         <div class="col-md-6">
-                            <img src="images/Design Maintenance-pana.webp" alt="Maintenance Step" class="img-fluid">
+                            <img src="images/design_2.webp" alt="Maintenance Step" class="img-fluid">
                         </div>
                     </div>
                 </div>

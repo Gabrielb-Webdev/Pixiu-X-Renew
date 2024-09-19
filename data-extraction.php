@@ -52,84 +52,84 @@
     </section>
     <!-- End of Welcome Section -->
 
-<!-- Start of Service Details Section -->
-<section id="info" class="service-details-section">
-    <div class="container-fluid position-relative d-flex justify-content-center align-items-center card-container">
-        <!-- Card with image and service details -->
-        <div class="card shadow-lg p-0 overflow-hidden">
-            <div class="row g-0 align-items-center">
-                <!-- Image inside the card -->
-                <div class="col-md-6">
-                    <img src="images/Data extraction-rafiki.webp" alt="Data Extraction Service Illustration" class="img-fluid service-img">
-                </div>
-
-                <!-- Service Details inside the card -->
-                <div class="col-md-6 service-details p-4">
-                    <h2 class="text-center mb-4">Our <span class="text-orange">Data Extraction Expertise</span></h2>
-
-                    <!-- Website Data Extraction -->
-                    <div class="mb-3 d-flex align-items-center">
-                        <i class="fas fa-globe text-orange me-2" style="font-size: 24px;"></i>
-                        <h4 class="text-orange mb-0">Website Data Extraction</h4>
+    <!-- Start of Service Details Section -->
+    <section id="info" class="service-details-section">
+        <div class="container-fluid position-relative d-flex justify-content-center align-items-center card-container">
+            <!-- Card with image and service details -->
+            <div class="card shadow-lg p-0 overflow-hidden">
+                <div class="row g-0 align-items-center">
+                    <!-- Image inside the card -->
+                    <div class="col-md-6">
+                        <img src="images/Data extraction-rafiki.webp" alt="Data Extraction Service Illustration" class="img-fluid service-img">
                     </div>
-                    <div class="progress-item mb-2">
-                        <span>Accuracy & Speed</span>
-                        <div class="progress">
-                            <div class="progress-bar bg-orange" style="width: 98%;"></div>
-                            <span class="percentage">98%</span>
+
+                    <!-- Service Details inside the card -->
+                    <div class="col-md-6 service-details p-4">
+                        <h2 class="text-center mb-4">Our <span class="text-orange">Data Extraction Expertise</span></h2>
+
+                        <!-- Website Data Extraction -->
+                        <div class="mb-3 d-flex align-items-center">
+                            <i class="fas fa-globe text-orange me-2" style="font-size: 24px;"></i>
+                            <h4 class="text-orange mb-0">Website Data Extraction</h4>
                         </div>
-                    </div>
-                    <p class="text-muted">Efficiently capture structured and unstructured data from websites tailored to your needs.</p>
-
-                    <!-- Prospect/Lead Extraction -->
-                    <div class="mb-3 d-flex align-items-center">
-                        <i class="fas fa-user-friends text-orange me-2" style="font-size: 24px;"></i>
-                        <h4 class="text-orange mb-0">Prospect/Lead Extraction</h4>
-                    </div>
-                    <div class="progress-item mb-2">
-                        <span>Lead Quality</span>
-                        <div class="progress">
-                            <div class="progress-bar bg-orange" style="width: 95%;"></div>
-                            <span class="percentage">95%</span>
+                        <div class="progress-item mb-2">
+                            <span>Accuracy & Speed</span>
+                            <div class="progress">
+                                <div class="progress-bar bg-orange" style="width: 98%;"></div>
+                                <span class="percentage">98%</span>
+                            </div>
                         </div>
-                    </div>
-                    <p class="text-muted">Extract high-quality leads and prospects, customized to fit your business strategy.</p>
+                        <p class="text-muted">Efficiently capture structured and unstructured data from websites tailored to your needs.</p>
 
-                    <!-- Social Media Extraction -->
-                    <div class="mb-3 d-flex align-items-center">
-                        <i class="fas fa-hashtag text-orange me-2" style="font-size: 24px;"></i>
-                        <h4 class="text-orange mb-0">Social Media Data Extraction</h4>
-                    </div>
-                    <div class="progress-item mb-2">
-                        <span>Engagement Insights</span>
-                        <div class="progress">
-                            <div class="progress-bar bg-orange" style="width: 93%;"></div>
-                            <span class="percentage">93%</span>
+                        <!-- Prospect/Lead Extraction -->
+                        <div class="mb-3 d-flex align-items-center">
+                            <i class="fas fa-user-friends text-orange me-2" style="font-size: 24px;"></i>
+                            <h4 class="text-orange mb-0">Prospect/Lead Extraction</h4>
                         </div>
-                    </div>
-                    <p class="text-muted">Gain valuable insights from social media platforms to enhance your marketing efforts.</p>
-
-                    <!-- Custom Data Solutions -->
-                    <div class="progress-item mb-2">
-                        <span>Customization & Scalability</span>
-                        <div class="progress">
-                            <div class="progress-bar bg-orange" style="width: 97%;"></div>
-                            <span class="percentage">97%</span>
+                        <div class="progress-item mb-2">
+                            <span>Lead Quality</span>
+                            <div class="progress">
+                                <div class="progress-bar bg-orange" style="width: 95%;"></div>
+                                <span class="percentage">95%</span>
+                            </div>
                         </div>
-                    </div>
-                    <p class="text-muted">We design custom extraction solutions to scale with your business needs and data requirements.</p>
+                        <p class="text-muted">Extract high-quality leads and prospects, customized to fit your business strategy.</p>
 
-                    <!-- Call to Action -->
-                    <div class="text-center mt-4">
-                        <h5 class="text-muted">Have questions?</h5>
-                        <a href="https://meetings.hubspot.com/pixiu" class="btn btn-orange">Book a Call</a>
+                        <!-- Social Media Extraction -->
+                        <div class="mb-3 d-flex align-items-center">
+                            <i class="fas fa-hashtag text-orange me-2" style="font-size: 24px;"></i>
+                            <h4 class="text-orange mb-0">Social Media Data Extraction</h4>
+                        </div>
+                        <div class="progress-item mb-2">
+                            <span>Engagement Insights</span>
+                            <div class="progress">
+                                <div class="progress-bar bg-orange" style="width: 93%;"></div>
+                                <span class="percentage">93%</span>
+                            </div>
+                        </div>
+                        <p class="text-muted">Gain valuable insights from social media platforms to enhance your marketing efforts.</p>
+
+                        <!-- Custom Data Solutions -->
+                        <div class="progress-item mb-2">
+                            <span>Customization & Scalability</span>
+                            <div class="progress">
+                                <div class="progress-bar bg-orange" style="width: 97%;"></div>
+                                <span class="percentage">97%</span>
+                            </div>
+                        </div>
+                        <p class="text-muted">We design custom extraction solutions to scale with your business needs and data requirements.</p>
+
+                        <!-- Call to Action -->
+                        <div class="text-center mt-4">
+                            <h5 class="text-muted">Have questions?</h5>
+                            <a href="https://meetings.hubspot.com/pixiu" class="btn btn-orange">Book a Call</a>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-</section>
-<!-- End of Service Details Section -->
+    </section>
+    <!-- End of Service Details Section -->
 
     <!-- Start of Data Extraction Service Plans Section -->
     <section id="data-extraction-plans" class="plans-section py-5">
@@ -158,7 +158,7 @@
                                 <li><i class="fas fa-sync"></i> Weekly Updates</li>
                                 <li><i class="fas fa-clock"></i> Support: 30 Days</li>
                             </ul>
-                            <a href="basic-extraction.php" class="btn btn-orange mt-3">Contact Us</a>
+                            <a href="basic-extraction.php" class="btn btn-orange-plans mt-3">Contact Us</a>
                         </div>
                     </div>
                 </div>
@@ -185,7 +185,7 @@
                                 <li><i class="fas fa-layer-group"></i> BI Tools Integration</li>
                                 <li><i class="fas fa-calendar-alt"></i> Support: 60 Days</li>
                             </ul>
-                            <a href="advanced-extraction.php" class="btn btn-orange mt-3">Contact Us</a>
+                            <a href="advanced-extraction.php" class="btn btn-orange-plans mt-3">Contact Us</a>
                         </div>
                     </div>
                 </div>
@@ -212,7 +212,7 @@
                                 <li><i class="fas fa-headset"></i> Continuous Support & Maintenance</li>
                                 <li><i class="fas fa-rocket"></i> Process & Data Flow Optimization</li>
                             </ul>
-                            <a href="enterprise-extraction.php" class="btn btn-orange mt-3">Contact Us</a>
+                            <a href="enterprise-extraction.php" class="btn btn-orange-plans mt-3">Contact Us</a>
                         </div>
                     </div>
                 </div>
