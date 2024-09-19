@@ -116,91 +116,91 @@
     <!-- End of Service Details Section -->
 
     <!-- Start of Marketing Design Packages Section -->
-<section id="design-packages" class="plans-section py-5">
-    <div class="container">
-        <h2 class="fw-bold text-center mb-4">Our <span class="text-orange">Design & Branding Packages</span></h2>
-        <div class="row justify-content-center">
-            <!-- Card 1: Logo Creation Package -->
-            <div class="col-md-4 mb-3">
-                <div class="plan-card">
-                    <div class="plan-front">
-                        <h4 class="plan-title">Logo Creation Package</h4>
-                        <p class="plan-price">
-                            <span class="old-price">$500</span> <span class="new-price">$299</span>
-                        </p>
-                        <p class="plan-preview">Get a professional logo that reflects your brand identity.</p>
-                        <div class="hover-indicator">
-                            <i class="fas fa-hand-pointer"></i> More Info
+    <section id="design-packages" class="plans-section py-5">
+        <div class="container">
+            <h2 class="fw-bold text-center mb-4">Our <span class="text-orange">Design & Branding Packages</span></h2>
+            <div class="row justify-content-center">
+                <!-- Card 1: Logo Creation Package -->
+                <div class="col-md-4 mb-3">
+                    <div class="plan-card">
+                        <div class="plan-front">
+                            <h4 class="plan-title">Logo Creation Package</h4>
+                            <p class="plan-price">
+                                <span class="old-price">$500</span> <span class="new-price">$299</span>
+                            </p>
+                            <p class="plan-preview">Get a professional logo that reflects your brand identity.</p>
+                            <div class="hover-indicator">
+                                <i class="fas fa-hand-pointer"></i> More Info
+                            </div>
                         </div>
-                    </div>
-                    <div class="plan-back">
-                        <h4 class="plan-title">Logo Creation Package</h4>
-                        <ul class="plan-features">
-                            <li><i class="fas fa-check-circle"></i> 3 Initial Logo Concepts</li>
-                            <li><i class="fas fa-pencil-alt"></i> 2 Rounds of Revisions</li>
-                            <li><i class="fas fa-palette"></i> Custom Color Palette</li>
-                            <li><i class="fas fa-file-export"></i> Final Files in All Formats</li>
-                        </ul>
-                        <a href="logo-creation.php" class="btn btn-orange mt-3">Contact Us</a>
+                        <div class="plan-back">
+                            <h4 class="plan-title">Logo Creation Package</h4>
+                            <ul class="plan-features">
+                                <li><i class="fas fa-check-circle"></i> 3 Initial Logo Concepts</li>
+                                <li><i class="fas fa-pencil-alt"></i> 2 Rounds of Revisions</li>
+                                <li><i class="fas fa-palette"></i> Custom Color Palette</li>
+                                <li><i class="fas fa-file-export"></i> Final Files in All Formats</li>
+                            </ul>
+                            <a href="logo-creation.php" class="btn btn-orange mt-3">Contact Us</a>
+                        </div>
                     </div>
                 </div>
-            </div>
 
-            <!-- Card 2: Brand Creation Package -->
-            <div class="col-md-4 mb-3">
-                <div class="plan-card">
-                    <div class="plan-front">
-                        <h4 class="plan-title">Brand Creation Package</h4>
-                        <p class="plan-price">
-                            <span class="old-price">$1,200</span> <span class="new-price">$799</span>
-                        </p>
-                        <p class="plan-preview">Build a comprehensive brand identity that stands out.</p>
-                        <div class="hover-indicator">
-                            <i class="fas fa-hand-pointer"></i> More Info
+                <!-- Card 2: Brand Creation Package -->
+                <div class="col-md-4 mb-3">
+                    <div class="plan-card">
+                        <div class="plan-front">
+                            <h4 class="plan-title">Brand Creation Package</h4>
+                            <p class="plan-price">
+                                <span class="old-price">$1,200</span> <span class="new-price">$799</span>
+                            </p>
+                            <p class="plan-preview">Build a comprehensive brand identity that stands out.</p>
+                            <div class="hover-indicator">
+                                <i class="fas fa-hand-pointer"></i> More Info
+                            </div>
                         </div>
-                    </div>
-                    <div class="plan-back">
-                        <h4 class="plan-title">Brand Creation Package</h4>
-                        <ul class="plan-features">
-                            <li><i class="fas fa-tag"></i> Logo Design</li>
-                            <li><i class="fas fa-book"></i> Brand Style Guide</li>
-                            <li><i class="fas fa-font"></i> Typography & Color Schemes</li>
-                            <li><i class="fas fa-images"></i> Social Media Graphics</li>
-                        </ul>
-                        <a href="brand-creation.php" class="btn btn-orange mt-3">Contact Us</a>
+                        <div class="plan-back">
+                            <h4 class="plan-title">Brand Creation Package</h4>
+                            <ul class="plan-features">
+                                <li><i class="fas fa-tag"></i> Logo Design</li>
+                                <li><i class="fas fa-book"></i> Brand Style Guide</li>
+                                <li><i class="fas fa-font"></i> Typography & Color Schemes</li>
+                                <li><i class="fas fa-images"></i> Social Media Graphics</li>
+                            </ul>
+                            <a href="brand-creation.php" class="btn btn-orange mt-3">Contact Us</a>
+                        </div>
                     </div>
                 </div>
-            </div>
 
-            <!-- Card 3: Website Design Package -->
-            <div class="col-md-4 mb-3">
-                <div class="plan-card">
-                    <div class="plan-front">
-                        <h4 class="plan-title">Website Design Package</h4>
-                        <p class="plan-price">
-                            <span class="old-price">$2,000</span> <span class="new-price">$1,299</span>
-                        </p>
-                        <p class="plan-preview">Professional web design tailored to your brand.</p>
-                        <div class="hover-indicator">
-                            <i class="fas fa-hand-pointer"></i> More Info
+                <!-- Card 3: Website Design Package -->
+                <div class="col-md-4 mb-3">
+                    <div class="plan-card">
+                        <div class="plan-front">
+                            <h4 class="plan-title">Website Design Package</h4>
+                            <p class="plan-price">
+                                <span class="old-price">$2,000</span> <span class="new-price">$1,299</span>
+                            </p>
+                            <p class="plan-preview">Professional web design tailored to your brand.</p>
+                            <div class="hover-indicator">
+                                <i class="fas fa-hand-pointer"></i> More Info
+                            </div>
                         </div>
-                    </div>
-                    <div class="plan-back">
-                        <h4 class="plan-title">Website Design Package</h4>
-                        <ul class="plan-features">
-                            <li><i class="fas fa-desktop"></i> Custom Homepage Design</li>
-                            <li><i class="fas fa-file-image"></i> Design for Up to 5 Pages</li>
-                            <li><i class="fas fa-mobile-alt"></i> Mobile-Responsive Mockups</li>
-                            <li><i class="fas fa-comments"></i> 2 Rounds of Revisions</li>
-                        </ul>
-                        <a href="website-design.php" class="btn btn-orange mt-3">Contact Us</a>
+                        <div class="plan-back">
+                            <h4 class="plan-title">Website Design Package</h4>
+                            <ul class="plan-features">
+                                <li><i class="fas fa-desktop"></i> Custom Homepage Design</li>
+                                <li><i class="fas fa-file-image"></i> Design for Up to 5 Pages</li>
+                                <li><i class="fas fa-mobile-alt"></i> Mobile-Responsive Mockups</li>
+                                <li><i class="fas fa-comments"></i> 2 Rounds of Revisions</li>
+                            </ul>
+                            <a href="website-design.php" class="btn btn-orange mt-3">Contact Us</a>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-</section>
-<!-- End of Marketing Design Packages Section -->
+    </section>
+    <!-- End of Marketing Design Packages Section -->
 
     <!-- Start of Steps to Success Section -->
     <section id="steps-success" class="steps-section">

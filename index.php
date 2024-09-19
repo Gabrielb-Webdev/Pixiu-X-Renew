@@ -190,7 +190,7 @@
                             <img src="images/Design.webp" class="card-img-top" alt="Multimedia Design">
                             <div class="card-overlay text-center d-flex justify-content-center align-items-center">
                                 <!-- Botón para la página general de Multimedia Design -->
-                                <a href="multimedia-design.php" class="btn btn-orange me-2">
+                                <a href="design.php" class="btn btn-orange me-2">
                                     Multimedia Design
                                     <i class="fas fa-arrow-right ms-2"></i>
                                 </a>
