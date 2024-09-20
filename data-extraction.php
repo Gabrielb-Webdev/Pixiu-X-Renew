@@ -225,75 +225,103 @@
     <section id="steps-success" class="steps-section">
         <div class="container-fluid text-center py-5">
             <!-- Section Title -->
-            <h2 class="fw-bold">Our 4 Steps <span class="text-orange">To Data Extraction Success</span></h2>
-            <p class="text-muted">How we deliver top-notch data extraction solutions to help your business thrive.</p>
+            <h2 class="fw-bold">Our 4 Steps <span class="text-orange">To Data Scraping Success</span></h2>
+            <p class="text-muted">Explore our methodical approach to delivering efficient and accurate data extraction solutions.</p>
 
             <!-- Tabs Navigation -->
             <ul class="nav nav-tabs justify-content-center mt-4 mb-5" id="stepsTabs" role="tablist">
                 <li class="nav-item">
-                    <a class="nav-link active" id="consultation-tab" data-bs-toggle="tab" href="#consultation" role="tab" aria-controls="consultation" aria-selected="true">Initial Consultation</a>
+                    <a class="nav-link active" id="discovery-tab" data-bs-toggle="tab" href="#discovery" role="tab"
+                        aria-controls="discovery" aria-selected="true">Discovery & Planning</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" id="analysis-tab" data-bs-toggle="tab" href="#analysis" role="tab" aria-controls="analysis" aria-selected="false">Requirement Analysis</a>
+                    <a class="nav-link" id="setup-tab" data-bs-toggle="tab" href="#setup" role="tab"
+                        aria-controls="setup" aria-selected="false">Setup & Configuration</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" id="estimation-tab" data-bs-toggle="tab" href="#estimation" role="tab" aria-controls="estimation" aria-selected="false">Final Project Estimation</a>
+                    <a class="nav-link" id="scraping-tab" data-bs-toggle="tab" href="#scraping" role="tab"
+                        aria-controls="scraping" aria-selected="false">Data Scraping</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" id="kickoff-tab" data-bs-toggle="tab" href="#kickoff" role="tab" aria-controls="kickoff" aria-selected="false">Project Kickoff</a>
+                    <a class="nav-link" id="delivery-tab" data-bs-toggle="tab" href="#delivery" role="tab"
+                        aria-controls="delivery" aria-selected="false">Data Delivery & Optimization</a>
                 </li>
             </ul>
 
             <!-- Tabs Content -->
             <div class="tab-content" id="stepsContent">
-                <!-- Initial Consultation Step -->
-                <div class="tab-pane fade show active" id="consultation" role="tabpanel" aria-labelledby="consultation-tab">
+                <!-- Discovery & Planning Step -->
+                <div class="tab-pane fade show active" id="discovery" role="tabpanel" aria-labelledby="discovery-tab">
                     <div class="row align-items-center">
                         <div class="col-md-6">
-                            <h3 class="fw-bold">Initial Consultation</h3>
-                            <p class="text-muted">Our first interaction begins with understanding your data extraction requirements, industry, tech stacks, architecture, deadlines, and budget.</p>
+                            <h3 class="fw-bold">Discovery & Planning</h3>
+                            <p class="text-muted">We start by understanding your data needs, target sources, and the goals of your project. This step is critical to designing a tailored data scraping strategy that aligns with your business objectives.</p>
+                            <!-- Tags -->
+                            <div class="tags mt-3">
+                                <span class="tag-label">Target Analysis</span>
+                                <span class="tag-label">Source Identification</span>
+                                <span class="tag-label">Strategy Planning</span>
+                            </div>
                         </div>
                         <div class="col-md-6">
-                            <img src="images/Data extraction-cuate.webp" alt="Consultation Step" class="img-fluid">
+                            <img src="images/Data extraction-cuate.webp" alt="Discovery Step" class="img-fluid">
                         </div>
                     </div>
                 </div>
 
-                <!-- Requirement Analysis Step -->
-                <div class="tab-pane fade" id="analysis" role="tabpanel" aria-labelledby="analysis-tab">
+                <!-- Setup & Configuration Step -->
+                <div class="tab-pane fade" id="setup" role="tabpanel" aria-labelledby="setup-tab">
                     <div class="row align-items-center">
                         <div class="col-md-6">
-                            <h3 class="fw-bold">Requirement Analysis</h3>
-                            <p class="text-muted">Next, our tech team will work with you to simplify your project, define technical possibilities, and plan out optimized solutions tailored to your needs.</p>
+                            <h3 class="fw-bold">Setup & Configuration</h3>
+                            <p class="text-muted">We configure the data scraping tools, scripts, and set up any necessary APIs or databases. This step ensures that the extraction process runs smoothly and efficiently.</p>
+                            <!-- Tags -->
+                            <div class="tags mt-3">
+                                <span class="tag-label">Tool Setup</span>
+                                <span class="tag-label">Script Configuration</span>
+                                <span class="tag-label">API Integration</span>
+                            </div>
                         </div>
                         <div class="col-md-6">
-                            <img src="images/Data extraction-cuate.webp" alt="Analysis Step" class="img-fluid">
+                            <img src="images/Data extraction-cuate.webp" alt="Setup Step" class="img-fluid">
                         </div>
                     </div>
                 </div>
 
-                <!-- Final Project Estimation Step -->
-                <div class="tab-pane fade" id="estimation" role="tabpanel" aria-labelledby="estimation-tab">
+                <!-- Data Scraping Step -->
+                <div class="tab-pane fade" id="scraping" role="tabpanel" aria-labelledby="scraping-tab">
                     <div class="row align-items-center">
                         <div class="col-md-6">
-                            <h3 class="fw-bold">Final Project Estimation</h3>
-                            <p class="text-muted">We’ll prepare an estimation with scope, objectives, and a cost breakdown. This will be shared with you for review, ensuring transparency before proceeding.</p>
+                            <h3 class="fw-bold">Data Scraping</h3>
+                            <p class="text-muted">The core step where we execute the data scraping process, capturing the required information from the identified sources while ensuring data quality and accuracy.</p>
+                            <!-- Tags -->
+                            <div class="tags mt-3">
+                                <span class="tag-label">Execution</span>
+                                <span class="tag-label">Quality Assurance</span>
+                                <span class="tag-label">Data Validation</span>
+                            </div>
                         </div>
                         <div class="col-md-6">
-                            <img src="images/Data extraction-cuate.webp" alt="Estimation Step" class="img-fluid">
+                            <img src="images/Data extraction-cuate.webp" alt="Scraping Step" class="img-fluid">
                         </div>
                     </div>
                 </div>
 
-                <!-- Project Kickoff Step -->
-                <div class="tab-pane fade" id="kickoff" role="tabpanel" aria-labelledby="kickoff-tab">
+                <!-- Data Delivery & Optimization Step -->
+                <div class="tab-pane fade" id="delivery" role="tabpanel" aria-labelledby="delivery-tab">
                     <div class="row align-items-center">
                         <div class="col-md-6">
-                            <h3 class="fw-bold">Project Kickoff</h3>
-                            <p class="text-muted">Once the project estimation is approved, we begin the project, collaborating with you to ensure smooth progress and timely updates.</p>
+                            <h3 class="fw-bold">Data Delivery & Optimization</h3>
+                            <p class="text-muted">We finalize the data extraction, optimize the datasets, and deliver the information in your preferred format. We also offer insights and recommendations for utilizing the data effectively.</p>
+                            <!-- Tags -->
+                            <div class="tags mt-3">
+                                <span class="tag-label">Data Formatting</span>
+                                <span class="tag-label">Optimization</span>
+                                <span class="tag-label">Delivery</span>
+                            </div>
                         </div>
                         <div class="col-md-6">
-                            <img src="images/Data extraction-cuate.webp" alt="Kickoff Step" class="img-fluid">
+                            <img src="images/Data extraction-cuate.webp" alt="Delivery Step" class="img-fluid">
                         </div>
                     </div>
                 </div>
