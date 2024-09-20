@@ -34,10 +34,3 @@ document.querySelectorAll('a[href^="index.php#"]').forEach(anchor => {
     });
 });
 
-// Funcionalidad del FAQ para expandir y colapsar respuestas
-document.querySelectorAll('.faq-question').forEach(button => {
-    button.addEventListener('click', () => {
-        const faqItem = button.parentElement;
-        faqItem.classList.toggle('active');
-    });
-});
