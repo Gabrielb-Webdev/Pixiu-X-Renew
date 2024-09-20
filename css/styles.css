@@ -206,7 +206,6 @@ a:hover {
     /* Agregar una altura mínima */
 }
 
-
 /* Estilos del texto en la sección de bienvenida */
 
 
@@ -1350,7 +1349,7 @@ h2 {
 /* Call-to-Action Section */
 
 .cta-section {
-    background: rgba(221, 109, 44, 0.75);
+    background: #e55c0cbf;
     backdrop-filter: blur(10px);
     position: relative;
     padding: 60px 0;
@@ -1364,8 +1363,6 @@ h2 {
     left: 0;
     width: 100%;
     height: 100%;
-    background-image: url('../images/subtle-texture.webp');
-    /* Añadimos una textura ligera */
     background-size: cover;
     opacity: 0.3;
     z-index: -1;

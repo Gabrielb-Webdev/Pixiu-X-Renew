@@ -1,0 +1,131 @@
+/* Estilos Responsivos para la Sección de Bienvenida */
+
+/* Ajustes para teléfonos y tabletas */
+@media (max-width: 991px) {
+    .welcome-section {
+        background-image: none; /* Oculta la imagen de fondo */
+        padding: 40px 20px; /* Reduce el padding para dispositivos más pequeños */
+        min-height: auto; /* Ajusta la altura mínima */
+    }
+
+    .welcome-section .row {
+        flex-direction: column; /* Alinea el contenido uno encima del otro */
+        text-align: center; /* Centra el texto */
+    }
+
+    .welcome-text {
+        padding: 20px 0; /* Ajusta el padding para que el texto no se vea tan espaciado */
+        order: 1; /* Asegura que el texto esté primero */
+        text-align: center; /* Centra el texto horizontalmente */
+        margin: 0 auto; /* Centra el contenedor del texto */
+        max-width: 90%; /* Ajusta el ancho del texto para que no ocupe todo el espacio */
+        z-index: 2; /* Asegura que el texto esté encima */
+    }
+
+    .image-container {
+        position: relative;
+        right: 0;
+        order: 2; /* Asegura que las imágenes estén debajo del texto */
+        margin: 20px 0; /* Añade espacio alrededor de las imágenes */
+        display: flex;
+        justify-content: center; /* Centra las imágenes horizontalmente */
+        width: 100%; /* Asegura que el contenedor ocupe todo el ancho */
+        max-width: 100%; /* Asegura que el contenedor ocupe todo el ancho disponible */
+        height: 20rem;
+    }
+
+    .image-container img {
+        width: 100%; /* Aumenta el tamaño de las imágenes para ocupar todo el ancho */
+        max-width: none; /* Elimina cualquier restricción de ancho máximo */
+        height: auto; /* Mantén la proporción de las imágenes */
+        object-fit: cover; /* Asegura que las imágenes cubran todo el contenedor */
+    }
+
+    .buttons {
+        flex-direction: column; /* Coloca los botones en columnas */
+        gap: 10px; /* Añade espacio entre los botones */
+        align-items: center; /* Centra los botones */
+    }
+
+    .buttons a {
+        margin-bottom: 10px; /* Añade margen inferior entre los botones */
+        width: 90%; /* Ajusta el ancho de los botones */
+    }
+}
+
+/* Estilos Responsivos para la Sección de Servicios */
+
+/* Ajustes para teléfonos y tabletas */
+@media (max-width: 991px) {
+    .services-image {
+        display: none; /* Oculta la imagen en dispositivos móviles y tablets */
+    }
+
+    .services-section {
+        padding: 40px 20px; /* Ajusta el padding para dispositivos más pequeños */
+        text-align: center; /* Centra el texto */
+    }
+
+    .services-section h2 {
+        font-size: 1.5rem; /* Ajusta el tamaño del título */
+        text-align: center; /* Centra el título */
+    }
+
+    .underline-orange {
+        margin: 0 auto 20px auto; /* Centra la línea naranja debajo del título */
+    }
+
+    .service-card {
+        margin-bottom: 20px; /* Ajusta el margen inferior entre las tarjetas */
+    }
+
+    .service-card h5 {
+        font-size: 1.2rem; /* Ajusta el tamaño del título de las tarjetas */
+    }
+
+    .service-card p {
+        font-size: 1rem; /* Ajusta el tamaño del texto de las tarjetas */
+    }
+}
+
+/* Estilos Responsivos para Ocultar Imágenes de Fondo */
+
+/* Ocultar imágenes de fondo en dispositivos móviles y tablets */
+@media (max-width: 991px) {
+    .services-section::before {
+        display: none; /* Oculta la imagen de fondo en la sección de servicios */
+    }
+
+    .contact-section::before,
+    .contact-section::after {
+        display: none; /* Oculta las imágenes de fondo en la sección de contacto */
+    }
+}
+
+/* Estilos Responsivos para la Sección de Información de Contacto */
+
+/* Ajustes para móviles y tablets */
+@media (max-width: 991px) {
+    .contact-info .row {
+        flex-direction: column; /* Cambia la dirección del flex a columna */
+        align-items: center; /* Centra los elementos en pantallas más pequeñas */
+        gap: 20px; /* Añade espacio entre los elementos */
+    }
+
+    .contact-item {
+        flex-direction: row; /* Cambia la dirección del contenido dentro del item a fila */
+        gap: 10px; /* Espacio entre el icono y el texto */
+        justify-content: center; /* Centra el contenido horizontalmente */
+        align-items: center; /* Centra el contenido verticalmente */
+        text-align: left; /* Alinea el texto a la izquierda para una mejor lectura */
+    }
+
+    .contact-item i {
+        font-size: 1.5rem; /* Ajusta el tamaño del icono */
+    }
+
+    .contact-item p {
+        margin: 0;
+        font-size: 1rem; /* Ajusta el tamaño del texto */
+    }
+}
