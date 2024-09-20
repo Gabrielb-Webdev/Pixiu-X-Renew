@@ -129,3 +129,23 @@
         font-size: 1rem; /* Ajusta el tamaño del texto */
     }
 }
+
+/* Responsiveness */
+
+@media (max-width: 768px) {
+    .plan-card {
+        height: 25rem;
+    }
+    .plan-title {
+        font-size: 1.6rem;
+    }
+    .plan-price {
+        font-size: 1.6rem;
+    }
+    .plan-preview {
+        font-size: 1rem;
+    }
+    .plan-features li {
+        font-size: 1rem;
+    }
+}

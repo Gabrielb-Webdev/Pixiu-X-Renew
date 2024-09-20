@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/services.css">
+    <link rel="stylesheet" href="css/resposive.css">
 </head>
 
 <body>
@@ -56,6 +57,8 @@
 
     <!-- Start of Service Details Section -->
     <section id="info" class="service-details-section">
+        <!-- Full-width background image -->
+        <div class="background-image"></div>
         <div class="container-fluid position-relative d-flex justify-content-center align-items-center card-container">
             <!-- Card with image and service details -->
             <div class="card shadow-lg p-0 overflow-hidden">

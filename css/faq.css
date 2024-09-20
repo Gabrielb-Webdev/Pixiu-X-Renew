@@ -1,0 +1,175 @@
+/* Centrado vertical del texto en la sección de bienvenida */
+.welcome-section {
+    display: flex;
+    align-items: center; /* Centra el contenido verticalmente */
+    min-height: 75vh; /* Asegura que ocupe toda la altura de la pantalla */
+}
+
+.welcome-text {
+    text-align: left; /* Mantiene el texto alineado a la izquierda */
+    padding-top: 20px; /* Ajusta el padding superior si deseas moverlo más abajo */
+}
+
+/* Estilos Generales de la Sección de Pasos */
+.steps-section {
+    background: #dd6d2c; /* Fondo en el color especificado */
+    padding: 50px 0;
+    width: 100%; /* Ocupa el 100% del ancho de la pantalla */
+    color: #fff;
+    max-width: 1800px;
+}
+
+.steps-section h2 {
+    color: #fff;
+    font-size: 1.8rem;
+    margin-bottom: 30px;
+}
+
+/* Contenedor de los Pasos */
+.steps-container {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 15px 0;
+    border-radius: 10px;
+    display: flex;
+    gap: 20px; /* Espacio entre los íconos */
+    max-width: 90%; /* Ajusta el ancho del contenedor de pasos */
+    margin: 0 auto; /* Centrado horizontal */
+}
+
+/* Estilo de cada Paso */
+.step-item {
+    text-align: center;
+    flex: 1; /* Igual ancho para todos los elementos */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Caja del Icono */
+.icon-box {
+    width: 60px;
+    height: 60px;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+/* Estilo del Icono */
+.icon {
+    font-size: 24px;
+    color: #fff;
+}
+
+/* Estilo del Título de los Pasos */
+.step-title {
+    font-size: 14px;
+    color: #fff;
+}
+
+/* Estilo de los Divisores */
+.divider {
+    width: 1px;
+    background-color: rgba(255, 255, 255, 0.5);
+    height: 50px;
+    align-self: center;
+}
+
+.faq-section {
+    background-color: #ffffff;
+    padding: 60px 0;
+}
+
+.faq-title {
+    font-weight: bold;
+    font-size: 28px;
+    margin-bottom: 5px;
+}
+
+.text-highlight {
+    color: #7a49ff; /* Ajusta el color para que coincida con el diseño */
+}
+
+.faq-subtitle {
+    color: #6c757d;
+    margin-bottom: 30px;
+    font-size: 16px;
+}
+
+.faq-list {
+    border-top: 1px solid #ddd;
+}
+
+.faq-item {
+    border-bottom: 1px solid #ddd;
+    padding: 15px 0;
+}
+
+.faq-question {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    background: none;
+    border: none;
+    font-weight: bold;
+    color: #333;
+    font-size: 18px;
+    padding: 0;
+    cursor: pointer;
+    text-align: left;
+}
+
+.faq-icon {
+    font-size: 20px;
+    transition: transform 0.3s;
+}
+
+.faq-answer {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease;
+    font-size: 14px;
+    color: #6c757d;
+    padding-top: 10px;
+}
+
+.faq-answer p {
+    margin: 0;
+}
+
+.faq-item.active .faq-answer {
+    max-height: 200px;
+}
+
+.faq-item.active .faq-icon {
+    transform: rotate(45deg);
+}
+
+.quote-form {
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.form-title {
+    font-weight: bold;
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+
+.btn-quote {
+    background-color: #7a49ff;
+    color: #fff;
+    border: none;
+    padding: 10px 0;
+    transition: background-color 0.3s;
+}
+
+.btn-quote:hover {
+    background-color: #5d36cc;
+}
+
+input::placeholder {
+    color: #999;
+}

@@ -138,24 +138,3 @@
     background-color: #c2591c;
     color: #fff;
 }
-
-
-/* Responsiveness */
-
-@media (max-width: 768px) {
-    .plan-card {
-        height: 300px;
-    }
-    .plan-title {
-        font-size: 1.6rem;
-    }
-    .plan-price {
-        font-size: 1.6rem;
-    }
-    .plan-preview {
-        font-size: 1rem;
-    }
-    .plan-features li {
-        font-size: 1rem;
-    }
-}

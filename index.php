@@ -15,6 +15,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/resposive.css">
+    <link rel="stylesheet" href="css/resposive.css">
 </head>
 
 <body>
@@ -233,32 +234,32 @@
                             <div class="progress-item">
                                 <span>HubSpot Consulting</span>
                                 <div class="progress">
-                                    <div class="progress-bar bg-orange" data-value="90"></div>
-                                    <span class="percentage">90%</span>
+                                    <div class="progress-bar bg-orange" data-value="99"></div>
+                                    <span class="percentage">99%</span>
                                 </div>
                             </div>
 
                             <div class="progress-item">
                                 <span>Web Development</span>
                                 <div class="progress">
-                                    <div class="progress-bar bg-orange" data-value="85"></div>
-                                    <span class="percentage">85%</span>
+                                    <div class="progress-bar bg-orange" data-value="91"></div>
+                                    <span class="percentage">91%</span>
                                 </div>
                             </div>
 
                             <div class="progress-item">
                                 <span>Marketing</span>
                                 <div class="progress">
-                                    <div class="progress-bar bg-orange" data-value="80"></div>
-                                    <span class="percentage">80%</span>
+                                    <div class="progress-bar bg-orange" data-value="97"></div>
+                                    <span class="percentage">97%</span>
                                 </div>
                             </div>
 
                             <div class="progress-item">
                                 <span>Multimedia Design</span>
                                 <div class="progress">
-                                    <div class="progress-bar bg-orange" data-value="75"></div>
-                                    <span class="percentage">75%</span>
+                                    <div class="progress-bar bg-orange" data-value="95"></div>
+                                    <span class="percentage">94%</span>
                                 </div>
                             </div>
                         </div>
