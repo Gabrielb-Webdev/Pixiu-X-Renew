@@ -15,6 +15,7 @@
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/services.css">
     <link rel="stylesheet" href="css/resposive.css">
+    <link rel="stylesheet" href="css/faq.css">
 </head>
 
 <body>
@@ -351,6 +352,97 @@
         </div>
     </section>
     <!-- End of Steps to Success Section -->
+
+    <!-- Start of FAQ Section -->
+    <section class="faq-section py-5">
+        <div class="container">
+            <h2 class="text-center fw-bold mb-4">Frequently Asked Questions</h2>
+            <div class="accordion" id="faqAccordionWebDevelopment">
+
+                <!-- FAQ Item 1 -->
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingOne">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                            I have a software idea, but I'm not sure about all its features. Can you help me validate it?
+                        </button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne"
+                        data-bs-parent="#faqAccordionWebDevelopment">
+                        <div class="accordion-body">
+                            Yes, we hold workshops with clients as part of our services. They usually last from 16 hours to 80 hours, during which we deep dive into the software's functionality and help you design the concept.
+                        </div>
+                    </div>
+                </div>
+
+                <!-- FAQ Item 2 -->
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            I'm worried about the support for my application or website. Do you also maintain the software after it's implemented?
+                        </button>
+                    </h2>
+                    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                        data-bs-parent="#faqAccordionWebDevelopment">
+                        <div class="accordion-body">
+                            Yes, we offer ongoing support and flexible maintenance packages. We can definitely find a support plan that works for you. However, if you decide that you don't need any kind of support, that's perfectly fine too! Since the solution is completely yours, the final decision is yours.
+                        </div>
+                    </div>
+                </div>
+
+                <!-- FAQ Item 3 -->
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingThree">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            How do you handle revisions and feedback during the design process?
+                        </button>
+                    </h2>
+                    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                        data-bs-parent="#faqAccordionWebDevelopment">
+                        <div class="accordion-body">
+                            At Pixiu, your feedback is essential to our design process. We value your ideas, tweaks, and "aha" moments, incorporating them into each iteration to ensure that the final product meets your expectations of perfection. Our collaborative approach ensures that your voice is heard clearly throughout the process, guaranteeing that we deliver a product that exceeds your expectations.
+                        </div>
+                    </div>
+                </div>
+
+                <!-- FAQ Item 4 -->
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingFour">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                            How much does web design and development typically cost?
+                        </button>
+                    </h2>
+                    <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
+                        data-bs-parent="#faqAccordionWebDevelopment">
+                        <div class="accordion-body">
+                            At Pixiu, most of our web design and development projects average around $500. However, the final cost depends on the specific scope of each project. We generally have a minimum project size and prefer to agree on a fixed cost with milestone payments to ensure clarity and satisfaction throughout the development process.
+                        </div>
+                    </div>
+                </div>
+
+                <!-- FAQ Item 5 -->
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingFive">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                            Who owns the software or website once you build it?
+                        </button>
+                    </h2>
+                    <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive"
+                        data-bs-parent="#faqAccordionWebDevelopment">
+                        <div class="accordion-body">
+                            Once the project is completed and implemented, you legally own everything needed to build, maintain, or extend the software in the future, including executables, scripts, project files, source code, etc.
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- End of FAQ Section -->
 
     <!-- Start of Call-to-Action Section -->
     <section id="call-to-action" class="cta-section py-5">

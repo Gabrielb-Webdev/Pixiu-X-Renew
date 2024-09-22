@@ -15,6 +15,7 @@
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/services.css">
     <link rel="stylesheet" href="css/resposive.css">
+    <link rel="stylesheet" href="css/faq.css">
 </head>
 
 <body>
@@ -138,114 +139,114 @@
     <!-- End of Service Details Section -->
 
     <!-- Start of HubSpot Service Plans Section -->
-<section id="hubspot-plans" class="plans-section py-5">
-    <div class="container">
-        <h2 class="fw-bold text-center mb-4">Our <span class="text-orange">HubSpot Service Packages</span></h2>
-        <p class="text-center text-muted mb-5">Explore our tailored HubSpot service packages designed to enhance your CRM experience and drive business growth.</p>
-        <div class="row justify-content-center">
-            <!-- Card 1: Implementation Package -->
-            <div class="col-md-3 mb-3">
-                <div class="plan-card" style="height: 37.5em">
-                    <div class="plan-front">
-                        <h4 class="plan-title">Implementation Package</h4>
-                        <p class="plan-price">Talk to sales</p>
-                        <p class="plan-preview">Align HubSpot with your business goals through expert implementation.</p>
-                        <div class="hover-indicator">
-                            <i class="fas fa-hand-pointer"></i> More Info
+    <section id="hubspot-plans" class="plans-section py-5">
+        <div class="container">
+            <h2 class="fw-bold text-center mb-4">Our <span class="text-orange">HubSpot Service Packages</span></h2>
+            <p class="text-center text-muted mb-5">Explore our tailored HubSpot service packages designed to enhance your CRM experience and drive business growth.</p>
+            <div class="row justify-content-center">
+                <!-- Card 1: Implementation Package -->
+                <div class="col-md-3 mb-3">
+                    <div class="plan-card" style="height: 37.5em">
+                        <div class="plan-front">
+                            <h4 class="plan-title">Implementation Package</h4>
+                            <p class="plan-price">Talk to sales</p>
+                            <p class="plan-preview">Align HubSpot with your business goals through expert implementation.</p>
+                            <div class="hover-indicator">
+                                <i class="fas fa-hand-pointer"></i> More Info
+                            </div>
                         </div>
-                    </div>
-                    <div class="plan-back">
-                        <h4 class="plan-title">Implementation Package</h4>
-                        <ul class="plan-features">
-                            <li><i class="fas fa-database"></i> Data Mapping & Migration</li>
-                            <li><i class="fas fa-cogs"></i> CRM Configuration</li>
-                            <li><i class="fas fa-chalkboard-teacher"></i> Team Workshops & Training</li>
-                            <li><i class="fas fa-envelope"></i> Email Templates & Sequences</li>
-                            <li><i class="fas fa-sync-alt"></i> Data Automations & Reporting</li>
-                        </ul>
-                        <a href="https://meetings.hubspot.com/pixiu" class="btn btn-orange-plans mt-3" target="_blank">Contact Us</a>
+                        <div class="plan-back">
+                            <h4 class="plan-title">Implementation Package</h4>
+                            <ul class="plan-features">
+                                <li><i class="fas fa-database"></i> Data Mapping & Migration</li>
+                                <li><i class="fas fa-cogs"></i> CRM Configuration</li>
+                                <li><i class="fas fa-chalkboard-teacher"></i> Team Workshops & Training</li>
+                                <li><i class="fas fa-envelope"></i> Email Templates & Sequences</li>
+                                <li><i class="fas fa-sync-alt"></i> Data Automations & Reporting</li>
+                            </ul>
+                            <a href="https://meetings.hubspot.com/pixiu" class="btn btn-orange-plans mt-3" target="_blank">Contact Us</a>
+                        </div>
                     </div>
                 </div>
-            </div>
 
-            <!-- Card 2: Starter Package -->
-            <div class="col-md-3 mb-3">
-                <div class="plan-card" style="height: 37.5em">
-                    <div class="plan-front">
-                        <h4 class="plan-title">Starter Package</h4>
-                        <p class="plan-price">$1399 / m</p>
-                        <p class="plan-preview">Address everyday issues and streamline your operations with our starter package.</p>
-                        <div class="hover-indicator">
-                            <i class="fas fa-hand-pointer"></i> More Info
+                <!-- Card 2: Starter Package -->
+                <div class="col-md-3 mb-3">
+                    <div class="plan-card" style="height: 37.5em">
+                        <div class="plan-front">
+                            <h4 class="plan-title">Starter Package</h4>
+                            <p class="plan-price">$1399 / m</p>
+                            <p class="plan-preview">Address everyday issues and streamline your operations with our starter package.</p>
+                            <div class="hover-indicator">
+                                <i class="fas fa-hand-pointer"></i> More Info
+                            </div>
                         </div>
-                    </div>
-                    <div class="plan-back">
-                        <h4 class="plan-title">Starter Package</h4>
-                        <ul class="plan-features">
-                            <li><i class="fas fa-life-ring"></i> Daily Issue Resolution</li>
-                            <li><i class="fas fa-user-clock"></i> 8 Hours/Month Support</li>
-                            <li><i class="fas fa-ticket-alt"></i> Prioritized Ticket Handling</li>
-                            <li><i class="fas fa-tools"></i> Troubleshooting & Error Resolution</li>
-                            <li><i class="fas fa-headset"></i> Technical Guidance & Support</li>
-                        </ul>
-                        <a href="https://meetings.hubspot.com/pixiu" class="btn btn-orange-plans mt-3" target="_blank">Contact Us</a>
+                        <div class="plan-back">
+                            <h4 class="plan-title">Starter Package</h4>
+                            <ul class="plan-features">
+                                <li><i class="fas fa-life-ring"></i> Daily Issue Resolution</li>
+                                <li><i class="fas fa-user-clock"></i> 8 Hours/Month Support</li>
+                                <li><i class="fas fa-ticket-alt"></i> Prioritized Ticket Handling</li>
+                                <li><i class="fas fa-tools"></i> Troubleshooting & Error Resolution</li>
+                                <li><i class="fas fa-headset"></i> Technical Guidance & Support</li>
+                            </ul>
+                            <a href="https://meetings.hubspot.com/pixiu" class="btn btn-orange-plans mt-3" target="_blank">Contact Us</a>
+                        </div>
                     </div>
                 </div>
-            </div>
 
-            <!-- Card 3: Growth Package -->
-            <div class="col-md-3 mb-3">
-                <div class="plan-card" style="height: 37.5em">
-                    <div class="plan-front">
-                        <h4 class="plan-title">Growth Package</h4>
-                        <p class="plan-price">$2900 / m</p>
-                        <p class="plan-preview">Gain 20 credits per month for development, support, or both.</p>
-                        <div class="hover-indicator">
-                            <i class="fas fa-hand-pointer"></i> More Info
+                <!-- Card 3: Growth Package -->
+                <div class="col-md-3 mb-3">
+                    <div class="plan-card" style="height: 37.5em">
+                        <div class="plan-front">
+                            <h4 class="plan-title">Growth Package</h4>
+                            <p class="plan-price">$2900 / m</p>
+                            <p class="plan-preview">Gain 20 credits per month for development, support, or both.</p>
+                            <div class="hover-indicator">
+                                <i class="fas fa-hand-pointer"></i> More Info
+                            </div>
                         </div>
-                    </div>
-                    <div class="plan-back">
-                        <h4 class="plan-title">Growth Package</h4>
-                        <ul class="plan-features">
-                            <li><i class="fas fa-user-tie"></i> Dedicated HubSpot Specialist</li>
-                            <li><i class="fas fa-chart-bar"></i> Monthly Reporting & Proactive Planning</li>
-                            <li><i class="fas fa-tools"></i> Issue Resolution & Development Support</li>
-                            <li><i class="fas fa-cogs"></i> Full HubSpot Support</li>
-                            <li><i class="fas fa-clock"></i> 20 Credits/Month for Flexible Use</li>
-                        </ul>
-                        <a href="https://meetings.hubspot.com/pixiu" class="btn btn-orange-plans mt-3" target="_blank">Contact Us</a>
+                        <div class="plan-back">
+                            <h4 class="plan-title">Growth Package</h4>
+                            <ul class="plan-features">
+                                <li><i class="fas fa-user-tie"></i> Dedicated HubSpot Specialist</li>
+                                <li><i class="fas fa-chart-bar"></i> Monthly Reporting & Proactive Planning</li>
+                                <li><i class="fas fa-tools"></i> Issue Resolution & Development Support</li>
+                                <li><i class="fas fa-cogs"></i> Full HubSpot Support</li>
+                                <li><i class="fas fa-clock"></i> 20 Credits/Month for Flexible Use</li>
+                            </ul>
+                            <a href="https://meetings.hubspot.com/pixiu" class="btn btn-orange-plans mt-3" target="_blank">Contact Us</a>
+                        </div>
                     </div>
                 </div>
-            </div>
 
-            <!-- Card 4: Hyper Growth Package -->
-            <div class="col-md-3 mb-3">
-                <div class="plan-card" style="height: 37.5em">
-                    <div class="plan-front">
-                        <h4 class="plan-title">Hyper Growth Package</h4>
-                        <p class="plan-price">$3900 / m</p>
-                        <p class="plan-preview">Receive 30 credits per month to enhance your development and support needs.</p>
-                        <div class="hover-indicator">
-                            <i class="fas fa-hand-pointer"></i> More Info
+                <!-- Card 4: Hyper Growth Package -->
+                <div class="col-md-3 mb-3">
+                    <div class="plan-card" style="height: 37.5em">
+                        <div class="plan-front">
+                            <h4 class="plan-title">Hyper Growth Package</h4>
+                            <p class="plan-price">$3900 / m</p>
+                            <p class="plan-preview">Receive 30 credits per month to enhance your development and support needs.</p>
+                            <div class="hover-indicator">
+                                <i class="fas fa-hand-pointer"></i> More Info
+                            </div>
                         </div>
-                    </div>
-                    <div class="plan-back">
-                        <h4 class="plan-title">Hyper Growth Package</h4>
-                        <ul class="plan-features">
-                            <li><i class="fas fa-user-shield"></i> Dedicated HubSpot Specialist</li>
-                            <li><i class="fas fa-sync-alt"></i> Full Support & Long-term Optimization</li>
-                            <li><i class="fas fa-tasks"></i> Monthly Planning & Reporting</li>
-                            <li><i class="fas fa-tools"></i> Development & Issue Resolution</li>
-                            <li><i class="fas fa-star"></i> 30 Credits/Month for Maximum Flexibility</li>
-                        </ul>
-                        <a href="https://meetings.hubspot.com/pixiu" class="btn btn-orange-plans mt-3" target="_blank">Contact Us</a>
+                        <div class="plan-back">
+                            <h4 class="plan-title">Hyper Growth Package</h4>
+                            <ul class="plan-features">
+                                <li><i class="fas fa-user-shield"></i> Dedicated HubSpot Specialist</li>
+                                <li><i class="fas fa-sync-alt"></i> Full Support & Long-term Optimization</li>
+                                <li><i class="fas fa-tasks"></i> Monthly Planning & Reporting</li>
+                                <li><i class="fas fa-tools"></i> Development & Issue Resolution</li>
+                                <li><i class="fas fa-star"></i> 30 Credits/Month for Maximum Flexibility</li>
+                            </ul>
+                            <a href="https://meetings.hubspot.com/pixiu" class="btn btn-orange-plans mt-3" target="_blank">Contact Us</a>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-</section>
-<!-- End of HubSpot Service Plans Section -->
+    </section>
+    <!-- End of HubSpot Service Plans Section -->
 
     <!-- Start of Steps to Success Section -->
     <section id="steps-success" class="steps-section">
@@ -351,6 +352,87 @@
         </div>
     </section>
     <!-- End of Steps to Success Section -->
+
+    <!-- Start of FAQ Section -->
+    <section id="faq" class="faq-section py-5">
+        <div class="container">
+            <h2 class="text-center fw-bold mb-4">Frequently Asked Questions</h2>
+            <div class="accordion" id="faqAccordionHubSpot">
+
+                <!-- FAQ Item 1 -->
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingOne">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                            What is included in the consultation package?
+                        </button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne"
+                        data-bs-parent="#faqAccordionHubSpot">
+                        <div class="accordion-body">
+                            Our consultation package includes:
+                            <ul>
+                                <li>One-on-one consultations with a certified HubSpot expert, available via video call.</li>
+                                <li>A thorough review of your current HubSpot setup, including integrations, data management, and workflows.</li>
+                                <li>Recommendations for optimizations, tech improvements, and tailored solutions to address your unique challenges.</li>
+                                <li>A workshop and discovery phase for larger solutions, analyzing your current setup and creating a concept for a new one.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- FAQ Item 2 -->
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            I have an in-house team that uses HubSpot. Can you get on a call with them and help them solve my problem?
+                        </button>
+                    </h2>
+                    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                        data-bs-parent="#faqAccordionHubSpot">
+                        <div class="accordion-body">
+                            Yes, we can collaborate with your in-house team. We’ll join a call with your team to help develop or fix your HubSpot-related solutions.
+                        </div>
+                    </div>
+                </div>
+
+                <!-- FAQ Item 3 -->
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingThree">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            I am having issues with an integration/tool/app that is not closely connected with HubSpot. Can you still help me with that?
+                        </button>
+                    </h2>
+                    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                        data-bs-parent="#faqAccordionHubSpot">
+                        <div class="accordion-body">
+                            Yes, of course. While many of our clients seek help with HubSpot, we are also happy to assist with more general software or integration issues, including those that need to connect with HubSpot.
+                        </div>
+                    </div>
+                </div>
+
+                <!-- FAQ Item 4 -->
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingFour">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                            I have some questions, but I am unsure if you can help me out.
+                        </button>
+                    </h2>
+                    <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
+                        data-bs-parent="#faqAccordionHubSpot">
+                        <div class="accordion-body">
+                            Don’t hesitate to reach out and schedule an introductory call. It is free of charge, and we will let you know if we can solve your issue with our solutions or through consultations.
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- End of FAQ Section -->
 
     <!-- Start of Call-to-Action Section -->
     <section id="call-to-action" class="cta-section py-5">

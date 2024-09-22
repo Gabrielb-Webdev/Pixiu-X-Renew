@@ -15,6 +15,7 @@
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/services.css">
     <link rel="stylesheet" href="css/resposive.css">
+    <link rel="stylesheet" href="css/faq.css">
 </head>
 
 <body>
@@ -27,7 +28,7 @@
         <div class="container-fluid">
             <div class="row align-items-center">
                 <div class="col-md-6 welcome-text">
-                    <h6 class="text-uppercase text-orange">Web Design Services</h6>
+                    <h6 class="text-uppercase text-orange">Design Services</h6>
                     <div class="underline-orange"></div>
                     <h1 class="fw-bold">
                         Transform Your Online Presence with Stunning Web Design
@@ -227,122 +228,213 @@
     </section>
     <!-- End of Marketing Design Packages Section -->
 
-<!-- Start of Steps to Success Section -->
-<section id="steps-success" class="steps-section">
-    <div class="container-fluid text-center py-5">
-        <!-- Section Title -->
-        <h2 class="fw-bold">Our 4 Steps <span class="text-orange">to Design Success</span></h2>
-        <p class="text-muted">Discover our streamlined process to create stunning and effective web designs.</p>
+    <!-- Start of Steps to Success Section -->
+    <section id="steps-success" class="steps-section">
+        <div class="container-fluid text-center py-5">
+            <!-- Section Title -->
+            <h2 class="fw-bold">Our 4 Steps <span class="text-orange">to Design Success</span></h2>
+            <p class="text-muted">Discover our streamlined process to create stunning and effective web designs.</p>
 
-        <!-- Tabs Navigation -->
-        <ul class="nav nav-tabs justify-content-center mt-4 mb-5" id="stepsTabs" role="tablist">
-            <li class="nav-item">
-                <a class="nav-link active" id="discovery-tab" data-bs-toggle="tab" href="#discovery" role="tab"
-                    aria-controls="discovery" aria-selected="true">Discovery</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" id="concept-tab" data-bs-toggle="tab" href="#concept" role="tab"
-                    aria-controls="concept" aria-selected="false">Concept & Planning</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" id="design-tab" data-bs-toggle="tab" href="#design" role="tab"
-                    aria-controls="design" aria-selected="false">Design & Prototyping</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" id="finalization-tab" data-bs-toggle="tab" href="#finalization" role="tab"
-                    aria-controls="finalization" aria-selected="false">Finalization & Delivery</a>
-            </li>
-        </ul>
+            <!-- Tabs Navigation -->
+            <ul class="nav nav-tabs justify-content-center mt-4 mb-5" id="stepsTabs" role="tablist">
+                <li class="nav-item">
+                    <a class="nav-link active" id="discovery-tab" data-bs-toggle="tab" href="#discovery" role="tab"
+                        aria-controls="discovery" aria-selected="true">Discovery</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="concept-tab" data-bs-toggle="tab" href="#concept" role="tab"
+                        aria-controls="concept" aria-selected="false">Concept & Planning</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="design-tab" data-bs-toggle="tab" href="#design" role="tab"
+                        aria-controls="design" aria-selected="false">Design & Prototyping</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="finalization-tab" data-bs-toggle="tab" href="#finalization" role="tab"
+                        aria-controls="finalization" aria-selected="false">Finalization & Delivery</a>
+                </li>
+            </ul>
 
-        <!-- Tabs Content -->
-        <div class="tab-content" id="stepsContent">
-            <!-- Discovery Step -->
-            <div class="tab-pane fade show active" id="discovery" role="tabpanel" aria-labelledby="discovery-tab">
-                <div class="row align-items-center">
-                    <div class="col-md-6">
-                        <h3 class="fw-bold">Discovery</h3>
-                        <p class="text-muted">We start by getting to know your business, your goals, and your target
-                            audience. This phase is crucial for gathering insights and understanding your brand’s
-                            unique voice and style.</p>
-                        <!-- Tags -->
-                        <div class="tags mt-3">
-                            <span class="tag-label">Audience Insights</span>
-                            <span class="tag-label">Brand Analysis</span>
-                            <span class="tag-label">Vision Alignment</span>
+            <!-- Tabs Content -->
+            <div class="tab-content" id="stepsContent">
+                <!-- Discovery Step -->
+                <div class="tab-pane fade show active" id="discovery" role="tabpanel" aria-labelledby="discovery-tab">
+                    <div class="row align-items-center">
+                        <div class="col-md-6">
+                            <h3 class="fw-bold">Discovery</h3>
+                            <p class="text-muted">We start by getting to know your business, your goals, and your target
+                                audience. This phase is crucial for gathering insights and understanding your brand’s
+                                unique voice and style.</p>
+                            <!-- Tags -->
+                            <div class="tags mt-3">
+                                <span class="tag-label">Audience Insights</span>
+                                <span class="tag-label">Brand Analysis</span>
+                                <span class="tag-label">Vision Alignment</span>
+                            </div>
                         </div>
-                    </div>
-                    <div class="col-md-6">
-                        <img src="images/design_2.webp" alt="Discovery Step" class="img-fluid">
+                        <div class="col-md-6">
+                            <img src="images/design_2.webp" alt="Discovery Step" class="img-fluid">
+                        </div>
                     </div>
                 </div>
-            </div>
 
-            <!-- Concept & Planning Step -->
-            <div class="tab-pane fade" id="concept" role="tabpanel" aria-labelledby="concept-tab">
-                <div class="row align-items-center">
-                    <div class="col-md-6">
-                        <h3 class="fw-bold">Concept & Planning</h3>
-                        <p class="text-muted">Based on our discovery, we create a concept that aligns with your brand
-                            and objectives. This phase includes initial sketches, mood boards, and layout planning to
-                            ensure the design direction meets your needs.</p>
-                        <!-- Tags -->
-                        <div class="tags mt-3">
-                            <span class="tag-label">Sketching</span>
-                            <span class="tag-label">Mood Boards</span>
-                            <span class="tag-label">Planning</span>
+                <!-- Concept & Planning Step -->
+                <div class="tab-pane fade" id="concept" role="tabpanel" aria-labelledby="concept-tab">
+                    <div class="row align-items-center">
+                        <div class="col-md-6">
+                            <h3 class="fw-bold">Concept & Planning</h3>
+                            <p class="text-muted">Based on our discovery, we create a concept that aligns with your brand
+                                and objectives. This phase includes initial sketches, mood boards, and layout planning to
+                                ensure the design direction meets your needs.</p>
+                            <!-- Tags -->
+                            <div class="tags mt-3">
+                                <span class="tag-label">Sketching</span>
+                                <span class="tag-label">Mood Boards</span>
+                                <span class="tag-label">Planning</span>
+                            </div>
                         </div>
-                    </div>
-                    <div class="col-md-6">
-                        <img src="images/design_2.webp" alt="Concept & Planning Step" class="img-fluid">
+                        <div class="col-md-6">
+                            <img src="images/design_2.webp" alt="Concept & Planning Step" class="img-fluid">
+                        </div>
                     </div>
                 </div>
-            </div>
 
-            <!-- Design & Prototyping Step -->
-            <div class="tab-pane fade" id="design" role="tabpanel" aria-labelledby="design-tab">
-                <div class="row align-items-center">
-                    <div class="col-md-6">
-                        <h3 class="fw-bold">Design & Prototyping</h3>
-                        <p class="text-muted">Our designers bring the concept to life through detailed mockups and
-                            prototypes. We focus on creativity, user experience, and visual appeal, ensuring each design
-                            element serves a purpose.</p>
-                        <!-- Tags -->
-                        <div class="tags mt-3">
-                            <span class="tag-label">High-Fidelity Mockups</span>
-                            <span class="tag-label">Interactive Prototypes</span>
-                            <span class="tag-label">Design Refinement</span>
+                <!-- Design & Prototyping Step -->
+                <div class="tab-pane fade" id="design" role="tabpanel" aria-labelledby="design-tab">
+                    <div class="row align-items-center">
+                        <div class="col-md-6">
+                            <h3 class="fw-bold">Design & Prototyping</h3>
+                            <p class="text-muted">Our designers bring the concept to life through detailed mockups and
+                                prototypes. We focus on creativity, user experience, and visual appeal, ensuring each design
+                                element serves a purpose.</p>
+                            <!-- Tags -->
+                            <div class="tags mt-3">
+                                <span class="tag-label">High-Fidelity Mockups</span>
+                                <span class="tag-label">Interactive Prototypes</span>
+                                <span class="tag-label">Design Refinement</span>
+                            </div>
                         </div>
-                    </div>
-                    <div class="col-md-6">
-                        <img src="images/design_2.webp" alt="Design & Prototyping Step" class="img-fluid">
+                        <div class="col-md-6">
+                            <img src="images/design_2.webp" alt="Design & Prototyping Step" class="img-fluid">
+                        </div>
                     </div>
                 </div>
-            </div>
 
-            <!-- Finalization & Delivery Step -->
-            <div class="tab-pane fade" id="finalization" role="tabpanel" aria-labelledby="finalization-tab">
-                <div class="row align-items-center">
-                    <div class="col-md-6">
-                        <h3 class="fw-bold">Finalization & Delivery</h3>
-                        <p class="text-muted">In this final step, we make the finishing touches, gather your feedback,
-                            and ensure everything is perfect before delivering the final designs. We provide all the
-                            necessary files and guidance for the implementation phase.</p>
-                        <!-- Tags -->
-                        <div class="tags mt-3">
-                            <span class="tag-label">Client Feedback</span>
-                            <span class="tag-label">Final Touches</span>
-                            <span class="tag-label">Delivery</span>
+                <!-- Finalization & Delivery Step -->
+                <div class="tab-pane fade" id="finalization" role="tabpanel" aria-labelledby="finalization-tab">
+                    <div class="row align-items-center">
+                        <div class="col-md-6">
+                            <h3 class="fw-bold">Finalization & Delivery</h3>
+                            <p class="text-muted">In this final step, we make the finishing touches, gather your feedback,
+                                and ensure everything is perfect before delivering the final designs. We provide all the
+                                necessary files and guidance for the implementation phase.</p>
+                            <!-- Tags -->
+                            <div class="tags mt-3">
+                                <span class="tag-label">Client Feedback</span>
+                                <span class="tag-label">Final Touches</span>
+                                <span class="tag-label">Delivery</span>
+                            </div>
                         </div>
-                    </div>
-                    <div class="col-md-6">
-                        <img src="images/design_2.webp" alt="Finalization & Delivery Step" class="img-fluid">
+                        <div class="col-md-6">
+                            <img src="images/design_2.webp" alt="Finalization & Delivery Step" class="img-fluid">
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-</section>
-<!-- End of Steps to Success Section -->
+    </section>
+    <!-- End of Steps to Success Section -->
+
+    <!-- Start of FAQ Section -->
+    <section id="faq" class="faq-section py-5">
+        <div class="container">
+            <h2 class="text-center fw-bold mb-4">Frequently Asked Questions</h2>
+            <div class="accordion" id="faqAccordionDesign">
+
+                <!-- FAQ Item 1 -->
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingOne">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                            What types of web design services do you offer?
+                        </button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne"
+                        data-bs-parent="#faqAccordionDesign">
+                        <div class="accordion-body">
+                            We offer a range of web design services including custom website design, UX/UI design, responsive design, and website redesigns. Our goal is to create visually stunning and highly functional websites that align with your brand and business objectives.
+                        </div>
+                    </div>
+                </div>
+
+                <!-- FAQ Item 2 -->
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            How long does it take to design a website?
+                        </button>
+                    </h2>
+                    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                        data-bs-parent="#faqAccordionDesign">
+                        <div class="accordion-body">
+                            The timeline for web design depends on the complexity of the project and your specific needs. A simple website may take 2-4 weeks, while more complex projects could take several months. We work closely with you to establish realistic timelines and keep you informed throughout the process.
+                        </div>
+                    </div>
+                </div>
+
+                <!-- FAQ Item 3 -->
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingThree">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            Will my website be mobile-friendly?
+                        </button>
+                    </h2>
+                    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                        data-bs-parent="#faqAccordionDesign">
+                        <div class="accordion-body">
+                            Yes, all of our designs are fully responsive, meaning they are optimized for mobile, tablet, and desktop devices. We ensure that your website looks great and functions smoothly on any screen size.
+                        </div>
+                    </div>
+                </div>
+
+                <!-- FAQ Item 4 -->
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingFour">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                            Can you redesign my existing website?
+                        </button>
+                    </h2>
+                    <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
+                        data-bs-parent="#faqAccordionDesign">
+                        <div class="accordion-body">
+                            Absolutely! We offer website redesign services to modernize your current site, improve user experience, and align it with the latest design trends. Our redesign process involves a thorough analysis of your existing site and a tailored approach to updating its design and functionality.
+                        </div>
+                    </div>
+                </div>
+
+                <!-- FAQ Item 5 -->
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingFive">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                            Do you provide content creation for my website?
+                        </button>
+                    </h2>
+                    <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive"
+                        data-bs-parent="#faqAccordionDesign">
+                        <div class="accordion-body">
+                            Yes, we offer content creation services including copywriting, blog writing, and multimedia content like graphics and videos. Our team can help create compelling content that engages your audience and enhances your website’s effectiveness.
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- End of FAQ Section -->
 
     <!-- Start of Call-to-Action Section -->
     <section id="call-to-action" class="cta-section py-5">

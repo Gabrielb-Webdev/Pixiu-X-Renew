@@ -15,6 +15,7 @@
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/services.css">
     <link rel="stylesheet" href="css/resposive.css">
+    <link rel="stylesheet" href="css/faq.css">
 </head>
 
 <body>
@@ -315,6 +316,97 @@
         </div>
     </section>
     <!-- End of Steps to Success Section -->
+
+    <!-- Start of FAQ Section -->
+<section id="faq" class="faq-section py-5">
+    <div class="container">
+        <h2 class="text-center fw-bold mb-4">Frequently Asked Questions</h2>
+        <div class="accordion" id="faqAccordionMarketing">
+
+            <!-- FAQ Item 1 -->
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingOne">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                        What digital marketing services do you offer?
+                    </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne"
+                    data-bs-parent="#faqAccordionMarketing">
+                    <div class="accordion-body">
+                        We offer a full range of digital marketing services including SEO, social media marketing, pay-per-click advertising (PPC), content marketing, email marketing, and more. Each service is tailored to meet your business's specific needs and goals.
+                    </div>
+                </div>
+            </div>
+
+            <!-- FAQ Item 2 -->
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        How long does it take to see results from digital marketing?
+                    </button>
+                </h2>
+                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                    data-bs-parent="#faqAccordionMarketing">
+                    <div class="accordion-body">
+                        The timeline for seeing results varies based on the type of service and the competitiveness of your industry. SEO can take several months to show significant results, whereas PPC campaigns can generate traffic and leads almost immediately. We provide regular updates and adjust strategies to optimize performance over time.
+                    </div>
+                </div>
+            </div>
+
+            <!-- FAQ Item 3 -->
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingThree">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        Can you manage our social media accounts?
+                    </button>
+                </h2>
+                <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                    data-bs-parent="#faqAccordionMarketing">
+                    <div class="accordion-body">
+                        Yes, we offer comprehensive social media management services. Our team will create, schedule, and manage content across your social media platforms, engage with your audience, and track performance to optimize your social media presence.
+                    </div>
+                </div>
+            </div>
+
+            <!-- FAQ Item 4 -->
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingFour">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                        Do you offer customized marketing strategies?
+                    </button>
+                </h2>
+                <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
+                    data-bs-parent="#faqAccordionMarketing">
+                    <div class="accordion-body">
+                        Absolutely. We tailor our marketing strategies to align with your specific business goals, target audience, and market dynamics. Our approach is data-driven and results-oriented, ensuring that we develop a strategy that works best for your brand.
+                    </div>
+                </div>
+            </div>
+
+            <!-- FAQ Item 5 -->
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingFive">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                        How do you measure the success of your marketing campaigns?
+                    </button>
+                </h2>
+                <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive"
+                    data-bs-parent="#faqAccordionMarketing">
+                    <div class="accordion-body">
+                        We measure success through key performance indicators (KPIs) such as traffic growth, lead generation, conversion rates, engagement metrics, and return on investment (ROI). Regular reporting and analysis help us continuously improve and refine our strategies to maximize your results.
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+<!-- End of FAQ Section -->
 
     <!-- Start of Call-to-Action Section -->
     <section id="call-to-action" class="cta-section py-5">

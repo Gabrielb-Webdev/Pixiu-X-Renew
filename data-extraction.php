@@ -15,6 +15,7 @@
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/services.css">
     <link rel="stylesheet" href="css/resposive.css">
+    <link rel="stylesheet" href="css/faq.css">
 </head>
 
 <body>
@@ -135,43 +136,43 @@
     <!-- End of Service Details Section -->
 
     <!-- Start of Data Extraction Service Plans Section -->
-<section id="data-extraction-plans" class="plans-section py-5">
-    <div class="container">
-        <h2 class="fw-bold text-center mb-4">Our <span class="text-orange">Data Extraction Service</span></h2>
-        <p class="text-center text-muted mb-5">Explore our tailored data extraction solutions designed to fit your business needs.</p>
-        <div class="row justify-content-center">
-            <!-- Single Card: Data Extraction Service -->
-            <div class="col-md-4 mb-3">
-                <div class="plan-card" style="height: 40rem">
-                    <div class="plan-front">
-                        <h4 class="plan-title">Data Extraction Service</h4>
-                        <p class="plan-preview">Efficient and customized data extraction solutions for your business.</p>
-                        <div class="hover-indicator">
-                            <i class="fas fa-hand-pointer"></i> More Info
+    <section id="data-extraction-plans" class="plans-section py-5">
+        <div class="container">
+            <h2 class="fw-bold text-center mb-4">Our <span class="text-orange">Data Extraction Service</span></h2>
+            <p class="text-center text-muted mb-5">Explore our tailored data extraction solutions designed to fit your business needs.</p>
+            <div class="row justify-content-center">
+                <!-- Single Card: Data Extraction Service -->
+                <div class="col-md-4 mb-3">
+                    <div class="plan-card" style="height: 40rem">
+                        <div class="plan-front">
+                            <h4 class="plan-title">Data Extraction Service</h4>
+                            <p class="plan-preview">Efficient and customized data extraction solutions for your business.</p>
+                            <div class="hover-indicator">
+                                <i class="fas fa-hand-pointer"></i> More Info
+                            </div>
                         </div>
-                    </div>
-                    <div class="plan-back">
-                        <h4 class="plan-title">Data Extraction Service</h4>
-                        <ul class="plan-features">
-                            <li><i class="fas fa-check-circle"></i> Custom Web Data Extraction</li>
-                            <li><i class="fas fa-cogs"></i> Workflow Automation & Scheduling</li>
-                            <li><i class="fas fa-chart-line"></i> Real-time Data Analysis & Insights</li>
-                            <li><i class="fas fa-database"></i> Seamless Database Integration</li>
-                            <li><i class="fas fa-search"></i> Advanced Data Cleaning & Validation</li>
-                            <li><i class="fas fa-robot"></i> Automated Data Formatting & Export</li>
-                            <li><i class="fas fa-layer-group"></i> Scalability for High-Volume Data</li>
-                            <li><i class="fas fa-user-shield"></i> GDPR & CCPA Compliant Solutions</li>
-                            <li><i class="fas fa-rocket"></i> Custom Dashboards & Reporting Tools</li>
-                            <li><i class="fas fa-headset"></i> Dedicated Support & Maintenance</li>
-                        </ul>
-                        <a href="https://meetings.hubspot.com/pixiu" class="btn btn-orange-plans mt-3" target="_blank">Contact Us for More Info</a>
+                        <div class="plan-back">
+                            <h4 class="plan-title">Data Extraction Service</h4>
+                            <ul class="plan-features">
+                                <li><i class="fas fa-check-circle"></i> Custom Web Data Extraction</li>
+                                <li><i class="fas fa-cogs"></i> Workflow Automation & Scheduling</li>
+                                <li><i class="fas fa-chart-line"></i> Real-time Data Analysis & Insights</li>
+                                <li><i class="fas fa-database"></i> Seamless Database Integration</li>
+                                <li><i class="fas fa-search"></i> Advanced Data Cleaning & Validation</li>
+                                <li><i class="fas fa-robot"></i> Automated Data Formatting & Export</li>
+                                <li><i class="fas fa-layer-group"></i> Scalability for High-Volume Data</li>
+                                <li><i class="fas fa-user-shield"></i> GDPR & CCPA Compliant Solutions</li>
+                                <li><i class="fas fa-rocket"></i> Custom Dashboards & Reporting Tools</li>
+                                <li><i class="fas fa-headset"></i> Dedicated Support & Maintenance</li>
+                            </ul>
+                            <a href="https://meetings.hubspot.com/pixiu" class="btn btn-orange-plans mt-3" target="_blank">Contact Us for More Info</a>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-</section>
-<!-- End of Data Extraction Service Plans Section -->
+    </section>
+    <!-- End of Data Extraction Service Plans Section -->
 
     <!-- Start of Steps to Success Section -->
     <section id="steps-success" class="steps-section">
@@ -281,6 +282,103 @@
         </div>
     </section>
     <!-- End of Steps to Success Section -->
+     
+    <!-- Start of FAQ Section -->
+<section id="faq" class="faq-section py-5">
+    <div class="container">
+        <h2 class="text-center fw-bold mb-4">Frequently Asked Questions</h2>
+        <div class="accordion" id="faqAccordionDataExtraction">
+
+            <!-- FAQ Item 1 -->
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingOne">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                        What does your data scraping service include?
+                    </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne"
+                    data-bs-parent="#faqAccordionDataExtraction">
+                    <div class="accordion-body">
+                        Our data scraping services encompass:
+                        <ul>
+                            <li>Website Data Extraction: Leveraging advanced techniques to swiftly and accurately gather data from websites, which is meticulously organized for easy retrieval.</li>
+                            <li>Prospect/Lead Data Extraction: Enhancing your sales and marketing strategies by identifying and extracting detailed customer and prospect data tailored to your business needs.</li>
+                            <li>Social Media Data Extraction: Comprehensive extraction of data from major social platforms, including profiles, posts, and comments to provide you with in-depth insights.</li>
+                            <li>Market Research Data Extraction: Gathering critical data on market trends, customer insights, and competitive analysis to accelerate your research and strategic planning.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- FAQ Item 2 -->
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        Can you develop custom web scraping tools for our specific needs?
+                    </button>
+                </h2>
+                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                    data-bs-parent="#faqAccordionDataExtraction">
+                    <div class="accordion-body">
+                        Absolutely! At Pixiu, we specialize in crafting custom web scraping solutions that are both fast and precise. Our expertise allows us to build tools that are perfectly aligned with your business's requirements and operational goals.
+                    </div>
+                </div>
+            </div>
+
+            <!-- FAQ Item 3 -->
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingThree">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        We already have some web scraping in place. Can you enhance our existing tools?
+                    </button>
+                </h2>
+                <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                    data-bs-parent="#faqAccordionDataExtraction">
+                    <div class="accordion-body">
+                        Yes, we can! We will review your current setup and provide recommendations for optimizations and tech improvements. We can also expand your existing tools to cover more sources or integrate additional functionalities.
+                    </div>
+                </div>
+            </div>
+
+            <!-- FAQ Item 4 -->
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingFour">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                        What if I need data from a platform not directly connected to the common scraping APIs?
+                    </button>
+                </h2>
+                <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
+                    data-bs-parent="#faqAccordionDataExtraction">
+                    <div class="accordion-body">
+                        We can handle that as well. Our team is skilled in developing solutions that involve complex data sources and integrations, even if they are not commonly connected through standard APIs.
+                    </div>
+                </div>
+            </div>
+
+            <!-- FAQ Item 5 -->
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingFive">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                        I’m interested, but unsure how to start. Can I get a consultation?
+                    </button>
+                </h2>
+                <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive"
+                    data-bs-parent="#faqAccordionDataExtraction">
+                    <div class="accordion-body">
+                        Of course! Schedule an introductory call with us at no charge. We'll discuss your specific needs and outline how our data scraping services can help you achieve your objectives. This consultation will help clarify how we can assist and the potential impacts on your business.
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+<!-- End of FAQ Section -->
 
     <!-- Start of Call-to-Action Section -->
     <section id="call-to-action" class="cta-section py-5">
