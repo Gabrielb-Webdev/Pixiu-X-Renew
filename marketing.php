@@ -339,43 +339,8 @@
     <!-- End of Call-to-Action Section -->
 
     <!-- Start of Footer Section -->
-    <footer class="footer-section text-center py-4">
-        <p class="mb-0">Copyright © 2024 Pixiu. All rights reserved.</p>
-        <p>Design: Your Name</p>
-    </footer>
+    <?php include 'components/footer.php'; ?>
     <!-- End of Footer Section -->
-
-    <!-- Start of Contact Info Section -->
-    <div class="container py-3 d-none d-md-flex flex-column flex-md-row justify-content-between align-items-center info-section">
-        <!-- Contact Info -->
-        <div class="d-flex flex-column flex-md-row align-items-center mb-3 mb-md-0">
-            <div class="me-md-4 mb-2 mb-md-0">
-                <i class="fas fa-phone-alt text-warning"></i> +000 1234 5678
-            </div>
-            <div class="me-md-4 mb-2 mb-md-0">
-                <i class="fas fa-envelope text-warning"></i> info@pixiux.com
-            </div>
-            <div>
-                <i class="fas fa-map-marker-alt text-warning"></i> 54th Street, London, UK
-            </div>
-        </div>
-        <!-- Social Media Icons -->
-        <div class="d-flex">
-            <a href="#" class="text-warning me-3">
-                <i class="fab fa-facebook-f"></i>
-            </a>
-            <a href="#" class="text-warning me-3">
-                <i class="fab fa-twitter"></i>
-            </a>
-            <a href="#" class="text-warning me-3">
-                <i class="fab fa-linkedin-in"></i>
-            </a>
-            <a href="#" class="text-warning">
-                <i class="fab fa-google"></i>
-            </a>
-        </div>
-    </div>
-    <!-- End of Contact Info Section -->
 
     <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>

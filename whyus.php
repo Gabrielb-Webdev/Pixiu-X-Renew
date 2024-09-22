@@ -128,10 +128,7 @@
     <!-- End of Call-to-Action Section -->
 
     <!-- Start of Footer Section -->
-    <footer class="footer-section text-center py-4 bg-dark text-white">
-        <p class="mb-0">Copyright © 2024 Pixiu. All rights reserved.</p>
-        <p>Design: Your Name</p>
-    </footer>
+    <?php include 'components/footer.php'; ?>
     <!-- End of Footer Section -->
 
     <!-- Swiper JS -->

@@ -42,16 +42,16 @@
                         <a href="#services" class="btn btn-orange ms-2">Explore Our Services</a>
                     </div>
                 </div>
-                <!-- Contenedor de imágenes apiladas -->
+                <!-- Image Container -->
                 <div class="image-container">
-                    <img src="images/home/1.webp" alt="Image 1" id="image-1">
-                    <img src="images/home/2.webp" alt="Image 2" id="image-2">
-                    <img src="images/home/3.webp" alt="Image 3" id="image-3">
-                    <img src="images/home/4.webp" alt="Image 4" id="image-4">
-                    <img src="images/home/5.webp" alt="Image 5" id="image-5">
-                    <img src="images/home/6.webp" alt="Image 6" id="image-6">
-                    <img src="images/home/7.webp" alt="Image 7" id="image-7">
-                    <img src="images/home/construction.webp" alt="Construction Image" id="image-8">
+                    <img src="images/home/1.webp" alt="Image 1" id="image-1" loading="lazy">
+                    <img src="images/home/2.webp" alt="Image 2" id="image-2" loading="lazy">
+                    <img src="images/home/3.webp" alt="Image 3" id="image-3" loading="lazy">
+                    <img src="images/home/4.webp" alt="Image 4" id="image-4" loading="lazy">
+                    <img src="images/home/5.webp" alt="Image 5" id="image-5" loading="lazy">
+                    <img src="images/home/6.webp" alt="Image 6" id="image-6" loading="lazy">
+                    <img src="images/home/7.webp" alt="Image 7" id="image-7" loading="lazy">
+                    <img src="images/home/construction.webp" alt="Construction Image" id="image-8" loading="lazy">
                 </div>
             </div>
         </div>
@@ -343,43 +343,10 @@
                 </div>
             </div>
         </div>
-        <div class="text-center mt-4">
-            <p>Copyright © 2024 Pixiu. All rights reserved.</p>
-        </div>
     </section>
     <!-- End of Contact Section -->
-     
-    <!-- Start of Contact Info Section -->
-    <div class="container py-3 d-none d-md-flex flex-column flex-md-row justify-content-between align-items-center info-section">
-        <!-- Contact Info -->
-        <div class="d-flex flex-column flex-md-row align-items-center mb-3 mb-md-0">
-            <div class="me-md-4 mb-2 mb-md-0">
-                <i class="fas fa-phone-alt text-warning"></i> +000 1234 5678
-            </div>
-            <div class="me-md-4 mb-2 mb-md-0">
-                <i class="fas fa-envelope text-warning"></i> info@pixiux.com
-            </div>
-            <div>
-                <i class="fas fa-map-marker-alt text-warning"></i> 54th Street, London, UK
-            </div>
-        </div>
-        <!-- Social Media Icons -->
-        <div class="d-flex">
-            <a href="#" class="text-warning me-3">
-                <i class="fab fa-facebook-f"></i>
-            </a>
-            <a href="#" class="text-warning me-3">
-                <i class="fab fa-twitter"></i>
-            </a>
-            <a href="#" class="text-warning me-3">
-                <i class="fab fa-linkedin-in"></i>
-            </a>
-            <a href="#" class="text-warning">
-                <i class="fab fa-google"></i>
-            </a>
-        </div>
-    </div>
-    <!-- End of Contact Info Section -->
+
+    <?php include 'components/footer.php'; ?>
 
     <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>

@@ -84,17 +84,12 @@ a:hover {
 
 .image-container {
     position: absolute;
-    /* Cambiado a absolute para mover el contenedor libremente */
     right: 5rem;
-    /* Mueve el contenedor más a la derecha fuera del container-fluid */
-    top: 0rem;
-    /* Puedes ajustar según lo que necesites */
+    top: 0;
     width: 45rem;
     height: 45rem;
     overflow: hidden;
-    /* Asegura que las imágenes no se desborden */
     z-index: 1;
-    /* Asegura que se mantenga debajo del texto */
 }
 
 
@@ -108,9 +103,7 @@ a:hover {
     height: 100%;
     object-fit: cover;
     opacity: 0;
-    transform: scale(1);
-    transition: opacity 0.8s ease-out, transform 0.8s ease-out;
-    /* Se ha eliminado will-change aquí para no sobrecargar el navegador */
+    transition: opacity 0.6s ease-out, transform 0.6s ease-out;
 }
 
 @media (max-width: 768px) {
@@ -124,17 +117,17 @@ a:hover {
 /* Animación base de flotación */
 
 @keyframes float {
-    0% {
+    0%,
+    100% {
         transform: translateY(0);
     }
     50% {
         transform: translateY(-10px);
-        /* Sube 10px */
     }
-    100% {
-        transform: translateY(0);
-        /* Vuelve a la posición original */
-    }
+}
+
+.image-container img {
+    animation: float 6s ease-in-out infinite;
 }
 
 
@@ -145,51 +138,46 @@ a:hover {
 
 #image-1 {
     z-index: 8;
-    animation: float 6s ease-in-out infinite;
     animation-delay: 0s;
 }
 
 #image-2 {
-    z-index: 2;
-    animation: float 4.5s ease-in-out infinite;
+    z-index: 7;
     animation-delay: 0.5s;
 }
 
 #image-3 {
-    z-index: 3;
-    animation: float 5s ease-in-out infinite;
+    z-index: 6;
     animation-delay: 1s;
 }
 
 #image-4 {
-    z-index: 4;
-    animation: float 6.5s ease-in-out infinite;
+    z-index: 5;
     animation-delay: 0.3s;
 }
 
 #image-5 {
-    z-index: 5;
-    animation: float 4s ease-in-out infinite;
+    z-index: 4;
     animation-delay: 0.7s;
 }
 
 #image-6 {
-    z-index: 6;
-    animation: float 5.5s ease-in-out infinite;
+    z-index: 3;
     animation-delay: 0.2s;
 }
 
 #image-7 {
-    z-index: 7;
-    animation: float 6.2s ease-in-out infinite;
+    z-index: 2;
     animation-delay: 0.4s;
 }
 
 #image-8 {
     z-index: 1;
-    /* No tiene animación de flotación */
     animation: none;
 }
+
+
+/* Welcome Section */
 
 .welcome-section {
     background-image: url('../images/banner-left.webp');
@@ -198,13 +186,11 @@ a:hover {
     background-size: contain;
     background-color: #fff;
     padding: 7.5rem 0;
-    /* Aumentar el padding para darle más altura */
     position: relative;
-    z-index: 1;
-    overflow: hidden;
     min-height: 50rem;
-    /* Agregar una altura mínima */
+    overflow: hidden;
 }
+
 
 /* Estilos del texto en la sección de bienvenida */
 
@@ -308,12 +294,11 @@ a:hover {
 /* Estilo para la línea naranja debajo del título */
 
 .underline-orange {
-    display: inline-block;
-    width: 100%;
+    display: block;
+    width: 50px;
     height: 2px;
     background-color: #dd6d2c;
-    margin-top: 10px;
-    margin-bottom: 20px;
+    margin: 10px 0;
 }
 
 h6.text-orange {
@@ -1394,13 +1379,34 @@ h2 {
 
 /* Footer Section */
 
-.footer-section {
-    background-color: #f9f9f9;
-    color: #666;
+.footer {
+    background-color: #1a1a1a;
+    color: #f1f1f1;
+    font-family: Arial, sans-serif;
 }
 
-.footer-section p {
-    margin: 0;
+.footer h5 {
+    color: #dd6d2c;
+    font-weight: bold;
+}
+
+.footer p,
+.footer a {
+    color: #ccc;
     font-size: 0.9rem;
-    color: #666;
+    transition: color 0.3s;
+}
+
+.footer a:hover {
+    color: #dd6d2c;
+    text-decoration: none;
+}
+
+.footer .social-icons a {
+    font-size: 1.5rem;
+    transition: color 0.3s;
+}
+
+.footer .social-icons a:hover {
+    color: #fff;
 }
