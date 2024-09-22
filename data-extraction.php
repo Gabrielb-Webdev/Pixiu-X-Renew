@@ -135,94 +135,43 @@
     <!-- End of Service Details Section -->
 
     <!-- Start of Data Extraction Service Plans Section -->
-    <section id="data-extraction-plans" class="plans-section py-5">
-        <div class="container">
-            <h2 class="fw-bold text-center mb-4">Choose Your <span class="text-orange">Data Extraction Plan</span></h2>
-            <div class="row justify-content-center">
-                <!-- Card 1: Basic Data Extraction Plan -->
-                <div class="col-md-4 mb-3">
-                    <div class="plan-card">
-                        <div class="plan-front">
-                            <h4 class="plan-title">Basic Data Extraction Plan</h4>
-                            <p class="plan-price">
-                                <span class="old-price">$1,499</span> <span class="new-price">$899</span>
-                            </p>
-                            <p class="plan-preview">For companies needing basic, targeted data.</p>
-                            <div class="hover-indicator">
-                                <i class="fas fa-hand-pointer"></i> More Info
-                            </div>
-                        </div>
-                        <div class="plan-back">
-                            <h4 class="plan-title">Basic Data Extraction Plan</h4>
-                            <ul class="plan-features">
-                                <li><i class="fas fa-check-circle"></i> Basic Web Data Extraction</li>
-                                <li><i class="fas fa-file-download"></i> Export to CSV/Excel</li>
-                                <li><i class="fas fa-database"></i> Basic Database Integration</li>
-                                <li><i class="fas fa-sync"></i> Weekly Updates</li>
-                                <li><i class="fas fa-clock"></i> Support: 30 Days</li>
-                            </ul>
-                            <a href="basic-extraction.php" class="btn btn-orange-plans mt-3">Contact Us</a>
+<section id="data-extraction-plans" class="plans-section py-5">
+    <div class="container">
+        <h2 class="fw-bold text-center mb-4">Our <span class="text-orange">Data Extraction Service</span></h2>
+        <p class="text-center text-muted mb-5">Explore our tailored data extraction solutions designed to fit your business needs.</p>
+        <div class="row justify-content-center">
+            <!-- Single Card: Data Extraction Service -->
+            <div class="col-md-4 mb-3">
+                <div class="plan-card" style="height: 40rem">
+                    <div class="plan-front">
+                        <h4 class="plan-title">Data Extraction Service</h4>
+                        <p class="plan-preview">Efficient and customized data extraction solutions for your business.</p>
+                        <div class="hover-indicator">
+                            <i class="fas fa-hand-pointer"></i> More Info
                         </div>
                     </div>
-                </div>
-
-                <!-- Card 2: Advanced Data Extraction Plan -->
-                <div class="col-md-4 mb-3">
-                    <div class="plan-card">
-                        <div class="plan-front">
-                            <h4 class="plan-title">Advanced Data Extraction Plan</h4>
-                            <p class="plan-price">
-                                <span class="old-price">$2,999</span> <span class="new-price">$1,799</span>
-                            </p>
-                            <p class="plan-preview">For growing businesses needing advanced extraction.</p>
-                            <div class="hover-indicator">
-                                <i class="fas fa-hand-pointer"></i> More Info
-                            </div>
-                        </div>
-                        <div class="plan-back">
-                            <h4 class="plan-title">Advanced Data Extraction Plan</h4>
-                            <ul class="plan-features">
-                                <li><i class="fas fa-cogs"></i> Advanced & Custom Extraction</li>
-                                <li><i class="fas fa-robot"></i> Workflow Automation</li>
-                                <li><i class="fas fa-chart-line"></i> Real-time Data Analysis</li>
-                                <li><i class="fas fa-layer-group"></i> BI Tools Integration</li>
-                                <li><i class="fas fa-calendar-alt"></i> Support: 60 Days</li>
-                            </ul>
-                            <a href="advanced-extraction.php" class="btn btn-orange-plans mt-3">Contact Us</a>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Card 3: Enterprise Data Extraction Plan -->
-                <div class="col-md-4 mb-3">
-                    <div class="plan-card">
-                        <div class="plan-front">
-                            <h4 class="plan-title">Enterprise Data Extraction Plan</h4>
-                            <p class="plan-price">
-                                <span class="old-price">$5,499</span> <span class="new-price">$3,499</span>
-                            </p>
-                            <p class="plan-preview">For large-scale data extraction and analysis needs.</p>
-                            <div class="hover-indicator">
-                                <i class="fas fa-hand-pointer"></i> More Info
-                            </div>
-                        </div>
-                        <div class="plan-back">
-                            <h4 class="plan-title">Enterprise Data Extraction Plan</h4>
-                            <ul class="plan-features">
-                                <li><i class="fas fa-server"></i> Large-scale Data Extraction</li>
-                                <li><i class="fas fa-chart-pie"></i> Custom Dashboards & Reports</li>
-                                <li><i class="fas fa-shield-alt"></i> Compliance & Data Security</li>
-                                <li><i class="fas fa-headset"></i> Continuous Support & Maintenance</li>
-                                <li><i class="fas fa-rocket"></i> Process & Data Flow Optimization</li>
-                            </ul>
-                            <a href="enterprise-extraction.php" class="btn btn-orange-plans mt-3">Contact Us</a>
-                        </div>
+                    <div class="plan-back">
+                        <h4 class="plan-title">Data Extraction Service</h4>
+                        <ul class="plan-features">
+                            <li><i class="fas fa-check-circle"></i> Custom Web Data Extraction</li>
+                            <li><i class="fas fa-cogs"></i> Workflow Automation & Scheduling</li>
+                            <li><i class="fas fa-chart-line"></i> Real-time Data Analysis & Insights</li>
+                            <li><i class="fas fa-database"></i> Seamless Database Integration</li>
+                            <li><i class="fas fa-search"></i> Advanced Data Cleaning & Validation</li>
+                            <li><i class="fas fa-robot"></i> Automated Data Formatting & Export</li>
+                            <li><i class="fas fa-layer-group"></i> Scalability for High-Volume Data</li>
+                            <li><i class="fas fa-user-shield"></i> GDPR & CCPA Compliant Solutions</li>
+                            <li><i class="fas fa-rocket"></i> Custom Dashboards & Reporting Tools</li>
+                            <li><i class="fas fa-headset"></i> Dedicated Support & Maintenance</li>
+                        </ul>
+                        <a href="https://meetings.hubspot.com/pixiu" class="btn btn-orange-plans mt-3" target="_blank">Contact Us for More Info</a>
                     </div>
                 </div>
             </div>
         </div>
-    </section>
-    <!-- End of Data Extraction Service Plans Section -->
+    </div>
+</section>
+<!-- End of Data Extraction Service Plans Section -->
 
     <!-- Start of Steps to Success Section -->
     <section id="steps-success" class="steps-section">

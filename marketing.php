@@ -138,83 +138,71 @@
     <!-- Start of Marketing Plans Section -->
     <section id="marketing-plans" class="plans-section py-5">
         <div class="container">
-            <h2 class="fw-bold text-center mb-4">Our <span class="text-orange">Marketing Packages</span></h2>
+            <h2 class="fw-bold text-center mb-4">Our <span class="text-orange">Marketing Services</span></h2>
+            <p class="text-center text-muted mb-5">Explore our tailored marketing solutions designed to elevate your brand's presence and drive growth.</p>
             <div class="row justify-content-center">
                 <!-- Card 1: Basic Package -->
                 <div class="col-md-4 mb-3">
                     <div class="plan-card">
                         <div class="plan-front">
-                            <h4 class="plan-title">Basic Marketing Package</h4>
-                            <p class="plan-price">
-                                <span class="old-price">$1,200</span> <span class="new-price">$799</span>
-                            </p>
-                            <p class="plan-preview">Perfect for small businesses looking to enhance their online presence.</p>
+                            <h4 class="plan-title">SEO & Optimization</h4>
+                            <p class="plan-preview">Improve your search engine visibility and attract more organic traffic.</p>
                             <div class="hover-indicator">
                                 <i class="fas fa-hand-pointer"></i> More Info
                             </div>
                         </div>
                         <div class="plan-back">
-                            <h4 class="plan-title">Basic Marketing Package</h4>
+                            <h4 class="plan-title">SEO & Optimization</h4>
                             <ul class="plan-features">
-                                <li><i class="fas fa-check-circle"></i> SEO Audit & Optimization</li>
-                                <li><i class="fas fa-share-alt"></i> Social Media Management (3 platforms)</li>
-                                <li><i class="fas fa-pen-nib"></i> Monthly Content Creation (4 posts)</li>
-                                <li><i class="fas fa-chart-line"></i> Basic Analytics Reporting</li>
+                                <li><i class="fas fa-search"></i> Keyword Research & Analysis</li>
+                                <li><i class="fas fa-chart-line"></i> On-Page & Off-Page Optimization</li>
+                                <li><i class="fas fa-link"></i> Link Building Strategies</li>
                             </ul>
-                            <a href="basic-package.php" class="btn btn-orange-plans mt-3">Contact Us</a>
+                            <a href="contact.php" class="btn btn-orange-plans mt-3">Contact Us for More Info</a>
                         </div>
                     </div>
                 </div>
 
-                <!-- Card 2: Professional Package -->
+                <!-- Card 2: Social Media Marketing -->
                 <div class="col-md-4 mb-3">
                     <div class="plan-card">
                         <div class="plan-front">
-                            <h4 class="plan-title">Professional Marketing Package</h4>
-                            <p class="plan-price">
-                                <span class="old-price">$2,500</span> <span class="new-price">$1,499</span>
-                            </p>
-                            <p class="plan-preview">Ideal for growing businesses seeking advanced marketing strategies.</p>
+                            <h4 class="plan-title">Social Media Marketing</h4>
+                            <p class="plan-preview">Engage with your audience on platforms like Instagram, Facebook, and LinkedIn.</p>
                             <div class="hover-indicator">
                                 <i class="fas fa-hand-pointer"></i> More Info
                             </div>
                         </div>
                         <div class="plan-back">
-                            <h4 class="plan-title">Professional Marketing Package</h4>
+                            <h4 class="plan-title">Social Media Marketing</h4>
                             <ul class="plan-features">
-                                <li><i class="fas fa-search-plus"></i> Advanced SEO & Keyword Optimization</li>
-                                <li><i class="fas fa-share-square"></i> Social Media Ads Management (3 platforms)</li>
-                                <li><i class="fas fa-newspaper"></i> Weekly Content Creation (8 posts)</li>
-                                <li><i class="fas fa-chart-bar"></i> Detailed Analytics & Strategy Adjustment</li>
+                                <li><i class="fas fa-share-alt"></i> Content Creation & Scheduling</li>
+                                <li><i class="fas fa-users"></i> Community Engagement</li>
+                                <li><i class="fas fa-chart-pie"></i> Performance Analytics</li>
                             </ul>
-                            <a href="professional-package.php" class="btn btn-orange-plans mt-3">Contact Us</a>
+                            <a href="contact.php" class="btn btn-orange-plans mt-3">Contact Us for More Info</a>
                         </div>
                     </div>
                 </div>
 
-                <!-- Card 3: Premium Package -->
+                <!-- Card 3: PPC & Paid Advertising -->
                 <div class="col-md-4 mb-3">
                     <div class="plan-card">
                         <div class="plan-front">
-                            <h4 class="plan-title">Premium Marketing Package</h4>
-                            <p class="plan-price">
-                                <span class="old-price">$4,000</span> <span class="new-price">$2,499</span>
-                            </p>
-                            <p class="plan-preview">Comprehensive package for businesses aiming for maximum growth.</p>
+                            <h4 class="plan-title">PPC & Paid Advertising</h4>
+                            <p class="plan-preview">Reach your target audience with precision through our paid advertising solutions.</p>
                             <div class="hover-indicator">
                                 <i class="fas fa-hand-pointer"></i> More Info
                             </div>
                         </div>
                         <div class="plan-back">
-                            <h4 class="plan-title">Premium Marketing Package</h4>
+                            <h4 class="plan-title">PPC & Paid Advertising</h4>
                             <ul class="plan-features">
-                                <li><i class="fas fa-bullseye"></i> Complete SEO Overhaul & Link Building</li>
-                                <li><i class="fas fa-ad"></i> Full Social Media & PPC Campaigns</li>
-                                <li><i class="fas fa-pencil-alt"></i> Daily Content & Blog Creation</li>
-                                <li><i class="fas fa-chart-pie"></i> In-depth Analytics & ROI Tracking</li>
-                                <li><i class="fas fa-headset"></i> Dedicated Marketing Consultant</li>
+                                <li><i class="fas fa-bullseye"></i> Google Ads & Social Media Ads</li>
+                                <li><i class="fas fa-chart-bar"></i> Campaign Management</li>
+                                <li><i class="fas fa-dollar-sign"></i> Budget Optimization</li>
                             </ul>
-                            <a href="premium-package.php" class="btn btn-orange-plans mt-3">Contact Us</a>
+                            <a href="contact.php" class="btn btn-orange-plans mt-3">Contact Us for More Info</a>
                         </div>
                     </div>
                 </div>

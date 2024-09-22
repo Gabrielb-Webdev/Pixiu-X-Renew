@@ -138,94 +138,114 @@
     <!-- End of Service Details Section -->
 
     <!-- Start of HubSpot Service Plans Section -->
-    <section id="hubspot-plans" class="plans-section py-5">
-        <div class="container">
-            <h2 class="fw-bold text-center mb-4">Choose Your <span class="text-orange">HubSpot Plan</span></h2>
-            <div class="row justify-content-center">
-                <!-- Card 1: HubSpot Basic Plan -->
-                <div class="col-md-4 mb-3">
-                    <div class="plan-card">
-                        <div class="plan-front">
-                            <h4 class="plan-title">HubSpot Basic Plan</h4>
-                            <p class="plan-price">
-                                <span class="old-price">$1,299</span> <span class="new-price">$799</span>
-                            </p>
-                            <p class="plan-preview">Perfect for small businesses starting with HubSpot.</p>
-                            <div class="hover-indicator">
-                                <i class="fas fa-hand-pointer"></i> More Info
-                            </div>
-                        </div>
-                        <div class="plan-back">
-                            <h4 class="plan-title">HubSpot Basic Plan</h4>
-                            <ul class="plan-features">
-                                <li><i class="fas fa-check-circle"></i> Initial HubSpot Setup</li>
-                                <li><i class="fas fa-user-friends"></i> Team Training</li>
-                                <li><i class="fas fa-database"></i> Contact Import & Data</li>
-                                <li><i class="fas fa-robot"></i> Basic Email Automation</li>
-                                <li><i class="fas fa-clock"></i> Support: 30 Days</li>
-                            </ul>
-                            <a href="hubspot-basic.php" class="btn btn-orange-plans mt-3">Contact Us</a>
+<section id="hubspot-plans" class="plans-section py-5">
+    <div class="container">
+        <h2 class="fw-bold text-center mb-4">Our <span class="text-orange">HubSpot Service Packages</span></h2>
+        <p class="text-center text-muted mb-5">Explore our tailored HubSpot service packages designed to enhance your CRM experience and drive business growth.</p>
+        <div class="row justify-content-center">
+            <!-- Card 1: Implementation Package -->
+            <div class="col-md-3 mb-3">
+                <div class="plan-card" style="height: 37.5em">
+                    <div class="plan-front">
+                        <h4 class="plan-title">Implementation Package</h4>
+                        <p class="plan-price">Talk to sales</p>
+                        <p class="plan-preview">Align HubSpot with your business goals through expert implementation.</p>
+                        <div class="hover-indicator">
+                            <i class="fas fa-hand-pointer"></i> More Info
                         </div>
                     </div>
-                </div>
-
-                <!-- Card 2: HubSpot Growth Plan -->
-                <div class="col-md-4 mb-3">
-                    <div class="plan-card">
-                        <div class="plan-front">
-                            <h4 class="plan-title">HubSpot Growth Plan</h4>
-                            <p class="plan-price">
-                                <span class="old-price">$2,499</span> <span class="new-price">$1,499</span>
-                            </p>
-                            <p class="plan-preview">For growing businesses leveraging HubSpot's power.</p>
-                            <div class="hover-indicator">
-                                <i class="fas fa-hand-pointer"></i> More Info
-                            </div>
-                        </div>
-                        <div class="plan-back">
-                            <h4 class="plan-title">HubSpot Growth Plan</h4>
-                            <ul class="plan-features">
-                                <li><i class="fas fa-cogs"></i> Advanced Setup & Customization</li>
-                                <li><i class="fas fa-users-cog"></i> Sales & Marketing Automation</li>
-                                <li><i class="fas fa-chart-line"></i> CRM & Third-Party Integrations</li>
-                                <li><i class="fas fa-bullseye"></i> SEO Strategy & Lead Generation</li>
-                                <li><i class="fas fa-calendar-alt"></i> Support: 60 Days</li>
-                            </ul>
-                            <a href="hubspot-growth.php" class="btn btn-orange-plans mt-3">Contact Us</a>
-                        </div>
+                    <div class="plan-back">
+                        <h4 class="plan-title">Implementation Package</h4>
+                        <ul class="plan-features">
+                            <li><i class="fas fa-database"></i> Data Mapping & Migration</li>
+                            <li><i class="fas fa-cogs"></i> CRM Configuration</li>
+                            <li><i class="fas fa-chalkboard-teacher"></i> Team Workshops & Training</li>
+                            <li><i class="fas fa-envelope"></i> Email Templates & Sequences</li>
+                            <li><i class="fas fa-sync-alt"></i> Data Automations & Reporting</li>
+                        </ul>
+                        <a href="https://meetings.hubspot.com/pixiu" class="btn btn-orange-plans mt-3" target="_blank">Contact Us</a>
                     </div>
                 </div>
+            </div>
 
-                <!-- Card 3: HubSpot Premium Plan -->
-                <div class="col-md-4 mb-3">
-                    <div class="plan-card">
-                        <div class="plan-front">
-                            <h4 class="plan-title">HubSpot Premium Plan</h4>
-                            <p class="plan-price">
-                                <span class="old-price">$4,999</span> <span class="new-price">$2,999</span>
-                            </p>
-                            <p class="plan-preview">Complete HubSpot solution for established businesses.</p>
-                            <div class="hover-indicator">
-                                <i class="fas fa-hand-pointer"></i> More Info
-                            </div>
+            <!-- Card 2: Starter Package -->
+            <div class="col-md-3 mb-3">
+                <div class="plan-card" style="height: 37.5em">
+                    <div class="plan-front">
+                        <h4 class="plan-title">Starter Package</h4>
+                        <p class="plan-price">$1399 / m</p>
+                        <p class="plan-preview">Address everyday issues and streamline your operations with our starter package.</p>
+                        <div class="hover-indicator">
+                            <i class="fas fa-hand-pointer"></i> More Info
                         </div>
-                        <div class="plan-back">
-                            <h4 class="plan-title">HubSpot Premium Plan</h4>
-                            <ul class="plan-features">
-                                <li><i class="fas fa-server"></i> Full Setup & CRM Audit</li>
-                                <li><i class="fas fa-lightbulb"></i> Advanced Marketing Strategy</li>
-                                <li><i class="fas fa-sync-alt"></i> Workflow Optimization</li>
-                                <li><i class="fas fa-chart-pie"></i> Custom Dashboards & Reports</li>
-                                <li><i class="fas fa-headset"></i> Support: 90 Days</li>
-                            </ul>
-                            <a href="hubspot-premium.php" class="btn btn-orange-plans mt-3">Contact Us</a>
+                    </div>
+                    <div class="plan-back">
+                        <h4 class="plan-title">Starter Package</h4>
+                        <ul class="plan-features">
+                            <li><i class="fas fa-life-ring"></i> Daily Issue Resolution</li>
+                            <li><i class="fas fa-user-clock"></i> 8 Hours/Month Support</li>
+                            <li><i class="fas fa-ticket-alt"></i> Prioritized Ticket Handling</li>
+                            <li><i class="fas fa-tools"></i> Troubleshooting & Error Resolution</li>
+                            <li><i class="fas fa-headset"></i> Technical Guidance & Support</li>
+                        </ul>
+                        <a href="https://meetings.hubspot.com/pixiu" class="btn btn-orange-plans mt-3" target="_blank">Contact Us</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 3: Growth Package -->
+            <div class="col-md-3 mb-3">
+                <div class="plan-card" style="height: 37.5em">
+                    <div class="plan-front">
+                        <h4 class="plan-title">Growth Package</h4>
+                        <p class="plan-price">$2900 / m</p>
+                        <p class="plan-preview">Gain 20 credits per month for development, support, or both.</p>
+                        <div class="hover-indicator">
+                            <i class="fas fa-hand-pointer"></i> More Info
                         </div>
+                    </div>
+                    <div class="plan-back">
+                        <h4 class="plan-title">Growth Package</h4>
+                        <ul class="plan-features">
+                            <li><i class="fas fa-user-tie"></i> Dedicated HubSpot Specialist</li>
+                            <li><i class="fas fa-chart-bar"></i> Monthly Reporting & Proactive Planning</li>
+                            <li><i class="fas fa-tools"></i> Issue Resolution & Development Support</li>
+                            <li><i class="fas fa-cogs"></i> Full HubSpot Support</li>
+                            <li><i class="fas fa-clock"></i> 20 Credits/Month for Flexible Use</li>
+                        </ul>
+                        <a href="https://meetings.hubspot.com/pixiu" class="btn btn-orange-plans mt-3" target="_blank">Contact Us</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 4: Hyper Growth Package -->
+            <div class="col-md-3 mb-3">
+                <div class="plan-card" style="height: 37.5em">
+                    <div class="plan-front">
+                        <h4 class="plan-title">Hyper Growth Package</h4>
+                        <p class="plan-price">$3900 / m</p>
+                        <p class="plan-preview">Receive 30 credits per month to enhance your development and support needs.</p>
+                        <div class="hover-indicator">
+                            <i class="fas fa-hand-pointer"></i> More Info
+                        </div>
+                    </div>
+                    <div class="plan-back">
+                        <h4 class="plan-title">Hyper Growth Package</h4>
+                        <ul class="plan-features">
+                            <li><i class="fas fa-user-shield"></i> Dedicated HubSpot Specialist</li>
+                            <li><i class="fas fa-sync-alt"></i> Full Support & Long-term Optimization</li>
+                            <li><i class="fas fa-tasks"></i> Monthly Planning & Reporting</li>
+                            <li><i class="fas fa-tools"></i> Development & Issue Resolution</li>
+                            <li><i class="fas fa-star"></i> 30 Credits/Month for Maximum Flexibility</li>
+                        </ul>
+                        <a href="https://meetings.hubspot.com/pixiu" class="btn btn-orange-plans mt-3" target="_blank">Contact Us</a>
                     </div>
                 </div>
             </div>
         </div>
-    </section>
-    <!-- End of HubSpot Service Plans Section -->
+    </div>
+</section>
+<!-- End of HubSpot Service Plans Section -->
 
     <!-- Start of Steps to Success Section -->
     <section id="steps-success" class="steps-section">

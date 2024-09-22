@@ -14,7 +14,7 @@
             <ul class="navbar-nav ms-auto">
                 <!-- Home Link -->
                 <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="index.php#home">Home</a>
+                    <a class="nav-link active" aria-current="page" href="index.php">Home</a>
                 </li>
                 
                 <!-- Services Dropdown -->
@@ -31,16 +31,8 @@
                     </ul>
                 </li>
 
-                <!-- Pages Dropdown -->
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="pagesDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        Pages
-                    </a>
-                    <ul class="dropdown-menu" aria-labelledby="pagesDropdown">
-                        <li><a class="dropdown-item" href="about.php">About Us</a></li>
-                        <li><a class="dropdown-item" href="faqs.php">FAQs</a></li>
-                        <li><a class="dropdown-item" href="whyus.php">Why Us</a></li>
-                    </ul>
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="about.php">About Us</a>
                 </li>
 
                 <!-- Contact Link -->

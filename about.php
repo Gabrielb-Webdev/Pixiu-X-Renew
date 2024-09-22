@@ -31,25 +31,28 @@
     </section>
     <!-- End of Hero Section -->
 
-    <!-- Start of Our Story Section -->
-    <section id="our-story" class="py-5">
-        <div class="container">
-            <div class="row g-5 align-items-center">
-                <div class="col-lg-6" data-aos="fade-right">
-                    <h6 class="text-uppercase text-orange">Our Story</h6>
-                    <div class="underline-orange mb-3"></div>
-                    <h2 class="fw-bold">Turning Ideas Into Digital Realities</h2>
-                    <p class="text-muted">Founded with a passion for technology and creativity, Pixiu is dedicated to empowering businesses through innovative digital solutions. From humble beginnings to becoming a trusted partner for numerous brands, our journey is driven by a commitment to excellence and a deep understanding of the digital landscape.</p>
-                    <p class="text-muted">Our mission is to transform your ideas into functional, scalable solutions that drive success. We thrive on challenges and believe that every project is an opportunity to create something exceptional.</p>
-                    <a href="#our-values" class="btn btn-outline-orange mt-3">Explore Our Values</a>
-                </div>
-                <div class="col-lg-6" data-aos="fade-left">
-                    <img src="images/About us.webp" alt="Our Story" class="img-fluid rounded">
-                </div>
+<!-- Start of Our Story Section -->
+<section id="our-story" class="py-5">
+    <div class="container">
+        <div class="row g-5 align-items-center">
+            <div class="col-lg-6" data-aos="fade-right">
+                <h6 class="text-uppercase text-orange">Our Story</h6>
+                <div class="underline-orange mb-3"></div>
+                <h2 class="fw-bold">Turning Ideas Into Digital Realities</h2>
+                <p class="text-muted">Founded with a passion for technology and creativity, Pixiu is dedicated to empowering businesses through innovative digital solutions. From humble beginnings to becoming a trusted partner for numerous brands, our journey is driven by a commitment to excellence and a deep understanding of the digital landscape.</p>
+                <p class="text-muted">Our mission is to transform your ideas into functional, scalable solutions that drive success. We thrive on challenges and believe that every project is an opportunity to create something exceptional.</p>
+                <a href="#our-values" class="btn btn-orange btn-lg fw-bold px-4 py-3 mt-3" style="border-radius: 50px; text-transform: uppercase; transition: all 0.3s ease;">
+                    Explore Our Values
+                </a>
+            </div>
+            <div class="col-lg-6" data-aos="fade-left">
+                <img src="images/About us.webp" alt="Our Story" class="img-fluid rounded">
             </div>
         </div>
-    </section>
-    <!-- End of Our Story Section -->
+    </div>
+</section>
+<!-- End of Our Story Section -->
+
 
     <!-- Start of Our Values Section -->
     <section id="our-values" class="py-5 bg-light">
@@ -82,7 +85,59 @@
     </section>
     <!-- End of Our Values Section -->
 
-    <!-- Start of Expertise Section -->
+    <!-- Start of Why Choose Us Section -->
+    <section id="why-choose-us" class="py-5">
+        <div class="container">
+            <h2 class="text-center fw-bold mb-5">Why Choose Us?</h2>
+            <div class="row g-4">
+                <div class="col-md-4" data-aos="fade-up">
+                    <div class="feature-card p-4 bg-white rounded shadow text-center">
+                        <i class="fas fa-trophy fa-3x text-orange mb-3"></i>
+                        <h5 class="fw-bold">Proven Expertise</h5>
+                        <p class="text-muted">With years of experience in the digital landscape, we offer proven solutions tailored to your needs.</p>
+                    </div>
+                </div>
+                <div class="col-md-4" data-aos="fade-up" data-aos-delay="100">
+                    <div class="feature-card p-4 bg-white rounded shadow text-center">
+                        <i class="fas fa-user-check fa-3x text-orange mb-3"></i>
+                        <h5 class="fw-bold">Client-Centric Approach</h5>
+                        <p class="text-muted">We put our clients first, offering personalized service and strategies that align with your business goals.</p>
+                    </div>
+                </div>
+                <div class="col-md-4" data-aos="fade-up" data-aos-delay="200">
+                    <div class="feature-card p-4 bg-white rounded shadow text-center">
+                        <i class="fas fa-chart-line fa-3x text-orange mb-3"></i>
+                        <h5 class="fw-bold">Results-Driven Solutions</h5>
+                        <p class="text-muted">Our focus is on delivering measurable results that enhance your brand’s visibility, engagement, and growth.</p>
+                    </div>
+                </div>
+                <div class="col-md-4" data-aos="fade-up">
+                    <div class="feature-card p-4 bg-white rounded shadow text-center">
+                        <i class="fas fa-lightbulb fa-3x text-orange mb-3"></i>
+                        <h5 class="fw-bold">Innovation & Creativity</h5>
+                        <p class="text-muted">We embrace innovative thinking, constantly exploring new ideas to keep you ahead of the curve.</p>
+                    </div>
+                </div>
+                <div class="col-md-4" data-aos="fade-up" data-aos-delay="100">
+                    <div class="feature-card p-4 bg-white rounded shadow text-center">
+                        <i class="fas fa-headset fa-3x text-orange mb-3"></i>
+                        <h5 class="fw-bold">Exceptional Support</h5>
+                        <p class="text-muted">Our dedicated support team is always ready to assist you, ensuring a smooth and successful partnership.</p>
+                    </div>
+                </div>
+                <div class="col-md-4" data-aos="fade-up" data-aos-delay="200">
+                    <div class="feature-card p-4 bg-white rounded shadow text-center">
+                        <i class="fas fa-cogs fa-3x text-orange mb-3"></i>
+                        <h5 class="fw-bold">Customized Solutions</h5>
+                        <p class="text-muted">We don't believe in one-size-fits-all. Our solutions are customized to fit the unique challenges of your business.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End of Why Choose Us Section -->
+
+    <!-- Start of Our Expertise Section -->
     <section id="expertise" class="py-5">
         <div class="container">
             <h2 class="text-center fw-bold mb-4">Our Expertise</h2>
@@ -127,22 +182,59 @@
             </div>
         </div>
     </section>
-    <!-- End of Expertise Section -->
+    <!-- End of Our Expertise Section -->
+
+    <!-- Start of Our Impact Section -->
+    <section id="our-impact" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center fw-bold mb-5">Our Impact</h2>
+            <div class="row text-center">
+                <div class="col-md-3 mb-4" data-aos="fade-up">
+                    <div class="impact-card p-4 bg-white rounded shadow">
+                        <h3 class="display-4 text-orange fw-bold">95%</h3>
+                        <p class="text-muted">Client Satisfaction</p>
+                    </div>
+                </div>
+                <div class="col-md-3 mb-4" data-aos="fade-up" data-aos-delay="100">
+                    <div class="impact-card p-4 bg-white rounded shadow">
+                        <h3 class="display-4 text-orange fw-bold">+500</h3>
+                        <p class="text-muted">Successful Projects</p>
+                    </div>
+                </div>
+                <div class="col-md-3 mb-4" data-aos="fade-up" data-aos-delay="200">
+                    <div class="impact-card p-4 bg-white rounded shadow">
+                        <h3 class="display-4 text-orange fw-bold">+20</h3>
+                        <p class="text-muted">Industries Served</p>
+                    </div>
+                </div>
+                <div class="col-md-3 mb-4" data-aos="fade-up" data-aos-delay="300">
+                    <div class="impact-card p-4 bg-white rounded shadow">
+                        <h3 class="display-4 text-orange fw-bold">24/7</h3>
+                        <p class="text-muted">Support Availability</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End of Our Impact Section -->
 
     <!-- Start of Call-to-Action Section -->
     <section id="call-to-action" class="cta-section py-5 text-white text-center" style="background: #dd6d2c;">
         <div class="container">
             <h2 class="fw-bold">Ready to Take Your Business to the Next Level?</h2>
             <p>Contact us today and let's discuss how we can make your vision a reality.</p>
-            <a href="contact.php" class="btn btn-light">Get in Touch</a>
+            <a href="contact.php" class="btn btn-orange btn-lg fw-bold px-4 py-3" style="border-radius: 50px; text-transform: uppercase; transition: all 0.3s ease; background-color: #c2591c;">
+                Get in Touch
+            </a>
         </div>
     </section>
     <!-- End of Call-to-Action Section -->
 
+
     <!-- Start of Footer Section -->
     <?php include 'components/footer.php'; ?>
     <!-- End of Footer Section -->
-     
+
     <!-- Swiper JS -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.0.7/swiper-bundle.min.js"></script>
     <!-- AOS Library -->
