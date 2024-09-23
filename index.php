@@ -360,7 +360,7 @@
                             <h2 class="text-center">Contact Us & <span class="text-orange">Get In Touch</span></h2>
 
                             <!-- Form -->
-                            <form action="../database/form.php" method="post" class="contact-form" onsubmit="gtag_report_conversion(); return true;">
+                            <form action="database/form.php" method="post" class="contact-form" onsubmit="gtag_report_conversion(); return true;">
                                 <div class="row">
                                     <div class="col-md-6 mb-3">
                                         <input type="text" class="form-control" placeholder="First Name" name="firstName" required>
