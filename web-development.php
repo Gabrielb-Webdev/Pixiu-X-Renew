@@ -42,13 +42,13 @@
                 </div>
                 <!-- Contenedor de imágenes apiladas -->
                 <div class="image-container">
-                    <img src="images/web-development/1.webp" alt="Image 1" id="image-1" loading="lazy">
-                    <img src="images/web-development/2.webp" alt="Image 2" id="image-2" loading="lazy">
-                    <img src="images/web-development/3.webp" alt="Image 3" id="image-3" loading="lazy">
-                    <img src="images/web-development/4.webp" alt="Image 4" id="image-4" loading="lazy">
-                    <img src="images/web-development/5.webp" alt="Image 5" id="image-5" loading="lazy">
-                    <img src="images/web-development/6.webp" alt="Image 6" id="image-6" loading="lazy">
-                    <img src="images/web-development/Website Creator-amico.webp" alt="Construction Image" id="image-8">
+                    <img src="sources/images/web-development/1.webp" alt="Image 1" id="image-1" loading="lazy">
+                    <img src="sources/images/web-development/2.webp" alt="Image 2" id="image-2" loading="lazy">
+                    <img src="sources/images/web-development/3.webp" alt="Image 3" id="image-3" loading="lazy">
+                    <img src="sources/images/web-development/4.webp" alt="Image 4" id="image-4" loading="lazy">
+                    <img src="sources/images/web-development/5.webp" alt="Image 5" id="image-5" loading="lazy">
+                    <img src="sources/images/web-development/6.webp" alt="Image 6" id="image-6" loading="lazy">
+                    <img src="sources/images/web-development/Website Creator-amico.webp" alt="Construction Image" id="image-8">
                 </div>
             </div>
         </div>
@@ -67,7 +67,7 @@
                 <div class="row g-0 align-items-center">
                     <!-- Image inside the card -->
                     <div class="col-md-6">
-                        <img src="images/Website Creator-bro.webp" alt="Service Illustration" class="img-fluid service-img">
+                        <img src="sources/images/Website Creator-bro.webp" alt="Service Illustration" class="img-fluid service-img">
                     </div>
 
                     <!-- Service Details inside the card -->
@@ -165,7 +165,7 @@
                                 <li><i class="fas fa-paint-brush"></i> Basic Design Customization</li>
                                 <li><i class="fas fa-clock"></i> Delivery: 5 Days</li>
                             </ul>
-                            <a href="express-offer.php" class="btn btn-orange-plans mt-3">Contact Us</a>
+                            <a href="index.php#contact" class="btn btn-orange-plans mt-3">Contact Us</a>
                         </div>
                     </div>
                 </div>
@@ -192,7 +192,7 @@
                                 <li><i class="fas fa-chart-pie"></i> Google Analytics Setup</li>
                                 <li><i class="fas fa-calendar-alt"></i> Delivery: 7 Days</li>
                             </ul>
-                            <a href="online-store.php" class="btn btn-orange-plans mt-3">Contact Us</a>
+                            <a href="index.php#contact" class="btn btn-orange-plans mt-3">Contact Us</a>
                         </div>
                     </div>
                 </div>
@@ -217,7 +217,7 @@
                                 <li><i class="fas fa-headset"></i> Ongoing Support</li>
                                 <li><i class="fas fa-rocket"></i> Launch Strategy</li>
                             </ul>
-                            <a href="contact-us.php" class="btn btn-orange-plans mt-3">Contact Us</a>
+                            <a href="index.php#contact" class="btn btn-orange-plans mt-3">Contact Us</a>
                         </div>
                     </div>
                 </div>
@@ -268,7 +268,7 @@
                             </div>
                         </div>
                         <div class="col-md-6">
-                            <img src="images/Website Creator-cuate.webp" alt="Discovery Step" class="img-fluid">
+                            <img src="sources/images/Website Creator-cuate.webp" alt="Discovery Step" class="img-fluid">
                         </div>
                     </div>
                 </div>
@@ -287,7 +287,7 @@
                             </div>
                         </div>
                         <div class="col-md-6">
-                            <img src="images/Website Creator-cuate.webp" alt="Design Step" class="img-fluid">
+                            <img src="sources/images/Website Creator-cuate.webp" alt="Design Step" class="img-fluid">
                         </div>
                     </div>
                 </div>
@@ -306,7 +306,7 @@
                             </div>
                         </div>
                         <div class="col-md-6">
-                            <img src="images/Website Creator-cuate.webp" alt="Development Step" class="img-fluid">
+                            <img src="sources/images/Website Creator-cuate.webp" alt="Development Step" class="img-fluid">
                         </div>
                     </div>
                 </div>
@@ -325,7 +325,7 @@
                             </div>
                         </div>
                         <div class="col-md-6">
-                            <img src="images/Website Creator-cuate.webp" alt="Review Step" class="img-fluid">
+                            <img src="sources/images/Website Creator-cuate.webp" alt="Review Step" class="img-fluid">
                         </div>
                     </div>
                 </div>
@@ -344,7 +344,7 @@
                             </div>
                         </div>
                         <div class="col-md-6">
-                            <img src="images/Website Creator-cuate.webp" alt="Maintenance Step" class="img-fluid">
+                            <img src="sources/images/Website Creator-cuate.webp" alt="Maintenance Step" class="img-fluid">
                         </div>
                     </div>
                 </div>

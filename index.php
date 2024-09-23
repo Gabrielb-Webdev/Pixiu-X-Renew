@@ -16,6 +16,7 @@
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/resposive.css">
     <link rel="stylesheet" href="css/resposive.css">
+    <link rel="stylesheet" href="css/modal.css">
 </head>
 
 <body>
@@ -44,14 +45,14 @@
                 </div>
                 <!-- Image Container -->
                 <div class="image-container">
-                    <img src="images/home/1.webp" alt="Image 1" id="image-1" loading="lazy">
-                    <img src="images/home/2.webp" alt="Image 2" id="image-2" loading="lazy">
-                    <img src="images/home/3.webp" alt="Image 3" id="image-3" loading="lazy">
-                    <img src="images/home/4.webp" alt="Image 4" id="image-4" loading="lazy">
-                    <img src="images/home/5.webp" alt="Image 5" id="image-5" loading="lazy">
-                    <img src="images/home/6.webp" alt="Image 6" id="image-6" loading="lazy">
-                    <img src="images/home/7.webp" alt="Image 7" id="image-7" loading="lazy">
-                    <img src="images/home/construction.webp" alt="Construction Image" id="image-8" loading="lazy">
+                    <img src="sources/images/home/1.webp" alt="Image 1" id="image-1" loading="lazy">
+                    <img src="sources/images/home/2.webp" alt="Image 2" id="image-2" loading="lazy">
+                    <img src="sources/images/home/3.webp" alt="Image 3" id="image-3" loading="lazy">
+                    <img src="sources/images/home/4.webp" alt="Image 4" id="image-4" loading="lazy">
+                    <img src="sources/images/home/5.webp" alt="Image 5" id="image-5" loading="lazy">
+                    <img src="sources/images/home/6.webp" alt="Image 6" id="image-6" loading="lazy">
+                    <img src="sources/images/home/7.webp" alt="Image 7" id="image-7" loading="lazy">
+                    <img src="sources/images/home/construction.webp" alt="Construction Image" id="image-8" loading="lazy">
                 </div>
             </div>
         </div>
@@ -65,7 +66,7 @@
                 <!-- Image on the left -->
                 <div class="col-md-6">
                     <div class="services-image" style="margin-left: 7.5rem;">
-                        <img src="images/Telecommuting-rafiki.webp" alt="Services Illustration" class="img-fluid" style="width: 95%; max-width: 500px;">
+                        <img src="sources/images/Telecommuting-rafiki.webp" alt="Services Illustration" class="img-fluid" style="width: 95%; max-width: 500px;">
                     </div>
                 </div>
 
@@ -125,7 +126,7 @@
                 <div class="col-lg-3 mb-4">
                     <div class="card service-card h-100 shadow-lg border-0 rounded-lg hover-zoom">
                         <div class="card-img-container position-relative overflow-hidden">
-                            <img src="images/Marketing.webp" class="card-img-top marketing-card-img" alt="Marketing">
+                            <img src="sources/images/Marketing.webp" class="card-img-top marketing-card-img" alt="Marketing">
                             <div class="card-overlay text-center d-flex justify-content-center align-items-center">
                                 <!-- Botón para la página general de Marketing -->
                                 <a href="marketing.php" class="btn btn-orange me-2">
@@ -145,7 +146,7 @@
                 <div class="col-lg-3 mb-4">
                     <div class="card service-card h-100 shadow-lg border-0 rounded-lg hover-zoom">
                         <div class="card-img-container position-relative overflow-hidden">
-                            <img src="images/Operating system-pana.webp" class="card-img-top" alt="HubSpot Consulting">
+                            <img src="sources/images/Operating system-pana.webp" class="card-img-top" alt="HubSpot Consulting">
                             <div class="card-overlay text-center d-flex justify-content-center align-items-center">
                                 <!-- Botón para la página general de HubSpot Consulting -->
                                 <a href="hubspot.php" class="btn btn-orange me-2">
@@ -165,7 +166,7 @@
                 <div class="col-lg-3 mb-4">
                     <div class="card service-card h-100 shadow-lg border-0 rounded-lg hover-zoom">
                         <div class="card-img-container position-relative overflow-hidden">
-                            <img src="images/Developer activity-amico.webp" class="card-img-top" alt="Website Creation & Data Extraction">
+                            <img src="sources/images/Developer activity-amico.webp" class="card-img-top" alt="Website Creation & Data Extraction">
                             <div class="card-overlay text-center d-flex justify-content-center align-items-center">
                                 <a href="web-development.php" class="btn btn-orange me-2">
                                     Website Creation
@@ -188,7 +189,7 @@
                 <div class="col-lg-3 mb-4">
                     <div class="card service-card h-100 shadow-lg border-0 rounded-lg hover-zoom">
                         <div class="card-img-container position-relative overflow-hidden">
-                            <img src="images/Design.webp" class="card-img-top" alt="Multimedia Design">
+                            <img src="sources/images/Design.webp" class="card-img-top" alt="Multimedia Design">
                             <div class="card-overlay text-center d-flex justify-content-center align-items-center">
                                 <!-- Botón para la página general de Multimedia Design -->
                                 <a href="design.php" class="btn btn-orange me-2">
@@ -220,7 +221,7 @@
                 <div class="row g-0 align-items-center">
                     <!-- Image inside the card -->
                     <div class="col-md-6">
-                        <img src="images/Checklist-pana.webp" alt="Service Illustration" class="img-fluid service-img">
+                        <img src="sources/images/Checklist-pana.webp" alt="Service Illustration" class="img-fluid service-img">
                     </div>
 
                     <!-- Service Details inside the card -->
@@ -280,39 +281,56 @@
             <div class="main-card shadow-lg p-5 bg-white rounded">
                 <div class="row g-4 align-items-center">
                     <!-- Sub-Card for the image -->
-                    <div class="col-md-4"> <!-- Ajuste de col-md-3 a col-md-4 -->
+                    <div class="col-md-4">
                         <div class="image-card overflow-hidden">
-                            <img src="images/Messages-pana.webp" alt="Contact Illustration" class="img-fluid contact-img">
+                            <img src="sources/images/Messages-pana.webp" alt="Contact Illustration" class="img-fluid contact-img">
                         </div>
                     </div>
 
                     <!-- Sub-Card for the form -->
-                    <div class="col-md-7"> <!-- Ajuste de col-md-8 a col-md-7 -->
+                    <div class="col-md-7">
                         <div class="form-card p-4" style="border: 2px solid #dd6d2c; border-radius: 15px;">
                             <h2 class="text-center">Contact Us & <span class="text-orange">Get In Touch</span></h2>
 
                             <!-- Form -->
-                            <form action="" method="post" class="contact-form">
+                            <form action="../database/form.php" method="post" class="contact-form" onsubmit="gtag_report_conversion(); return true;">
                                 <div class="row">
                                     <div class="col-md-6 mb-3">
-                                        <input type="text" class="form-control" placeholder="Your Name..." required>
+                                        <input type="text" class="form-control" placeholder="First Name" name="firstName" required>
                                     </div>
                                     <div class="col-md-6 mb-3">
-                                        <input type="text" class="form-control" placeholder="Your Surname..." required>
+                                        <input type="text" class="form-control" placeholder="Last Name" name="lastName" required>
                                     </div>
                                 </div>
                                 <div class="row">
                                     <div class="col-md-6 mb-3">
-                                        <input type="email" class="form-control" placeholder="Your E-mail..." required>
+                                        <input type="email" class="form-control" placeholder="Email" name="email" required>
                                     </div>
                                     <div class="col-md-6 mb-3">
-                                        <input type="text" class="form-control" placeholder="Subject..." required>
+                                        <select class="form-control" name="service" id="service-select" required>
+                                            <option value="" selected disabled>Select a Service</option>
+                                            <option value="Custom Software Development">Custom Software Development</option>
+                                            <option value="HubSpot implementation and consulting">HubSpot Implementation and Consulting</option>
+                                            <option value="Data Extraction">Data Extraction</option>
+                                        </select>
                                     </div>
                                 </div>
+
+                                <!-- Dropdown shown only when "Custom Software Development" is selected -->
+                                <div class="mb-3 custom-software-dropdown" style="display: none;">
+                                    <select class="form-control" name="customOption">
+                                        <option value="" selected disabled>Select an Option</option>
+                                        <option value="Web Design">Web Design</option>
+                                        <option value="Custom Web Development">Custom Web Development</option>
+                                        <option value="Mobile Applications">Mobile Applications</option>
+                                        <option value="E-Commerce Web Development">E-Commerce Web Development</option>
+                                    </select>
+                                </div>
+
                                 <div class="mb-3">
-                                    <textarea class="form-control" rows="3" placeholder="Your Message..." required></textarea>
+                                    <textarea class="form-control" rows="3" placeholder="Hello, I am interested in hiring your services for....." name="Message" required></textarea>
                                 </div>
-                                <button type="submit" class="btn btn-orange w-100">Send Message Now</button>
+                                <button type="submit" class="btn btn-orange w-100">Submit</button>
                             </form>
 
                             <!-- Additional Contact Information -->
@@ -321,7 +339,7 @@
                                     <div class="col-4 d-flex flex-column align-items-center">
                                         <div class="contact-item text-center">
                                             <i class="fas fa-phone-alt"></i>
-                                            <p>+000 1234 5678</p>
+                                            <p>+1 (786) 798-8207</p>
                                         </div>
                                     </div>
                                     <div class="col-4 d-flex flex-column align-items-center">
@@ -333,7 +351,7 @@
                                     <div class="col-4 d-flex flex-column align-items-center">
                                         <div class="contact-item text-center">
                                             <i class="fas fa-map-marker-alt"></i>
-                                            <p>54th Street, London, UK</p>
+                                            <p>Miami Beach, FL, US</p>
                                         </div>
                                     </div>
                                 </div>
@@ -345,6 +363,81 @@
         </div>
     </section>
     <!-- End of Contact Section -->
+
+    <!-- Modal personalizado para mostrar mensajes -->
+<div class="custom-modal" id="responseModal" style="display: none;">
+    <div class="modal-content-custom">
+        <div class="modal-header-custom">
+            <h5 class="modal-title-custom text-center">¡Gracias por Contactarnos!</h5> <!-- Título centrado -->
+        </div>
+        <div class="modal-body-custom" id="responseMessage">
+            <!-- Mensaje actualizado y más breve -->
+        </div>
+        <div class="modal-footer-custom">
+            <button type="button" class="btn btn-orange" onclick="closeModal()">Aceptar</button>
+        </div>
+    </div>
+</div>
+
+<script>
+    document.querySelector('.contact-form').addEventListener('submit', function (event) {
+        event.preventDefault(); // Prevenir la redirección predeterminada del formulario
+
+        const formData = new FormData(this);
+
+        fetch(this.action, {
+            method: 'POST',
+            body: formData
+        })
+        .then(response => response.json())
+        .then(data => {
+            // Mensaje más corto y directo
+            document.getElementById('responseMessage').textContent = 
+                'Tu mensaje ha sido recibido. Nos pondremos en contacto contigo pronto.';
+
+            showModal(); // Mostrar el modal personalizado
+
+            // Recargar la página al cerrar el modal solo si es exitoso
+            if (data.success) {
+                document.getElementById('responseModal').addEventListener('close-modal', function () {
+                    location.reload();
+                });
+            }
+        })
+        .catch(error => {
+            console.error('Error:', error);
+            document.getElementById('responseMessage').textContent = 'Ocurrió un error. Por favor, intenta de nuevo.';
+            showModal(); // Mostrar el modal en caso de error
+        });
+    });
+
+    function showModal() {
+        document.getElementById('responseModal').style.display = 'flex';
+    }
+
+    function closeModal() {
+        document.getElementById('responseModal').style.display = 'none';
+        document.getElementById('responseModal').dispatchEvent(new Event('close-modal'));
+    }
+</script>
+
+    <!-- JavaScript to Show/Hide the Custom Software Dropdown -->
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            const serviceSelect = document.getElementById('service-select');
+            const customSoftwareDropdown = document.querySelector('.custom-software-dropdown');
+
+            serviceSelect.addEventListener('change', function() {
+                if (this.value === 'Custom Software Development') {
+                    customSoftwareDropdown.style.display = 'block';
+                } else {
+                    customSoftwareDropdown.style.display = 'none';
+                }
+            });
+        });
+    </script>
+
+
 
     <?php include 'components/footer.php'; ?>
 

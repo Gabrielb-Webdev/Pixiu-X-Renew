@@ -3,7 +3,7 @@
     <div class="container py-2 navbar-spacing"> <!-- Reducido el padding -->
         <!-- Logo -->
         <a class="navbar-brand" href="index.php">
-            <img src="images/logo.webp" alt="Logo" class="logo-img" style="max-height: 30px;"> <!-- Reducido el tamaño del logo -->
+            <img src="sources/images/logo.webp" alt="Logo" class="logo-img" style="max-height: 30px;"> <!-- Reducido el tamaño del logo -->
         </a>
         <!-- Toggler for mobile view -->
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -37,7 +37,7 @@
 
                 <!-- Contact Link -->
                 <li class="nav-item">
-                    <a class="nav-link" href="index.php#contact">Contact</a>
+                    <a class="nav-link" href="contact.php">Contact</a>
                 </li>
             </ul>
         </div>

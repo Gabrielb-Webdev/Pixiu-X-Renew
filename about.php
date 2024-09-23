@@ -21,7 +21,7 @@
     <!-- End of Navbar -->
 
     <!-- Start of Hero Section -->
-    <section class="hero-section position-relative d-flex justify-content-center align-items-center text-white" style="background: url('images/banner about.webp') no-repeat center center / cover; height: 80vh;">
+    <section class="hero-section position-relative d-flex justify-content-center align-items-center text-white" style="background: url('sources/images/banner about.webp') no-repeat center center / cover; height: 80vh;">
         <div class="overlay" style="background: rgba(0, 0, 0, 0.6); position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></div>
         <div class="container text-center" style="position: relative; z-index: 2;">
             <h1 class="display-4 fw-bold">Empowering Your Business</h1>
@@ -31,27 +31,27 @@
     </section>
     <!-- End of Hero Section -->
 
-<!-- Start of Our Story Section -->
-<section id="our-story" class="py-5">
-    <div class="container">
-        <div class="row g-5 align-items-center">
-            <div class="col-lg-6" data-aos="fade-right">
-                <h6 class="text-uppercase text-orange">Our Story</h6>
-                <div class="underline-orange mb-3"></div>
-                <h2 class="fw-bold">Turning Ideas Into Digital Realities</h2>
-                <p class="text-muted">Founded with a passion for technology and creativity, Pixiu is dedicated to empowering businesses through innovative digital solutions. From humble beginnings to becoming a trusted partner for numerous brands, our journey is driven by a commitment to excellence and a deep understanding of the digital landscape.</p>
-                <p class="text-muted">Our mission is to transform your ideas into functional, scalable solutions that drive success. We thrive on challenges and believe that every project is an opportunity to create something exceptional.</p>
-                <a href="#our-values" class="btn btn-orange btn-lg fw-bold px-4 py-3 mt-3" style="border-radius: 50px; text-transform: uppercase; transition: all 0.3s ease;">
-                    Explore Our Values
-                </a>
-            </div>
-            <div class="col-lg-6" data-aos="fade-left">
-                <img src="images/About us.webp" alt="Our Story" class="img-fluid rounded">
+    <!-- Start of Our Story Section -->
+    <section id="our-story" class="py-5">
+        <div class="container">
+            <div class="row g-5 align-items-center">
+                <div class="col-lg-6" data-aos="fade-right">
+                    <h6 class="text-uppercase text-orange">Our Story</h6>
+                    <div class="underline-orange mb-3"></div>
+                    <h2 class="fw-bold">Turning Ideas Into Digital Realities</h2>
+                    <p class="text-muted">Founded with a passion for technology and creativity, Pixiu is dedicated to empowering businesses through innovative digital solutions. From humble beginnings to becoming a trusted partner for numerous brands, our journey is driven by a commitment to excellence and a deep understanding of the digital landscape.</p>
+                    <p class="text-muted">Our mission is to transform your ideas into functional, scalable solutions that drive success. We thrive on challenges and believe that every project is an opportunity to create something exceptional.</p>
+                    <a href="#our-values" class="btn btn-orange btn-lg fw-bold px-4 py-3 mt-3" style="border-radius: 50px; text-transform: uppercase; transition: all 0.3s ease;">
+                        Explore Our Values
+                    </a>
+                </div>
+                <div class="col-lg-6" data-aos="fade-left">
+                    <img src="sources/images/About us.webp" alt="Our Story" class="img-fluid rounded">
+                </div>
             </div>
         </div>
-    </div>
-</section>
-<!-- End of Our Story Section -->
+    </section>
+    <!-- End of Our Story Section -->
 
 
     <!-- Start of Our Values Section -->
@@ -223,7 +223,7 @@
         <div class="container">
             <h2 class="fw-bold">Ready to Take Your Business to the Next Level?</h2>
             <p>Contact us today and let's discuss how we can make your vision a reality.</p>
-            <a href="contact.php" class="btn btn-orange btn-lg fw-bold px-4 py-3" style="border-radius: 50px; text-transform: uppercase; transition: all 0.3s ease; background-color: #c2591c;">
+            <a href="index.php#contact" class="btn btn-orange btn-lg fw-bold px-4 py-3" style="border-radius: 50px; text-transform: uppercase; transition: all 0.3s ease; background-color: #c2591c;">
                 Get in Touch
             </a>
         </div>
@@ -248,6 +248,33 @@
     </script>
     <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            // Selecciona el botón específico que apunta a #our-values
+            const exploreValuesButton = document.querySelector('a[href="#our-values"]');
+
+            // Agrega un evento click para ajustar el desplazamiento
+            exploreValuesButton.addEventListener('click', function(e) {
+                e.preventDefault(); // Previene el comportamiento predeterminado
+
+                // Selecciona la sección objetivo
+                const targetSection = document.querySelector('#our-values');
+
+                // Define el offset específico para ajustar la posición a la que se desplazará
+                const offset = 50; // Ajusta este valor según necesites más o menos desplazamiento
+
+                // Calcula la posición ajustada
+                const topPosition = targetSection.offsetTop - offset;
+
+                // Desplazamiento suave a la posición calculada
+                window.scrollTo({
+                    top: topPosition,
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+
 </body>
 
 </html>

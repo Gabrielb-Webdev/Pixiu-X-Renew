@@ -42,13 +42,13 @@
                 </div>
                 <!-- Contenedor de imágenes apiladas -->
                 <div class="image-container">
-                    <img src="images/hubspot/1.webp" alt="HubSpot Implementation Image 1" id="image-1" loading="lazy">
-                    <img src="images/hubspot/2.webp" alt="HubSpot Implementation Image 2" id="image-2" loading="lazy">
-                    <img src="images/hubspot/3.webp" alt="HubSpot Implementation Image 3" id="image-3" loading="lazy">
-                    <img src="images/hubspot/4.webp" alt="HubSpot Implementation Image 4" id="image-4" loading="lazy">
-                    <img src="images/hubspot/5.webp" alt="HubSpot Implementation Image 5" id="image-5" loading="lazy">
-                    <img src="images/hubspot/6.webp" alt="HubSpot Implementation Image 6" id="image-6" loading="lazy">
-                    <img src="images/hubspot/Operating system-amico.webp" alt="HubSpot Integration Illustration" id="image-8">
+                    <img src="sources/images/hubspot/1.webp" alt="HubSpot Implementation Image 1" id="image-1" loading="lazy">
+                    <img src="sources/images/hubspot/2.webp" alt="HubSpot Implementation Image 2" id="image-2" loading="lazy">
+                    <img src="sources/images/hubspot/3.webp" alt="HubSpot Implementation Image 3" id="image-3" loading="lazy">
+                    <img src="sources/images/hubspot/4.webp" alt="HubSpot Implementation Image 4" id="image-4" loading="lazy">
+                    <img src="sources/images/hubspot/5.webp" alt="HubSpot Implementation Image 5" id="image-5" loading="lazy">
+                    <img src="sources/images/hubspot/6.webp" alt="HubSpot Implementation Image 6" id="image-6" loading="lazy">
+                    <img src="sources/images/hubspot/Operating system-amico.webp" alt="HubSpot Integration Illustration" id="image-8">
                 </div>
             </div>
         </div>
@@ -67,7 +67,7 @@
                 <div class="row g-0 align-items-center">
                     <!-- Image inside the card -->
                     <div class="col-md-6">
-                        <img src="images/Operating system-rafiki.webp" alt="HubSpot Service Illustration" class="img-fluid service-img">
+                        <img src="sources/images/Operating system-rafiki.webp" alt="HubSpot Service Illustration" class="img-fluid service-img">
                     </div>
 
                     <!-- Service Details inside the card -->
@@ -287,7 +287,7 @@
                             </div>
                         </div>
                         <div class="col-md-6">
-                            <img src="images/Operating system-pana.webp" alt="Consultation Step" class="img-fluid">
+                            <img src="sources/images/Operating system-pana.webp" alt="Consultation Step" class="img-fluid">
                         </div>
                     </div>
                 </div>
@@ -306,7 +306,7 @@
                             </div>
                         </div>
                         <div class="col-md-6">
-                            <img src="images/Operating system-pana.webp" alt="Analysis Step" class="img-fluid">
+                            <img src="sources/images/Operating system-pana.webp" alt="Analysis Step" class="img-fluid">
                         </div>
                     </div>
                 </div>
@@ -325,7 +325,7 @@
                             </div>
                         </div>
                         <div class="col-md-6">
-                            <img src="images/Operating system-pana.webp" alt="Estimation Step" class="img-fluid">
+                            <img src="sources/images/Operating system-pana.webp" alt="Estimation Step" class="img-fluid">
                         </div>
                     </div>
                 </div>
@@ -344,7 +344,7 @@
                             </div>
                         </div>
                         <div class="col-md-6">
-                            <img src="images/Operating system-pana.webp" alt="Kickoff Step" class="img-fluid">
+                            <img src="sources/images/Operating system-pana.webp" alt="Kickoff Step" class="img-fluid">
                         </div>
                     </div>
                 </div>

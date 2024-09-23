@@ -42,14 +42,14 @@
                 </div>
                 <!-- Contenedor de imágenes apiladas -->
                 <div class="image-container">
-                    <img src="images/design/1.webp" alt="Design Image 1" id="image-1" loading="lazy">
-                    <img src="images/design/2.webp" alt="Design Image 2" id="image-2" loading="lazy">
-                    <img src="images/design/3.webp" alt="Design Image 3" id="image-3" loading="lazy">
-                    <img src="images/design/4.webp" alt="Design Image 4" id="image-4" loading="lazy">
-                    <img src="images/design/5.webp" alt="Design Image 5" id="image-5" loading="lazy">
-                    <img src="images/design/6.webp" alt="Design Image 5" id="image-6" loading="lazy">
-                    <img src="images/design/7.webp" alt="Design Image 5" id="image-7" loading="lazy">
-                    <img src="images/design/Design.webp" alt="Design Illustration" id="image-8">
+                    <img src="sources/images/design/1.webp" alt="Design Image 1" id="image-1" loading="lazy">
+                    <img src="sources/images/design/2.webp" alt="Design Image 2" id="image-2" loading="lazy">
+                    <img src="sources/images/design/3.webp" alt="Design Image 3" id="image-3" loading="lazy">
+                    <img src="sources/images/design/4.webp" alt="Design Image 4" id="image-4" loading="lazy">
+                    <img src="sources/images/design/5.webp" alt="Design Image 5" id="image-5" loading="lazy">
+                    <img src="sources/images/design/6.webp" alt="Design Image 5" id="image-6" loading="lazy">
+                    <img src="sources/images/design/7.webp" alt="Design Image 5" id="image-7" loading="lazy">
+                    <img src="sources/images/design/Design.webp" alt="Design Illustration" id="image-8">
                 </div>
             </div>
         </div>
@@ -66,7 +66,7 @@
                 <div class="row g-0 align-items-center">
                     <!-- Image inside the card -->
                     <div class="col-md-6">
-                        <img src="images/design_5.webp" alt="Design Service Illustration" class="img-fluid service-img">
+                        <img src="sources/images/design_5.webp" alt="Design Service Illustration" class="img-fluid service-img">
                     </div>
 
                     <!-- Service Details inside the card -->
@@ -167,7 +167,7 @@
                                 <li><i class="fas fa-palette"></i> Custom Color Palette</li>
                                 <li><i class="fas fa-file-export"></i> Final Files in All Formats</li>
                             </ul>
-                            <a href="logo-creation.php" class="btn btn-orange-plans mt-3">Contact Us</a>
+                            <a href="index.php#contact" class="btn btn-orange-plans mt-3">Contact Us</a>
                         </div>
                     </div>
                 </div>
@@ -193,7 +193,7 @@
                                 <li><i class="fas fa-font"></i> Typography & Color Schemes</li>
                                 <li><i class="fas fa-images"></i> Social Media Graphics</li>
                             </ul>
-                            <a href="brand-creation.php" class="btn btn-orange-plans mt-3">Contact Us</a>
+                            <a href="index.php#contact" class="btn btn-orange-plans mt-3">Contact Us</a>
                         </div>
                     </div>
                 </div>
@@ -219,7 +219,7 @@
                                 <li><i class="fas fa-mobile-alt"></i> Mobile-Responsive Mockups</li>
                                 <li><i class="fas fa-comments"></i> 2 Rounds of Revisions</li>
                             </ul>
-                            <a href="website-design.php" class="btn btn-orange-plans mt-3">Contact Us</a>
+                            <a href="index.php#contact" class="btn btn-orange-plans mt-3">Contact Us</a>
                         </div>
                     </div>
                 </div>
@@ -273,7 +273,7 @@
                             </div>
                         </div>
                         <div class="col-md-6">
-                            <img src="images/design_2.webp" alt="Discovery Step" class="img-fluid">
+                            <img src="sources/images/design_2.webp" alt="Discovery Step" class="img-fluid">
                         </div>
                     </div>
                 </div>
@@ -294,7 +294,7 @@
                             </div>
                         </div>
                         <div class="col-md-6">
-                            <img src="images/design_2.webp" alt="Concept & Planning Step" class="img-fluid">
+                            <img src="sources/images/design_2.webp" alt="Concept & Planning Step" class="img-fluid">
                         </div>
                     </div>
                 </div>
@@ -315,7 +315,7 @@
                             </div>
                         </div>
                         <div class="col-md-6">
-                            <img src="images/design_2.webp" alt="Design & Prototyping Step" class="img-fluid">
+                            <img src="sources/images/design_2.webp" alt="Design & Prototyping Step" class="img-fluid">
                         </div>
                     </div>
                 </div>
@@ -336,7 +336,7 @@
                             </div>
                         </div>
                         <div class="col-md-6">
-                            <img src="images/design_2.webp" alt="Finalization & Delivery Step" class="img-fluid">
+                            <img src="sources/images/design_2.webp" alt="Finalization & Delivery Step" class="img-fluid">
                         </div>
                     </div>
                 </div>

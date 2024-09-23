@@ -42,12 +42,12 @@
                 </div>
                 <!-- Contenedor de imágenes apiladas -->
                 <div class="image-container">
-                    <img src="images/data-extraction/1.webp" alt="Data Extraction Image 1" id="image-1" loading="lazy">
-                    <img src="images/data-extraction/2.webp" alt="Data Extraction Image 2" id="image-2" loading="lazy">
-                    <img src="images/data-extraction/3.webp" alt="Data Extraction Image 3" id="image-3" loading="lazy">
-                    <img src="images/data-extraction/4.webp" alt="Data Extraction Image 4" id="image-4" loading="lazy">
-                    <img src="images/data-extraction/5.webp" alt="Data Extraction Image 4" id="image-5" loading="lazy">
-                    <img src="images/data-extraction/Data extraction-amico.webp" alt="Data Extraction Image 4" id="image-8" loading="lazy">
+                    <img src="sources/images/data-extraction/1.webp" alt="Data Extraction Image 1" id="image-1" loading="lazy">
+                    <img src="sources/images/data-extraction/2.webp" alt="Data Extraction Image 2" id="image-2" loading="lazy">
+                    <img src="sources/images/data-extraction/3.webp" alt="Data Extraction Image 3" id="image-3" loading="lazy">
+                    <img src="sources/images/data-extraction/4.webp" alt="Data Extraction Image 4" id="image-4" loading="lazy">
+                    <img src="sources/images/data-extraction/5.webp" alt="Data Extraction Image 4" id="image-5" loading="lazy">
+                    <img src="sources/images/data-extraction/Data extraction-amico.webp" alt="Data Extraction Image 4" id="image-8" loading="lazy">
                 </div>
             </div>
         </div>
@@ -64,7 +64,7 @@
                 <div class="row g-0 align-items-center">
                     <!-- Image inside the card -->
                     <div class="col-md-6">
-                        <img src="images/Data extraction-rafiki.webp" alt="Data Extraction Service Illustration" class="img-fluid service-img">
+                        <img src="sources/images/Data extraction-rafiki.webp" alt="Data Extraction Service Illustration" class="img-fluid service-img">
                     </div>
 
                     <!-- Service Details inside the card -->
@@ -165,7 +165,7 @@
                                 <li><i class="fas fa-rocket"></i> Custom Dashboards & Reporting Tools</li>
                                 <li><i class="fas fa-headset"></i> Dedicated Support & Maintenance</li>
                             </ul>
-                            <a href="https://meetings.hubspot.com/pixiu" class="btn btn-orange-plans mt-3" target="_blank">Contact Us for More Info</a>
+                            <a href="index.php#contact" class="btn btn-orange-plans mt-3">Contact Us for More Info</a>
                         </div>
                     </div>
                 </div>
@@ -217,7 +217,7 @@
                             </div>
                         </div>
                         <div class="col-md-6">
-                            <img src="images/Data extraction-cuate.webp" alt="Discovery Step" class="img-fluid">
+                            <img src="sources/images/Data extraction-cuate.webp" alt="Discovery Step" class="img-fluid">
                         </div>
                     </div>
                 </div>
@@ -236,7 +236,7 @@
                             </div>
                         </div>
                         <div class="col-md-6">
-                            <img src="images/Data extraction-cuate.webp" alt="Setup Step" class="img-fluid">
+                            <img src="sources/images/Data extraction-cuate.webp" alt="Setup Step" class="img-fluid">
                         </div>
                     </div>
                 </div>
@@ -255,7 +255,7 @@
                             </div>
                         </div>
                         <div class="col-md-6">
-                            <img src="images/Data extraction-cuate.webp" alt="Scraping Step" class="img-fluid">
+                            <img src="sources/images/Data extraction-cuate.webp" alt="Scraping Step" class="img-fluid">
                         </div>
                     </div>
                 </div>
@@ -274,7 +274,7 @@
                             </div>
                         </div>
                         <div class="col-md-6">
-                            <img src="images/Data extraction-cuate.webp" alt="Delivery Step" class="img-fluid">
+                            <img src="sources/images/Data extraction-cuate.webp" alt="Delivery Step" class="img-fluid">
                         </div>
                     </div>
                 </div>

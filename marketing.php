@@ -42,13 +42,13 @@
                 </div>
                 <!-- Contenedor de imágenes apiladas -->
                 <div class="image-container">
-                    <img src="images/marketing/1.webp" alt="HubSpot Implementation Image 1" id="image-1" loading="lazy">
-                    <img src="images/marketing/2.webp" alt="HubSpot Implementation Image 2" id="image-2" loading="lazy">
-                    <img src="images/marketing/3.webp" alt="HubSpot Implementation Image 3" id="image-3" loading="lazy">
-                    <img src="images/marketing/4.webp" alt="HubSpot Implementation Image 4" id="image-4" loading="lazy">
-                    <img src="images/marketing/5.webp" alt="HubSpot Implementation Image 5" id="image-5" loading="lazy">
-                    <img src="images/marketing/6.webp" alt="HubSpot Implementation Image 6" id="image-6" loading="lazy">
-                    <img src="images/marketing/Marketing_3.webp" alt="HubSpot Integration Illustration" id="image-8">
+                    <img src="sources/images/marketing/1.webp" alt="HubSpot Implementation Image 1" id="image-1" loading="lazy">
+                    <img src="sources/images/marketing/2.webp" alt="HubSpot Implementation Image 2" id="image-2" loading="lazy">
+                    <img src="sources/images/marketing/3.webp" alt="HubSpot Implementation Image 3" id="image-3" loading="lazy">
+                    <img src="sources/images/marketing/4.webp" alt="HubSpot Implementation Image 4" id="image-4" loading="lazy">
+                    <img src="sources/images/marketing/5.webp" alt="HubSpot Implementation Image 5" id="image-5" loading="lazy">
+                    <img src="sources/images/marketing/6.webp" alt="HubSpot Implementation Image 6" id="image-6" loading="lazy">
+                    <img src="sources/images/marketing/Marketing_3.webp" alt="HubSpot Integration Illustration" id="image-8">
                 </div>
             </div>
         </div>
@@ -65,7 +65,7 @@
                 <div class="row g-0 align-items-center">
                     <!-- Image inside the card -->
                     <div class="col-md-6">
-                        <img src="images/Marketing_4.webp" alt="Marketing Service Illustration" class="img-fluid service-img">
+                        <img src="sources/images/Marketing_4.webp" alt="Marketing Service Illustration" class="img-fluid service-img">
                     </div>
 
                     <!-- Service Details inside the card -->
@@ -159,7 +159,7 @@
                                 <li><i class="fas fa-chart-line"></i> On-Page & Off-Page Optimization</li>
                                 <li><i class="fas fa-link"></i> Link Building Strategies</li>
                             </ul>
-                            <a href="contact.php" class="btn btn-orange-plans mt-3">Contact Us for More Info</a>
+                            <a href="index.php#contact" class="btn btn-orange-plans mt-3">Contact Us for More Info</a>
                         </div>
                     </div>
                 </div>
@@ -181,7 +181,7 @@
                                 <li><i class="fas fa-users"></i> Community Engagement</li>
                                 <li><i class="fas fa-chart-pie"></i> Performance Analytics</li>
                             </ul>
-                            <a href="contact.php" class="btn btn-orange-plans mt-3">Contact Us for More Info</a>
+                            <a href="index.php#contact" class="btn btn-orange-plans mt-3">Contact Us for More Info</a>
                         </div>
                     </div>
                 </div>
@@ -203,7 +203,7 @@
                                 <li><i class="fas fa-chart-bar"></i> Campaign Management</li>
                                 <li><i class="fas fa-dollar-sign"></i> Budget Optimization</li>
                             </ul>
-                            <a href="contact.php" class="btn btn-orange-plans mt-3">Contact Us for More Info</a>
+                            <a href="index.php#contact" class="btn btn-orange-plans mt-3">Contact Us for More Info</a>
                         </div>
                     </div>
                 </div>
@@ -251,7 +251,7 @@
                             </div>
                         </div>
                         <div class="col-md-6">
-                            <img src="images/marketing_6.webp" alt="Consultation Step" class="img-fluid">
+                            <img src="sources/images/marketing_6.webp" alt="Consultation Step" class="img-fluid">
                         </div>
                     </div>
                 </div>
@@ -270,7 +270,7 @@
                             </div>
                         </div>
                         <div class="col-md-6">
-                            <img src="images/marketing_6.webp" alt="Research Step" class="img-fluid">
+                            <img src="sources/images/marketing_6.webp" alt="Research Step" class="img-fluid">
                         </div>
                     </div>
                 </div>
@@ -289,7 +289,7 @@
                             </div>
                         </div>
                         <div class="col-md-6">
-                            <img src="images/marketing_6.webp" alt="Strategy Step" class="img-fluid">
+                            <img src="sources/images/marketing_6.webp" alt="Strategy Step" class="img-fluid">
                         </div>
                     </div>
                 </div>
@@ -308,7 +308,7 @@
                             </div>
                         </div>
                         <div class="col-md-6">
-                            <img src="images/marketing_6.webp" alt="Execution Step" class="img-fluid">
+                            <img src="sources/images/marketing_6.webp" alt="Execution Step" class="img-fluid">
                         </div>
                     </div>
                 </div>
