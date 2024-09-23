@@ -1,0 +1,26 @@
+Array
+(
+    [firstName] => sadt
+    [lastName] => asdwe
+    [email] => asvasva@asva.com
+    [service] => HubSpot Consulting
+    [planService] => Implementation Package
+    [Message] => asdasd
+)
+Response from Google Script: SuccessArray
+(
+    [firstName] => sadt
+    [lastName] => asdwe
+    [email] => asvasva@asva.com
+    [service] => Marketing
+    [planService] => SEO & Optimization
+    [Message] => asdadsa
+)
+Error sending data: Array
+(
+    [type] => 2
+    [message] => file_get_contents(https://script.google.com/macros/s/YOUR_SCRIPT_ID/exec): Failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+    [file] => /home/gabrielbg21/Documents/Work/Pixiu X Renew/database/form.php
+    [line] => 29
+)

@@ -376,21 +376,57 @@
                                     <div class="col-md-6 mb-3">
                                         <select class="form-control" name="service" id="service-select" required>
                                             <option value="" selected disabled>Select a Service</option>
-                                            <option value="Custom Software Development">Custom Software Development</option>
-                                            <option value="HubSpot implementation and consulting">HubSpot Implementation and Consulting</option>
+                                            <option value="Marketing">Marketing</option>
+                                            <option value="HubSpot Consulting">HubSpot Consulting</option>
+                                            <option value="Web Development">Web Development</option>
                                             <option value="Data Extraction">Data Extraction</option>
+                                            <option value="Design Services">Design Services</option>
                                         </select>
                                     </div>
                                 </div>
 
-                                <!-- Dropdown shown only when "Custom Software Development" is selected -->
-                                <div class="mb-3 custom-software-dropdown" style="display: none;">
-                                    <select class="form-control" name="customOption">
+                                <!-- Dropdowns específicos para cada opción del primer select -->
+                                <div class="mb-3 marketing-dropdown" style="display: none;">
+                                    <select class="form-control" name="marketingOption">
                                         <option value="" selected disabled>Select an Option</option>
-                                        <option value="Web Design">Web Design</option>
-                                        <option value="Custom Web Development">Custom Web Development</option>
-                                        <option value="Mobile Applications">Mobile Applications</option>
-                                        <option value="E-Commerce Web Development">E-Commerce Web Development</option>
+                                        <option value="SEO & Optimization">SEO & Optimization</option>
+                                        <option value="Social Media Marketing">Social Media Marketing</option>
+                                        <option value="PPC & Paid Advertising">PPC & Paid Advertising</option>
+                                    </select>
+                                </div>
+
+                                <div class="mb-3 hubspot-consulting-dropdown" style="display: none;">
+                                    <select class="form-control" name="hubspotOption">
+                                        <option value="" selected disabled>Select an Option</option>
+                                        <option value="Implementation Package">Implementation Package</option>
+                                        <option value="Starter Package">Starter Package</option>
+                                        <option value="Growth Package">Growth Package</option>
+                                        <option value="Hyper Growth Package">Hyper Growth Package</option>
+                                    </select>
+                                </div>
+
+                                <div class="mb-3 web-development-dropdown" style="display: none;">
+                                    <select class="form-control" name="webDevOption">
+                                        <option value="" selected disabled>Select an Option</option>
+                                        <option value="Express Website">Express Website</option>
+                                        <option value="Express Store">Express Store</option>
+                                        <option value="Customized Web">Customized Web</option>
+                                    </select>
+                                </div>
+
+                                <div class="mb-3 data-extraction-dropdown" style="display: none;">
+                                    <select class="form-control" name="dataExtractionOption">
+                                        <option value="" selected disabled>Select an Option</option>
+                                        <option value="Data Extraction Service">Data Extraction Service</option>
+                                    </select>
+                                </div>
+
+                                <div class="mb-3 design-services-dropdown" style="display: none;">
+                                    <select class="form-control" name="designOption">
+                                        <option value="" selected disabled>Select an Option</option>
+                                        <option value="Logo Creation Package">Logo Creation Package</option>
+                                        <option value="Brand Creation Package">Brand Creation Package</option>
+                                        <option value="Website Design Package">Website Design Package</option>
                                     </select>
                                 </div>
 
@@ -488,23 +524,45 @@
         }
     </script>
 
-    <!-- JavaScript to Show/Hide the Custom Software Dropdown -->
+    <!-- JavaScript to Show/Hide the Specific Dropdowns -->
     <script>
         document.addEventListener("DOMContentLoaded", function() {
             const serviceSelect = document.getElementById('service-select');
-            const customSoftwareDropdown = document.querySelector('.custom-software-dropdown');
+            const marketingDropdown = document.querySelector('.marketing-dropdown');
+            const hubspotConsultingDropdown = document.querySelector('.hubspot-consulting-dropdown');
+            const webDevelopmentDropdown = document.querySelector('.web-development-dropdown');
+            const dataExtractionDropdown = document.querySelector('.data-extraction-dropdown');
+            const designServicesDropdown = document.querySelector('.design-services-dropdown');
 
             serviceSelect.addEventListener('change', function() {
-                if (this.value === 'Custom Software Development') {
-                    customSoftwareDropdown.style.display = 'block';
-                } else {
-                    customSoftwareDropdown.style.display = 'none';
+                // Ocultar todos los dropdowns antes de mostrar el específico
+                marketingDropdown.style.display = 'none';
+                hubspotConsultingDropdown.style.display = 'none';
+                webDevelopmentDropdown.style.display = 'none';
+                dataExtractionDropdown.style.display = 'none';
+                designServicesDropdown.style.display = 'none';
+
+                // Mostrar el dropdown correspondiente según la selección
+                switch (this.value) {
+                    case 'Marketing':
+                        marketingDropdown.style.display = 'block';
+                        break;
+                    case 'HubSpot Consulting':
+                        hubspotConsultingDropdown.style.display = 'block';
+                        break;
+                    case 'Web Development':
+                        webDevelopmentDropdown.style.display = 'block';
+                        break;
+                    case 'Data Extraction':
+                        dataExtractionDropdown.style.display = 'block';
+                        break;
+                    case 'Design Services':
+                        designServicesDropdown.style.display = 'block';
+                        break;
                 }
             });
         });
     </script>
-
-
 
     <?php include 'components/footer.php'; ?>
 
