@@ -5,6 +5,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pixiu X | Custom Software Development</title>
+
+    <!-- Favicons -->
+    <link rel="apple-touch-icon" sizes="180x180" href="https://pixiux.com/Logos/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="https://pixiux.com/Logos/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="192x192" href="https://pixiux.com/Logos/android-chrome-192x192.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="https://pixiux.com/Logos/favicon-16x16.png" />
+    <link rel="manifest" href="https://pixiux.com/Logos/site.webmanifest" />
+    <link rel="mask-icon" href="https://pixiux.com/Logos/safari-pinned-tab.svg" color="#5bbad5" />
+    <link rel="shortcut icon" href="https://pixiux.com/Logos/favicon.ico" />
+    <meta name="msapplication-TileColor" content="#da532c" />
+    <meta name="msapplication-TileImage" content="https://pixiux.com/Logos/mstile-144x144.png" />
+    <meta name="msapplication-config" content="https://pixiux.com/Logos/browserconfig.xml" />
+    <meta name="theme-color" content="#ffffff" />
+
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
     <!-- GSAP (ScrollTrigger) -->
@@ -147,7 +161,7 @@
                 <div class="col-md-4 mb-3">
                     <div class="plan-card">
                         <div class="plan-front">
-                            <h4 class="plan-title">Express Offer</h4>
+                            <h4 class="plan-title">Express Website</h4>
                             <p class="plan-price">
                                 <span class="old-price">$499</span> <span class="new-price">$199</span>
                             </p>
@@ -174,7 +188,7 @@
                 <div class="col-md-4 mb-3">
                     <div class="plan-card">
                         <div class="plan-front">
-                            <h4 class="plan-title">Online Store</h4>
+                            <h4 class="plan-title">Express Store</h4>
                             <p class="plan-price">
                                 <span class="old-price">$999</span> <span class="new-price">$499</span>
                             </p>
