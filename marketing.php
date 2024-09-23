@@ -159,7 +159,7 @@
                                 <li><i class="fas fa-chart-line"></i> On-Page & Off-Page Optimization</li>
                                 <li><i class="fas fa-link"></i> Link Building Strategies</li>
                             </ul>
-                            <a href="index.php#contact" class="btn btn-orange-plans mt-3">Contact Us for More Info</a>
+                            <a href="contact.php" class="btn btn-orange-plans mt-3">Contact Us for More Info</a>
                         </div>
                     </div>
                 </div>
@@ -181,7 +181,7 @@
                                 <li><i class="fas fa-users"></i> Community Engagement</li>
                                 <li><i class="fas fa-chart-pie"></i> Performance Analytics</li>
                             </ul>
-                            <a href="index.php#contact" class="btn btn-orange-plans mt-3">Contact Us for More Info</a>
+                            <a href="contact.php" class="btn btn-orange-plans mt-3">Contact Us for More Info</a>
                         </div>
                     </div>
                 </div>
@@ -203,7 +203,7 @@
                                 <li><i class="fas fa-chart-bar"></i> Campaign Management</li>
                                 <li><i class="fas fa-dollar-sign"></i> Budget Optimization</li>
                             </ul>
-                            <a href="index.php#contact" class="btn btn-orange-plans mt-3">Contact Us for More Info</a>
+                            <a href="contact.php" class="btn btn-orange-plans mt-3">Contact Us for More Info</a>
                         </div>
                     </div>
                 </div>
@@ -413,7 +413,7 @@
         <div class="container text-center">
             <h2 class="fw-bold text-white">Ready to Elevate Your Marketing Strategy?</h2>
             <p class="text-white">Contact us today and start achieving your marketing goals!</p>
-            <a href="index.php#contact" class="btn btn-orange">Contact Us Now!</a>
+            <a href="contact.php" class="btn btn-orange-plans mt-3">Contact Us Now!</a>
         </div>
     </section>
     <!-- End of Call-to-Action Section -->

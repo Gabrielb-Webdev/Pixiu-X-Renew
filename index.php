@@ -274,6 +274,58 @@
     </section>
     <!-- End of Service Details Section -->
 
+    <!-- Start of Why Choose Us Section -->
+    <section id="why-choose-us" class="py-5">
+        <div class="container">
+            <h2 class="text-center fw-bold mb-5">Why Choose Us?</h2>
+            <div class="row g-4">
+                <div class="col-md-4" data-aos="fade-up">
+                    <div class="feature-card p-4 bg-white rounded shadow text-center">
+                        <i class="fas fa-trophy fa-3x text-orange mb-3"></i>
+                        <h5 class="fw-bold">Proven Expertise</h5>
+                        <p class="text-muted">With years of experience in the digital landscape, we offer proven solutions tailored to your needs.</p>
+                    </div>
+                </div>
+                <div class="col-md-4" data-aos="fade-up" data-aos-delay="100">
+                    <div class="feature-card p-4 bg-white rounded shadow text-center">
+                        <i class="fas fa-user-check fa-3x text-orange mb-3"></i>
+                        <h5 class="fw-bold">Client-Centric Approach</h5>
+                        <p class="text-muted">We put our clients first, offering personalized service and strategies that align with your business goals.</p>
+                    </div>
+                </div>
+                <div class="col-md-4" data-aos="fade-up" data-aos-delay="200">
+                    <div class="feature-card p-4 bg-white rounded shadow text-center">
+                        <i class="fas fa-chart-line fa-3x text-orange mb-3"></i>
+                        <h5 class="fw-bold">Results-Driven Solutions</h5>
+                        <p class="text-muted">Our focus is on delivering measurable results that enhance your brand’s visibility, engagement, and growth.</p>
+                    </div>
+                </div>
+                <div class="col-md-4" data-aos="fade-up">
+                    <div class="feature-card p-4 bg-white rounded shadow text-center">
+                        <i class="fas fa-lightbulb fa-3x text-orange mb-3"></i>
+                        <h5 class="fw-bold">Innovation & Creativity</h5>
+                        <p class="text-muted">We embrace innovative thinking, constantly exploring new ideas to keep you ahead of the curve.</p>
+                    </div>
+                </div>
+                <div class="col-md-4" data-aos="fade-up" data-aos-delay="100">
+                    <div class="feature-card p-4 bg-white rounded shadow text-center">
+                        <i class="fas fa-headset fa-3x text-orange mb-3"></i>
+                        <h5 class="fw-bold">Exceptional Support</h5>
+                        <p class="text-muted">Our dedicated support team is always ready to assist you, ensuring a smooth and successful partnership.</p>
+                    </div>
+                </div>
+                <div class="col-md-4" data-aos="fade-up" data-aos-delay="200">
+                    <div class="feature-card p-4 bg-white rounded shadow text-center">
+                        <i class="fas fa-cogs fa-3x text-orange mb-3"></i>
+                        <h5 class="fw-bold">Customized Solutions</h5>
+                        <p class="text-muted">We don't believe in one-size-fits-all. Our solutions are customized to fit the unique challenges of your business.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End of Why Choose Us Section -->
+
     <!-- Start of Contact Section -->
     <section id="contact" class="contact-section">
         <div class="container-fluid position-relative d-flex justify-content-center align-items-center contact-card">
@@ -365,61 +417,61 @@
     <!-- End of Contact Section -->
 
     <!-- Modal personalizado para mostrar mensajes -->
-<div class="custom-modal" id="responseModal" style="display: none;">
-    <div class="modal-content-custom">
-        <div class="modal-header-custom">
-            <h5 class="modal-title-custom text-center">¡Gracias por Contactarnos!</h5> <!-- Título centrado -->
-        </div>
-        <div class="modal-body-custom" id="responseMessage">
-            <!-- Mensaje actualizado y más breve -->
-        </div>
-        <div class="modal-footer-custom">
-            <button type="button" class="btn btn-orange" onclick="closeModal()">Aceptar</button>
+    <div class="custom-modal" id="responseModal" style="display: none;">
+        <div class="modal-content-custom">
+            <div class="modal-header-custom">
+                <h5 class="modal-title-custom text-center">¡Gracias por Contactarnos!</h5> <!-- Título centrado -->
+            </div>
+            <div class="modal-body-custom" id="responseMessage">
+                <!-- Mensaje actualizado y más breve -->
+            </div>
+            <div class="modal-footer-custom">
+                <button type="button" class="btn btn-orange" onclick="closeModal()">Aceptar</button>
+            </div>
         </div>
     </div>
-</div>
 
-<script>
-    document.querySelector('.contact-form').addEventListener('submit', function (event) {
-        event.preventDefault(); // Prevenir la redirección predeterminada del formulario
+    <script>
+        document.querySelector('.contact-form').addEventListener('submit', function(event) {
+            event.preventDefault(); // Prevenir la redirección predeterminada del formulario
 
-        const formData = new FormData(this);
+            const formData = new FormData(this);
 
-        fetch(this.action, {
-            method: 'POST',
-            body: formData
-        })
-        .then(response => response.json())
-        .then(data => {
-            // Mensaje más corto y directo
-            document.getElementById('responseMessage').textContent = 
-                'Tu mensaje ha sido recibido. Nos pondremos en contacto contigo pronto.';
+            fetch(this.action, {
+                    method: 'POST',
+                    body: formData
+                })
+                .then(response => response.json())
+                .then(data => {
+                    // Mensaje más corto y directo
+                    document.getElementById('responseMessage').textContent =
+                        'Tu mensaje ha sido recibido. Nos pondremos en contacto contigo pronto.';
 
-            showModal(); // Mostrar el modal personalizado
+                    showModal(); // Mostrar el modal personalizado
 
-            // Recargar la página al cerrar el modal solo si es exitoso
-            if (data.success) {
-                document.getElementById('responseModal').addEventListener('close-modal', function () {
-                    location.reload();
+                    // Recargar la página al cerrar el modal solo si es exitoso
+                    if (data.success) {
+                        document.getElementById('responseModal').addEventListener('close-modal', function() {
+                            location.reload();
+                        });
+                    }
+                })
+                .catch(error => {
+                    console.error('Error:', error);
+                    document.getElementById('responseMessage').textContent = 'Ocurrió un error. Por favor, intenta de nuevo.';
+                    showModal(); // Mostrar el modal en caso de error
                 });
-            }
-        })
-        .catch(error => {
-            console.error('Error:', error);
-            document.getElementById('responseMessage').textContent = 'Ocurrió un error. Por favor, intenta de nuevo.';
-            showModal(); // Mostrar el modal en caso de error
         });
-    });
 
-    function showModal() {
-        document.getElementById('responseModal').style.display = 'flex';
-    }
+        function showModal() {
+            document.getElementById('responseModal').style.display = 'flex';
+        }
 
-    function closeModal() {
-        document.getElementById('responseModal').style.display = 'none';
-        document.getElementById('responseModal').dispatchEvent(new Event('close-modal'));
-    }
-</script>
+        function closeModal() {
+            document.getElementById('responseModal').style.display = 'none';
+            document.getElementById('responseModal').dispatchEvent(new Event('close-modal'));
+        }
+    </script>
 
     <!-- JavaScript to Show/Hide the Custom Software Dropdown -->
     <script>

@@ -167,7 +167,7 @@
                                 <li><i class="fas fa-palette"></i> Custom Color Palette</li>
                                 <li><i class="fas fa-file-export"></i> Final Files in All Formats</li>
                             </ul>
-                            <a href="index.php#contact" class="btn btn-orange-plans mt-3">Contact Us</a>
+                            <a href="contact.php" class="btn btn-orange-plans mt-3">Contact Us for More Info</a>
                         </div>
                     </div>
                 </div>
@@ -193,7 +193,7 @@
                                 <li><i class="fas fa-font"></i> Typography & Color Schemes</li>
                                 <li><i class="fas fa-images"></i> Social Media Graphics</li>
                             </ul>
-                            <a href="index.php#contact" class="btn btn-orange-plans mt-3">Contact Us</a>
+                            <a href="contact.php" class="btn btn-orange-plans mt-3">Contact Us for More Info</a>
                         </div>
                     </div>
                 </div>
@@ -219,7 +219,7 @@
                                 <li><i class="fas fa-mobile-alt"></i> Mobile-Responsive Mockups</li>
                                 <li><i class="fas fa-comments"></i> 2 Rounds of Revisions</li>
                             </ul>
-                            <a href="index.php#contact" class="btn btn-orange-plans mt-3">Contact Us</a>
+                            <a href="contact.php" class="btn btn-orange-plans mt-3">Contact Us for More Info</a>
                         </div>
                     </div>
                 </div>
@@ -441,7 +441,7 @@
         <div class="container text-center">
             <h2 class="fw-bold text-white">Ready to Elevate Your Online Presence?</h2>
             <p class="text-white">Contact us today and let’s create a website that stands out!</p>
-            <a href="index.php#contact" class="btn btn-orange">Contact Us Now!</a>
+            <a href="contact.php" class="btn btn-orange-plans mt-3">Contact Us Now!</a>
         </div>
     </section>
     <!-- End of Call-to-Action Section -->
