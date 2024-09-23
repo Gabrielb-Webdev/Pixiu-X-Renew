@@ -132,7 +132,7 @@
                         <!-- Call to Action -->
                         <div class="text-center mt-4">
                             <h5 class="text-muted">Ready to transform your website?</h5>
-                            <a href="https://meetings.hubspot.com/pixiu" class="btn btn-orange">Book a Call</a>
+                            <a href="https://meetings.hubspot.com/pixiu" class="btn btn-orange me-2" target="_blank">Book A Call</a>
                         </div>
                     </div>
                 </div>
@@ -441,7 +441,7 @@
         <div class="container text-center">
             <h2 class="fw-bold text-white">Ready to Elevate Your Online Presence?</h2>
             <p class="text-white">Contact us today and let’s create a website that stands out!</p>
-            <a href="contact.php" class="btn btn-orange">Contact Us Now!</a>
+            <a href="index.php#contact" class="btn btn-orange">Contact Us Now!</a>
         </div>
     </section>
     <!-- End of Call-to-Action Section -->

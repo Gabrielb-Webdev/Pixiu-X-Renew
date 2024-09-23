@@ -39,7 +39,7 @@
                     <div class="buttons mt-4">
                         <a href="#services" class="btn btn-orange me-2">Learn More</a>
                         <span>or</span>
-                        <a href="#services" class="btn btn-orange ms-2">Explore Our Services</a>
+                        <a href="#projects" class="btn btn-orange ms-2">Explore Our Services</a>
                     </div>
                 </div>
                 <!-- Image Container -->

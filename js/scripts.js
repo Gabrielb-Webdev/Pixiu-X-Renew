@@ -1,36 +1,34 @@
-document.addEventListener("DOMContentLoaded", function() {
-    const progressBars = document.querySelectorAll(".progress-bar");
+document.addEventListener("DOMContentLoaded", function () {
+  const progressBars = document.querySelectorAll(".progress-bar");
 
-    progressBars.forEach((bar) => {
-        const value = bar.getAttribute("data-value"); // Obtener el valor del atributo data-value
-        bar.style.width = value + "%"; // Aplicar el porcentaje de ancho
-    });
+  progressBars.forEach((bar) => {
+    const value = bar.getAttribute("data-value"); // Obtener el valor del atributo data-value
+    bar.style.width = value + "%"; // Aplicar el porcentaje de ancho
+  });
 });
+document.addEventListener("DOMContentLoaded", function () {
+  // Selecciona todos los enlaces de anclaje que inician con #
+  const anchorLinks = document.querySelectorAll('a[href^="#"]');
 
-document.querySelectorAll('a[href^="index.php#"]').forEach(anchor => {
-    anchor.addEventListener('click', function(e) {
-        const currentPage = window.location.pathname.split('/').pop(); // Obtiene el nombre de la página actual
-        const targetID = this.getAttribute('href').split('#')[1]; // Obtiene el ID de la sección del enlace
+  anchorLinks.forEach((anchor) => {
+    anchor.addEventListener("click", function (e) {
+      e.preventDefault(); // Evita el comportamiento predeterminado del enlace
 
-        // Si estamos en el index.php, prevenimos la recarga y hacemos scroll suave
-        if (currentPage === 'index.php' || currentPage === '') {
-            e.preventDefault(); // Previene la recarga de la página
-            const targetElement = document.getElementById(targetID); // Busca el elemento con ese ID
+      // Obtiene el ID del destino del enlace
+      const targetID = this.getAttribute("href");
+      const targetSection = document.querySelector(targetID);
 
-            if (targetElement) {
-                const offset = 80; // Ajusta este valor para cambiar el margen superior
-                const elementPosition = targetElement.getBoundingClientRect().top + window.pageYOffset;
-                const offsetPosition = elementPosition - offset;
+      // Ajusta el offset a tu preferencia
+      const offset = 50; // Cambia este valor para ajustar el desplazamiento
 
-                window.scrollTo({
-                    top: offsetPosition,
-                    behavior: 'smooth'
-                });
-            }
-        } else {
-            // Si no estamos en el index.php, dejamos que el enlace funcione normalmente y redirija
-            window.location.href = `index.php#${targetID}`;
-        }
+      // Calcula la posición de la sección objetivo menos el offset
+      const topPosition = targetSection.offsetTop - offset;
+
+      // Desliza suavemente a la posición calculada
+      window.scrollTo({
+        top: topPosition,
+        behavior: "smooth",
+      });
     });
+  });
 });
-
