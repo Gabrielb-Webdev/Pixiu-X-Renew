@@ -18,10 +18,10 @@ session_start();
     <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
 
     <!-- Custom Styles -->
-    <link rel="stylesheet" href="css/styles.css">
-    <link rel="stylesheet" href="css/responsive.css">
-    <link rel="stylesheet" href="css/modal.css">
-    <link rel="stylesheet" href="css/blog.css"> <!-- Nueva hoja de estilos específica para el blog -->
+    <link rel="stylesheet" href="css/styles.css?v=2.0">
+    <link rel="stylesheet" href="css/responsive.css?v=2.0">
+    <link rel="stylesheet" href="css/modal.css?v=2.0">
+    <link rel="stylesheet" href="css/blog.css?v=2.0"> <!-- Nueva hoja de estilos específica para el blog -->
 </head>
 
 <body>
