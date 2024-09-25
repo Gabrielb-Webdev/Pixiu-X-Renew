@@ -1,3 +1,7 @@
+<?php
+// Incluir la verificación de la sesión, no es obligatorio iniciar sesión para acceder a esta página.
+session_start(); 
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -10,8 +14,8 @@
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
 
-    <!-- AOS CSS -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+    <!-- AOS Library for Animations -->
+    <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
 
     <!-- Custom Styles -->
     <link rel="stylesheet" href="css/styles.css">
@@ -23,7 +27,7 @@
 <body>
 
     <!-- Navbar -->
-    <?php include 'components/navbar.php'; ?>
+    <?php include 'components/navbar-blog.php'; ?>
 
     <!-- Hero Section -->
     <section class="hero-blog text-center py-5" style="background: url('https://via.placeholder.com/1200x400') center/cover no-repeat;">
@@ -34,46 +38,32 @@
         </div>
     </section>
 
+    <!-- Search Bar Section -->
+    <section class="search-bar py-4">
+        <div class="container">
+            <div class="search-container mx-auto d-flex justify-content-center align-items-center">
+                <input type="text" id="searchInput" class="form-control search-input me-2" placeholder="Buscar artículos..." onkeyup="searchArticles()">
+                <button class="btn search-btn"><i class="fas fa-search"></i></button>
+            </div>
+        </div>
+    </section>
+
     <!-- Blog Posts Section -->
     <section class="blog-posts py-5">
         <div class="container">
             <h2 class="text-center mb-5">Últimos Artículos</h2>
-            <div class="row" data-masonry='{"percentPosition": true }'>
-                <!-- Blog Post 1 -->
-                <div class="col-md-4 mb-4" data-aos="fade-up">
-                    <article class="card border-0 shadow-sm h-100">
-                        <img src="https://via.placeholder.com/400x300" alt="Consejos de Marketing" class="card-img-top">
-                        <div class="card-body">
-                            <h5 class="card-title">Estrategias para Mejorar tu Marketing Digital</h5>
-                            <p class="card-text">Aprende a optimizar tus campañas con estos consejos prácticos y comienza a ver resultados.</p>
-                            <a href="/blog/marketing-estrategias" class="btn btn-link text-decoration-none text-orange fw-bold">Leer más &rarr;</a>
-                        </div>
-                    </article>
-                </div>
+            <div class="blog-grid" id="blogGrid">
+                <!-- Ejemplos de artículos, ajusta según tu base de datos -->
+                <article class="blog-card" data-aos="fade-up" data-title="Estrategias para Mejorar tu Marketing Digital">
+                    <img src="https://via.placeholder.com/400x300" alt="Marketing Tips" class="blog-img">
+                    <div class="blog-content">
+                        <h5>Estrategias para Mejorar tu Marketing Digital</h5>
+                        <p>Optimiza tus campañas con estos consejos prácticos.</p>
+                        <a href="/blog/marketing-estrategias" class="btn btn-custom">Leer más &rarr;</a>
+                    </div>
+                </article>
 
-                <!-- Blog Post 2 -->
-                <div class="col-md-4 mb-4" data-aos="fade-up" data-aos-delay="100">
-                    <article class="card border-0 shadow-sm h-100">
-                        <img src="https://via.placeholder.com/400x300" alt="SEO Tips" class="card-img-top">
-                        <div class="card-body">
-                            <h5 class="card-title">Consejos de SEO para Aumentar tu Tráfico</h5>
-                            <p class="card-text">Mejora la visibilidad de tu sitio web con estos tips de SEO efectivos y gratuitos.</p>
-                            <a href="/blog/seo-tips" class="btn btn-link text-decoration-none text-orange fw-bold">Leer más &rarr;</a>
-                        </div>
-                    </article>
-                </div>
-
-                <!-- Blog Post 3 -->
-                <div class="col-md-4 mb-4" data-aos="fade-up" data-aos-delay="200">
-                    <article class="card border-0 shadow-sm h-100">
-                        <img src="https://via.placeholder.com/400x300" alt="Social Media" class="card-img-top">
-                        <div class="card-body">
-                            <h5 class="card-title">Cómo Crear Contenido Atractivo en Redes Sociales</h5>
-                            <p class="card-text">Descubre cómo captar la atención de tu audiencia con contenido relevante y creativo.</p>
-                            <a href="/blog/social-media-content" class="btn btn-link text-decoration-none text-orange fw-bold">Leer más &rarr;</a>
-                        </div>
-                    </article>
-                </div>
+                <!-- Agrega más artículos aquí -->
             </div>
         </div>
     </section>
@@ -83,16 +73,30 @@
 
     <!-- Scripts -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/masonry/4.2.2/masonry.pkgd.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
-
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
     <script>
-        // Initialize AOS
+        // Inicializar AOS (Animate On Scroll) Library
         AOS.init({
-            duration: 1000,
+            duration: 800,
             easing: 'ease-in-out',
             once: true,
+            mirror: false
         });
+
+        // Función para buscar artículos
+        function searchArticles() {
+            const input = document.getElementById('searchInput').value.toLowerCase();
+            const articles = document.querySelectorAll('.blog-card');
+
+            articles.forEach(article => {
+                const title = article.getAttribute('data-title').toLowerCase();
+                if (title.includes(input)) {
+                    article.style.display = 'block';
+                } else {
+                    article.style.display = 'none';
+                }
+            });
+        }
     </script>
 
 </body>
