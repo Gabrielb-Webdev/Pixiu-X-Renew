@@ -1,6 +1,3 @@
-<style>
-
-</style>
 <!-- Start of Footer Section -->
 <footer class="footer bg-dark text-light py-5">
     <div class="container">
@@ -48,9 +45,9 @@
             <div class="col-md-2 mb-2">
                 <h5 class="text-uppercase text-orange mb-3">Quick Links</h5>
                 <ul class="list-unstyled">
-                    <li><a href="index.php" class="text-light text-decoration-none">Home</a></li>
-                    <li><a href="about.php" class="text-light text-decoration-none">About Us</a></li>
-                    <li><a href="contact.php" class="text-light text-decoration-none">Contact</a></li>
+                    <li><a href="/" class="text-light text-decoration-none">Home</a></li>
+                    <li><a href="/about" class="text-light text-decoration-none">About Us</a></li>
+                    <li><a href="/contact" class="text-light text-decoration-none">Contact</a></li>
                 </ul>
             </div>
 

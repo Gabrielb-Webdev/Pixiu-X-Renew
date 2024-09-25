@@ -52,6 +52,7 @@
                     <p class="text-muted">
                         At Pixiu, we empower businesses with expert HubSpot consulting, seamless web development, data extraction, and custom software solutions. Let us help you grow through tailored marketing strategies and cutting-edge technology.
                     </p>
+                    <!-- Botones en la sección de bienvenida -->
                     <div class="buttons mt-4">
                         <a href="#services" class="btn btn-orange me-2">Learn More</a>
                         <span>or</span>
@@ -144,7 +145,7 @@
                             <img src="sources/images/Marketing.webp" class="card-img-top marketing-card-img" alt="Marketing">
                             <div class="card-overlay text-center d-flex justify-content-center align-items-center">
                                 <!-- Botón para la página general de Marketing -->
-                                <a href="marketing.php" class="btn btn-orange me-2">
+                                <a href="/marketing" class="btn btn-orange me-2">
                                     Marketing
                                     <i class="fas fa-arrow-right ms-2"></i>
                                 </a>
@@ -164,7 +165,7 @@
                             <img src="sources/images/Operating system-pana.webp" class="card-img-top" alt="HubSpot Consulting">
                             <div class="card-overlay text-center d-flex justify-content-center align-items-center">
                                 <!-- Botón para la página general de HubSpot Consulting -->
-                                <a href="hubspot.php" class="btn btn-orange me-2">
+                                <a href="/hubspot" class="btn btn-orange me-2">
                                     HubSpot Consulting
                                     <i class="fas fa-arrow-right ms-2"></i>
                                 </a>
@@ -183,11 +184,11 @@
                         <div class="card-img-container position-relative overflow-hidden">
                             <img src="sources/images/Developer activity-amico.webp" class="card-img-top" alt="Website Creation & Data Extraction">
                             <div class="card-overlay text-center d-flex justify-content-center align-items-center">
-                                <a href="web-development.php" class="btn btn-orange me-2">
+                                <a href="/web-development" class="btn btn-orange me-2">
                                     Website Creation
                                     <i class="fas fa-arrow-right ms-2"></i>
                                 </a>
-                                <a href="data-extraction.php" class="btn btn-orange">
+                                <a href="/data-extraction" class="btn btn-orange">
                                     Data Extraction
                                     <i class="fas fa-arrow-right ms-2"></i>
                                 </a>
@@ -206,8 +207,8 @@
                         <div class="card-img-container position-relative overflow-hidden">
                             <img src="sources/images/Design.webp" class="card-img-top" alt="Multimedia Design">
                             <div class="card-overlay text-center d-flex justify-content-center align-items-center">
-                                <!-- Botón para la página general de Multimedia Design -->
-                                <a href="design.php" class="btn btn-orange me-2">
+                                <!-- Botón para la página general de Design -->
+                                <a href="/design" class="btn btn-orange me-2">
                                     Design Service
                                     <i class="fas fa-arrow-right ms-2"></i>
                                 </a>
@@ -568,8 +569,11 @@
 
     <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="js/scripts.js"></script>
-    <script src="js/animations.js"></script>
+
+    <!-- Scripts Propios -->
+    <script src="js/scripts.js?v=2.0"></script> <!-- Añade versión si has actualizado el archivo -->
+    <script src="js/animations.js?v=2.0"></script> <!-- Añade versión si el archivo ha sido modificado -->
+
 </body>
 
 </html>

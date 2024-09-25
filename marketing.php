@@ -173,7 +173,7 @@
                                 <li><i class="fas fa-chart-line"></i> On-Page & Off-Page Optimization</li>
                                 <li><i class="fas fa-link"></i> Link Building Strategies</li>
                             </ul>
-                            <a href="contact.php" class="btn btn-orange-plans mt-3">Contact Us for More Info</a>
+                            <a href="/contact" class="btn btn-orange-plans mt-3">Contact Us for More Info</a>
                         </div>
                     </div>
                 </div>
@@ -195,7 +195,7 @@
                                 <li><i class="fas fa-users"></i> Community Engagement</li>
                                 <li><i class="fas fa-chart-pie"></i> Performance Analytics</li>
                             </ul>
-                            <a href="contact.php" class="btn btn-orange-plans mt-3">Contact Us for More Info</a>
+                            <a href="/contact" class="btn btn-orange-plans mt-3">Contact Us for More Info</a>
                         </div>
                     </div>
                 </div>
@@ -217,7 +217,7 @@
                                 <li><i class="fas fa-chart-bar"></i> Campaign Management</li>
                                 <li><i class="fas fa-dollar-sign"></i> Budget Optimization</li>
                             </ul>
-                            <a href="contact.php" class="btn btn-orange-plans mt-3">Contact Us for More Info</a>
+                            <a href="/contact" class="btn btn-orange-plans mt-3">Contact Us for More Info</a>
                         </div>
                     </div>
                 </div>
@@ -427,7 +427,7 @@
         <div class="container text-center">
             <h2 class="fw-bold text-white">Ready to Elevate Your Marketing Strategy?</h2>
             <p class="text-white">Contact us today and start achieving your marketing goals!</p>
-            <a href="contact.php" class="btn btn-orange-plans mt-3">Contact Us Now!</a>
+            <a href="/contact" class="btn btn-orange-plans mt-3">Contact Us Now!</a>
         </div>
     </section>
     <!-- End of Call-to-Action Section -->
@@ -437,9 +437,12 @@
     <!-- End of Footer Section -->
 
     <!-- Bootstrap JS -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="js/scripts.js"></script>
-    <script src="js/animations.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+
+<!-- Scripts Propios -->
+<script src="js/scripts.js?v=2.0"></script> <!-- Añade versión si has actualizado el archivo -->
+<script src="js/animations.js?v=2.0"></script> <!-- Añade versión si el archivo ha sido modificado -->
+
 
     <script>
         document.addEventListener("DOMContentLoaded", function() {

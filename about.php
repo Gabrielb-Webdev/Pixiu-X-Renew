@@ -238,7 +238,7 @@
         <div class="container">
             <h2 class="fw-bold">Ready to Take Your Business to the Next Level?</h2>
             <p>Contact us today and let's discuss how we can make your vision a reality.</p>
-            <a href="index.php#contact" class="btn btn-orange btn-lg fw-bold px-4 py-3" style="border-radius: 50px; text-transform: uppercase; transition: all 0.3s ease; background-color: #c2591c;">
+            <a href="/contact" class="btn btn-orange btn-lg fw-bold px-4 py-3" style="border-radius: 50px; text-transform: uppercase; transition: all 0.3s ease; background-color: #c2591c;">
                 Get in Touch
             </a>
         </div>

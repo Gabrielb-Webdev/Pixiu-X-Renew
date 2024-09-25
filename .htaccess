@@ -1,0 +1,25 @@
+# Activar Reescritura de URL
+RewriteEngine On
+
+# Redirigir www a no-www (opcional, si prefieres no-www)
+RewriteCond %{HTTP_HOST} ^www\.(.*)$ [NC]
+RewriteRule ^(.*)$ https://%1/$1 [R=301,L]
+
+# Redirigir HTTP a HTTPS (opcional, si tienes SSL configurado)
+RewriteCond %{HTTPS} off
+RewriteRule ^(.*)$ https://%{HTTP_HOST}/$1 [R=301,L]
+
+# Reescritura de URLs amigables
+RewriteRule ^about$ about.php [L]
+RewriteRule ^contact$ contact.php [L]
+RewriteRule ^data-extraction$ data-extraction.php [L]
+RewriteRule ^design$ design.php [L]
+RewriteRule ^hubspot$ hubspot.php [L]
+RewriteRule ^marketing$ marketing.php [L]
+RewriteRule ^web-development$ web-development.php [L]
+
+# Redirigir index.php a la raíz
+RewriteRule ^index.php$ / [L,R=301]
+
+# Manejo de errores personalizados (opcional)
+ErrorDocument 404 /404.php

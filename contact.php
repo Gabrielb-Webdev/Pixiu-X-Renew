@@ -202,9 +202,12 @@
     <!-- End of Footer -->
 
     <!-- Bootstrap JS -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="js/scripts.js"></script>
-    <script src="js/animations.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+
+<!-- Scripts Propios -->
+<script src="js/scripts.js?v=2.0"></script> <!-- Añade versión si has actualizado el archivo -->
+<script src="js/animations.js?v=2.0"></script> <!-- Añade versión si el archivo ha sido modificado -->
+
 </body>
 
 </html>

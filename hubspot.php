@@ -178,7 +178,7 @@
                                 <li><i class="fas fa-envelope"></i> Email Templates & Sequences</li>
                                 <li><i class="fas fa-sync-alt"></i> Data Automations & Reporting</li>
                             </ul>
-                            <a href="contact.php" class="btn btn-orange-plans mt-3">Contact Us for More Info</a>
+                            <a href="/contact" class="btn btn-orange-plans mt-3">Contact Us for More Info</a>
                         </div>
                     </div>
                 </div>
@@ -203,7 +203,7 @@
                                 <li><i class="fas fa-tools"></i> Troubleshooting & Error Resolution</li>
                                 <li><i class="fas fa-headset"></i> Technical Guidance & Support</li>
                             </ul>
-                            <a href="contact.php" class="btn btn-orange-plans mt-3">Contact Us for More Info</a>
+                            <a href="/contact" class="btn btn-orange-plans mt-3">Contact Us for More Info</a>
                         </div>
                     </div>
                 </div>
@@ -228,7 +228,7 @@
                                 <li><i class="fas fa-cogs"></i> Full HubSpot Support</li>
                                 <li><i class="fas fa-clock"></i> 20 Credits/Month for Flexible Use</li>
                             </ul>
-                            <a href="contact.php" class="btn btn-orange-plans mt-3">Contact Us for More Info</a>
+                            <a href="/contact" class="btn btn-orange-plans mt-3">Contact Us for More Info</a>
                         </div>
                     </div>
                 </div>
@@ -253,7 +253,7 @@
                                 <li><i class="fas fa-tools"></i> Development & Issue Resolution</li>
                                 <li><i class="fas fa-star"></i> 30 Credits/Month for Maximum Flexibility</li>
                             </ul>
-                            <a href="contact.php" class="btn btn-orange-plans mt-3">Contact Us for More Info</a>
+                            <a href="/contact" class="btn btn-orange-plans mt-3">Contact Us for More Info</a>
                         </div>
                     </div>
                 </div>
@@ -453,7 +453,7 @@
         <div class="container text-center">
             <h2 class="fw-bold text-white">Are You Ready To Work & Develop With Us?</h2>
             <p class="text-white">Don't Hesitate & Contact Us!</p>
-            <a href="contact.php" class="btn btn-orange-plans mt-3">Contact Us Now!</a>
+            <a href="/contact" class="btn btn-orange-plans mt-3">Contact Us Now!</a>
         </div>
     </section>
     <!-- End of Call-to-Action Section -->
@@ -463,9 +463,12 @@
     <!-- End of Footer Section -->
 
     <!-- Bootstrap JS -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="js/scripts.js"></script>
-    <script src="js/animations.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+
+<!-- Scripts Propios -->
+<script src="js/scripts.js?v=2.0"></script> <!-- Añade versión si has actualizado el archivo -->
+<script src="js/animations.js?v=2.0"></script> <!-- Añade versión si el archivo ha sido modificado -->
+
 
     <script>
         document.addEventListener("DOMContentLoaded", function() {

@@ -1,0 +1,45 @@
+/* blog.css */
+
+/* Hero Section */
+.hero-blog {
+    background-color: #dd6d2c; /* Usando el color de tu marca */
+    padding: 60px 0;
+    background-image: url('../sources/images/hero-placeholder.jpg'); /* Imagen de fondo, reemplazar con una de tu elección */
+    background-size: cover;
+    background-position: center;
+    color: #fee4d9; /* Texto en el color de tu esquema */
+}
+
+/* Blog Posts */
+.blog-post {
+    background-color: #fff;
+    border: 1px solid #dd6d2c;
+    border-radius: 8px;
+    overflow: hidden;
+    transition: transform 0.3s;
+}
+
+.blog-post:hover {
+    transform: translateY(-10px);
+}
+
+.blog-post img {
+    max-height: 200px;
+    object-fit: cover;
+    width: 100%;
+}
+
+.post-content {
+    padding: 20px;
+}
+
+.btn-custom {
+    background-color: #dd6d2c;
+    color: #fff;
+    border: none;
+    transition: background-color 0.3s;
+}
+
+.btn-custom:hover {
+    background-color: #bf5b24; /* Un tono más oscuro para el hover */
+}
