@@ -1,14 +1,14 @@
 <?php
-// database/session_check.php
+// Configura la duración de la sesión (1 mes)
+ini_set('session.gc_maxlifetime', 60 * 60 * 24 * 30); // 30 días
+session_set_cookie_params(60 * 60 * 24 * 30); // 30 días
+
+// Iniciar sesión
 session_start();
 
-// Verificar si la sesión está iniciada
-if (isset($_SESSION['user_email'])) {
-    // Mostrar la sesión en la consola del navegador
-    echo "<script>console.log('Sesión activa para: {$_SESSION['user_email']}');</script>";
-} else {
-    // Redirigir a login si la sesión no está iniciada
-    header('Location: /login.php'); // Ajusta la ruta según sea necesario
-    exit();
+// Comprobar si la sesión está activa
+if (!isset($_SESSION['user_email'])) {
+    // Si la sesión no está activa, redirigir o hacer otra acción
+    // header('Location: login.php'); // Opcional: Redirigir al login si lo deseas
 }
 ?>
