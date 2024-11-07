@@ -1,0 +1,58 @@
+/* Estilos mejorados para la página de visualización del artículo */
+.hero-article {
+    position: relative;
+    height: 60vh;
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+.hero-article .overlay {
+    background: rgba(0, 0, 0, 0.6);
+}
+
+.article-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.article-content {
+    font-size: 1.1rem;
+    color: #333;
+}
+
+.article-content .content * {
+    margin-bottom: 1.2em;
+    line-height: 1.6;
+}
+
+.article-content h2, 
+.article-content h3 {
+    color: #dd6d2c;
+}
+
+.social-share {
+    background-color: #f9f9f9;
+}
+
+.social-share p {
+    color: #333;
+}
+
+.social-share .btn {
+    display: block;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.social-share .twitter { background-color: #1da1f2; }
+.social-share .facebook { background-color: #3b5998; }
+.social-share .linkedin { background-color: #0077b5; }
+
+.social-share .btn:hover {
+    transform: scale(1.05);
+}

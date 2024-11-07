@@ -119,3 +119,63 @@
     background-color: #fee4d9;
     color: #dd6d2c;
 }
+
+/* Estilo del botón de cargar más artículos con ícono */
+#loadMoreBtn {
+    background-color: #dd6d2c;
+    color: white;
+    border: none;
+    padding: 7.5px 15px;
+    border-radius: 50%;
+    font-size: 1.5rem;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+#loadMoreBtn:hover {
+    background-color: #fee4d9;
+    color: #dd6d2c;
+    transform: scale(1.1);
+}
+
+/* Configuración del grid para dispositivos grandes (más de 1600px) */
+@media (min-width: 1600px) {
+    .blog-grid {
+        grid-template-columns: repeat(4, 1fr); /* 4 artículos por fila */
+    }
+}
+
+/* Configuración del grid para dispositivos medianos (menos de 1600px) */
+@media (max-width: 1599px) and (min-width: 992px) {
+    .blog-grid {
+        grid-template-columns: repeat(3, 1fr); /* 3 artículos por fila */
+    }
+}
+
+/* Configuración del grid para tablets (pantallas más pequeñas, menos de 992px) */
+@media (max-width: 991px) and (min-width: 768px) {
+    .blog-grid {
+        grid-template-columns: repeat(2, 1fr); /* 2 artículos por fila */
+    }
+}
+
+/* Configuración del grid para teléfonos (menos de 768px) */
+@media (max-width: 767px) {
+    .blog-grid {
+        grid-template-columns: 1fr; /* 1 artículo por fila */
+    }
+}
+
+/* Estilo de artículos ocultos */
+.hidden-article {
+    display: none;
+    opacity: 0;
+    transform: translateY(20px); /* Desplazamiento inicial para la animación */
+    transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+/* Estilo para mostrar artículos con animación */
+.show-article {
+    display: block;
+    opacity: 1;
+    transform: translateY(0); /* Se restablece el desplazamiento para la animación */
+}

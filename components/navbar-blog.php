@@ -7,7 +7,7 @@ session_start(); // Iniciar la sesión si no está ya iniciada
     <div class="container py-2 navbar-spacing">
         <!-- Logo -->
         <a class="navbar-brand" href="/">
-            <img src="sources/images/logo.webp" alt="Logo" class="logo-img" style="max-height: 30px;">
+            <img src="../sources/images/logo.webp" alt="Logo" class="logo-img" style="max-height: 30px;">
         </a>
         <!-- Toggler for mobile view -->
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -48,7 +48,7 @@ session_start(); // Iniciar la sesión si no está ya iniciada
                 <!-- Dashboard and Logout Buttons -->
                 <?php if (isset($_SESSION['user_email'])): ?>
                     <li class="nav-item ms-3">
-                        <a href="dashboard.php" class="btn btn-custom-login">Dashboard</a>
+                        <a href="../admin/dashboard.php" class="btn btn-custom-login">Dashboard</a>
                     </li>
                     <li class="nav-item ms-2">
                         <a href="database/logout.php" class="btn btn-custom-logout">Cerrar Sesión</a>

@@ -28,9 +28,9 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.1/ScrollTrigger.min.js"></script>
     <!-- FontAwesome Icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-    <link rel="stylesheet" href="css/styles.css?v=2.0">
-    <link rel="stylesheet" href="css/responsive.css?v=2.0">
-    <link rel="stylesheet" href="css/modal.css?v=2.0">
+    <link rel="stylesheet" href="css/styles.css?v=3.0">
+    <link rel="stylesheet" href="css/responsive.css?v=3.0">
+    <link rel="stylesheet" href="css/modal.css?v=3.0">
 </head>
 
 <body>
@@ -570,8 +570,8 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
 
     <!-- Scripts Propios -->
-    <script src="js/scripts.js?v=2.0"></script> <!-- Añade versión si has actualizado el archivo -->
-    <script src="js/animations.js?v=2.0"></script> <!-- Añade versión si el archivo ha sido modificado -->
+    <script src="js/scripts.js?v=3.0"></script> <!-- Añade versión si has actualizado el archivo -->
+    <script src="js/animations.js?v=3.0"></script> <!-- Añade versión si el archivo ha sido modificado -->
 
 </body>
 
