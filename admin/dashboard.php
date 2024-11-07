@@ -17,17 +17,43 @@ $query = "SELECT * FROM articles";
 $result = mysqli_query($conn, $query);
 $articles = mysqli_fetch_all($result, MYSQLI_ASSOC);
 
-// Verificar si se ha enviado el cambio de estado
-if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['id'], $_POST['status'])) {
-    $id = $_POST['id'];
-    $status = $_POST['status'];
+// Verificar si se ha enviado el cambio de estado o eliminación en lote
+if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['bulk_action'], $_POST['article_ids'])) {
+    $article_ids = $_POST['article_ids'];
+    $ids = implode(',', array_map('intval', $article_ids)); // Sanitizar los IDs para evitar SQL injection
 
-    // Actualizar el estado en la base de datos
-    $update_query = "UPDATE articles SET status = '$status' WHERE id = $id";
-    mysqli_query($conn, $update_query);
+    if ($_POST['bulk_action'] == 'delete') {
+        // Eliminar artículos seleccionados
+        $delete_query = "DELETE FROM articles WHERE id IN ($ids)";
+        mysqli_query($conn, $delete_query);
+    } else {
+        // Cambiar estado de los artículos seleccionados
+        $status = $_POST['bulk_action'];
+        $update_query = "UPDATE articles SET status = '$status' WHERE id IN ($ids)";
+        mysqli_query($conn, $update_query);
+    }
     header("Location: dashboard.php"); // Redirigir para evitar resubmit del formulario
     exit();
 }
+
+// Verificar si se ha enviado el cambio de estado o eliminación individual
+if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['action'], $_POST['id'])) {
+    $id = intval($_POST['id']);
+    
+    if ($_POST['action'] == 'delete') {
+        // Eliminar artículo individual
+        $delete_query = "DELETE FROM articles WHERE id = $id";
+        mysqli_query($conn, $delete_query);
+    } else {
+        // Cambiar estado del artículo individual
+        $status = $_POST['action'];
+        $update_query = "UPDATE articles SET status = '$status' WHERE id = $id";
+        mysqli_query($conn, $update_query);
+    }
+    header("Location: dashboard.php"); // Redirigir para evitar resubmit del formulario
+    exit();
+}
+
 // Mostrar mensaje de éxito o error si existen en la URL
 if (isset($_GET['success'])) {
     echo '<div class="alert alert-success" role="alert">' . htmlspecialchars($_GET['success']) . '</div>';
@@ -45,81 +71,82 @@ if (isset($_GET['success'])) {
     <title>Dashboard | Pixiu X Agency</title>
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
-
-    <!-- Favicons -->
-    <link rel="apple-touch-icon" sizes="180x180" href="https://pixiux.com/Logos/apple-touch-icon.png" />
-    <link rel="icon" type="image/png" sizes="32x32" href="https://pixiux.com/Logos/favicon-32x32.png" />
-    <link rel="icon" type="image/png" sizes="192x192" href="https://pixiux.com/Logos/android-chrome-192x192.png" />
-    <link rel="icon" type="image/png" sizes="16x16" href="https://pixiux.com/Logos/favicon-16x16.png" />
-    <link rel="manifest" href="https://pixiux.com/Logos/site.webmanifest" />
-    <link rel="mask-icon" href="https://pixiux.com/Logos/safari-pinned-tab.svg" color="#5bbad5" />
-    <link rel="shortcut icon" href="https://pixiux.com/Logos/favicon.ico" />
-    <meta name="msapplication-TileColor" content="#da532c" />
-    <meta name="msapplication-TileImage" content="https://pixiux.com/Logos/mstile-144x144.png" />
-    <meta name="msapplication-config" content="https://pixiux.com/Logos/browserconfig.xml" />
-    <meta name="theme-color" content="#ffffff" />
-
-    <!-- CSS personalizado del Dashboard -->
     <link rel="stylesheet" href="../css/dashboard.css?v=3.0">
 </head>
 
-<body>
-    <div class="container mt-5">
-        <h1 class="text-center">Panel de Administración de Artículos</h1>
+<body style="padding-top: 20px; padding-bottom: 20px;">
+    <div class="container mt-5 mb-5">
+        <h1 class="text-center mb-4">Panel de Administración de Artículos</h1>
 
         <!-- Botones para ver blog, subir nuevo artículo y cargar CSV en lote -->
-        <div class="d-flex justify-content-between mb-3">
+        <div class="d-flex justify-content-between mb-4">
             <a href="https://pixiux.com/blog.php" class="btn btn-info">Ver Blog</a>
             <a href="upload_article.php" class="btn btn-success">Subir Nuevo Artículo</a>
             <a href="upload_bulk_articles.php" class="btn btn-primary">Subir Artículos en Lote (CSV)</a>
         </div>
 
-        <!-- Contenedor de la tabla -->
-        <div class="table-responsive">
-            <table class="table table-bordered table-hover dashboard-table">
-                <thead class="table-dark">
-                    <tr>
-                        <th>Nombre</th>
-                        <th>Descripción</th>
-                        <th>Imagen</th>
-                        <th>Estado</th>
-                        <th>Acciones</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <?php foreach ($articles as $article) { ?>
+        <form action="dashboard.php" method="post">
+            <div class="table-responsive">
+                <table class="table table-bordered table-hover dashboard-table">
+                    <thead class="table-dark">
                         <tr>
-                            <td><?php echo htmlspecialchars($article['title']); ?></td>
-                            <td><?php echo htmlspecialchars($article['excerpt']); ?></td>
-                            <td><img src="<?php echo htmlspecialchars($article['image_url']); ?>" alt="Imagen" style="height: 50px; width: auto;"></td>
-                            <td>
-                                <!-- Dropdown para seleccionar el estado -->
-                                <form action="dashboard.php" method="post" class="status-form">
-                                    <input type="hidden" name="id" value="<?php echo $article['id']; ?>">
-                                    <select name="status" onchange="this.form.submit()" class="form-select form-select-sm status-dropdown">
-                                        <option value="draft" <?php if ($article['status'] == 'draft') echo 'selected'; ?>>Draft</option>
-                                        <option value="published" <?php if ($article['status'] == 'published') echo 'selected'; ?>>Published</option>
-                                    </select>
-                                </form>
-                            </td>
-                            <td>
-                                <!-- Botón Editar -->
-                                <a href="edit_article.php?id=<?php echo $article['id']; ?>" class="btn btn-warning btn-sm action-btn edit-btn">Editar</a>
-                                <!-- Botón Eliminar -->
-                                <form action="delete_article.php" method="post" style="display:inline;" onsubmit="return confirm('¿Estás seguro de que deseas eliminar este artículo?');">
-                                    <input type="hidden" name="id" value="<?php echo $article['id']; ?>">
-                                    <button type="submit" class="btn btn-danger btn-sm action-btn delete-btn">Eliminar</button>
-                                </form>
-                            </td>
+                            <th><input type="checkbox" id="select-all"></th>
+                            <th>Nombre</th>
+                            <th>Descripción</th>
+                            <th>Imagen</th>
+                            <th>Estado</th>
+                            <th>Acciones</th>
                         </tr>
-                    <?php } ?>
-                </tbody>
-            </table>
-        </div>
+                    </thead>
+                    <tbody>
+                        <?php foreach ($articles as $article) { ?>
+                            <tr>
+                                <td><input type="checkbox" name="article_ids[]" value="<?php echo $article['id']; ?>"></td>
+                                <td><?php echo htmlspecialchars($article['title']); ?></td>
+                                <td><?php echo htmlspecialchars($article['excerpt']); ?></td>
+                                <td><img src="<?php echo htmlspecialchars($article['image_url']); ?>" alt="Imagen" style="height: 50px; width: auto;"></td>
+                                <td><?php echo htmlspecialchars($article['status']); ?></td>
+                                <td>
+                                    <!-- Formulario para acciones individuales -->
+                                    <form action="dashboard.php" method="post" style="display: inline-block;">
+                                        <input type="hidden" name="id" value="<?php echo $article['id']; ?>">
+                                        <select name="action" onchange="this.form.submit()" class="form-select form-select-sm">
+                                            <option value="">Acción</option>
+                                            <option value="draft" <?php if ($article['status'] == 'draft') echo 'disabled'; ?>>Borrador</option>
+                                            <option value="published" <?php if ($article['status'] == 'published') echo 'disabled'; ?>>Publicar</option>
+                                            <option value="delete">Eliminar</option>
+                                        </select>
+                                    </form>
+                                    <!-- Botón Editar -->
+                                    <a href="edit_article.php?id=<?php echo $article['id']; ?>" class="btn btn-warning btn-sm mt-1">Editar</a>
+                                </td>
+                            </tr>
+                        <?php } ?>
+                    </tbody>
+                </table>
+            </div>
+
+            <div class="d-flex justify-content-between mt-4">
+                <select name="bulk_action" class="form-select form-select-sm" required>
+                    <option value="">Acción en lote</option>
+                    <option value="draft">Establecer como Borrador</option>
+                    <option value="published">Publicar</option>
+                    <option value="delete">Eliminar</option>
+                </select>
+                <button type="submit" class="btn btn-primary btn-sm">Aplicar a seleccionados</button>
+            </div>
+        </form>
     </div>
 
     <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        // Selección de todos los artículos
+        document.getElementById('select-all').addEventListener('click', function() {
+            let checkboxes = document.querySelectorAll('input[name="article_ids[]"]');
+            checkboxes.forEach(checkbox => checkbox.checked = this.checked);
+        });
+    </script>
 </body>
 
 </html>
